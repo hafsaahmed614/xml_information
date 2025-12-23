@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "prescription_570974d4-0d5b-4df2-b307-37380511835d.xml",
-    "parsed_at": "2025-12-23T20:01:11.705733+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.260415+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 1,
     "effective_time": "20251007",
     "title": "These highlights do not include all the information needed to use NAPROXEN ORAL SUSPENSION safely and effectively. See full prescribing information for NAPROXEN ORAL SUSPENSION. NAPROXEN oral suspension Initial U.S. Approval: 1976",
-    "document_type": "prescription"
+    "document_type": "prescription",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Aurobindo Pharma Limited",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "650082092",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Aurobindo Pharma Limited",
     "org_ids": [
@@ -43,8 +58,10 @@
         "extension": "650918514",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "analysis",
-      "role_code": "C25391"
+      "role_code": "C25391",
+      "address": null
     },
     {
       "name": "APL HEALTHCARE LIMITED",
@@ -53,8 +70,10 @@
         "extension": "650918514",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     }
   ],
   "products": [
@@ -78,13 +97,18 @@
         "application_number": "ANDA216504",
         "otc_monograph_id": null,
         "marketing_category": "ANDA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "NAPROXEN",
           "role": "active",
           "unii": "57Y76R9ATQ",
+          "cas_number": null,
           "strength": {
             "numerator_value": 125.0,
             "numerator_unit": "mg",
@@ -97,6 +121,7 @@
           "name": "BENZYL ALCOHOL",
           "role": "inactive",
           "unii": "LKG8494WBH",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -104,6 +129,7 @@
           "name": "FD&C YELLOW NO. 6",
           "role": "inactive",
           "unii": "H77VEI93A8",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -111,6 +137,7 @@
           "name": "FUMARIC ACID",
           "role": "inactive",
           "unii": "88XHZ13131",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -118,6 +145,7 @@
           "name": "MAGNESIUM ALUMINUM SILICATE TYPE IC",
           "role": "inactive",
           "unii": "XLI9KNX1FT",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -125,6 +153,7 @@
           "name": "METHYLPARABEN",
           "role": "inactive",
           "unii": "A2I8C7HI9T",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -132,6 +161,7 @@
           "name": "MODIFIED CORN STARCH (1-OCTENYL SUCCINIC ANHYDRIDE)",
           "role": "inactive",
           "unii": "461P5CJN6T",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -139,6 +169,7 @@
           "name": "NONCRYSTALLIZING SORBITOL SOLUTION",
           "role": "inactive",
           "unii": "9E0S3UM200",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -146,6 +177,7 @@
           "name": "PROPYLENE GLYCOL",
           "role": "inactive",
           "unii": "6DC9Q167V3",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -153,6 +185,7 @@
           "name": "WATER",
           "role": "inactive",
           "unii": "059QF0KO0R",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -160,6 +193,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -167,6 +201,7 @@
           "name": "SUCROSE",
           "role": "inactive",
           "unii": "C151H8M554",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -174,6 +209,7 @@
           "name": "XANTHAN GUM",
           "role": "inactive",
           "unii": "TTV12P4NEE",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -206,7 +242,8 @@
         "size": null,
         "imprint": null,
         "flavor": "PINEAPPLE"
-      }
+      },
+      "equivalence": null
     }
   ],
   "sections": [

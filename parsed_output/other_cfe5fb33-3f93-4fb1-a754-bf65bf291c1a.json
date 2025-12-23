@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "other_cfe5fb33-3f93-4fb1-a754-bf65bf291c1a.xml",
-    "parsed_at": "2025-12-23T20:01:11.639519+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.193174+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 2,
     "effective_time": "20251030",
     "title": "Probistor Capsules",
-    "document_type": "other"
+    "document_type": "other",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Trivia Pharmaceuticals, LLC",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "119353862",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Trivia Pharmaceuticals, LLC",
     "org_ids": [
@@ -54,13 +69,18 @@
         "application_number": null,
         "otc_monograph_id": null,
         "marketing_category": "DIETARY SUPPLEMENT",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "LACTOBACILLUS ACIDOPHILUS",
           "role": "active",
           "unii": "1PRR1V42V5",
+          "cas_number": null,
           "strength": {
             "numerator_value": 200000000.0,
             "numerator_unit": "[CFU]",
@@ -73,6 +93,7 @@
           "name": "DICALCIUM PHOSPHATE",
           "role": "active",
           "unii": "L11K75P92J",
+          "cas_number": null,
           "strength": {
             "numerator_value": 304.0,
             "numerator_unit": "mg",
@@ -85,6 +106,7 @@
           "name": "PECTIN, CITRUS",
           "role": "active",
           "unii": "47EQO8LE7H",
+          "cas_number": null,
           "strength": {
             "numerator_value": 20.0,
             "numerator_unit": "mg",
@@ -112,7 +134,8 @@
         "size": "25 mm",
         "imprint": null,
         "flavor": null
-      }
+      },
+      "equivalence": null
     }
   ],
   "sections": [

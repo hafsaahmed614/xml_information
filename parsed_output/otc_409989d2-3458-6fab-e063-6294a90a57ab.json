@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "otc_409989d2-3458-6fab-e063-6294a90a57ab.xml",
-    "parsed_at": "2025-12-23T20:01:11.585011+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.147825+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 2,
     "effective_time": "20251007",
     "title": null,
-    "document_type": "otc"
+    "document_type": "otc",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Sinsin Pharmaceutical Co., Ltd.",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "823149161",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Sinsin Pharmaceutical Co., Ltd.",
     "org_ids": [
@@ -43,8 +58,10 @@
         "extension": "687867143",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     }
   ],
   "products": [
@@ -69,13 +86,18 @@
         "application_number": "M017",
         "otc_monograph_id": "M017",
         "marketing_category": "OTC Monograph Drug",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "METHYLPARABEN",
           "role": "inactive",
           "unii": "A2I8C7HI9T",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -83,6 +105,7 @@
           "name": "EDETATE DISODIUM",
           "role": "inactive",
           "unii": "7FLD91C86K",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -90,6 +113,7 @@
           "name": "TARTARIC ACID",
           "role": "inactive",
           "unii": "W4888I119H",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -97,6 +121,7 @@
           "name": "CARBOXYMETHYLCELLULOSE SODIUM",
           "role": "inactive",
           "unii": "K679OBS311",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -104,6 +129,7 @@
           "name": "SORBITOL",
           "role": "inactive",
           "unii": "506T60A25R",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -111,6 +137,7 @@
           "name": "GELATIN",
           "role": "inactive",
           "unii": "2G86QN327L",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -118,6 +145,7 @@
           "name": "CASTOR OIL",
           "role": "inactive",
           "unii": "D5340Y2I9G",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -125,6 +153,7 @@
           "name": "SODIUM POLYACRYLATE (8000 MW)",
           "role": "inactive",
           "unii": "285CYO341L",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -132,6 +161,7 @@
           "name": "NONIVAMIDE",
           "role": "inactive",
           "unii": "S846B891OR",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -139,6 +169,7 @@
           "name": "GLYCERYL MONOSTEARATE",
           "role": "inactive",
           "unii": "230OU9XXE4",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -146,6 +177,7 @@
           "name": "ALOE VERA LEAF",
           "role": "inactive",
           "unii": "ZY81Z83H0X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -153,6 +185,7 @@
           "name": "BUTYLATED HYDROXYTOLUENE",
           "role": "inactive",
           "unii": "1P9D0Z171K",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -160,6 +193,7 @@
           "name": "WATER",
           "role": "inactive",
           "unii": "059QF0KO0R",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -167,6 +201,7 @@
           "name": "POLYSORBATE 80",
           "role": "inactive",
           "unii": "6OZP39ZG8H",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -174,6 +209,7 @@
           "name": "TITANIUM DIOXIDE",
           "role": "inactive",
           "unii": "15FIX9V2JP",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -181,6 +217,7 @@
           "name": "ALUMINUM HYDROXIDE",
           "role": "inactive",
           "unii": "5QB0T2IUN0",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -188,6 +225,7 @@
           "name": "KAOLIN",
           "role": "inactive",
           "unii": "24H4NWX5CO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -195,6 +233,7 @@
           "name": "METHYL SALICYLATE",
           "role": "active",
           "unii": "LAV5U5022Y",
+          "cas_number": null,
           "strength": {
             "numerator_value": 57.6,
             "numerator_unit": "mg",
@@ -207,6 +246,7 @@
           "name": "CAMPHOR (SYNTHETIC)",
           "role": "active",
           "unii": "5TJD82A1ET",
+          "cas_number": null,
           "strength": {
             "numerator_value": 96.0,
             "numerator_unit": "mg",
@@ -219,6 +259,7 @@
           "name": "LEVOMENTHOL",
           "role": "active",
           "unii": "BZ1R15MTK7",
+          "cas_number": null,
           "strength": {
             "numerator_value": 76.8,
             "numerator_unit": "mg",
@@ -250,7 +291,8 @@
           "marketing_status": "active"
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     }
   ],
   "sections": [

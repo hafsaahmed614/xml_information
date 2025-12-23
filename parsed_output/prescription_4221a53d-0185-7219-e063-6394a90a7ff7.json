@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "prescription_4221a53d-0185-7219-e063-6394a90a7ff7.xml",
-    "parsed_at": "2025-12-23T20:01:11.680103+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.234584+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 18,
     "effective_time": "20251028",
     "title": "Oxycodone and Acetaminophen Tablets USP CII Rx Only",
-    "document_type": "prescription"
+    "document_type": "prescription",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Granules Pharmaceuticals Inc.",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "079825711",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Granules Pharmaceuticals Inc.",
     "org_ids": [
@@ -38,8 +53,10 @@
         "extension": "079825711",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     },
     {
       "name": "Granules Pharmaceuticals Inc.",
@@ -48,8 +65,10 @@
         "extension": "079825711",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "analysis",
-      "role_code": "C25391"
+      "role_code": "C25391",
+      "address": null
     },
     {
       "name": "Granules Pharmaceuticals Inc.",
@@ -58,8 +77,10 @@
         "extension": "079825711",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "label",
-      "role_code": "C84732"
+      "role_code": "C84732",
+      "address": null
     }
   ],
   "products": [
@@ -84,13 +105,18 @@
         "application_number": "ANDA211708",
         "otc_monograph_id": null,
         "marketing_category": "ANDA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "SODIUM STARCH GLYCOLATE TYPE A POTATO",
           "role": "inactive",
           "unii": "5856J3G2A2",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -98,6 +124,7 @@
           "name": "POVIDONE K30",
           "role": "inactive",
           "unii": "U725QWY32X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -105,6 +132,7 @@
           "name": "STARCH, CORN",
           "role": "inactive",
           "unii": "O8232NY3SJ",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -112,6 +140,7 @@
           "name": "ACETAMINOPHEN",
           "role": "active",
           "unii": "362O9ITL9D",
+          "cas_number": null,
           "strength": {
             "numerator_value": 325.0,
             "numerator_unit": "mg",
@@ -124,6 +153,7 @@
           "name": "STEARIC ACID",
           "role": "inactive",
           "unii": "4ELV7Z65AP",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -131,6 +161,7 @@
           "name": "SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M, HIGH-DENSITY)",
           "role": "inactive",
           "unii": "GRV5BG8C5N",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -138,6 +169,7 @@
           "name": "CROSPOVIDONE",
           "role": "inactive",
           "unii": "2S7830E561",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -145,6 +177,7 @@
           "name": "OXYCODONE HYDROCHLORIDE",
           "role": "active",
           "unii": "C1ENJ2TE6C",
+          "cas_number": null,
           "strength": {
             "numerator_value": 2.5,
             "numerator_unit": "mg",
@@ -182,7 +215,8 @@
         "size": "11 mm",
         "imprint": "10;670",
         "flavor": null
-      }
+      },
+      "equivalence": null
     },
     {
       "product_name": "Oxycodone and Acetaminophen",
@@ -205,13 +239,18 @@
         "application_number": "ANDA211708",
         "otc_monograph_id": null,
         "marketing_category": "ANDA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "SODIUM STARCH GLYCOLATE TYPE A POTATO",
           "role": "inactive",
           "unii": "5856J3G2A2",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -219,6 +258,7 @@
           "name": "POVIDONE K30",
           "role": "inactive",
           "unii": "U725QWY32X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -226,6 +266,7 @@
           "name": "STARCH, CORN",
           "role": "inactive",
           "unii": "O8232NY3SJ",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -233,6 +274,7 @@
           "name": "STEARIC ACID",
           "role": "inactive",
           "unii": "4ELV7Z65AP",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -240,6 +282,7 @@
           "name": "SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M)",
           "role": "inactive",
           "unii": "88X4A2YW6T",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -247,6 +290,7 @@
           "name": "CROSPOVIDONE",
           "role": "inactive",
           "unii": "2S7830E561",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -254,6 +298,7 @@
           "name": "OXYCODONE HYDROCHLORIDE",
           "role": "active",
           "unii": "C1ENJ2TE6C",
+          "cas_number": null,
           "strength": {
             "numerator_value": 5.0,
             "numerator_unit": "mg",
@@ -266,6 +311,7 @@
           "name": "ACETAMINOPHEN",
           "role": "active",
           "unii": "362O9ITL9D",
+          "cas_number": null,
           "strength": {
             "numerator_value": 325.0,
             "numerator_unit": "mg",
@@ -303,7 +349,8 @@
         "size": "11 mm",
         "imprint": "10;670",
         "flavor": null
-      }
+      },
+      "equivalence": null
     },
     {
       "product_name": "Oxycodone and Acetaminophen",
@@ -326,13 +373,18 @@
         "application_number": "ANDA211708",
         "otc_monograph_id": null,
         "marketing_category": "ANDA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "OXYCODONE HYDROCHLORIDE",
           "role": "active",
           "unii": "C1ENJ2TE6C",
+          "cas_number": null,
           "strength": {
             "numerator_value": 7.5,
             "numerator_unit": "mg",
@@ -345,6 +397,7 @@
           "name": "ACETAMINOPHEN",
           "role": "active",
           "unii": "362O9ITL9D",
+          "cas_number": null,
           "strength": {
             "numerator_value": 325.0,
             "numerator_unit": "mg",
@@ -357,6 +410,7 @@
           "name": "SODIUM STARCH GLYCOLATE TYPE A CORN",
           "role": "inactive",
           "unii": "AG9B65PV6B",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -364,6 +418,7 @@
           "name": "POVIDONE K30",
           "role": "inactive",
           "unii": "U725QWY32X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -371,6 +426,7 @@
           "name": "STARCH, CORN",
           "role": "inactive",
           "unii": "O8232NY3SJ",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -378,6 +434,7 @@
           "name": "STEARIC ACID",
           "role": "inactive",
           "unii": "4ELV7Z65AP",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -385,6 +442,7 @@
           "name": "SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M)",
           "role": "inactive",
           "unii": "88X4A2YW6T",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -392,6 +450,7 @@
           "name": "CROSPOVIDONE",
           "role": "inactive",
           "unii": "2S7830E561",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -424,7 +483,8 @@
         "size": "11 mm",
         "imprint": "10;670",
         "flavor": null
-      }
+      },
+      "equivalence": null
     },
     {
       "product_name": "Oxycodone and Acetaminophen",
@@ -447,13 +507,18 @@
         "application_number": "ANDA211708",
         "otc_monograph_id": null,
         "marketing_category": "ANDA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "SODIUM STARCH GLYCOLATE TYPE A POTATO",
           "role": "inactive",
           "unii": "5856J3G2A2",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -461,6 +526,7 @@
           "name": "POVIDONE K30",
           "role": "inactive",
           "unii": "U725QWY32X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -468,6 +534,7 @@
           "name": "STARCH, CORN",
           "role": "inactive",
           "unii": "O8232NY3SJ",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -475,6 +542,7 @@
           "name": "STEARIC ACID",
           "role": "inactive",
           "unii": "4ELV7Z65AP",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -482,6 +550,7 @@
           "name": "SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M)",
           "role": "inactive",
           "unii": "88X4A2YW6T",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -489,6 +558,7 @@
           "name": "CROSPOVIDONE",
           "role": "inactive",
           "unii": "2S7830E561",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -496,6 +566,7 @@
           "name": "OXYCODONE HYDROCHLORIDE",
           "role": "active",
           "unii": "C1ENJ2TE6C",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10.0,
             "numerator_unit": "mg",
@@ -508,6 +579,7 @@
           "name": "ACETAMINOPHEN",
           "role": "active",
           "unii": "362O9ITL9D",
+          "cas_number": null,
           "strength": {
             "numerator_value": 325.0,
             "numerator_unit": "mg",
@@ -545,7 +617,8 @@
         "size": "11 mm",
         "imprint": "10;670",
         "flavor": null
-      }
+      },
+      "equivalence": null
     }
   ],
   "sections": [

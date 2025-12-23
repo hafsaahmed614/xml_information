@@ -80,6 +80,99 @@
         "document_type_display": {
           "type": ["string", "null"],
           "description": "Display name for the document type from the XML"
+        },
+        "language_code": {
+          "type": ["string", "null"],
+          "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+          "description": "Document language code (e.g., 'en' for English)",
+          "examples": ["en", "es"]
+        },
+        "realm_code": {
+          "type": ["string", "null"],
+          "description": "Jurisdiction/country code (e.g., 'US')"
+        },
+        "confidentiality_code": {
+          "type": ["string", "null"],
+          "description": "Document confidentiality level"
+        }
+      }
+    },
+
+    "author": {
+      "type": ["object", "null"],
+      "description": "Authoring organization information",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": ["string", "null"],
+          "description": "Author organization name"
+        },
+        "org_id": {
+          "$ref": "#/$defs/org_id"
+        },
+        "time": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}(\\d{6})?$",
+          "description": "Authoring time in YYYYMMDD or YYYYMMDDHHMMSS format"
+        },
+        "contact": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": ["string", "null"]
+            },
+            "phone": {
+              "type": ["string", "null"]
+            },
+            "email": {
+              "type": ["string", "null"],
+              "format": "email"
+            }
+          }
+        }
+      }
+    },
+
+    "custodian": {
+      "type": ["object", "null"],
+      "description": "Document custodian (organization responsible for maintaining the document)",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": ["string", "null"],
+          "description": "Custodian organization name"
+        },
+        "org_id": {
+          "$ref": "#/$defs/org_id"
+        }
+      }
+    },
+
+    "related_documents": {
+      "type": "array",
+      "description": "References to related SPL documents (superseded versions, etc.)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "relationship_type": {
+            "type": "string",
+            "enum": ["supersedes", "supplements", "transforms", "replaces"],
+            "description": "Type of relationship to the related document"
+          },
+          "document_id": {
+            "$ref": "#/$defs/identifier",
+            "description": "ID of the related document"
+          },
+          "set_id": {
+            "$ref": "#/$defs/identifier",
+            "description": "Set ID of the related document"
+          },
+          "version_number": {
+            "type": ["integer", "null"],
+            "description": "Version number of the related document"
+          }
         }
       }
     },
@@ -118,14 +211,40 @@
           "org_id": {
             "$ref": "#/$defs/org_id"
           },
+          "fei": {
+            "type": ["string", "null"],
+            "pattern": "^[0-9]+$",
+            "description": "FDA Establishment Identifier (FEI) number"
+          },
           "role": {
             "type": ["string", "null"],
-            "enum": ["manufacture", "analysis", "label", "repack", "api manufacture", null],
+            "enum": ["manufacture", "analysis", "label", "repack", "api manufacture", "pack", null],
             "description": "Manufacturing role/activity type"
           },
           "role_code": {
             "type": ["string", "null"],
             "description": "FDA code for the manufacturing role (e.g., C43360)"
+          },
+          "address": {
+            "type": ["object", "null"],
+            "additionalProperties": false,
+            "properties": {
+              "street": {
+                "type": ["string", "null"]
+              },
+              "city": {
+                "type": ["string", "null"]
+              },
+              "state": {
+                "type": ["string", "null"]
+              },
+              "postal_code": {
+                "type": ["string", "null"]
+              },
+              "country": {
+                "type": ["string", "null"]
+              }
+            }
           }
         }
       }
@@ -361,6 +480,15 @@
         "dea_schedule_code": {
           "type": ["string", "null"],
           "description": "FDA code for DEA schedule"
+        },
+        "approval_date": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}$",
+          "description": "FDA approval date for NDA/ANDA/BLA (YYYYMMDD)"
+        },
+        "supplement_number": {
+          "type": ["string", "null"],
+          "description": "FDA supplement number if applicable"
         }
       }
     },
@@ -601,16 +729,35 @@
 
     "equivalence_info": {
       "type": ["object", "null"],
-      "description": "Therapeutic equivalence information",
+      "description": "Therapeutic equivalence information for generic substitution",
       "additionalProperties": false,
       "properties": {
+        "te_code": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{2}[0-9]?$",
+          "description": "FDA Therapeutic Equivalence code (e.g., 'AA', 'AB', 'AB1', 'BC')",
+          "examples": ["AA", "AB", "AB1", "AB2", "BC", "BD", "BP", "BX"]
+        },
+        "te_code_description": {
+          "type": ["string", "null"],
+          "description": "Description of the therapeutic equivalence rating"
+        },
         "reference_ndc": {
           "type": ["string", "null"],
-          "description": "NDC of the reference listed drug"
+          "pattern": "^\\d{4,5}-\\d{3,4}$",
+          "description": "NDC of the reference listed drug (RLD)"
         },
         "reference_name": {
           "type": ["string", "null"],
           "description": "Name of the reference listed drug"
+        },
+        "reference_set_id": {
+          "type": ["string", "null"],
+          "description": "Set ID of the reference listed drug's SPL"
+        },
+        "is_reference_listed_drug": {
+          "type": ["boolean", "null"],
+          "description": "Whether this product is itself a reference listed drug"
         }
       }
     },
@@ -727,7 +874,7 @@
         },
         "secondary": {
           "type": "array",
-          "description": "Secondary merge keys (UNII, document_id)",
+          "description": "Secondary merge keys (UNII, CAS, document_id)",
           "items": {
             "type": "string"
           }

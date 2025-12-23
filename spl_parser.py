@@ -27,7 +27,7 @@ import hashlib
 # CONSTANTS
 # =============================================================================
 
-PARSER_VERSION = "2.0.0"
+PARSER_VERSION = "2.1.0"
 
 # HL7 v3 SPL namespace
 NS = {'hl7': 'urn:hl7-org:v3'}
@@ -172,6 +172,9 @@ class SPLMetadata:
     effective_time: Optional[str] = None
     title: Optional[str] = None
     document_type: str = "unknown"
+    language_code: Optional[str] = None
+    realm_code: Optional[str] = None
+    confidentiality_code: Optional[str] = None
 
 
 @dataclass
@@ -188,6 +191,44 @@ class Labeler:
 
 
 @dataclass
+class Contact:
+    name: Optional[str] = None
+    phone: Optional[str] = None
+    email: Optional[str] = None
+
+
+@dataclass
+class Address:
+    street: Optional[str] = None
+    city: Optional[str] = None
+    state: Optional[str] = None
+    postal_code: Optional[str] = None
+    country: Optional[str] = None
+
+
+@dataclass
+class Author:
+    name: Optional[str] = None
+    org_id: Optional[OrgId] = None
+    time: Optional[str] = None
+    contact: Optional[Contact] = None
+
+
+@dataclass
+class Custodian:
+    name: Optional[str] = None
+    org_id: Optional[OrgId] = None
+
+
+@dataclass
+class RelatedDocument:
+    relationship_type: Optional[str] = None
+    document_id: Optional[DocumentId] = None
+    set_id: Optional[DocumentId] = None
+    version_number: Optional[int] = None
+
+
+@dataclass
 class NDCInfo:
     product_ndcs: List[str] = field(default_factory=list)
     package_ndcs: List[str] = field(default_factory=list)
@@ -200,6 +241,10 @@ class Regulatory:
     otc_monograph_id: Optional[str] = None
     marketing_category: Optional[str] = None
     dea_schedule: Optional[str] = None
+    marketing_start_date: Optional[str] = None
+    marketing_end_date: Optional[str] = None
+    approval_date: Optional[str] = None
+    supplement_number: Optional[str] = None
 
 
 @dataclass
@@ -221,6 +266,7 @@ class Ingredient:
     name: Optional[str] = None
     role: str = "other"
     unii: Optional[str] = None
+    cas_number: Optional[str] = None
     strength: Optional[Strength] = None
     homeopathic: Optional[HomeopathicInfo] = None
     _xpath: Optional[str] = None
@@ -261,6 +307,7 @@ class Product:
     ingredients: List[Ingredient] = field(default_factory=list)
     packages: List[Package] = field(default_factory=list)
     physical_characteristics: Optional[PhysicalCharacteristics] = None
+    equivalence: Optional['Equivalence'] = None
     _xpath: Optional[str] = None
 
 
@@ -316,8 +363,20 @@ class Image:
 class Manufacturer:
     name: Optional[str] = None
     org_id: Optional[OrgId] = None
+    fei: Optional[str] = None
     role: Optional[str] = None
     role_code: Optional[str] = None
+    address: Optional[Address] = None
+
+
+@dataclass
+class Equivalence:
+    te_code: Optional[str] = None
+    te_code_description: Optional[str] = None
+    reference_ndc: Optional[str] = None
+    reference_name: Optional[str] = None
+    reference_set_id: Optional[str] = None
+    is_reference_listed_drug: Optional[bool] = None
 
 
 @dataclass
@@ -330,6 +389,9 @@ class Derived:
 class SPLDocument:
     source: Source = field(default_factory=Source)
     spl: SPLMetadata = field(default_factory=SPLMetadata)
+    author: Optional[Author] = None
+    custodian: Optional[Custodian] = None
+    related_documents: List[RelatedDocument] = field(default_factory=list)
     labeler: Labeler = field(default_factory=Labeler)
     manufacturers: List[Manufacturer] = field(default_factory=list)
     products: List[Product] = field(default_factory=list)
@@ -429,6 +491,9 @@ class SPLParser:
 
         # Extract all components
         doc.spl = self._extract_spl_metadata()
+        doc.author = self._extract_author()
+        doc.custodian = self._extract_custodian()
+        doc.related_documents = self._extract_related_documents()
         doc.labeler = self._extract_labeler()
         doc.manufacturers = self._extract_manufacturers()
         doc.products = self._extract_products()
@@ -538,7 +603,152 @@ class SPLParser:
                 elif fn_lower.startswith('other'):
                     meta.document_type = 'other'
 
+        # Language code
+        lang_elem = self.root.find('hl7:languageCode', NS)
+        if lang_elem is not None:
+            meta.language_code = lang_elem.get('code')
+
+        # Realm code
+        realm_elem = self.root.find('hl7:realmCode', NS)
+        if realm_elem is not None:
+            meta.realm_code = realm_elem.get('code')
+
+        # Confidentiality code
+        conf_elem = self.root.find('hl7:confidentialityCode', NS)
+        if conf_elem is not None:
+            meta.confidentiality_code = conf_elem.get('code')
+
         return meta
+
+    # =========================================================================
+    # AUTHOR EXTRACTION
+    # =========================================================================
+
+    def _extract_author(self) -> Optional[Author]:
+        """Extract author organization information."""
+        author_elem = self.root.find('hl7:author', NS)
+        if author_elem is None:
+            return None
+
+        author = Author()
+
+        # Author time
+        time_elem = author_elem.find('hl7:time', NS)
+        if time_elem is not None:
+            author.time = time_elem.get('value')
+
+        # Assigned entity / represented organization
+        assigned = author_elem.find('hl7:assignedEntity', NS)
+        if assigned is not None:
+            org = assigned.find('hl7:representedOrganization', NS)
+            if org is not None:
+                name_elem = org.find('hl7:name', NS)
+                if name_elem is not None:
+                    author.name = name_elem.text
+
+                id_elem = org.find('hl7:id', NS)
+                if id_elem is not None:
+                    author.org_id = OrgId(
+                        root=id_elem.get('root'),
+                        extension=id_elem.get('extension'),
+                        type_hint='DUNS' if id_elem.get('root') == CODE_SYSTEMS['DUNS'] else None
+                    )
+
+            # Contact info from assignedPerson or telecom
+            telecom = assigned.find('hl7:telecom', NS)
+            if telecom is not None:
+                contact = Contact()
+                value = telecom.get('value', '')
+                if value.startswith('tel:'):
+                    contact.phone = value[4:]
+                elif value.startswith('mailto:'):
+                    contact.email = value[7:]
+                if contact.phone or contact.email:
+                    author.contact = contact
+
+        return author if author.name or author.org_id else None
+
+    # =========================================================================
+    # CUSTODIAN EXTRACTION
+    # =========================================================================
+
+    def _extract_custodian(self) -> Optional[Custodian]:
+        """Extract custodian organization information."""
+        cust_elem = self.root.find('hl7:custodian', NS)
+        if cust_elem is None:
+            return None
+
+        custodian = Custodian()
+
+        # Assigned custodian
+        assigned = cust_elem.find('hl7:assignedCustodian', NS)
+        if assigned is not None:
+            org = assigned.find('hl7:representedCustodianOrganization', NS)
+            if org is not None:
+                name_elem = org.find('hl7:name', NS)
+                if name_elem is not None:
+                    custodian.name = name_elem.text
+
+                id_elem = org.find('hl7:id', NS)
+                if id_elem is not None:
+                    custodian.org_id = OrgId(
+                        root=id_elem.get('root'),
+                        extension=id_elem.get('extension'),
+                        type_hint='DUNS' if id_elem.get('root') == CODE_SYSTEMS['DUNS'] else None
+                    )
+
+        return custodian if custodian.name or custodian.org_id else None
+
+    # =========================================================================
+    # RELATED DOCUMENTS EXTRACTION
+    # =========================================================================
+
+    def _extract_related_documents(self) -> List[RelatedDocument]:
+        """Extract related document references (supersedes, etc.)."""
+        related = []
+
+        for rel_doc in self.root.findall('.//hl7:relatedDocument', NS):
+            doc = RelatedDocument()
+
+            # Relationship type from typeCode attribute
+            type_code = rel_doc.get('typeCode', '').upper()
+            if type_code == 'RPLC':
+                doc.relationship_type = 'replaces'
+            elif type_code == 'APND':
+                doc.relationship_type = 'supplements'
+            elif type_code == 'XFRM':
+                doc.relationship_type = 'transforms'
+            else:
+                doc.relationship_type = 'supersedes'
+
+            # Parent document reference
+            parent_doc = rel_doc.find('hl7:parentDocument', NS)
+            if parent_doc is not None:
+                id_elem = parent_doc.find('hl7:id', NS)
+                if id_elem is not None:
+                    doc.document_id = DocumentId(
+                        root=id_elem.get('root'),
+                        extension=id_elem.get('extension')
+                    )
+
+                set_id_elem = parent_doc.find('hl7:setId', NS)
+                if set_id_elem is not None:
+                    doc.set_id = DocumentId(
+                        root=set_id_elem.get('root'),
+                        extension=set_id_elem.get('extension')
+                    )
+
+                version_elem = parent_doc.find('hl7:versionNumber', NS)
+                if version_elem is not None:
+                    try:
+                        doc.version_number = int(version_elem.get('value', 0))
+                    except (ValueError, TypeError):
+                        pass
+
+            if doc.document_id or doc.set_id:
+                related.append(doc)
+
+        return related
 
     # =========================================================================
     # LABELER EXTRACTION

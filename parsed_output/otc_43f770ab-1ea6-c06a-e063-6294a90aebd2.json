@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "otc_43f770ab-1ea6-c06a-e063-6294a90aebd2.xml",
-    "parsed_at": "2025-12-23T20:01:11.593181+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.154563+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 5,
     "effective_time": "20251119",
     "title": "geri-mox chry",
-    "document_type": "otc"
+    "document_type": "otc",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Geri-Care Pharmaceuticals, Corp",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "611196254",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Geri-Care Pharmaceuticals, Corp",
     "org_ids": [
@@ -43,8 +58,10 @@
         "extension": "965480861",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     },
     {
       "name": "GCP LABORATORIES",
@@ -53,8 +70,10 @@
         "extension": "965480861",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     }
   ],
   "products": [
@@ -79,13 +98,18 @@
         "application_number": "M001",
         "otc_monograph_id": "M001",
         "marketing_category": "OTC Monograph Drug",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "BENZYL ALCOHOL",
           "role": "inactive",
           "unii": "LKG8494WBH",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -93,6 +117,7 @@
           "name": "BUTYLPARABEN",
           "role": "inactive",
           "unii": "3QPI1U3FV8",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -100,6 +125,7 @@
           "name": "CARBOXYMETHYLCELLULOSE SODIUM",
           "role": "inactive",
           "unii": "K679OBS311",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -107,6 +133,7 @@
           "name": "HYPROMELLOSES",
           "role": "inactive",
           "unii": "3NXW29V3WO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -114,6 +141,7 @@
           "name": "CELLULOSE, MICROCRYSTALLINE",
           "role": "inactive",
           "unii": "OP1R32D61U",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -121,6 +149,7 @@
           "name": "PROPYLPARABEN",
           "role": "inactive",
           "unii": "Z8IX2SC1OH",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -128,6 +157,7 @@
           "name": "WATER",
           "role": "inactive",
           "unii": "059QF0KO0R",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -135,6 +165,7 @@
           "name": "SACCHARIN SODIUM",
           "role": "inactive",
           "unii": "SB8ZUX40TY",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -142,6 +173,7 @@
           "name": "SORBITOL",
           "role": "inactive",
           "unii": "506T60A25R",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -149,6 +181,7 @@
           "name": "ALUMINUM HYDROXIDE",
           "role": "active",
           "unii": "5QB0T2IUN0",
+          "cas_number": null,
           "strength": {
             "numerator_value": 400.0,
             "numerator_unit": "mg",
@@ -161,6 +194,7 @@
           "name": "MAGNESIUM HYDROXIDE",
           "role": "active",
           "unii": "NBZ3QY004S",
+          "cas_number": null,
           "strength": {
             "numerator_value": 400.0,
             "numerator_unit": "mg",
@@ -173,6 +207,7 @@
           "name": "DIMETHICONE",
           "role": "active",
           "unii": "92RU3N3Y1O",
+          "cas_number": null,
           "strength": {
             "numerator_value": 40.0,
             "numerator_unit": "mg",
@@ -220,7 +255,8 @@
         "size": null,
         "imprint": null,
         "flavor": "CHERRY"
-      }
+      },
+      "equivalence": null
     }
   ],
   "sections": [

@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "homeopathic_1e5c425c-1387-49c4-8200-b36cb8925f9c.xml",
-    "parsed_at": "2025-12-23T20:01:11.559536+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.127507+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 2,
     "effective_time": "20251027",
     "title": "REBALANCER",
-    "document_type": "otc"
+    "document_type": "otc",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "The Adored Beast Apothecary, Ltd",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "203463179",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "The Adored Beast Apothecary, Ltd",
     "org_ids": [
@@ -54,13 +69,18 @@
         "application_number": null,
         "otc_monograph_id": null,
         "marketing_category": "unapproved homeopathic",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "SILICON DIOXIDE",
           "role": "active",
           "unii": "ETJ7Z6XBU4",
+          "cas_number": null,
           "strength": {
             "numerator_value": 30.0,
             "numerator_unit": "[hp_C]",
@@ -76,6 +96,7 @@
           "name": "THUJA OCCIDENTALIS LEAFY TWIG",
           "role": "active",
           "unii": "1NT28V9397",
+          "cas_number": null,
           "strength": {
             "numerator_value": 12.0,
             "numerator_unit": "[hp_C]",
@@ -91,6 +112,7 @@
           "name": "ALCOHOL",
           "role": "inactive",
           "unii": "3K9958V90M",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -98,6 +120,7 @@
           "name": "WATER",
           "role": "inactive",
           "unii": "059QF0KO0R",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -105,6 +128,7 @@
           "name": "glycerin",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -121,7 +145,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     }
   ],
   "sections": [

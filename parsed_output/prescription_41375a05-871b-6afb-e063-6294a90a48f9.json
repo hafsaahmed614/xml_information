@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "prescription_41375a05-871b-6afb-e063-6294a90a48f9.xml",
-    "parsed_at": "2025-12-23T20:01:11.658402+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.211986+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 34,
     "effective_time": "20251015",
     "title": "These highlights do not include all the information needed to use CARVEDILOL TABLETS safely and effectively. See full prescribing information for CARVEDILOL TABLETS. CARVEDILOL tablets, for oral use Initial U.S. Approval: 1995",
-    "document_type": "prescription"
+    "document_type": "prescription",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "PD-Rx Pharmaceuticals, Inc.",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "156893695",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "PD-Rx Pharmaceuticals, Inc.",
     "org_ids": [
@@ -38,8 +53,10 @@
         "extension": "156893695",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "repack",
-      "role_code": "C73606"
+      "role_code": "C73606",
+      "address": null
     }
   ],
   "products": [
@@ -64,13 +81,18 @@
         "application_number": "ANDA078332",
         "otc_monograph_id": null,
         "marketing_category": "ANDA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "LACTOSE MONOHYDRATE",
           "role": "inactive",
           "unii": "EWQ57Q8I5X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -78,6 +100,7 @@
           "name": "SILICON DIOXIDE",
           "role": "inactive",
           "unii": "ETJ7Z6XBU4",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -85,6 +108,7 @@
           "name": "CROSPOVIDONE",
           "role": "inactive",
           "unii": "68401960MK",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -92,6 +116,7 @@
           "name": "POVIDONE K30",
           "role": "inactive",
           "unii": "U725QWY32X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -99,6 +124,7 @@
           "name": "SUCROSE",
           "role": "inactive",
           "unii": "C151H8M554",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -106,6 +132,7 @@
           "name": "MAGNESIUM STEARATE",
           "role": "inactive",
           "unii": "70097M6I30",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -113,6 +140,7 @@
           "name": "POLYETHYLENE GLYCOL 400",
           "role": "inactive",
           "unii": "B697894SGQ",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -120,6 +148,7 @@
           "name": "POLYSORBATE 80",
           "role": "inactive",
           "unii": "6OZP39ZG8H",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -127,6 +156,7 @@
           "name": "TITANIUM DIOXIDE",
           "role": "inactive",
           "unii": "15FIX9V2JP",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -134,6 +164,7 @@
           "name": "HYPROMELLOSE 2910 (5 MPA.S)",
           "role": "inactive",
           "unii": "R75537T0T4",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -141,6 +172,7 @@
           "name": "CARVEDILOL",
           "role": "active",
           "unii": "0K47UL67F2",
+          "cas_number": null,
           "strength": {
             "numerator_value": 12.5,
             "numerator_unit": "mg",
@@ -178,7 +210,8 @@
         "size": "11 mm",
         "imprint": "E;03",
         "flavor": null
-      }
+      },
+      "equivalence": null
     }
   ],
   "sections": [

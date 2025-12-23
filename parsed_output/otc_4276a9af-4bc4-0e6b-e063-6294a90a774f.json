@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "otc_4276a9af-4bc4-0e6b-e063-6294a90a774f.xml",
-    "parsed_at": "2025-12-23T20:01:11.589119+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.151166+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 8,
     "effective_time": "20251031",
     "title": "Allergy Relief",
-    "document_type": "otc"
+    "document_type": "otc",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Shield Pharmaceuticals Corp",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "118724924",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Shield Pharmaceuticals Corp",
     "org_ids": [
@@ -54,13 +69,18 @@
         "application_number": "M012",
         "otc_monograph_id": "M012",
         "marketing_category": "OTC Monograph Drug",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "CROSCARMELLOSE SODIUM",
           "role": "inactive",
           "unii": "M28OL1HH48",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -68,6 +88,7 @@
           "name": "FD&C RED NO. 3",
           "role": "inactive",
           "unii": "PN2ZH5LOQY",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -75,6 +96,7 @@
           "name": "HYPROMELLOSES",
           "role": "inactive",
           "unii": "3NXW29V3WO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -82,6 +104,7 @@
           "name": "MAGNESIUM STEARATE",
           "role": "inactive",
           "unii": "70097M6I30",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -89,6 +112,7 @@
           "name": "MICROCRYSTALLINE CELLULOSE",
           "role": "inactive",
           "unii": "OP1R32D61U",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -96,6 +120,7 @@
           "name": "POLYETHYLENE GLYCOL, UNSPECIFIED",
           "role": "inactive",
           "unii": "3WJQ0SDW1A",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -103,6 +128,7 @@
           "name": "TALC",
           "role": "inactive",
           "unii": "7SEV7J4R1U",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -110,6 +136,7 @@
           "name": "DIBASIC CALCIUM PHOSPHATE DIHYDRATE",
           "role": "inactive",
           "unii": "O7TSZ97GEP",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -117,6 +144,7 @@
           "name": "TITANIUM DIOXIDE",
           "role": "inactive",
           "unii": "15FIX9V2JP",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -124,6 +152,7 @@
           "name": "DIPHENHYDRAMINE HYDROCHLORIDE",
           "role": "active",
           "unii": "TC2D6JAD40",
+          "cas_number": null,
           "strength": {
             "numerator_value": 25.0,
             "numerator_unit": "mg",
@@ -136,6 +165,7 @@
           "name": "SILICON DIOXIDE",
           "role": "inactive",
           "unii": "ETJ7Z6XBU4",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -168,7 +198,8 @@
         "size": "11 mm",
         "imprint": "13",
         "flavor": null
-      }
+      },
+      "equivalence": null
     }
   ],
   "sections": [

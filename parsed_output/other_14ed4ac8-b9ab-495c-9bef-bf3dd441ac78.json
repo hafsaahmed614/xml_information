@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "other_14ed4ac8-b9ab-495c-9bef-bf3dd441ac78.xml",
-    "parsed_at": "2025-12-23T20:01:11.605454+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.165515+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 11,
     "effective_time": "20251119",
     "title": "ALLERGENIC EXTRACTS STANDARDIZED GRASS POLLEN (glycerinated)",
-    "document_type": "other"
+    "document_type": "other",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Jubilant HollisterStier LLC",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "069263643",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Jubilant HollisterStier LLC",
     "org_ids": [
@@ -63,13 +78,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "LOLIUM PRATENSE POLLEN",
           "role": "active",
           "unii": "A0WFQ8P6N1",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10000.0,
             "numerator_unit": "[BAU]",
@@ -82,6 +102,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -89,6 +110,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -96,6 +118,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -142,7 +165,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Fescue, Meadow",
@@ -170,13 +194,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "LOLIUM PRATENSE POLLEN",
           "role": "active",
           "unii": "A0WFQ8P6N1",
+          "cas_number": null,
           "strength": {
             "numerator_value": 100000.0,
             "numerator_unit": "[BAU]",
@@ -189,6 +218,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -196,6 +226,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -203,6 +234,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -249,7 +281,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Redtop",
@@ -277,13 +310,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "AGROSTIS GIGANTEA POLLEN",
           "role": "active",
           "unii": "HU8V6E7HOA",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10000.0,
             "numerator_unit": "[BAU]",
@@ -296,6 +334,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -303,6 +342,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -310,6 +350,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -356,7 +397,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Redtop",
@@ -384,13 +426,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "AGROSTIS GIGANTEA POLLEN",
           "role": "active",
           "unii": "HU8V6E7HOA",
+          "cas_number": null,
           "strength": {
             "numerator_value": 100000.0,
             "numerator_unit": "[BAU]",
@@ -403,6 +450,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -410,6 +458,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -417,6 +466,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -463,7 +513,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Orchard Grass",
@@ -491,13 +542,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "DACTYLIS GLOMERATA POLLEN",
           "role": "active",
           "unii": "83N78IDA7P",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10000.0,
             "numerator_unit": "[BAU]",
@@ -510,6 +566,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -517,6 +574,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -524,6 +582,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -570,7 +629,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Orchard Grass",
@@ -598,13 +658,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "DACTYLIS GLOMERATA POLLEN",
           "role": "active",
           "unii": "83N78IDA7P",
+          "cas_number": null,
           "strength": {
             "numerator_value": 100000.0,
             "numerator_unit": "[BAU]",
@@ -617,6 +682,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -624,6 +690,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -631,6 +698,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -677,7 +745,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Bermuda Grass",
@@ -705,13 +774,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "CYNODON DACTYLON POLLEN",
           "role": "active",
           "unii": "175F461W10",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10000.0,
             "numerator_unit": "[BAU]",
@@ -724,6 +798,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -731,6 +806,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -738,6 +814,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -784,7 +861,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Timothy",
@@ -812,13 +890,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "PHLEUM PRATENSE POLLEN",
           "role": "active",
           "unii": "65M88RW2EG",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10000.0,
             "numerator_unit": "[BAU]",
@@ -831,6 +914,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -838,6 +922,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -845,6 +930,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -891,7 +977,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Timothy",
@@ -919,13 +1006,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "PHLEUM PRATENSE POLLEN",
           "role": "active",
           "unii": "65M88RW2EG",
+          "cas_number": null,
           "strength": {
             "numerator_value": 100000.0,
             "numerator_unit": "[BAU]",
@@ -938,6 +1030,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -945,6 +1038,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -952,6 +1046,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -998,7 +1093,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Sweet Vernal Grass",
@@ -1026,13 +1122,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "ANTHOXANTHUM ODORATUM POLLEN",
           "role": "active",
           "unii": "2KIK19R45Y",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10000.0,
             "numerator_unit": "[BAU]",
@@ -1045,6 +1146,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1052,6 +1154,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1059,6 +1162,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -1105,7 +1209,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Sweet Vernal Grass",
@@ -1133,13 +1238,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "ANTHOXANTHUM ODORATUM POLLEN",
           "role": "active",
           "unii": "2KIK19R45Y",
+          "cas_number": null,
           "strength": {
             "numerator_value": 100000.0,
             "numerator_unit": "[BAU]",
@@ -1152,6 +1262,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1159,6 +1270,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1166,6 +1278,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -1212,7 +1325,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Ryegrass",
@@ -1240,13 +1354,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "LOLIUM PERENNE POLLEN",
           "role": "active",
           "unii": "4T81LB52R0",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10000.0,
             "numerator_unit": "[BAU]",
@@ -1259,6 +1378,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1266,6 +1386,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1273,6 +1394,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -1319,7 +1441,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Ryegrass",
@@ -1347,13 +1470,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "LOLIUM PERENNE POLLEN",
           "role": "active",
           "unii": "4T81LB52R0",
+          "cas_number": null,
           "strength": {
             "numerator_value": 100000.0,
             "numerator_unit": "[BAU]",
@@ -1366,6 +1494,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1373,6 +1502,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1380,6 +1510,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -1426,7 +1557,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Bluegrass, Kentucky June",
@@ -1454,13 +1586,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "POA PRATENSIS POLLEN",
           "role": "active",
           "unii": "SCB8J7LS3T",
+          "cas_number": null,
           "strength": {
             "numerator_value": 10000.0,
             "numerator_unit": "[BAU]",
@@ -1473,6 +1610,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1480,6 +1618,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1487,6 +1626,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -1533,7 +1673,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     },
     {
       "product_name": "Standardized Grass Pollen, Bluegrass, Kentucky June",
@@ -1561,13 +1702,18 @@
         "application_number": "BLA103874",
         "otc_monograph_id": null,
         "marketing_category": "BLA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "POA PRATENSIS POLLEN",
           "role": "active",
           "unii": "SCB8J7LS3T",
+          "cas_number": null,
           "strength": {
             "numerator_value": 100000.0,
             "numerator_unit": "[BAU]",
@@ -1580,6 +1726,7 @@
           "name": "GLYCERIN",
           "role": "inactive",
           "unii": "PDC6A3C0OX",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1587,6 +1734,7 @@
           "name": "SODIUM CHLORIDE",
           "role": "inactive",
           "unii": "451W47IQ8X",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -1594,6 +1742,7 @@
           "name": "SODIUM BICARBONATE",
           "role": "inactive",
           "unii": "8MDF5V39QO",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -1640,7 +1789,8 @@
           "marketing_status": null
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     }
   ],
   "sections": [

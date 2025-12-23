@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "homeopathic_42e02de9-d1e2-0388-e063-6394a90aa127.xml",
-    "parsed_at": "2025-12-23T20:01:11.573281+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.136235+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 3,
     "effective_time": "20251105",
     "title": "Coffea cruda 6C",
-    "document_type": "otc"
+    "document_type": "otc",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Boiron",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "282560473",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Boiron",
     "org_ids": [
@@ -43,8 +58,10 @@
         "extension": "014892269",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     },
     {
       "name": "Boiron",
@@ -53,8 +70,10 @@
         "extension": "282560473",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     }
   ],
   "products": [
@@ -78,13 +97,18 @@
         "application_number": null,
         "otc_monograph_id": null,
         "marketing_category": "unapproved homeopathic",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "ARABICA COFFEE BEAN",
           "role": "active",
           "unii": "3SW678MX72",
+          "cas_number": null,
           "strength": {
             "numerator_value": 6.0,
             "numerator_unit": "[hp_C]",
@@ -100,6 +124,7 @@
           "name": "SUCROSE",
           "role": "inactive",
           "unii": "C151H8M554",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -107,6 +132,7 @@
           "name": "LACTOSE, UNSPECIFIED FORM",
           "role": "inactive",
           "unii": "J2B2A4N98G",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -129,7 +155,8 @@
         "size": "4 mm",
         "imprint": null,
         "flavor": null
-      }
+      },
+      "equivalence": null
     }
   ],
   "sections": [

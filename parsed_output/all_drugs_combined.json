@@ -4,8 +4,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_1e5c425c-1387-49c4-8200-b36cb8925f9c.xml",
-      "parsed_at": "2025-12-23T20:01:11.559536+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.127507+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -19,8 +19,23 @@
       "version_number": 2,
       "effective_time": "20251027",
       "title": "REBALANCER",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "The Adored Beast Apothecary, Ltd",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "203463179",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "The Adored Beast Apothecary, Ltd",
       "org_ids": [
@@ -55,13 +70,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "unapproved homeopathic",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "SILICON DIOXIDE",
             "role": "active",
             "unii": "ETJ7Z6XBU4",
+            "cas_number": null,
             "strength": {
               "numerator_value": 30.0,
               "numerator_unit": "[hp_C]",
@@ -77,6 +97,7 @@
             "name": "THUJA OCCIDENTALIS LEAFY TWIG",
             "role": "active",
             "unii": "1NT28V9397",
+            "cas_number": null,
             "strength": {
               "numerator_value": 12.0,
               "numerator_unit": "[hp_C]",
@@ -92,6 +113,7 @@
             "name": "ALCOHOL",
             "role": "inactive",
             "unii": "3K9958V90M",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -99,6 +121,7 @@
             "name": "WATER",
             "role": "inactive",
             "unii": "059QF0KO0R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -106,6 +129,7 @@
             "name": "glycerin",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -122,7 +146,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       }
     ],
     "sections": [
@@ -266,8 +291,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_40e5e7b1-80c7-b406-e063-6394a90ac7e2.xml",
-      "parsed_at": "2025-12-23T20:01:11.567141+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.130814+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -281,8 +306,23 @@
       "version_number": 3,
       "effective_time": "20251011",
       "title": "QUENT 4X",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Symbiopathic",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "202697595",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Symbiopathic",
       "org_ids": [
@@ -306,8 +346,10 @@
           "extension": "202617023",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -331,13 +373,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "unapproved homeopathic",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -345,6 +392,7 @@
             "name": "WATER",
             "role": "inactive",
             "unii": "059QF0KO0R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -352,6 +400,7 @@
             "name": "PENICILLIUM GLABRUM",
             "role": "active",
             "unii": "2IN23YUE0I",
+            "cas_number": null,
             "strength": {
               "numerator_value": 4.0,
               "numerator_unit": "[hp_X]",
@@ -386,7 +435,8 @@
             "marketing_status": "active"
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       }
     ],
     "sections": [
@@ -544,8 +594,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_4278ca93-86f2-71de-e063-6394a90a137b.xml",
-      "parsed_at": "2025-12-23T20:01:11.570181+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.133645+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -559,8 +609,23 @@
       "version_number": 1,
       "effective_time": "20251119",
       "title": "Hepar (Liver) 30X",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "True Botanica, LLC",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "182071519",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "True Botanica, LLC",
       "org_ids": [
@@ -579,8 +644,10 @@
           "extension": "182071519",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -604,13 +671,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "unapproved homeopathic",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "POTASSIUM SORBATE",
             "role": "inactive",
             "unii": "1VPU26JZZ4",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -618,6 +690,7 @@
             "name": "CITRIC ACID MONOHYDRATE",
             "role": "inactive",
             "unii": "2968PHW8QP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -625,6 +698,7 @@
             "name": "WATER",
             "role": "inactive",
             "unii": "059QF0KO0R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -632,6 +706,7 @@
             "name": "BEEF LIVER",
             "role": "active",
             "unii": "W8N8R55022",
+            "cas_number": null,
             "strength": {
               "numerator_value": 30.0,
               "numerator_unit": "[hp_X]",
@@ -656,7 +731,8 @@
             "marketing_status": "active"
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       }
     ],
     "sections": [
@@ -807,8 +883,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_42e02de9-d1e2-0388-e063-6394a90aa127.xml",
-      "parsed_at": "2025-12-23T20:01:11.573281+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.136235+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -822,8 +898,23 @@
       "version_number": 3,
       "effective_time": "20251105",
       "title": "Coffea cruda 6C",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Boiron",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "282560473",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Boiron",
       "org_ids": [
@@ -847,8 +938,10 @@
           "extension": "014892269",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       },
       {
         "name": "Boiron",
@@ -857,8 +950,10 @@
           "extension": "282560473",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -882,13 +977,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "unapproved homeopathic",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "ARABICA COFFEE BEAN",
             "role": "active",
             "unii": "3SW678MX72",
+            "cas_number": null,
             "strength": {
               "numerator_value": 6.0,
               "numerator_unit": "[hp_C]",
@@ -904,6 +1004,7 @@
             "name": "SUCROSE",
             "role": "inactive",
             "unii": "C151H8M554",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -911,6 +1012,7 @@
             "name": "LACTOSE, UNSPECIFIED FORM",
             "role": "inactive",
             "unii": "J2B2A4N98G",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -933,7 +1035,8 @@
           "size": "4 mm",
           "imprint": null,
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -1098,8 +1201,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_43e18608-e21a-0110-e063-6394a90a287d.xml",
-      "parsed_at": "2025-12-23T20:01:11.576305+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.139700+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -1113,8 +1216,23 @@
       "version_number": 4,
       "effective_time": "20251118",
       "title": "Astragalus Formica",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Uriel Pharmacy Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "043471163",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Uriel Pharmacy Inc.",
       "org_ids": [
@@ -1133,8 +1251,10 @@
           "extension": "043471163",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -1158,13 +1278,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "unapproved homeopathic",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "SUCROSE",
             "role": "inactive",
             "unii": "C151H8M554",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1172,6 +1297,7 @@
             "name": "ARNICA MONTANA",
             "role": "active",
             "unii": "O80TY208ZW",
+            "cas_number": null,
             "strength": {
               "numerator_value": 3.0,
               "numerator_unit": "[hp_X]",
@@ -1187,6 +1313,7 @@
             "name": "ASTRAGALUS PROPINQUUS ROOT",
             "role": "active",
             "unii": "922OP8YUPF",
+            "cas_number": null,
             "strength": {
               "numerator_value": 3.0,
               "numerator_unit": "[hp_X]",
@@ -1202,6 +1329,7 @@
             "name": "FORMICA RUFA",
             "role": "active",
             "unii": "55H0W83JO5",
+            "cas_number": null,
             "strength": {
               "numerator_value": 6.0,
               "numerator_unit": "[hp_X]",
@@ -1217,6 +1345,7 @@
             "name": "SILVER",
             "role": "active",
             "unii": "3M4G523W1G",
+            "cas_number": null,
             "strength": {
               "numerator_value": 30.0,
               "numerator_unit": "[hp_X]",
@@ -1247,7 +1376,8 @@
           "size": "3 mm",
           "imprint": null,
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -1383,8 +1513,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_2f8bbda5-0100-4d14-84b7-e5712f6dad6f.xml",
-      "parsed_at": "2025-12-23T20:01:11.580335+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.143665+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -1398,8 +1528,23 @@
       "version_number": 7,
       "effective_time": "20251024",
       "title": "Dolgencorp, LLC Pain Relief Drug Facts",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Dolgencorp Inc",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "068331990",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Dolgencorp Inc",
       "org_ids": [
@@ -1439,13 +1584,18 @@
           "application_number": "M013",
           "otc_monograph_id": "M013",
           "marketing_category": "OTC Monograph Drug",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "ACETAMINOPHEN",
             "role": "active",
             "unii": "362O9ITL9D",
+            "cas_number": null,
             "strength": {
               "numerator_value": 500.0,
               "numerator_unit": "mg",
@@ -1458,6 +1608,7 @@
             "name": "CROSCARMELLOSE SODIUM",
             "role": "inactive",
             "unii": "M28OL1HH48",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1465,6 +1616,7 @@
             "name": "CROSPOVIDONE, UNSPECIFIED",
             "role": "inactive",
             "unii": "2S7830E561",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1472,6 +1624,7 @@
             "name": "FD&C RED NO. 40 ALUMINUM LAKE",
             "role": "inactive",
             "unii": "6T47AS764T",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1479,6 +1632,7 @@
             "name": "FD&C YELLOW NO. 6 ALUMINUM LAKE",
             "role": "inactive",
             "unii": "GYP6Z2JR6Q",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1486,6 +1640,7 @@
             "name": "HYPROMELLOSE, UNSPECIFIED",
             "role": "inactive",
             "unii": "3NXW29V3WO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1493,6 +1648,7 @@
             "name": "POLYETHYLENE GLYCOL, UNSPECIFIED",
             "role": "inactive",
             "unii": "3WJQ0SDW1A",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1500,6 +1656,7 @@
             "name": "POLYSORBATE 80",
             "role": "inactive",
             "unii": "6OZP39ZG8H",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1507,6 +1664,7 @@
             "name": "POVIDONE, UNSPECIFIED",
             "role": "inactive",
             "unii": "FZ989GH94E",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1514,6 +1672,7 @@
             "name": "STEARIC ACID",
             "role": "inactive",
             "unii": "4ELV7Z65AP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -1616,7 +1775,8 @@
           "size": "18 mm",
           "imprint": "3S0",
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -1805,8 +1965,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_409989d2-3458-6fab-e063-6294a90a57ab.xml",
-      "parsed_at": "2025-12-23T20:01:11.585011+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.147825+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -1820,8 +1980,23 @@
       "version_number": 2,
       "effective_time": "20251007",
       "title": null,
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Sinsin Pharmaceutical Co., Ltd.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "823149161",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Sinsin Pharmaceutical Co., Ltd.",
       "org_ids": [
@@ -1845,8 +2020,10 @@
           "extension": "687867143",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -1871,13 +2048,18 @@
           "application_number": "M017",
           "otc_monograph_id": "M017",
           "marketing_category": "OTC Monograph Drug",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "METHYLPARABEN",
             "role": "inactive",
             "unii": "A2I8C7HI9T",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1885,6 +2067,7 @@
             "name": "EDETATE DISODIUM",
             "role": "inactive",
             "unii": "7FLD91C86K",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1892,6 +2075,7 @@
             "name": "TARTARIC ACID",
             "role": "inactive",
             "unii": "W4888I119H",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1899,6 +2083,7 @@
             "name": "CARBOXYMETHYLCELLULOSE SODIUM",
             "role": "inactive",
             "unii": "K679OBS311",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1906,6 +2091,7 @@
             "name": "SORBITOL",
             "role": "inactive",
             "unii": "506T60A25R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1913,6 +2099,7 @@
             "name": "GELATIN",
             "role": "inactive",
             "unii": "2G86QN327L",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1920,6 +2107,7 @@
             "name": "CASTOR OIL",
             "role": "inactive",
             "unii": "D5340Y2I9G",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1927,6 +2115,7 @@
             "name": "SODIUM POLYACRYLATE (8000 MW)",
             "role": "inactive",
             "unii": "285CYO341L",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1934,6 +2123,7 @@
             "name": "NONIVAMIDE",
             "role": "inactive",
             "unii": "S846B891OR",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1941,6 +2131,7 @@
             "name": "GLYCERYL MONOSTEARATE",
             "role": "inactive",
             "unii": "230OU9XXE4",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1948,6 +2139,7 @@
             "name": "ALOE VERA LEAF",
             "role": "inactive",
             "unii": "ZY81Z83H0X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1955,6 +2147,7 @@
             "name": "BUTYLATED HYDROXYTOLUENE",
             "role": "inactive",
             "unii": "1P9D0Z171K",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1962,6 +2155,7 @@
             "name": "WATER",
             "role": "inactive",
             "unii": "059QF0KO0R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1969,6 +2163,7 @@
             "name": "POLYSORBATE 80",
             "role": "inactive",
             "unii": "6OZP39ZG8H",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1976,6 +2171,7 @@
             "name": "TITANIUM DIOXIDE",
             "role": "inactive",
             "unii": "15FIX9V2JP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1983,6 +2179,7 @@
             "name": "ALUMINUM HYDROXIDE",
             "role": "inactive",
             "unii": "5QB0T2IUN0",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1990,6 +2187,7 @@
             "name": "KAOLIN",
             "role": "inactive",
             "unii": "24H4NWX5CO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -1997,6 +2195,7 @@
             "name": "METHYL SALICYLATE",
             "role": "active",
             "unii": "LAV5U5022Y",
+            "cas_number": null,
             "strength": {
               "numerator_value": 57.6,
               "numerator_unit": "mg",
@@ -2009,6 +2208,7 @@
             "name": "CAMPHOR (SYNTHETIC)",
             "role": "active",
             "unii": "5TJD82A1ET",
+            "cas_number": null,
             "strength": {
               "numerator_value": 96.0,
               "numerator_unit": "mg",
@@ -2021,6 +2221,7 @@
             "name": "LEVOMENTHOL",
             "role": "active",
             "unii": "BZ1R15MTK7",
+            "cas_number": null,
             "strength": {
               "numerator_value": 76.8,
               "numerator_unit": "mg",
@@ -2052,7 +2253,8 @@
             "marketing_status": "active"
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       }
     ],
     "sections": [
@@ -2203,8 +2405,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_4276a9af-4bc4-0e6b-e063-6294a90a774f.xml",
-      "parsed_at": "2025-12-23T20:01:11.589119+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.151166+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -2218,8 +2420,23 @@
       "version_number": 8,
       "effective_time": "20251031",
       "title": "Allergy Relief",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Shield Pharmaceuticals Corp",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "118724924",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Shield Pharmaceuticals Corp",
       "org_ids": [
@@ -2254,13 +2471,18 @@
           "application_number": "M012",
           "otc_monograph_id": "M012",
           "marketing_category": "OTC Monograph Drug",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "CROSCARMELLOSE SODIUM",
             "role": "inactive",
             "unii": "M28OL1HH48",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2268,6 +2490,7 @@
             "name": "FD&C RED NO. 3",
             "role": "inactive",
             "unii": "PN2ZH5LOQY",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2275,6 +2498,7 @@
             "name": "HYPROMELLOSES",
             "role": "inactive",
             "unii": "3NXW29V3WO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2282,6 +2506,7 @@
             "name": "MAGNESIUM STEARATE",
             "role": "inactive",
             "unii": "70097M6I30",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2289,6 +2514,7 @@
             "name": "MICROCRYSTALLINE CELLULOSE",
             "role": "inactive",
             "unii": "OP1R32D61U",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2296,6 +2522,7 @@
             "name": "POLYETHYLENE GLYCOL, UNSPECIFIED",
             "role": "inactive",
             "unii": "3WJQ0SDW1A",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2303,6 +2530,7 @@
             "name": "TALC",
             "role": "inactive",
             "unii": "7SEV7J4R1U",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2310,6 +2538,7 @@
             "name": "DIBASIC CALCIUM PHOSPHATE DIHYDRATE",
             "role": "inactive",
             "unii": "O7TSZ97GEP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2317,6 +2546,7 @@
             "name": "TITANIUM DIOXIDE",
             "role": "inactive",
             "unii": "15FIX9V2JP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2324,6 +2554,7 @@
             "name": "DIPHENHYDRAMINE HYDROCHLORIDE",
             "role": "active",
             "unii": "TC2D6JAD40",
+            "cas_number": null,
             "strength": {
               "numerator_value": 25.0,
               "numerator_unit": "mg",
@@ -2336,6 +2567,7 @@
             "name": "SILICON DIOXIDE",
             "role": "inactive",
             "unii": "ETJ7Z6XBU4",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -2368,7 +2600,8 @@
           "size": "11 mm",
           "imprint": "13",
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -2581,8 +2814,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_43f770ab-1ea6-c06a-e063-6294a90aebd2.xml",
-      "parsed_at": "2025-12-23T20:01:11.593181+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.154563+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -2596,8 +2829,23 @@
       "version_number": 5,
       "effective_time": "20251119",
       "title": "geri-mox chry",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Geri-Care Pharmaceuticals, Corp",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "611196254",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Geri-Care Pharmaceuticals, Corp",
       "org_ids": [
@@ -2621,8 +2869,10 @@
           "extension": "965480861",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       },
       {
         "name": "GCP LABORATORIES",
@@ -2631,8 +2881,10 @@
           "extension": "965480861",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -2657,13 +2909,18 @@
           "application_number": "M001",
           "otc_monograph_id": "M001",
           "marketing_category": "OTC Monograph Drug",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "BENZYL ALCOHOL",
             "role": "inactive",
             "unii": "LKG8494WBH",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2671,6 +2928,7 @@
             "name": "BUTYLPARABEN",
             "role": "inactive",
             "unii": "3QPI1U3FV8",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2678,6 +2936,7 @@
             "name": "CARBOXYMETHYLCELLULOSE SODIUM",
             "role": "inactive",
             "unii": "K679OBS311",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2685,6 +2944,7 @@
             "name": "HYPROMELLOSES",
             "role": "inactive",
             "unii": "3NXW29V3WO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2692,6 +2952,7 @@
             "name": "CELLULOSE, MICROCRYSTALLINE",
             "role": "inactive",
             "unii": "OP1R32D61U",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2699,6 +2960,7 @@
             "name": "PROPYLPARABEN",
             "role": "inactive",
             "unii": "Z8IX2SC1OH",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2706,6 +2968,7 @@
             "name": "WATER",
             "role": "inactive",
             "unii": "059QF0KO0R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2713,6 +2976,7 @@
             "name": "SACCHARIN SODIUM",
             "role": "inactive",
             "unii": "SB8ZUX40TY",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2720,6 +2984,7 @@
             "name": "SORBITOL",
             "role": "inactive",
             "unii": "506T60A25R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -2727,6 +2992,7 @@
             "name": "ALUMINUM HYDROXIDE",
             "role": "active",
             "unii": "5QB0T2IUN0",
+            "cas_number": null,
             "strength": {
               "numerator_value": 400.0,
               "numerator_unit": "mg",
@@ -2739,6 +3005,7 @@
             "name": "MAGNESIUM HYDROXIDE",
             "role": "active",
             "unii": "NBZ3QY004S",
+            "cas_number": null,
             "strength": {
               "numerator_value": 400.0,
               "numerator_unit": "mg",
@@ -2751,6 +3018,7 @@
             "name": "DIMETHICONE",
             "role": "active",
             "unii": "92RU3N3Y1O",
+            "cas_number": null,
             "strength": {
               "numerator_value": 40.0,
               "numerator_unit": "mg",
@@ -2798,7 +3066,8 @@
           "size": null,
           "imprint": null,
           "flavor": "CHERRY"
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -2941,8 +3210,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_ba65223d-080f-40e2-807a-eaf4d3611cd4.xml",
-      "parsed_at": "2025-12-23T20:01:11.596812+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.157517+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -2956,8 +3225,23 @@
       "version_number": 12,
       "effective_time": "20241111",
       "title": "Marcs \u00ae Everyday Care Dandruff Shampoo Anti-Dandruff",
-      "document_type": "otc"
+      "document_type": "otc",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Mark Glassman, Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "094487477",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Mark Glassman, Inc.",
       "org_ids": [
@@ -2986,8 +3270,10 @@
           "extension": "036464697",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       },
       {
         "name": "SV Labs Toronto Corporation",
@@ -2996,8 +3282,10 @@
           "extension": "203917476",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -3021,13 +3309,18 @@
           "application_number": "M032",
           "otc_monograph_id": "M032",
           "marketing_category": "OTC Monograph Drug",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "Pyrithione Zinc",
             "role": "active",
             "unii": "R953O2RHZ5",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10.0,
               "numerator_unit": "mg",
@@ -3040,6 +3333,7 @@
             "name": "Water",
             "role": "inactive",
             "unii": "059QF0KO0R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3047,6 +3341,7 @@
             "name": "SODIUM LAURETH-3 SULFATE",
             "role": "inactive",
             "unii": "BPV390UAP0",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3054,6 +3349,7 @@
             "name": "Sodium Lauryl Sulfate",
             "role": "inactive",
             "unii": "368GB5141J",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3061,6 +3357,7 @@
             "name": "COCO MONOETHANOLAMIDE",
             "role": "inactive",
             "unii": "C80684146D",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3068,6 +3365,7 @@
             "name": "GLYCOL DISTEARATE",
             "role": "inactive",
             "unii": "13W7MDN21W",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3075,6 +3373,7 @@
             "name": "Dimethicone",
             "role": "inactive",
             "unii": "92RU3N3Y1O",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3082,6 +3381,7 @@
             "name": "Cetyl Alcohol",
             "role": "inactive",
             "unii": "936JST6JCN",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3089,6 +3389,7 @@
             "name": "GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE",
             "role": "inactive",
             "unii": "B16G315W7A",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3096,6 +3397,7 @@
             "name": "MAGNESIUM SULFATE, UNSPECIFIED FORM",
             "role": "inactive",
             "unii": "DE08037SAB",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3103,6 +3405,7 @@
             "name": "Sodium Benzoate",
             "role": "inactive",
             "unii": "OJ245FE5EU",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3110,6 +3413,7 @@
             "name": "Magnesium Carbonate Hydroxide",
             "role": "inactive",
             "unii": "YQO029V1L4",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3117,6 +3421,7 @@
             "name": "AMMONIUM LAURETH-5 SULFATE",
             "role": "inactive",
             "unii": "43ZIH89I48",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3124,6 +3429,7 @@
             "name": "Benzyl Alcohol",
             "role": "inactive",
             "unii": "LKG8494WBH",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3131,6 +3437,7 @@
             "name": "Sodium Chloride",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3138,6 +3445,7 @@
             "name": "Methylchloroisothiazolinone",
             "role": "inactive",
             "unii": "DEL7T5QRPN",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3145,6 +3453,7 @@
             "name": "Methylisothiazolinone",
             "role": "inactive",
             "unii": "229D0E1QFA",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3152,6 +3461,7 @@
             "name": "Sodium Xylenesulfonate",
             "role": "inactive",
             "unii": "G4LZF950UR",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3159,6 +3469,7 @@
             "name": "FD&C BLUE NO. 1",
             "role": "inactive",
             "unii": "H3R47K3TBD",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3166,6 +3477,7 @@
             "name": "FD&C RED NO. 4",
             "role": "inactive",
             "unii": "X3W0AM1JLX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -3188,7 +3500,8 @@
           "size": null,
           "imprint": null,
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -3363,8 +3676,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_14ed4ac8-b9ab-495c-9bef-bf3dd441ac78.xml",
-      "parsed_at": "2025-12-23T20:01:11.605454+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.165515+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -3378,8 +3691,23 @@
       "version_number": 11,
       "effective_time": "20251119",
       "title": "ALLERGENIC EXTRACTS STANDARDIZED GRASS POLLEN (glycerinated)",
-      "document_type": "other"
+      "document_type": "other",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Jubilant HollisterStier LLC",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "069263643",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Jubilant HollisterStier LLC",
       "org_ids": [
@@ -3423,13 +3751,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "LOLIUM PRATENSE POLLEN",
             "role": "active",
             "unii": "A0WFQ8P6N1",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10000.0,
               "numerator_unit": "[BAU]",
@@ -3442,6 +3775,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3449,6 +3783,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3456,6 +3791,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -3502,7 +3838,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Fescue, Meadow",
@@ -3530,13 +3867,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "LOLIUM PRATENSE POLLEN",
             "role": "active",
             "unii": "A0WFQ8P6N1",
+            "cas_number": null,
             "strength": {
               "numerator_value": 100000.0,
               "numerator_unit": "[BAU]",
@@ -3549,6 +3891,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3556,6 +3899,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3563,6 +3907,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -3609,7 +3954,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Redtop",
@@ -3637,13 +3983,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "AGROSTIS GIGANTEA POLLEN",
             "role": "active",
             "unii": "HU8V6E7HOA",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10000.0,
               "numerator_unit": "[BAU]",
@@ -3656,6 +4007,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3663,6 +4015,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3670,6 +4023,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -3716,7 +4070,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Redtop",
@@ -3744,13 +4099,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "AGROSTIS GIGANTEA POLLEN",
             "role": "active",
             "unii": "HU8V6E7HOA",
+            "cas_number": null,
             "strength": {
               "numerator_value": 100000.0,
               "numerator_unit": "[BAU]",
@@ -3763,6 +4123,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3770,6 +4131,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3777,6 +4139,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -3823,7 +4186,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Orchard Grass",
@@ -3851,13 +4215,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "DACTYLIS GLOMERATA POLLEN",
             "role": "active",
             "unii": "83N78IDA7P",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10000.0,
               "numerator_unit": "[BAU]",
@@ -3870,6 +4239,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3877,6 +4247,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3884,6 +4255,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -3930,7 +4302,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Orchard Grass",
@@ -3958,13 +4331,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "DACTYLIS GLOMERATA POLLEN",
             "role": "active",
             "unii": "83N78IDA7P",
+            "cas_number": null,
             "strength": {
               "numerator_value": 100000.0,
               "numerator_unit": "[BAU]",
@@ -3977,6 +4355,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3984,6 +4363,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -3991,6 +4371,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4037,7 +4418,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Bermuda Grass",
@@ -4065,13 +4447,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "CYNODON DACTYLON POLLEN",
             "role": "active",
             "unii": "175F461W10",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10000.0,
               "numerator_unit": "[BAU]",
@@ -4084,6 +4471,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4091,6 +4479,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4098,6 +4487,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4144,7 +4534,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Timothy",
@@ -4172,13 +4563,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "PHLEUM PRATENSE POLLEN",
             "role": "active",
             "unii": "65M88RW2EG",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10000.0,
               "numerator_unit": "[BAU]",
@@ -4191,6 +4587,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4198,6 +4595,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4205,6 +4603,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4251,7 +4650,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Timothy",
@@ -4279,13 +4679,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "PHLEUM PRATENSE POLLEN",
             "role": "active",
             "unii": "65M88RW2EG",
+            "cas_number": null,
             "strength": {
               "numerator_value": 100000.0,
               "numerator_unit": "[BAU]",
@@ -4298,6 +4703,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4305,6 +4711,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4312,6 +4719,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4358,7 +4766,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Sweet Vernal Grass",
@@ -4386,13 +4795,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "ANTHOXANTHUM ODORATUM POLLEN",
             "role": "active",
             "unii": "2KIK19R45Y",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10000.0,
               "numerator_unit": "[BAU]",
@@ -4405,6 +4819,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4412,6 +4827,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4419,6 +4835,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4465,7 +4882,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Sweet Vernal Grass",
@@ -4493,13 +4911,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "ANTHOXANTHUM ODORATUM POLLEN",
             "role": "active",
             "unii": "2KIK19R45Y",
+            "cas_number": null,
             "strength": {
               "numerator_value": 100000.0,
               "numerator_unit": "[BAU]",
@@ -4512,6 +4935,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4519,6 +4943,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4526,6 +4951,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4572,7 +4998,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Ryegrass",
@@ -4600,13 +5027,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "LOLIUM PERENNE POLLEN",
             "role": "active",
             "unii": "4T81LB52R0",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10000.0,
               "numerator_unit": "[BAU]",
@@ -4619,6 +5051,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4626,6 +5059,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4633,6 +5067,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4679,7 +5114,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Ryegrass",
@@ -4707,13 +5143,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "LOLIUM PERENNE POLLEN",
             "role": "active",
             "unii": "4T81LB52R0",
+            "cas_number": null,
             "strength": {
               "numerator_value": 100000.0,
               "numerator_unit": "[BAU]",
@@ -4726,6 +5167,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4733,6 +5175,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4740,6 +5183,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4786,7 +5230,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Bluegrass, Kentucky June",
@@ -4814,13 +5259,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "POA PRATENSIS POLLEN",
             "role": "active",
             "unii": "SCB8J7LS3T",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10000.0,
               "numerator_unit": "[BAU]",
@@ -4833,6 +5283,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4840,6 +5291,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4847,6 +5299,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -4893,7 +5346,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       },
       {
         "product_name": "Standardized Grass Pollen, Bluegrass, Kentucky June",
@@ -4921,13 +5375,18 @@
           "application_number": "BLA103874",
           "otc_monograph_id": null,
           "marketing_category": "BLA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "POA PRATENSIS POLLEN",
             "role": "active",
             "unii": "SCB8J7LS3T",
+            "cas_number": null,
             "strength": {
               "numerator_value": 100000.0,
               "numerator_unit": "[BAU]",
@@ -4940,6 +5399,7 @@
             "name": "GLYCERIN",
             "role": "inactive",
             "unii": "PDC6A3C0OX",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4947,6 +5407,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -4954,6 +5415,7 @@
             "name": "SODIUM BICARBONATE",
             "role": "inactive",
             "unii": "8MDF5V39QO",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -5000,7 +5462,8 @@
             "marketing_status": null
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       }
     ],
     "sections": [
@@ -5975,8 +6438,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_26395c33-a90d-483a-96e9-f9f446cf5b53.xml",
-      "parsed_at": "2025-12-23T20:01:11.632831+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.187591+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -5990,8 +6453,23 @@
       "version_number": 3,
       "effective_time": "20251117",
       "title": "Pimobendan",
-      "document_type": "other"
+      "document_type": "other",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Liaoning Pharmaceutical Innovation Co., Ltd.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "614439236",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Liaoning Pharmaceutical Innovation Co., Ltd.",
       "org_ids": [
@@ -6010,8 +6488,10 @@
           "extension": "614439236",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "api manufacture",
-        "role_code": "C82401"
+        "role_code": "C82401",
+        "address": null
       }
     ],
     "products": [
@@ -6044,13 +6524,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "bulk ingredient for animal drug compounding",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "PIMOBENDAN",
             "role": "active",
             "unii": "34AP3BBP9T",
+            "cas_number": null,
             "strength": {
               "numerator_value": 1.0,
               "numerator_unit": "kg",
@@ -6148,7 +6633,8 @@
           "size": null,
           "imprint": null,
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -6216,8 +6702,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_375fc53c-643d-4137-b034-ac11b783022c.xml",
-      "parsed_at": "2025-12-23T20:01:11.635026+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.189354+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -6231,8 +6717,23 @@
       "version_number": 2,
       "effective_time": "20251029",
       "title": "",
-      "document_type": "other"
+      "document_type": "other",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "LIVZON NEW NORTH RIVER PHARMACEUTICAL CO., LTD.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "420097636",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "LIVZON NEW NORTH RIVER PHARMACEUTICAL CO., LTD.",
       "org_ids": [
@@ -6256,8 +6757,10 @@
           "extension": "543265333",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "api manufacture",
-        "role_code": "C82401"
+        "role_code": "C82401",
+        "address": null
       },
       {
         "name": "Livzon Group (Ningxia) Pharmaceutical Co., Ltd.",
@@ -6266,8 +6769,10 @@
           "extension": "543265333",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "analysis",
-        "role_code": "C25391"
+        "role_code": "C25391",
+        "address": null
       }
     ],
     "products": [
@@ -6293,13 +6798,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "bulk ingredient",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "DORAMECTIN",
             "role": "active",
             "unii": "KGD7A54H5P",
+            "cas_number": null,
             "strength": {
               "numerator_value": 1.0,
               "numerator_unit": "kg",
@@ -6347,7 +6857,8 @@
           "size": null,
           "imprint": null,
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -6415,8 +6926,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_8b6fce68-cae9-4b85-8e14-6944f403c0c1.xml",
-      "parsed_at": "2025-12-23T20:01:11.636860+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.190997+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -6430,8 +6941,23 @@
       "version_number": 1,
       "effective_time": "20251014",
       "title": "Gutstor",
-      "document_type": "other"
+      "document_type": "other",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Blue Heron Pharmaceuticals, LLC",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "137019051",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Blue Heron Pharmaceuticals, LLC",
       "org_ids": [
@@ -6466,13 +6992,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "dietary supplement",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "LACTOBACILLUS ACIDOPHILUS",
             "role": "active",
             "unii": "1PRR1V42V5",
+            "cas_number": null,
             "strength": {
               "numerator_value": 20000000000.0,
               "numerator_unit": "[CFU]",
@@ -6485,6 +7016,7 @@
             "name": "MALTODEXTRIN",
             "role": "inactive",
             "unii": "7CVR7L4A2D",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -6507,7 +7039,8 @@
           "size": "25 mm",
           "imprint": null,
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -6631,8 +7164,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_cfe5fb33-3f93-4fb1-a754-bf65bf291c1a.xml",
-      "parsed_at": "2025-12-23T20:01:11.639519+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.193174+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -6646,8 +7179,23 @@
       "version_number": 2,
       "effective_time": "20251030",
       "title": "Probistor Capsules",
-      "document_type": "other"
+      "document_type": "other",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Trivia Pharmaceuticals, LLC",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "119353862",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Trivia Pharmaceuticals, LLC",
       "org_ids": [
@@ -6682,13 +7230,18 @@
           "application_number": null,
           "otc_monograph_id": null,
           "marketing_category": "DIETARY SUPPLEMENT",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "LACTOBACILLUS ACIDOPHILUS",
             "role": "active",
             "unii": "1PRR1V42V5",
+            "cas_number": null,
             "strength": {
               "numerator_value": 200000000.0,
               "numerator_unit": "[CFU]",
@@ -6701,6 +7254,7 @@
             "name": "DICALCIUM PHOSPHATE",
             "role": "active",
             "unii": "L11K75P92J",
+            "cas_number": null,
             "strength": {
               "numerator_value": 304.0,
               "numerator_unit": "mg",
@@ -6713,6 +7267,7 @@
             "name": "PECTIN, CITRUS",
             "role": "active",
             "unii": "47EQO8LE7H",
+            "cas_number": null,
             "strength": {
               "numerator_value": 20.0,
               "numerator_unit": "mg",
@@ -6740,7 +7295,8 @@
           "size": "25 mm",
           "imprint": null,
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -6865,8 +7421,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_1a0301ba-9f66-ac39-e063-6394a90a34bb.xml",
-      "parsed_at": "2025-12-23T20:01:11.643819+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.197196+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -6880,8 +7436,23 @@
       "version_number": 1,
       "effective_time": "20240603",
       "title": "Ibuprofen 400 mg Tablets",
-      "document_type": "prescription"
+      "document_type": "prescription",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Boswell Pharmacy Services LLC d/b/a BPS Wholesale",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "129218355",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Boswell Pharmacy Services LLC d/b/a BPS Wholesale",
       "org_ids": [
@@ -6900,8 +7471,10 @@
           "extension": "129218355",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "relabel",
-        "role_code": "C73607"
+        "role_code": "C73607",
+        "address": null
       },
       {
         "name": "Boswell Pharmacy Services LLC d/b/a BPS Wholesale",
@@ -6910,8 +7483,10 @@
           "extension": "129218355",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "repack",
-        "role_code": "C73606"
+        "role_code": "C73606",
+        "address": null
       }
     ],
     "products": [
@@ -6947,13 +7522,18 @@
           "application_number": "ANDA078558",
           "otc_monograph_id": null,
           "marketing_category": "ANDA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "IBUPROFEN",
             "role": "active",
             "unii": "WK2XYI10QM",
+            "cas_number": null,
             "strength": {
               "numerator_value": 400.0,
               "numerator_unit": "mg",
@@ -7101,7 +7681,8 @@
           "size": "13 mm",
           "imprint": "IP;464",
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -7404,8 +7985,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_41375a05-871b-6afb-e063-6294a90a48f9.xml",
-      "parsed_at": "2025-12-23T20:01:11.658402+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.211986+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -7419,8 +8000,23 @@
       "version_number": 34,
       "effective_time": "20251015",
       "title": "These highlights do not include all the information needed to use CARVEDILOL TABLETS safely and effectively. See full prescribing information for CARVEDILOL TABLETS. CARVEDILOL tablets, for oral use Initial U.S. Approval: 1995",
-      "document_type": "prescription"
+      "document_type": "prescription",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "PD-Rx Pharmaceuticals, Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "156893695",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "PD-Rx Pharmaceuticals, Inc.",
       "org_ids": [
@@ -7439,8 +8035,10 @@
           "extension": "156893695",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "repack",
-        "role_code": "C73606"
+        "role_code": "C73606",
+        "address": null
       }
     ],
     "products": [
@@ -7465,13 +8063,18 @@
           "application_number": "ANDA078332",
           "otc_monograph_id": null,
           "marketing_category": "ANDA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "LACTOSE MONOHYDRATE",
             "role": "inactive",
             "unii": "EWQ57Q8I5X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7479,6 +8082,7 @@
             "name": "SILICON DIOXIDE",
             "role": "inactive",
             "unii": "ETJ7Z6XBU4",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7486,6 +8090,7 @@
             "name": "CROSPOVIDONE",
             "role": "inactive",
             "unii": "68401960MK",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7493,6 +8098,7 @@
             "name": "POVIDONE K30",
             "role": "inactive",
             "unii": "U725QWY32X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7500,6 +8106,7 @@
             "name": "SUCROSE",
             "role": "inactive",
             "unii": "C151H8M554",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7507,6 +8114,7 @@
             "name": "MAGNESIUM STEARATE",
             "role": "inactive",
             "unii": "70097M6I30",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7514,6 +8122,7 @@
             "name": "POLYETHYLENE GLYCOL 400",
             "role": "inactive",
             "unii": "B697894SGQ",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7521,6 +8130,7 @@
             "name": "POLYSORBATE 80",
             "role": "inactive",
             "unii": "6OZP39ZG8H",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7528,6 +8138,7 @@
             "name": "TITANIUM DIOXIDE",
             "role": "inactive",
             "unii": "15FIX9V2JP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7535,6 +8146,7 @@
             "name": "HYPROMELLOSE 2910 (5 MPA.S)",
             "role": "inactive",
             "unii": "R75537T0T4",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -7542,6 +8154,7 @@
             "name": "CARVEDILOL",
             "role": "active",
             "unii": "0K47UL67F2",
+            "cas_number": null,
             "strength": {
               "numerator_value": 12.5,
               "numerator_unit": "mg",
@@ -7579,7 +8192,8 @@
           "size": "11 mm",
           "imprint": "E;03",
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -8188,8 +8802,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_4221a53d-0185-7219-e063-6394a90a7ff7.xml",
-      "parsed_at": "2025-12-23T20:01:11.680103+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.234584+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -8203,8 +8817,23 @@
       "version_number": 18,
       "effective_time": "20251028",
       "title": "Oxycodone and Acetaminophen Tablets USP CII Rx Only",
-      "document_type": "prescription"
+      "document_type": "prescription",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Granules Pharmaceuticals Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "079825711",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Granules Pharmaceuticals Inc.",
       "org_ids": [
@@ -8223,8 +8852,10 @@
           "extension": "079825711",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       },
       {
         "name": "Granules Pharmaceuticals Inc.",
@@ -8233,8 +8864,10 @@
           "extension": "079825711",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "analysis",
-        "role_code": "C25391"
+        "role_code": "C25391",
+        "address": null
       },
       {
         "name": "Granules Pharmaceuticals Inc.",
@@ -8243,8 +8876,10 @@
           "extension": "079825711",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "label",
-        "role_code": "C84732"
+        "role_code": "C84732",
+        "address": null
       }
     ],
     "products": [
@@ -8269,13 +8904,18 @@
           "application_number": "ANDA211708",
           "otc_monograph_id": null,
           "marketing_category": "ANDA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "SODIUM STARCH GLYCOLATE TYPE A POTATO",
             "role": "inactive",
             "unii": "5856J3G2A2",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8283,6 +8923,7 @@
             "name": "POVIDONE K30",
             "role": "inactive",
             "unii": "U725QWY32X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8290,6 +8931,7 @@
             "name": "STARCH, CORN",
             "role": "inactive",
             "unii": "O8232NY3SJ",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8297,6 +8939,7 @@
             "name": "ACETAMINOPHEN",
             "role": "active",
             "unii": "362O9ITL9D",
+            "cas_number": null,
             "strength": {
               "numerator_value": 325.0,
               "numerator_unit": "mg",
@@ -8309,6 +8952,7 @@
             "name": "STEARIC ACID",
             "role": "inactive",
             "unii": "4ELV7Z65AP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8316,6 +8960,7 @@
             "name": "SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M, HIGH-DENSITY)",
             "role": "inactive",
             "unii": "GRV5BG8C5N",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8323,6 +8968,7 @@
             "name": "CROSPOVIDONE",
             "role": "inactive",
             "unii": "2S7830E561",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8330,6 +8976,7 @@
             "name": "OXYCODONE HYDROCHLORIDE",
             "role": "active",
             "unii": "C1ENJ2TE6C",
+            "cas_number": null,
             "strength": {
               "numerator_value": 2.5,
               "numerator_unit": "mg",
@@ -8367,7 +9014,8 @@
           "size": "11 mm",
           "imprint": "10;670",
           "flavor": null
-        }
+        },
+        "equivalence": null
       },
       {
         "product_name": "Oxycodone and Acetaminophen",
@@ -8390,13 +9038,18 @@
           "application_number": "ANDA211708",
           "otc_monograph_id": null,
           "marketing_category": "ANDA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "SODIUM STARCH GLYCOLATE TYPE A POTATO",
             "role": "inactive",
             "unii": "5856J3G2A2",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8404,6 +9057,7 @@
             "name": "POVIDONE K30",
             "role": "inactive",
             "unii": "U725QWY32X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8411,6 +9065,7 @@
             "name": "STARCH, CORN",
             "role": "inactive",
             "unii": "O8232NY3SJ",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8418,6 +9073,7 @@
             "name": "STEARIC ACID",
             "role": "inactive",
             "unii": "4ELV7Z65AP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8425,6 +9081,7 @@
             "name": "SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M)",
             "role": "inactive",
             "unii": "88X4A2YW6T",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8432,6 +9089,7 @@
             "name": "CROSPOVIDONE",
             "role": "inactive",
             "unii": "2S7830E561",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8439,6 +9097,7 @@
             "name": "OXYCODONE HYDROCHLORIDE",
             "role": "active",
             "unii": "C1ENJ2TE6C",
+            "cas_number": null,
             "strength": {
               "numerator_value": 5.0,
               "numerator_unit": "mg",
@@ -8451,6 +9110,7 @@
             "name": "ACETAMINOPHEN",
             "role": "active",
             "unii": "362O9ITL9D",
+            "cas_number": null,
             "strength": {
               "numerator_value": 325.0,
               "numerator_unit": "mg",
@@ -8488,7 +9148,8 @@
           "size": "11 mm",
           "imprint": "10;670",
           "flavor": null
-        }
+        },
+        "equivalence": null
       },
       {
         "product_name": "Oxycodone and Acetaminophen",
@@ -8511,13 +9172,18 @@
           "application_number": "ANDA211708",
           "otc_monograph_id": null,
           "marketing_category": "ANDA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "OXYCODONE HYDROCHLORIDE",
             "role": "active",
             "unii": "C1ENJ2TE6C",
+            "cas_number": null,
             "strength": {
               "numerator_value": 7.5,
               "numerator_unit": "mg",
@@ -8530,6 +9196,7 @@
             "name": "ACETAMINOPHEN",
             "role": "active",
             "unii": "362O9ITL9D",
+            "cas_number": null,
             "strength": {
               "numerator_value": 325.0,
               "numerator_unit": "mg",
@@ -8542,6 +9209,7 @@
             "name": "SODIUM STARCH GLYCOLATE TYPE A CORN",
             "role": "inactive",
             "unii": "AG9B65PV6B",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8549,6 +9217,7 @@
             "name": "POVIDONE K30",
             "role": "inactive",
             "unii": "U725QWY32X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8556,6 +9225,7 @@
             "name": "STARCH, CORN",
             "role": "inactive",
             "unii": "O8232NY3SJ",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8563,6 +9233,7 @@
             "name": "STEARIC ACID",
             "role": "inactive",
             "unii": "4ELV7Z65AP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8570,6 +9241,7 @@
             "name": "SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M)",
             "role": "inactive",
             "unii": "88X4A2YW6T",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8577,6 +9249,7 @@
             "name": "CROSPOVIDONE",
             "role": "inactive",
             "unii": "2S7830E561",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -8609,7 +9282,8 @@
           "size": "11 mm",
           "imprint": "10;670",
           "flavor": null
-        }
+        },
+        "equivalence": null
       },
       {
         "product_name": "Oxycodone and Acetaminophen",
@@ -8632,13 +9306,18 @@
           "application_number": "ANDA211708",
           "otc_monograph_id": null,
           "marketing_category": "ANDA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "SODIUM STARCH GLYCOLATE TYPE A POTATO",
             "role": "inactive",
             "unii": "5856J3G2A2",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8646,6 +9325,7 @@
             "name": "POVIDONE K30",
             "role": "inactive",
             "unii": "U725QWY32X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8653,6 +9333,7 @@
             "name": "STARCH, CORN",
             "role": "inactive",
             "unii": "O8232NY3SJ",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8660,6 +9341,7 @@
             "name": "STEARIC ACID",
             "role": "inactive",
             "unii": "4ELV7Z65AP",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8667,6 +9349,7 @@
             "name": "SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M)",
             "role": "inactive",
             "unii": "88X4A2YW6T",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8674,6 +9357,7 @@
             "name": "CROSPOVIDONE",
             "role": "inactive",
             "unii": "2S7830E561",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -8681,6 +9365,7 @@
             "name": "OXYCODONE HYDROCHLORIDE",
             "role": "active",
             "unii": "C1ENJ2TE6C",
+            "cas_number": null,
             "strength": {
               "numerator_value": 10.0,
               "numerator_unit": "mg",
@@ -8693,6 +9378,7 @@
             "name": "ACETAMINOPHEN",
             "role": "active",
             "unii": "362O9ITL9D",
+            "cas_number": null,
             "strength": {
               "numerator_value": 325.0,
               "numerator_unit": "mg",
@@ -8730,7 +9416,8 @@
           "size": "11 mm",
           "imprint": "10;670",
           "flavor": null
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -9261,8 +9948,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_570974d4-0d5b-4df2-b307-37380511835d.xml",
-      "parsed_at": "2025-12-23T20:01:11.705733+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.260415+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -9276,8 +9963,23 @@
       "version_number": 1,
       "effective_time": "20251007",
       "title": "These highlights do not include all the information needed to use NAPROXEN ORAL SUSPENSION safely and effectively. See full prescribing information for NAPROXEN ORAL SUSPENSION. NAPROXEN oral suspension Initial U.S. Approval: 1976",
-      "document_type": "prescription"
+      "document_type": "prescription",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Aurobindo Pharma Limited",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "650082092",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Aurobindo Pharma Limited",
       "org_ids": [
@@ -9301,8 +10003,10 @@
           "extension": "650918514",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "analysis",
-        "role_code": "C25391"
+        "role_code": "C25391",
+        "address": null
       },
       {
         "name": "APL HEALTHCARE LIMITED",
@@ -9311,8 +10015,10 @@
           "extension": "650918514",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -9336,13 +10042,18 @@
           "application_number": "ANDA216504",
           "otc_monograph_id": null,
           "marketing_category": "ANDA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "NAPROXEN",
             "role": "active",
             "unii": "57Y76R9ATQ",
+            "cas_number": null,
             "strength": {
               "numerator_value": 125.0,
               "numerator_unit": "mg",
@@ -9355,6 +10066,7 @@
             "name": "BENZYL ALCOHOL",
             "role": "inactive",
             "unii": "LKG8494WBH",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9362,6 +10074,7 @@
             "name": "FD&C YELLOW NO. 6",
             "role": "inactive",
             "unii": "H77VEI93A8",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9369,6 +10082,7 @@
             "name": "FUMARIC ACID",
             "role": "inactive",
             "unii": "88XHZ13131",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9376,6 +10090,7 @@
             "name": "MAGNESIUM ALUMINUM SILICATE TYPE IC",
             "role": "inactive",
             "unii": "XLI9KNX1FT",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9383,6 +10098,7 @@
             "name": "METHYLPARABEN",
             "role": "inactive",
             "unii": "A2I8C7HI9T",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9390,6 +10106,7 @@
             "name": "MODIFIED CORN STARCH (1-OCTENYL SUCCINIC ANHYDRIDE)",
             "role": "inactive",
             "unii": "461P5CJN6T",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9397,6 +10114,7 @@
             "name": "NONCRYSTALLIZING SORBITOL SOLUTION",
             "role": "inactive",
             "unii": "9E0S3UM200",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9404,6 +10122,7 @@
             "name": "PROPYLENE GLYCOL",
             "role": "inactive",
             "unii": "6DC9Q167V3",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9411,6 +10130,7 @@
             "name": "WATER",
             "role": "inactive",
             "unii": "059QF0KO0R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9418,6 +10138,7 @@
             "name": "SODIUM CHLORIDE",
             "role": "inactive",
             "unii": "451W47IQ8X",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9425,6 +10146,7 @@
             "name": "SUCROSE",
             "role": "inactive",
             "unii": "C151H8M554",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -9432,6 +10154,7 @@
             "name": "XANTHAN GUM",
             "role": "inactive",
             "unii": "TTV12P4NEE",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -9464,7 +10187,8 @@
           "size": null,
           "imprint": null,
           "flavor": "PINEAPPLE"
-        }
+        },
+        "equivalence": null
       }
     ],
     "sections": [
@@ -9974,8 +10698,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_da424329-9a63-4df3-bced-4157d2086e20.xml",
-      "parsed_at": "2025-12-23T20:01:11.726153+00:00",
-      "parser_version": "2.0.0"
+      "parsed_at": "2025-12-23T20:16:05.280458+00:00",
+      "parser_version": "2.1.0"
     },
     "spl": {
       "document_id": {
@@ -9989,8 +10713,23 @@
       "version_number": 5,
       "effective_time": "20250825",
       "title": "These highlights do not include all the information needed to use KLOXXADO safely and effectively. See full prescribing information for KLOXXADO. KLOXXADO \u00ae (naloxone hydrochloride) nasal spray Initial U.S. Approval: 1971",
-      "document_type": "prescription"
+      "document_type": "prescription",
+      "language_code": null,
+      "realm_code": null,
+      "confidentiality_code": null
     },
+    "author": {
+      "name": "Hikma Specialty USA Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "078883518",
+        "type_hint": "DUNS"
+      },
+      "time": null,
+      "contact": null
+    },
+    "custodian": null,
+    "related_documents": [],
     "labeler": {
       "name": "Hikma Specialty USA Inc.",
       "org_ids": [
@@ -10019,8 +10758,10 @@
           "extension": "080189610",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       },
       {
         "name": "West-Ward Columbus Inc.",
@@ -10029,8 +10770,10 @@
           "extension": "058839929",
           "type_hint": "DUNS"
         },
+        "fei": null,
         "role": "manufacture",
-        "role_code": "C43360"
+        "role_code": "C43360",
+        "address": null
       }
     ],
     "products": [
@@ -10054,13 +10797,18 @@
           "application_number": "NDA212045",
           "otc_monograph_id": null,
           "marketing_category": "NDA",
-          "dea_schedule": null
+          "dea_schedule": null,
+          "marketing_start_date": null,
+          "marketing_end_date": null,
+          "approval_date": null,
+          "supplement_number": null
         },
         "ingredients": [
           {
             "name": "NALOXONE HYDROCHLORIDE",
             "role": "active",
             "unii": "F850569PQR",
+            "cas_number": null,
             "strength": {
               "numerator_value": 8.0,
               "numerator_unit": "mg",
@@ -10073,6 +10821,7 @@
             "name": "EDETATE DISODIUM",
             "role": "inactive",
             "unii": "7FLD91C86K",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -10080,6 +10829,7 @@
             "name": "PROPYLENE GLYCOL",
             "role": "inactive",
             "unii": "6DC9Q167V3",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -10087,6 +10837,7 @@
             "name": "WATER",
             "role": "inactive",
             "unii": "059QF0KO0R",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -10094,6 +10845,7 @@
             "name": "SODIUM HYDROXIDE",
             "role": "inactive",
             "unii": "55X04QC32I",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -10101,6 +10853,7 @@
             "name": "HYDROCHLORIC ACID",
             "role": "inactive",
             "unii": "QTT17582CB",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           },
@@ -10108,6 +10861,7 @@
             "name": "ALCOHOL",
             "role": "inactive",
             "unii": "3K9958V90M",
+            "cas_number": null,
             "strength": null,
             "homeopathic": null
           }
@@ -10124,7 +10878,8 @@
             "marketing_status": "active"
           }
         ],
-        "physical_characteristics": null
+        "physical_characteristics": null,
+        "equivalence": null
       }
     ],
     "sections": [

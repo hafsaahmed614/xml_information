@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "prescription_da424329-9a63-4df3-bced-4157d2086e20.xml",
-    "parsed_at": "2025-12-23T20:01:11.726153+00:00",
-    "parser_version": "2.0.0"
+    "parsed_at": "2025-12-23T20:16:05.280458+00:00",
+    "parser_version": "2.1.0"
   },
   "spl": {
     "document_id": {
@@ -18,8 +18,23 @@
     "version_number": 5,
     "effective_time": "20250825",
     "title": "These highlights do not include all the information needed to use KLOXXADO safely and effectively. See full prescribing information for KLOXXADO. KLOXXADO \u00ae (naloxone hydrochloride) nasal spray Initial U.S. Approval: 1971",
-    "document_type": "prescription"
+    "document_type": "prescription",
+    "language_code": null,
+    "realm_code": null,
+    "confidentiality_code": null
   },
+  "author": {
+    "name": "Hikma Specialty USA Inc.",
+    "org_id": {
+      "root": "1.3.6.1.4.1.519.1",
+      "extension": "078883518",
+      "type_hint": "DUNS"
+    },
+    "time": null,
+    "contact": null
+  },
+  "custodian": null,
+  "related_documents": [],
   "labeler": {
     "name": "Hikma Specialty USA Inc.",
     "org_ids": [
@@ -48,8 +63,10 @@
         "extension": "080189610",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     },
     {
       "name": "West-Ward Columbus Inc.",
@@ -58,8 +75,10 @@
         "extension": "058839929",
         "type_hint": "DUNS"
       },
+      "fei": null,
       "role": "manufacture",
-      "role_code": "C43360"
+      "role_code": "C43360",
+      "address": null
     }
   ],
   "products": [
@@ -83,13 +102,18 @@
         "application_number": "NDA212045",
         "otc_monograph_id": null,
         "marketing_category": "NDA",
-        "dea_schedule": null
+        "dea_schedule": null,
+        "marketing_start_date": null,
+        "marketing_end_date": null,
+        "approval_date": null,
+        "supplement_number": null
       },
       "ingredients": [
         {
           "name": "NALOXONE HYDROCHLORIDE",
           "role": "active",
           "unii": "F850569PQR",
+          "cas_number": null,
           "strength": {
             "numerator_value": 8.0,
             "numerator_unit": "mg",
@@ -102,6 +126,7 @@
           "name": "EDETATE DISODIUM",
           "role": "inactive",
           "unii": "7FLD91C86K",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -109,6 +134,7 @@
           "name": "PROPYLENE GLYCOL",
           "role": "inactive",
           "unii": "6DC9Q167V3",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -116,6 +142,7 @@
           "name": "WATER",
           "role": "inactive",
           "unii": "059QF0KO0R",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -123,6 +150,7 @@
           "name": "SODIUM HYDROXIDE",
           "role": "inactive",
           "unii": "55X04QC32I",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -130,6 +158,7 @@
           "name": "HYDROCHLORIC ACID",
           "role": "inactive",
           "unii": "QTT17582CB",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         },
@@ -137,6 +166,7 @@
           "name": "ALCOHOL",
           "role": "inactive",
           "unii": "3K9958V90M",
+          "cas_number": null,
           "strength": null,
           "homeopathic": null
         }
@@ -153,7 +183,8 @@
           "marketing_status": "active"
         }
       ],
-      "physical_characteristics": null
+      "physical_characteristics": null,
+      "equivalence": null
     }
   ],
   "sections": [
