@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "homeopathic_1e5c425c-1387-49c4-8200-b36cb8925f9c.xml",
-    "parsed_at": "2025-12-23T17:33:56.041106+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.559536+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,7 @@
       }
     ]
   },
+  "manufacturers": [],
   "products": [
     {
       "product_name": "REBALANCER",
@@ -213,6 +214,15 @@
       "text_plain": "Supports the body in coming back to balance after inoculation without removing any benefits."
     }
   ],
+  "images": [
+    {
+      "id": "L500b6cd5-fb2c-4a72-a935-c8afeab8cc7e",
+      "reference": "rebalancer - 1 fl. oz bottle label.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "1 oz bottle label",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -236,7 +246,17 @@
       "storage_and_handling": false,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": false,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "other_26395c33-a90d-483a-96e9-f9f446cf5b53.xml",
-    "parsed_at": "2025-12-23T17:33:56.112293+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.632831+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,18 @@
       }
     ]
   },
+  "manufacturers": [
+    {
+      "name": "Liaoning Pharmaceutical Innovation Co., Ltd.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "614439236",
+        "type_hint": "DUNS"
+      },
+      "role": "api manufacture",
+      "role_code": "C82401"
+    }
+  ],
   "products": [
     {
       "product_name": "pimobendan",
@@ -185,6 +197,15 @@
       "text_plain": "Pimobendan_label_20241115.jpg"
     }
   ],
+  "images": [
+    {
+      "id": "Laf0143c9-bff1-428a-b713-80e88311d1e2",
+      "reference": "Pimobendan_label_20241115.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "image description",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -204,7 +225,17 @@
       "storage_and_handling": false,
       "dosage_and_administration": false,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": false,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

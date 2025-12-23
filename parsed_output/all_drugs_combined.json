@@ -4,8 +4,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_1e5c425c-1387-49c4-8200-b36cb8925f9c.xml",
-      "parsed_at": "2025-12-23T17:33:56.041106+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.559536+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -31,6 +31,7 @@
         }
       ]
     },
+    "manufacturers": [],
     "products": [
       {
         "product_name": "REBALANCER",
@@ -214,6 +215,15 @@
         "text_plain": "Supports the body in coming back to balance after inoculation without removing any benefits."
       }
     ],
+    "images": [
+      {
+        "id": "L500b6cd5-fb2c-4a72-a935-c8afeab8cc7e",
+        "reference": "rebalancer - 1 fl. oz bottle label.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "1 oz bottle label",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -237,7 +247,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": false,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -246,8 +266,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_40e5e7b1-80c7-b406-e063-6394a90ac7e2.xml",
-      "parsed_at": "2025-12-23T17:33:56.045073+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.567141+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -278,6 +298,18 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Deserving Health International Corp",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "202617023",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "SYMBIO QUENT DROPS",
@@ -463,6 +495,15 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "img_a1c819e8-02b0-6ee3-e053-2a95a90acbcf",
+        "reference": "Quent 4X.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Quent 4X",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -484,7 +525,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -493,8 +544,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_4278ca93-86f2-71de-e063-6394a90a137b.xml",
-      "parsed_at": "2025-12-23T17:33:56.047991+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.570181+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -520,6 +571,18 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "True Botanica, LLC",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "182071519",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "Hepar (Liver) 30X",
@@ -694,6 +757,15 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "img_4278e1db-8ea1-7948-e063-6294a90a252c",
+        "reference": "Hepar (Liver) 30X_30ml_V1.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Hepar (Liver) 30X_30ml_V1",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -716,7 +788,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -725,8 +807,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_42e02de9-d1e2-0388-e063-6394a90aa127.xml",
-      "parsed_at": "2025-12-23T17:33:56.051041+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.573281+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -757,6 +839,28 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Boiron, Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "014892269",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      },
+      {
+        "name": "Boiron",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "282560473",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "Coffea cruda",
@@ -938,6 +1042,22 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "img_42e05369-f4a7-348f-e063-6294a90a3ed8",
+        "reference": "COFCRU6C.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "6C",
+        "caption": null
+      },
+      {
+        "id": "img_42e0480d-00c3-3047-e063-6294a90a52ad",
+        "reference": "Coffea_cruda6c-label.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "6CG",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -959,7 +1079,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -968,8 +1098,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_43e18608-e21a-0110-e063-6394a90a287d.xml",
-      "parsed_at": "2025-12-23T17:33:56.053840+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.576305+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -995,6 +1125,18 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Uriel Pharmacy Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "043471163",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "Astragalus Formica",
@@ -1190,6 +1332,15 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "img_43e1aa59-4589-c91c-e063-6294a90a14ac",
+        "reference": "Astragalus Formica Pellets.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Astraglaus Formica Pellets",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -1213,7 +1364,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": false,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -1222,8 +1383,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_2f8bbda5-0100-4d14-84b7-e5712f6dad6f.xml",
-      "parsed_at": "2025-12-23T17:33:56.057866+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.580335+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -1249,6 +1410,7 @@
         }
       ]
     },
+    "manufacturers": [],
     "products": [
       {
         "product_name": "DG Health Pain Relief",
@@ -1587,6 +1749,15 @@
         "text_plain": "DG \u00ae | health Compare to the active ingredient of Tylenol \u00ae Extra Strength Rapid Release Gels Rapid Release Pain Relief Acetaminophen 500 mg Fast Relief Pain Reliever/Fever Reducer 100 Caplets 500 mg \u2022 Extra strength \u2022 For adults Actual Caplet Size"
       }
     ],
+    "images": [
+      {
+        "id": "EAB5B661-7790-402B-8246-D9A482C3D0D5",
+        "reference": "dghealth-pain-relief-carton-image.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "dghealth-pain-relief-carton-image.jpg",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -1615,7 +1786,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -1624,8 +1805,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_409989d2-3458-6fab-e063-6294a90a57ab.xml",
-      "parsed_at": "2025-12-23T17:33:56.062592+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.585011+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -1656,6 +1837,18 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Sinsin Pharmaceutical Co., Ltd.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "687867143",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "Sinsinpas Arex Flex Gel Pain Relieving Patch",
@@ -1944,6 +2137,15 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "img_176f0b8c-3740-8f38-e063-6294a90a2782",
+        "reference": "Sinsinpas Arex Flex Gel Pain Relieving Patch_6p.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Sinsinpas Arex Flex Gel Patch",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -1982,7 +2184,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": false,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -1991,8 +2203,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_4276a9af-4bc4-0e6b-e063-6294a90a774f.xml",
-      "parsed_at": "2025-12-23T17:33:56.066519+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.589119+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -2018,6 +2230,7 @@
         }
       ]
     },
+    "manufacturers": [],
     "products": [
       {
         "product_name": "Allergy Relief",
@@ -2304,6 +2517,22 @@
         "text_plain": "Allergy Relief Diphenhydramine HCl 25 mg Carton Label"
       }
     ],
+    "images": [
+      {
+        "id": "img_c184e679-c474-0ee3-e053-2a95a90a0e7d",
+        "reference": "Allergy Relief Carton.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Allergy Relief Carton",
+        "caption": null
+      },
+      {
+        "id": "L2b4bac2d-9622-4712-aabd-409c7878e203",
+        "reference": "Allergy Relief Label.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Allergy Relief Label",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -2333,7 +2562,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -2342,8 +2581,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_43f770ab-1ea6-c06a-e063-6294a90aebd2.xml",
-      "parsed_at": "2025-12-23T17:33:56.070446+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.593181+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -2374,6 +2613,28 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "GCP Laboratories",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "965480861",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      },
+      {
+        "name": "GCP LABORATORIES",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "965480861",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "GERI-MOX MAX CHERRY",
@@ -2622,6 +2883,15 @@
         "text_plain": "NDC 57896-638-12 GERICARE GERI-MOX MAXIMUM STRENGTH antacid and antigas Alumina, Magnesia and Simethicone Oral Suspension For Fast Relief of: HEARTBURN ACID INDIGESTION PRESSURE AND BLOATING cherry flavor pleasant tasting 12 FL OZ (355 mL) compare to the active ingredients of Maximum Strength MAALOX ADVANCED"
       }
     ],
+    "images": [
+      {
+        "id": "GC638",
+        "reference": "mlx-12-max-chry-gcp.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Geri-mox max chry label",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -2652,7 +2922,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": false,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -2661,8 +2941,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_ba65223d-080f-40e2-807a-eaf4d3611cd4.xml",
-      "parsed_at": "2025-12-23T17:33:56.073933+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.596812+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -2698,6 +2978,28 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Garcoa, Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "036464697",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      },
+      {
+        "name": "SV Labs Toronto Corporation",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "203917476",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "Marcs Everyday Care Dandruff Anti-Dandruff",
@@ -2995,6 +3297,15 @@
         "text_plain": "*Compare to the active ingredient in Head & Shoulders\u00ae Marcs \u00ae pyrithione zinc Dandruff Shampoo Everyday Care Basic everyday cleaning for normal hair pyrithione zinc 1 % 13.5 FL OZ (399 mL)"
       }
     ],
+    "images": [
+      {
+        "id": "MM1",
+        "reference": "marcs-everyday-care-dandruff-anti-dandruff-1.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "PRINCIPAL DISPLAY PANEL - 399 mL Bottle Label",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -3033,7 +3344,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -3042,8 +3363,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_14ed4ac8-b9ab-495c-9bef-bf3dd441ac78.xml",
-      "parsed_at": "2025-12-23T17:33:56.082152+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.605454+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -3074,6 +3395,7 @@
         }
       ]
     },
+    "manufacturers": [],
     "products": [
       {
         "product_name": "Standardized Grass Pollen, Fescue, Meadow",
@@ -5267,6 +5589,330 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "MM1",
+        "reference": "standardized-grass-pollens---non-intradermals-1.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Bermuda Grass 10 mL, 10,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM2",
+        "reference": "standardized-grass-pollens---non-intradermals-2.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Bermuda Grass 10 mL, 10,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM3",
+        "reference": "standardized-grass-pollens---non-intradermals-3.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Bermuda Grass 50 mL, 10,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM4",
+        "reference": "standardized-grass-pollens---non-intradermals-4.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Bermuda Grass 50 mL, 10,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM5",
+        "reference": "standardized-grass-pollens---non-intradermals-5.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 5 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM6",
+        "reference": "standardized-grass-pollens---non-intradermals-6.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 5 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM7",
+        "reference": "standardized-grass-pollens---non-intradermals-7.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 10 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM8",
+        "reference": "standardized-grass-pollens---non-intradermals-8.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 10 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM9",
+        "reference": "standardized-grass-pollens---non-intradermals-9.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 50 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM10",
+        "reference": "standardized-grass-pollens---non-intradermals-10.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 50 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM11",
+        "reference": "standardized-grass-pollens---non-intradermals-11.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Meadow Fescue 5 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM12",
+        "reference": "standardized-grass-pollens---non-intradermals-12.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Meadow Fescue 5 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM13",
+        "reference": "standardized-grass-pollens---non-intradermals-13.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Meadow Fescue 10 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM14",
+        "reference": "standardized-grass-pollens---non-intradermals-14.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Meadow Fescue 10 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM15",
+        "reference": "standardized-grass-pollens---non-intradermals-15.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Meadow Fescue 50 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM16",
+        "reference": "standardized-grass-pollens---non-intradermals-16.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Meadow Fescue 50 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM17",
+        "reference": "standardized-grass-pollens---non-intradermals-17.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Orchard Grass 5 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM18",
+        "reference": "standardized-grass-pollens---non-intradermals-18.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Orchard Grass 5 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM19",
+        "reference": "standardized-grass-pollens---non-intradermals-19.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Orchard Grass 10 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM20",
+        "reference": "standardized-grass-pollens---non-intradermals-20.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Orchard Grass 10 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM21",
+        "reference": "standardized-grass-pollens---non-intradermals-21.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Orchard Grass 50 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM22",
+        "reference": "standardized-grass-pollens---non-intradermals-22.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Orchard Grass 50 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM23",
+        "reference": "standardized-grass-pollens---non-intradermals-23.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 5 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM24",
+        "reference": "standardized-grass-pollens---non-intradermals-24.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 5 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM25",
+        "reference": "standardized-grass-pollens---non-intradermals-25.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 10 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM26",
+        "reference": "standardized-grass-pollens---non-intradermals-26.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 10 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM27",
+        "reference": "standardized-grass-pollens---non-intradermals-27.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 50 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM28",
+        "reference": "standardized-grass-pollens---non-intradermals-28.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 50 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM29",
+        "reference": "standardized-grass-pollens---non-intradermals-29.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Redtop 5 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM30",
+        "reference": "standardized-grass-pollens---non-intradermals-30.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Redtop 5 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM31",
+        "reference": "standardized-grass-pollens---non-intradermals-31.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Redtop 10 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM32",
+        "reference": "standardized-grass-pollens---non-intradermals-32.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Redtop 10 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM33",
+        "reference": "standardized-grass-pollens---non-intradermals-33.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Redtop 50 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM34",
+        "reference": "standardized-grass-pollens---non-intradermals-34.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Redtop 50 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM35",
+        "reference": "standardized-grass-pollens---non-intradermals-35.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 5 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM36",
+        "reference": "standardized-grass-pollens---non-intradermals-36.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 5 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM37",
+        "reference": "standardized-grass-pollens---non-intradermals-37.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 10 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM38",
+        "reference": "standardized-grass-pollens---non-intradermals-38.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 10 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM39",
+        "reference": "standardized-grass-pollens---non-intradermals-39.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 50 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM40",
+        "reference": "standardized-grass-pollens---non-intradermals-40.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 50 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM41",
+        "reference": "standardized-grass-pollens---non-intradermals-41.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Timothy 5 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM42",
+        "reference": "standardized-grass-pollens---non-intradermals-42.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Timothy 5 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM43",
+        "reference": "standardized-grass-pollens---non-intradermals-43.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Timothy 10 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM44",
+        "reference": "standardized-grass-pollens---non-intradermals-44.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Timothy 10 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      },
+      {
+        "id": "MM45",
+        "reference": "standardized-grass-pollens---non-intradermals-45.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Timothy 50 mL, 100,000 BAU/mL Carton Label",
+        "caption": null
+      },
+      {
+        "id": "MM46",
+        "reference": "standardized-grass-pollens---non-intradermals-46.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Standardized Grass Pollen, Timothy 50 mL, 100,000 BAU/mL Vial Label",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -5310,7 +5956,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": true,
-        "drug_interactions": true
+        "drug_interactions": true,
+        "clinical_pharmacology": true,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": true,
+        "geriatric_use": false,
+        "overdosage": true,
+        "abuse_and_dependence": true,
+        "patient_information": true
       }
     }
   },
@@ -5319,8 +5975,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_26395c33-a90d-483a-96e9-f9f446cf5b53.xml",
-      "parsed_at": "2025-12-23T17:33:56.112293+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.632831+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -5346,6 +6002,18 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Liaoning Pharmaceutical Innovation Co., Ltd.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "614439236",
+          "type_hint": "DUNS"
+        },
+        "role": "api manufacture",
+        "role_code": "C82401"
+      }
+    ],
     "products": [
       {
         "product_name": "pimobendan",
@@ -5501,6 +6169,15 @@
         "text_plain": "Pimobendan_label_20241115.jpg"
       }
     ],
+    "images": [
+      {
+        "id": "Laf0143c9-bff1-428a-b713-80e88311d1e2",
+        "reference": "Pimobendan_label_20241115.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "image description",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -5520,7 +6197,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": false,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": false,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -5529,8 +6216,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_375fc53c-643d-4137-b034-ac11b783022c.xml",
-      "parsed_at": "2025-12-23T17:33:56.114460+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.635026+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -5561,6 +6248,28 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Livzon Group (Ningxia) Pharmaceutical Co., Ltd.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "543265333",
+          "type_hint": "DUNS"
+        },
+        "role": "api manufacture",
+        "role_code": "C82401"
+      },
+      {
+        "name": "Livzon Group (Ningxia) Pharmaceutical Co., Ltd.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "543265333",
+          "type_hint": "DUNS"
+        },
+        "role": "analysis",
+        "role_code": "C25391"
+      }
+    ],
     "products": [
       {
         "product_name": "Doramectin",
@@ -5659,6 +6368,15 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "L6b27a8f8-1c0e-43de-af20-222fb10fb848",
+        "reference": "Doramectin Label.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "image description",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -5678,7 +6396,17 @@
         "storage_and_handling": false,
         "dosage_and_administration": false,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": false,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -5687,8 +6415,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_8b6fce68-cae9-4b85-8e14-6944f403c0c1.xml",
-      "parsed_at": "2025-12-23T17:33:56.116200+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.636860+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -5714,6 +6442,7 @@
         }
       ]
     },
+    "manufacturers": [],
     "products": [
       {
         "product_name": "Gutstor",
@@ -5847,6 +6576,22 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "Lea71512a-a53a-4324-9648-b6ecf5bcdca0",
+        "reference": "Gutstor Supp Facts.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Gutstor Supp Facts",
+        "caption": null
+      },
+      {
+        "id": "Lc5ace2b8-e808-4de4-a422-6aca3e8a3b0c",
+        "reference": "Gutstor_Label.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Gutstor Label",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -5867,7 +6612,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": true,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": false,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -5876,8 +6631,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_cfe5fb33-3f93-4fb1-a754-bf65bf291c1a.xml",
-      "parsed_at": "2025-12-23T17:33:56.118826+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.639519+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -5903,6 +6658,7 @@
         }
       ]
     },
+    "manufacturers": [],
     "products": [
       {
         "product_name": "Probistor",
@@ -6053,6 +6809,22 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "Ldea8c7f7-bd5d-48bf-8917-058273ea3bec",
+        "reference": "Probistor Supplement Facts.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Supp Facts",
+        "caption": null
+      },
+      {
+        "id": "La4c05b75-bf18-47b3-bbf1-b34a0bacb704",
+        "reference": "Probistor_84781-0107-30.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Probistor",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -6074,7 +6846,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": false,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": false,
+        "clinical_studies": true,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": false,
+        "pediatric_use": false,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": false,
+        "patient_information": false
       }
     }
   },
@@ -6083,8 +6865,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_1a0301ba-9f66-ac39-e063-6394a90a34bb.xml",
-      "parsed_at": "2025-12-23T17:33:56.123137+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.643819+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -6110,6 +6892,28 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Boswell Pharmacy Services LLC d/b/a BPS Wholesale",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "129218355",
+          "type_hint": "DUNS"
+        },
+        "role": "relabel",
+        "role_code": "C73607"
+      },
+      {
+        "name": "Boswell Pharmacy Services LLC d/b/a BPS Wholesale",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "129218355",
+          "type_hint": "DUNS"
+        },
+        "role": "repack",
+        "role_code": "C73606"
+      }
+    ],
     "products": [
       {
         "product_name": "Ibuprofen",
@@ -6462,6 +7266,106 @@
         "text_plain": ""
       }
     ],
+    "images": [
+      {
+        "id": "MM1",
+        "reference": "ibuprofen-tablet---india-1.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "1",
+        "caption": null
+      },
+      {
+        "id": "img_423aa9f2-83ae-4df1-e063-6294a90a27c3",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 9.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 9",
+        "caption": null
+      },
+      {
+        "id": "img_423aa9f2-83af-4df1-e063-6294a90a27c3",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 10.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg -10",
+        "caption": null
+      },
+      {
+        "id": "img_423aa1c1-c165-55c2-e063-6294a90ae90e",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 12.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 12",
+        "caption": null
+      },
+      {
+        "id": "img_423aaf86-f3b9-4453-e063-6294a90a8f22",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 14.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 14",
+        "caption": null
+      },
+      {
+        "id": "img_423ab096-cc1e-61e3-e063-6294a90a9aac",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 15.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 15",
+        "caption": null
+      },
+      {
+        "id": "img_423aacee-ceb9-9f60-e063-6394a90a59c9",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 18.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 18",
+        "caption": null
+      },
+      {
+        "id": "img_423ab4ad-8f1c-673a-e063-6294a90a8464",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 20.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 20 ",
+        "caption": null
+      },
+      {
+        "id": "img_423aaf86-f3ba-4453-e063-6294a90a8f22",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 21.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 21",
+        "caption": null
+      },
+      {
+        "id": "img_423a8ddc-311e-7f0a-e063-6394a90afea6",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 24.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 24",
+        "caption": null
+      },
+      {
+        "id": "img_423ab1b1-da07-d3f2-e063-6394a90a4a87",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 28.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 28",
+        "caption": null
+      },
+      {
+        "id": "img_423aaf86-f3bb-4453-e063-6294a90a8f22",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 30.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 30",
+        "caption": null
+      },
+      {
+        "id": "img_423abd78-a4cb-6275-e063-6294a90a89be",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 40.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 40",
+        "caption": null
+      },
+      {
+        "id": "img_423abd78-a4cc-6275-e063-6294a90a89be",
+        "reference": "Ibuprofen 400mg 65162-464-50 - 60.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Ibuprofen 400mg - 60",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -6481,7 +7385,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": true,
-        "drug_interactions": true
+        "drug_interactions": true,
+        "clinical_pharmacology": true,
+        "clinical_studies": false,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": true,
+        "geriatric_use": false,
+        "overdosage": true,
+        "abuse_and_dependence": true,
+        "patient_information": true
       }
     }
   },
@@ -6490,8 +7404,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_41375a05-871b-6afb-e063-6294a90a48f9.xml",
-      "parsed_at": "2025-12-23T17:33:56.137633+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.658402+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -6517,6 +7431,18 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "PD-Rx Pharmaceuticals, Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "156893695",
+          "type_hint": "DUNS"
+        },
+        "role": "repack",
+        "role_code": "C73606"
+      }
+    ],
     "products": [
       {
         "product_name": "Carvedilol",
@@ -7170,6 +8096,50 @@
         "text_plain": "Rx only Carvedilol Tablets, USP 12.5 mg"
       }
     ],
+    "images": [
+      {
+        "id": "MM1",
+        "reference": "carvedilol-str.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Chemical Structure",
+        "caption": null
+      },
+      {
+        "id": "MM2",
+        "reference": "carvedilol-fig1.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Figure 1. Survival Analysis for COPERNICUS (Intent-to-Treat)",
+        "caption": null
+      },
+      {
+        "id": "MM3",
+        "reference": "carvedilol-fig2.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Figure 2. Effects on Mortality for Subgroups in COPERNICUS",
+        "caption": null
+      },
+      {
+        "id": "MM4",
+        "reference": "carvedilol-fig3.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Figure 3. Survival Analysis for CAPRICORN (Intent-to-Treat)",
+        "caption": null
+      },
+      {
+        "id": "MM5",
+        "reference": "carvedilol-fig4.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "Figure 4. Effects on Mortality for Subgroups in CAPRICORN",
+        "caption": null
+      },
+      {
+        "id": "MM8",
+        "reference": "43063125.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "43063125 LABEL",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -7199,7 +8169,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": true,
-        "drug_interactions": true
+        "drug_interactions": true,
+        "clinical_pharmacology": true,
+        "clinical_studies": false,
+        "pharmacokinetics": true,
+        "nonclinical_toxicology": true,
+        "pregnancy": true,
+        "pediatric_use": true,
+        "geriatric_use": false,
+        "overdosage": true,
+        "abuse_and_dependence": true,
+        "patient_information": true
       }
     }
   },
@@ -7208,8 +8188,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_4221a53d-0185-7219-e063-6394a90a7ff7.xml",
-      "parsed_at": "2025-12-23T17:33:56.159035+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.680103+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -7235,6 +8215,38 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Granules Pharmaceuticals Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "079825711",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      },
+      {
+        "name": "Granules Pharmaceuticals Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "079825711",
+          "type_hint": "DUNS"
+        },
+        "role": "analysis",
+        "role_code": "C25391"
+      },
+      {
+        "name": "Granules Pharmaceuticals Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "079825711",
+          "type_hint": "DUNS"
+        },
+        "role": "label",
+        "role_code": "C84732"
+      }
+    ],
     "products": [
       {
         "product_name": "Oxycodone and Acetaminophen",
@@ -8155,6 +9167,50 @@
         "text_plain": "NDC 70010-670-01 CII Oxycodone and Acetaminophen Tablets, USP 10 mg*/325 mg Multiple strengths: Do not dispense unless strength is stated. Dispense the enclosed Medication Guide to each patient. Rx only 100 Tablets"
       }
     ],
+    "images": [
+      {
+        "id": "img_fb643b86-d87f-b6dc-e053-6294a90aa92d",
+        "reference": "oxy-apap-formula.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "oxy-apap-formula",
+        "caption": null
+      },
+      {
+        "id": "img_fb643cf6-9682-9e73-e053-6294a90a39a6",
+        "reference": "oxy-apap-structure.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "oxy-apap-structure",
+        "caption": null
+      },
+      {
+        "id": "img_2587b9f7-5a3d-28bc-e063-6294a90a7e03",
+        "reference": "oxy-apap-2-5mg-325mg.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "oxy-apap-2-5mg-325mg",
+        "caption": null
+      },
+      {
+        "id": "img_2587e75b-e62f-6ca0-e063-6394a90a9269",
+        "reference": "oxy-apap-5mg-325mg.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "oxy-apap-5mg-325mg",
+        "caption": null
+      },
+      {
+        "id": "img_2587df63-23b4-9950-e063-6394a90a7265",
+        "reference": "oxy-apap-7-5mg-325mg.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "oxy-apap-7-5mg-325mg",
+        "caption": null
+      },
+      {
+        "id": "img_2587ec34-6156-9b0e-e063-6394a90aeb3d",
+        "reference": "oxy-apap-10mg-325mg.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "oxy-apap-10mg-325mg",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -8186,7 +9242,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": true,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": true,
+        "clinical_studies": true,
+        "pharmacokinetics": false,
+        "nonclinical_toxicology": false,
+        "pregnancy": true,
+        "pediatric_use": true,
+        "geriatric_use": true,
+        "overdosage": true,
+        "abuse_and_dependence": true,
+        "patient_information": false
       }
     }
   },
@@ -8195,8 +9261,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_570974d4-0d5b-4df2-b307-37380511835d.xml",
-      "parsed_at": "2025-12-23T17:33:56.183723+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.705733+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -8227,6 +9293,28 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "APL HEALTHCARE LIMITED",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "650918514",
+          "type_hint": "DUNS"
+        },
+        "role": "analysis",
+        "role_code": "C25391"
+      },
+      {
+        "name": "APL HEALTHCARE LIMITED",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "650918514",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "Naproxen",
@@ -8813,6 +9901,29 @@
         "text_plain": "NDC 59651-528-47 Rx only Naproxen Oral Suspension, USP 125 mg/5 mL FOR ORAL ADMINSTRATION ONLY. SHAKE WELL BEFORE USING. PHARMACIST: Dispense the Medication Guide provided separately to each patient. 473 mL AUROBINDO"
       }
     ],
+    "images": [
+      {
+        "id": "MM1",
+        "reference": "naproxen-str.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "str",
+        "caption": null
+      },
+      {
+        "id": "MM2",
+        "reference": "naproxen-fig1.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "fig1",
+        "caption": null
+      },
+      {
+        "id": "MM3",
+        "reference": "naproxen-fig2.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 125 mg/5 mL (473 mL Carton Label)",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -8844,7 +9955,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": true,
-        "drug_interactions": true
+        "drug_interactions": true,
+        "clinical_pharmacology": true,
+        "clinical_studies": true,
+        "pharmacokinetics": true,
+        "nonclinical_toxicology": true,
+        "pregnancy": true,
+        "pediatric_use": true,
+        "geriatric_use": false,
+        "overdosage": true,
+        "abuse_and_dependence": true,
+        "patient_information": true
       }
     }
   },
@@ -8853,8 +9974,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_da424329-9a63-4df3-bced-4157d2086e20.xml",
-      "parsed_at": "2025-12-23T17:33:56.203903+00:00",
-      "parser_version": "1.0.0"
+      "parsed_at": "2025-12-23T20:01:11.726153+00:00",
+      "parser_version": "2.0.0"
     },
     "spl": {
       "document_id": {
@@ -8890,6 +10011,28 @@
         }
       ]
     },
+    "manufacturers": [
+      {
+        "name": "Hikma Pharmaceuticals USA Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "080189610",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      },
+      {
+        "name": "West-Ward Columbus Inc.",
+        "org_id": {
+          "root": "1.3.6.1.4.1.519.1",
+          "extension": "058839929",
+          "type_hint": "DUNS"
+        },
+        "role": "manufacture",
+        "role_code": "C43360"
+      }
+    ],
     "products": [
       {
         "product_name": "KLOXXADO",
@@ -9266,6 +10409,113 @@
         "text_plain": "KLOXXADO \u00ae (naloxone HCl) nasal spray, 8 mg \u2013 Device Label \u2013 Back NDC # 59467-679-01"
       }
     ],
+    "images": [
+      {
+        "id": "ID_89c2e0c6-ea5c-4551-9006-2dbd78f735b6",
+        "reference": "image-chemical-structure-usp.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "image-chemical-structure-usp.jpg",
+        "caption": null
+      },
+      {
+        "id": "ID_8af4a42f-9750-4ac3-9b1b-7ada36cefe78",
+        "reference": "figure1-plot-a-09.29.2025.jpg.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "figure1-plot-a-09.29.2025.jpg",
+        "caption": null
+      },
+      {
+        "id": "ID_6866d2af-bc7e-48c9-9a2f-3c7d042b5af3",
+        "reference": "figure1-plot-b-09.29.2025.jpg.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "figure1-plot-b-09.29.2025.jpg",
+        "caption": null
+      },
+      {
+        "id": "EB41B46D-3D98-4CBA-9623-400A9EB8F717",
+        "reference": "figure-2-plot-a-09.29.2025.jpg.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "figure-2-plot-a-09.29.2025.jpg",
+        "caption": null
+      },
+      {
+        "id": "C02DD615-4259-4E26-BF2B-4736C19C1411",
+        "reference": "figure-2-plot-b-09.29.2025.jpg.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "figure-2-plot-b-09.29.2025.jpg",
+        "caption": null
+      },
+      {
+        "id": "BD13EF3D-A0E9-4DC9-AA89-67C88C3B6446",
+        "reference": "image-01.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "peeling-back-blister-with-zoom-of-triangle",
+        "caption": null
+      },
+      {
+        "id": "BF701BC6-E3D3-4899-B1ED-52334A041242",
+        "reference": "image-04.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "ifu-image-2-proper-way-to-hold-device",
+        "caption": null
+      },
+      {
+        "id": "ID_27fbde81-4219-4848-bc49-e05f5df4b412",
+        "reference": "image-05.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "ifu-image-3-support-back-of-neck",
+        "caption": null
+      },
+      {
+        "id": "ID_33aa7609-8302-4d73-a380-140d3d449b01",
+        "reference": "image-06.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "ifu-image-4-insert-tip-into-nostril",
+        "caption": null
+      },
+      {
+        "id": "ID_420af4ba-ac21-4057-b4b8-97759e79d012",
+        "reference": "image-07.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "ifu-image-5-place-patient-on-their-side",
+        "caption": null
+      },
+      {
+        "id": "ID_29159d6f-2ece-4604-9ab5-743cf5032c90",
+        "reference": "image-08.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "ifu-image-6-clock-2-3-minutes",
+        "caption": null
+      },
+      {
+        "id": "ID_14fa327e-91bb-4085-8e6b-c577e2db395a",
+        "reference": "image-09.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "kloxxado-8mg-fc-c50001063-03-k01",
+        "caption": null
+      },
+      {
+        "id": "ID_756dd1c0-097a-4dad-8c1b-eb43bdea8fff",
+        "reference": "image-10.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "kloxxado-8mg-foil-peel-backing-c50001064-02-k01",
+        "caption": null
+      },
+      {
+        "id": "ID_7a30c5bd-751d-4ec1-8462-d1fbb20ba246",
+        "reference": "image-11.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "kloxxado-8mg-device-label-front-c50001068-01-k01",
+        "caption": null
+      },
+      {
+        "id": "ID_47446445-bf7b-4d5d-b858-45eb8cc60ce4",
+        "reference": "image-12.jpg",
+        "media_type": "image/jpeg",
+        "alt_text": "kloxxado-8mg-device-label-back-c50001067-01-k01",
+        "caption": null
+      }
+    ],
     "derived": {
       "merge_keys": {
         "primary": [
@@ -9291,7 +10541,17 @@
         "storage_and_handling": true,
         "dosage_and_administration": true,
         "adverse_reactions": true,
-        "drug_interactions": false
+        "drug_interactions": false,
+        "clinical_pharmacology": true,
+        "clinical_studies": false,
+        "pharmacokinetics": true,
+        "nonclinical_toxicology": true,
+        "pregnancy": true,
+        "pediatric_use": true,
+        "geriatric_use": false,
+        "overdosage": false,
+        "abuse_and_dependence": true,
+        "patient_information": true
       }
     }
   }

@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "otc_43f770ab-1ea6-c06a-e063-6294a90aebd2.xml",
-    "parsed_at": "2025-12-23T17:33:56.070446+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.593181+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -35,6 +35,28 @@
       }
     ]
   },
+  "manufacturers": [
+    {
+      "name": "GCP Laboratories",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "965480861",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    },
+    {
+      "name": "GCP LABORATORIES",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "965480861",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    }
+  ],
   "products": [
     {
       "product_name": "GERI-MOX MAX CHERRY",
@@ -283,6 +305,15 @@
       "text_plain": "NDC 57896-638-12 GERICARE GERI-MOX MAXIMUM STRENGTH antacid and antigas Alumina, Magnesia and Simethicone Oral Suspension For Fast Relief of: HEARTBURN ACID INDIGESTION PRESSURE AND BLOATING cherry flavor pleasant tasting 12 FL OZ (355 mL) compare to the active ingredients of Maximum Strength MAALOX ADVANCED"
     }
   ],
+  "images": [
+    {
+      "id": "GC638",
+      "reference": "mlx-12-max-chry-gcp.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Geri-mox max chry label",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -313,7 +344,17 @@
       "storage_and_handling": true,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": false,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

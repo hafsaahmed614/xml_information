@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "otc_2f8bbda5-0100-4d14-84b7-e5712f6dad6f.xml",
-    "parsed_at": "2025-12-23T17:33:56.057866+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.580335+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,7 @@
       }
     ]
   },
+  "manufacturers": [],
   "products": [
     {
       "product_name": "DG Health Pain Relief",
@@ -368,6 +369,15 @@
       "text_plain": "DG \u00ae | health Compare to the active ingredient of Tylenol \u00ae Extra Strength Rapid Release Gels Rapid Release Pain Relief Acetaminophen 500 mg Fast Relief Pain Reliever/Fever Reducer 100 Caplets 500 mg \u2022 Extra strength \u2022 For adults Actual Caplet Size"
     }
   ],
+  "images": [
+    {
+      "id": "EAB5B661-7790-402B-8246-D9A482C3D0D5",
+      "reference": "dghealth-pain-relief-carton-image.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "dghealth-pain-relief-carton-image.jpg",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -396,7 +406,17 @@
       "storage_and_handling": false,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": true,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

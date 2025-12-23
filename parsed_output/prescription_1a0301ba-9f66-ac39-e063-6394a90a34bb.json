@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "prescription_1a0301ba-9f66-ac39-e063-6394a90a34bb.xml",
-    "parsed_at": "2025-12-23T17:33:56.123137+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.643819+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,28 @@
       }
     ]
   },
+  "manufacturers": [
+    {
+      "name": "Boswell Pharmacy Services LLC d/b/a BPS Wholesale",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "129218355",
+        "type_hint": "DUNS"
+      },
+      "role": "relabel",
+      "role_code": "C73607"
+    },
+    {
+      "name": "Boswell Pharmacy Services LLC d/b/a BPS Wholesale",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "129218355",
+        "type_hint": "DUNS"
+      },
+      "role": "repack",
+      "role_code": "C73606"
+    }
+  ],
   "products": [
     {
       "product_name": "Ibuprofen",
@@ -382,6 +404,106 @@
       "text_plain": ""
     }
   ],
+  "images": [
+    {
+      "id": "MM1",
+      "reference": "ibuprofen-tablet---india-1.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "1",
+      "caption": null
+    },
+    {
+      "id": "img_423aa9f2-83ae-4df1-e063-6294a90a27c3",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 9.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 9",
+      "caption": null
+    },
+    {
+      "id": "img_423aa9f2-83af-4df1-e063-6294a90a27c3",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 10.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg -10",
+      "caption": null
+    },
+    {
+      "id": "img_423aa1c1-c165-55c2-e063-6294a90ae90e",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 12.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 12",
+      "caption": null
+    },
+    {
+      "id": "img_423aaf86-f3b9-4453-e063-6294a90a8f22",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 14.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 14",
+      "caption": null
+    },
+    {
+      "id": "img_423ab096-cc1e-61e3-e063-6294a90a9aac",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 15.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 15",
+      "caption": null
+    },
+    {
+      "id": "img_423aacee-ceb9-9f60-e063-6394a90a59c9",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 18.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 18",
+      "caption": null
+    },
+    {
+      "id": "img_423ab4ad-8f1c-673a-e063-6294a90a8464",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 20.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 20 ",
+      "caption": null
+    },
+    {
+      "id": "img_423aaf86-f3ba-4453-e063-6294a90a8f22",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 21.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 21",
+      "caption": null
+    },
+    {
+      "id": "img_423a8ddc-311e-7f0a-e063-6394a90afea6",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 24.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 24",
+      "caption": null
+    },
+    {
+      "id": "img_423ab1b1-da07-d3f2-e063-6394a90a4a87",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 28.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 28",
+      "caption": null
+    },
+    {
+      "id": "img_423aaf86-f3bb-4453-e063-6294a90a8f22",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 30.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 30",
+      "caption": null
+    },
+    {
+      "id": "img_423abd78-a4cb-6275-e063-6294a90a89be",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 40.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 40",
+      "caption": null
+    },
+    {
+      "id": "img_423abd78-a4cc-6275-e063-6294a90a89be",
+      "reference": "Ibuprofen 400mg 65162-464-50 - 60.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Ibuprofen 400mg - 60",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -401,7 +523,17 @@
       "storage_and_handling": true,
       "dosage_and_administration": true,
       "adverse_reactions": true,
-      "drug_interactions": true
+      "drug_interactions": true,
+      "clinical_pharmacology": true,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": true,
+      "pediatric_use": true,
+      "geriatric_use": false,
+      "overdosage": true,
+      "abuse_and_dependence": true,
+      "patient_information": true
     }
   }
 }

@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "other_cfe5fb33-3f93-4fb1-a754-bf65bf291c1a.xml",
-    "parsed_at": "2025-12-23T17:33:56.118826+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.639519+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,7 @@
       }
     ]
   },
+  "manufacturers": [],
   "products": [
     {
       "product_name": "Probistor",
@@ -180,6 +181,22 @@
       "text_plain": ""
     }
   ],
+  "images": [
+    {
+      "id": "Ldea8c7f7-bd5d-48bf-8917-058273ea3bec",
+      "reference": "Probistor Supplement Facts.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Supp Facts",
+      "caption": null
+    },
+    {
+      "id": "La4c05b75-bf18-47b3-bbf1-b34a0bacb704",
+      "reference": "Probistor_84781-0107-30.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Probistor",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -201,7 +218,17 @@
       "storage_and_handling": true,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": true,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": false,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

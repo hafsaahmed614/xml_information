@@ -27,7 +27,7 @@ import hashlib
 # CONSTANTS
 # =============================================================================
 
-PARSER_VERSION = "1.0.0"
+PARSER_VERSION = "2.0.0"
 
 # HL7 v3 SPL namespace
 NS = {'hl7': 'urn:hl7-org:v3'}
@@ -67,9 +67,14 @@ SECTION_CODES = {
     'CLINICAL_PHARMACOLOGY': ['34090-1'],
     'DESCRIPTION': ['34089-3'],
     'OVERDOSAGE': ['34088-5'],
-    'PREGNANCY': ['42228-7', '53414-9'],
+    'PREGNANCY': ['42228-7', '53414-9', '42229-5'],
     'PEDIATRIC_USE': ['34081-0'],
     'GERIATRIC_USE': ['34074-5'],
+    'CLINICAL_STUDIES': ['42231-1', '50741-8'],
+    'PHARMACOKINETICS': ['43682-4'],
+    'NONCLINICAL_TOXICOLOGY': ['43678-2'],
+    'ABUSE_AND_DEPENDENCE': ['34086-9', '34082-8', '34083-6'],
+    'PATIENT_INFORMATION': ['34076-0', '58476-3', '77290-5', '68498-5'],
 }
 
 # Known LOINC section codes with their display names
@@ -286,6 +291,33 @@ class SectionPresenceFlags:
     dosage_and_administration: bool = False
     adverse_reactions: bool = False
     drug_interactions: bool = False
+    clinical_pharmacology: bool = False
+    clinical_studies: bool = False
+    pharmacokinetics: bool = False
+    nonclinical_toxicology: bool = False
+    pregnancy: bool = False
+    pediatric_use: bool = False
+    geriatric_use: bool = False
+    overdosage: bool = False
+    abuse_and_dependence: bool = False
+    patient_information: bool = False
+
+
+@dataclass
+class Image:
+    id: Optional[str] = None
+    reference: Optional[str] = None
+    media_type: Optional[str] = None
+    alt_text: Optional[str] = None
+    caption: Optional[str] = None
+
+
+@dataclass
+class Manufacturer:
+    name: Optional[str] = None
+    org_id: Optional[OrgId] = None
+    role: Optional[str] = None
+    role_code: Optional[str] = None
 
 
 @dataclass
@@ -299,8 +331,10 @@ class SPLDocument:
     source: Source = field(default_factory=Source)
     spl: SPLMetadata = field(default_factory=SPLMetadata)
     labeler: Labeler = field(default_factory=Labeler)
+    manufacturers: List[Manufacturer] = field(default_factory=list)
     products: List[Product] = field(default_factory=list)
     sections: List[Section] = field(default_factory=list)
+    images: List[Image] = field(default_factory=list)
     derived: Derived = field(default_factory=Derived)
 
     def to_dict(self) -> Dict[str, Any]:
@@ -396,8 +430,10 @@ class SPLParser:
         # Extract all components
         doc.spl = self._extract_spl_metadata()
         doc.labeler = self._extract_labeler()
+        doc.manufacturers = self._extract_manufacturers()
         doc.products = self._extract_products()
         doc.sections = self._extract_sections()
+        doc.images = self._extract_images()
         doc.derived = self._build_derived(doc)
 
         return doc
@@ -545,6 +581,93 @@ class SPLParser:
             if root == oid:
                 return name
         return None
+
+    # =========================================================================
+    # MANUFACTURER EXTRACTION
+    # =========================================================================
+
+    def _extract_manufacturers(self) -> List[Manufacturer]:
+        """Extract manufacturer/facility information with roles."""
+        manufacturers = []
+        seen = set()
+
+        # Find all performance/actDefinition elements (manufacturing activities)
+        for perf in self.root.findall('.//hl7:performance', NS):
+            act_def = perf.find('hl7:actDefinition', NS)
+            if act_def is None:
+                continue
+
+            # Get role code
+            code_elem = act_def.find('hl7:code', NS)
+            role = None
+            role_code = None
+            if code_elem is not None:
+                role = code_elem.get('displayName', '').lower()
+                role_code = code_elem.get('code')
+
+            # Find the associated organization
+            parent = perf.find('..', NS)
+            if parent is None:
+                # Try going up to assignedEntity
+                for ae in self.root.findall('.//hl7:assignedEntity', NS):
+                    if perf in ae.iter():
+                        org = ae.find('hl7:assignedOrganization', NS)
+                        if org is not None:
+                            name_elem = org.find('hl7:name', NS)
+                            id_elem = org.find('hl7:id', NS)
+
+                            name = name_elem.text if name_elem is not None else None
+                            org_id = None
+                            if id_elem is not None:
+                                org_id = OrgId(
+                                    root=id_elem.get('root'),
+                                    extension=id_elem.get('extension'),
+                                    type_hint='DUNS' if id_elem.get('root') == CODE_SYSTEMS['DUNS'] else None
+                                )
+
+                            key = (name, role)
+                            if key not in seen and name:
+                                seen.add(key)
+                                manufacturers.append(Manufacturer(
+                                    name=name,
+                                    org_id=org_id,
+                                    role=role,
+                                    role_code=role_code
+                                ))
+
+        return manufacturers
+
+    # =========================================================================
+    # IMAGE EXTRACTION
+    # =========================================================================
+
+    def _extract_images(self) -> List[Image]:
+        """Extract image/media references from the SPL."""
+        images = []
+
+        for obs_media in self.root.findall('.//hl7:observationMedia', NS):
+            img = Image()
+
+            # ID
+            img.id = obs_media.get('ID')
+
+            # Alt text from text element
+            text_elem = obs_media.find('hl7:text', NS)
+            if text_elem is not None:
+                img.alt_text = text_elem.text
+
+            # Reference and media type from value element
+            value_elem = obs_media.find('hl7:value', NS)
+            if value_elem is not None:
+                img.media_type = value_elem.get('mediaType')
+                ref_elem = value_elem.find('hl7:reference', NS)
+                if ref_elem is not None:
+                    img.reference = ref_elem.get('value')
+
+            if img.id or img.reference:
+                images.append(img)
+
+        return images
 
     # =========================================================================
     # PRODUCT EXTRACTION
@@ -1070,6 +1193,56 @@ class SPLParser:
         for code in SECTION_CODES['DRUG_INTERACTIONS']:
             if code in section_codes_present:
                 flags.drug_interactions = True
+                break
+
+        for code in SECTION_CODES['CLINICAL_PHARMACOLOGY']:
+            if code in section_codes_present:
+                flags.clinical_pharmacology = True
+                break
+
+        for code in SECTION_CODES['CLINICAL_STUDIES']:
+            if code in section_codes_present:
+                flags.clinical_studies = True
+                break
+
+        for code in SECTION_CODES['PHARMACOKINETICS']:
+            if code in section_codes_present:
+                flags.pharmacokinetics = True
+                break
+
+        for code in SECTION_CODES['NONCLINICAL_TOXICOLOGY']:
+            if code in section_codes_present:
+                flags.nonclinical_toxicology = True
+                break
+
+        for code in SECTION_CODES['PREGNANCY']:
+            if code in section_codes_present:
+                flags.pregnancy = True
+                break
+
+        for code in SECTION_CODES['PEDIATRIC_USE']:
+            if code in section_codes_present:
+                flags.pediatric_use = True
+                break
+
+        for code in SECTION_CODES['GERIATRIC_USE']:
+            if code in section_codes_present:
+                flags.geriatric_use = True
+                break
+
+        for code in SECTION_CODES['OVERDOSAGE']:
+            if code in section_codes_present:
+                flags.overdosage = True
+                break
+
+        for code in SECTION_CODES['ABUSE_AND_DEPENDENCE']:
+            if code in section_codes_present:
+                flags.abuse_and_dependence = True
+                break
+
+        for code in SECTION_CODES['PATIENT_INFORMATION']:
+            if code in section_codes_present:
+                flags.patient_information = True
                 break
 
         return flags

@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "other_14ed4ac8-b9ab-495c-9bef-bf3dd441ac78.xml",
-    "parsed_at": "2025-12-23T17:33:56.082152+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.605454+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -35,6 +35,7 @@
       }
     ]
   },
+  "manufacturers": [],
   "products": [
     {
       "product_name": "Standardized Grass Pollen, Fescue, Meadow",
@@ -2228,6 +2229,330 @@
       "text_plain": ""
     }
   ],
+  "images": [
+    {
+      "id": "MM1",
+      "reference": "standardized-grass-pollens---non-intradermals-1.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Bermuda Grass 10 mL, 10,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM2",
+      "reference": "standardized-grass-pollens---non-intradermals-2.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Bermuda Grass 10 mL, 10,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM3",
+      "reference": "standardized-grass-pollens---non-intradermals-3.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Bermuda Grass 50 mL, 10,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM4",
+      "reference": "standardized-grass-pollens---non-intradermals-4.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Bermuda Grass 50 mL, 10,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM5",
+      "reference": "standardized-grass-pollens---non-intradermals-5.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 5 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM6",
+      "reference": "standardized-grass-pollens---non-intradermals-6.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 5 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM7",
+      "reference": "standardized-grass-pollens---non-intradermals-7.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 10 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM8",
+      "reference": "standardized-grass-pollens---non-intradermals-8.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 10 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM9",
+      "reference": "standardized-grass-pollens---non-intradermals-9.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 50 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM10",
+      "reference": "standardized-grass-pollens---non-intradermals-10.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Kentucky Bluegrass 50 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM11",
+      "reference": "standardized-grass-pollens---non-intradermals-11.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Meadow Fescue 5 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM12",
+      "reference": "standardized-grass-pollens---non-intradermals-12.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Meadow Fescue 5 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM13",
+      "reference": "standardized-grass-pollens---non-intradermals-13.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Meadow Fescue 10 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM14",
+      "reference": "standardized-grass-pollens---non-intradermals-14.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Meadow Fescue 10 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM15",
+      "reference": "standardized-grass-pollens---non-intradermals-15.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Meadow Fescue 50 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM16",
+      "reference": "standardized-grass-pollens---non-intradermals-16.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Meadow Fescue 50 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM17",
+      "reference": "standardized-grass-pollens---non-intradermals-17.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Orchard Grass 5 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM18",
+      "reference": "standardized-grass-pollens---non-intradermals-18.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Orchard Grass 5 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM19",
+      "reference": "standardized-grass-pollens---non-intradermals-19.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Orchard Grass 10 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM20",
+      "reference": "standardized-grass-pollens---non-intradermals-20.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Orchard Grass 10 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM21",
+      "reference": "standardized-grass-pollens---non-intradermals-21.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Orchard Grass 50 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM22",
+      "reference": "standardized-grass-pollens---non-intradermals-22.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Orchard Grass 50 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM23",
+      "reference": "standardized-grass-pollens---non-intradermals-23.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 5 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM24",
+      "reference": "standardized-grass-pollens---non-intradermals-24.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 5 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM25",
+      "reference": "standardized-grass-pollens---non-intradermals-25.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 10 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM26",
+      "reference": "standardized-grass-pollens---non-intradermals-26.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 10 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM27",
+      "reference": "standardized-grass-pollens---non-intradermals-27.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 50 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM28",
+      "reference": "standardized-grass-pollens---non-intradermals-28.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Perennial Ryegrass 50 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM29",
+      "reference": "standardized-grass-pollens---non-intradermals-29.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Redtop 5 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM30",
+      "reference": "standardized-grass-pollens---non-intradermals-30.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Redtop 5 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM31",
+      "reference": "standardized-grass-pollens---non-intradermals-31.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Redtop 10 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM32",
+      "reference": "standardized-grass-pollens---non-intradermals-32.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Redtop 10 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM33",
+      "reference": "standardized-grass-pollens---non-intradermals-33.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Redtop 50 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM34",
+      "reference": "standardized-grass-pollens---non-intradermals-34.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Redtop 50 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM35",
+      "reference": "standardized-grass-pollens---non-intradermals-35.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 5 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM36",
+      "reference": "standardized-grass-pollens---non-intradermals-36.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 5 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM37",
+      "reference": "standardized-grass-pollens---non-intradermals-37.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 10 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM38",
+      "reference": "standardized-grass-pollens---non-intradermals-38.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 10 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM39",
+      "reference": "standardized-grass-pollens---non-intradermals-39.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 50 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM40",
+      "reference": "standardized-grass-pollens---non-intradermals-40.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Sweet Vernal Grass 50 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM41",
+      "reference": "standardized-grass-pollens---non-intradermals-41.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Timothy 5 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM42",
+      "reference": "standardized-grass-pollens---non-intradermals-42.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Timothy 5 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM43",
+      "reference": "standardized-grass-pollens---non-intradermals-43.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Timothy 10 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM44",
+      "reference": "standardized-grass-pollens---non-intradermals-44.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Timothy 10 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    },
+    {
+      "id": "MM45",
+      "reference": "standardized-grass-pollens---non-intradermals-45.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Timothy 50 mL, 100,000 BAU/mL Carton Label",
+      "caption": null
+    },
+    {
+      "id": "MM46",
+      "reference": "standardized-grass-pollens---non-intradermals-46.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Standardized Grass Pollen, Timothy 50 mL, 100,000 BAU/mL Vial Label",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -2271,7 +2596,17 @@
       "storage_and_handling": true,
       "dosage_and_administration": true,
       "adverse_reactions": true,
-      "drug_interactions": true
+      "drug_interactions": true,
+      "clinical_pharmacology": true,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": true,
+      "pediatric_use": true,
+      "geriatric_use": false,
+      "overdosage": true,
+      "abuse_and_dependence": true,
+      "patient_information": true
     }
   }
 }

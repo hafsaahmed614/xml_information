@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "otc_4276a9af-4bc4-0e6b-e063-6294a90a774f.xml",
-    "parsed_at": "2025-12-23T17:33:56.066519+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.589119+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,7 @@
       }
     ]
   },
+  "manufacturers": [],
   "products": [
     {
       "product_name": "Allergy Relief",
@@ -316,6 +317,22 @@
       "text_plain": "Allergy Relief Diphenhydramine HCl 25 mg Carton Label"
     }
   ],
+  "images": [
+    {
+      "id": "img_c184e679-c474-0ee3-e053-2a95a90a0e7d",
+      "reference": "Allergy Relief Carton.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Allergy Relief Carton",
+      "caption": null
+    },
+    {
+      "id": "L2b4bac2d-9622-4712-aabd-409c7878e203",
+      "reference": "Allergy Relief Label.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Allergy Relief Label",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -345,7 +362,17 @@
       "storage_and_handling": false,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": true,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

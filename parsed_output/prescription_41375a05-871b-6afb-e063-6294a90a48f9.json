@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "prescription_41375a05-871b-6afb-e063-6294a90a48f9.xml",
-    "parsed_at": "2025-12-23T17:33:56.137633+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.658402+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,18 @@
       }
     ]
   },
+  "manufacturers": [
+    {
+      "name": "PD-Rx Pharmaceuticals, Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "156893695",
+        "type_hint": "DUNS"
+      },
+      "role": "repack",
+      "role_code": "C73606"
+    }
+  ],
   "products": [
     {
       "product_name": "Carvedilol",
@@ -683,6 +695,50 @@
       "text_plain": "Rx only Carvedilol Tablets, USP 12.5 mg"
     }
   ],
+  "images": [
+    {
+      "id": "MM1",
+      "reference": "carvedilol-str.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Chemical Structure",
+      "caption": null
+    },
+    {
+      "id": "MM2",
+      "reference": "carvedilol-fig1.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Figure 1. Survival Analysis for COPERNICUS (Intent-to-Treat)",
+      "caption": null
+    },
+    {
+      "id": "MM3",
+      "reference": "carvedilol-fig2.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Figure 2. Effects on Mortality for Subgroups in COPERNICUS",
+      "caption": null
+    },
+    {
+      "id": "MM4",
+      "reference": "carvedilol-fig3.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Figure 3. Survival Analysis for CAPRICORN (Intent-to-Treat)",
+      "caption": null
+    },
+    {
+      "id": "MM5",
+      "reference": "carvedilol-fig4.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Figure 4. Effects on Mortality for Subgroups in CAPRICORN",
+      "caption": null
+    },
+    {
+      "id": "MM8",
+      "reference": "43063125.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "43063125 LABEL",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -712,7 +768,17 @@
       "storage_and_handling": true,
       "dosage_and_administration": true,
       "adverse_reactions": true,
-      "drug_interactions": true
+      "drug_interactions": true,
+      "clinical_pharmacology": true,
+      "clinical_studies": false,
+      "pharmacokinetics": true,
+      "nonclinical_toxicology": true,
+      "pregnancy": true,
+      "pediatric_use": true,
+      "geriatric_use": false,
+      "overdosage": true,
+      "abuse_and_dependence": true,
+      "patient_information": true
     }
   }
 }

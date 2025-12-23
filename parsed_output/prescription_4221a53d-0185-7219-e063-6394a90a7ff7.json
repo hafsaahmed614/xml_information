@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "prescription_4221a53d-0185-7219-e063-6394a90a7ff7.xml",
-    "parsed_at": "2025-12-23T17:33:56.159035+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.680103+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,38 @@
       }
     ]
   },
+  "manufacturers": [
+    {
+      "name": "Granules Pharmaceuticals Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "079825711",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    },
+    {
+      "name": "Granules Pharmaceuticals Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "079825711",
+        "type_hint": "DUNS"
+      },
+      "role": "analysis",
+      "role_code": "C25391"
+    },
+    {
+      "name": "Granules Pharmaceuticals Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "079825711",
+        "type_hint": "DUNS"
+      },
+      "role": "label",
+      "role_code": "C84732"
+    }
+  ],
   "products": [
     {
       "product_name": "Oxycodone and Acetaminophen",
@@ -950,6 +982,50 @@
       "text_plain": "NDC 70010-670-01 CII Oxycodone and Acetaminophen Tablets, USP 10 mg*/325 mg Multiple strengths: Do not dispense unless strength is stated. Dispense the enclosed Medication Guide to each patient. Rx only 100 Tablets"
     }
   ],
+  "images": [
+    {
+      "id": "img_fb643b86-d87f-b6dc-e053-6294a90aa92d",
+      "reference": "oxy-apap-formula.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "oxy-apap-formula",
+      "caption": null
+    },
+    {
+      "id": "img_fb643cf6-9682-9e73-e053-6294a90a39a6",
+      "reference": "oxy-apap-structure.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "oxy-apap-structure",
+      "caption": null
+    },
+    {
+      "id": "img_2587b9f7-5a3d-28bc-e063-6294a90a7e03",
+      "reference": "oxy-apap-2-5mg-325mg.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "oxy-apap-2-5mg-325mg",
+      "caption": null
+    },
+    {
+      "id": "img_2587e75b-e62f-6ca0-e063-6394a90a9269",
+      "reference": "oxy-apap-5mg-325mg.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "oxy-apap-5mg-325mg",
+      "caption": null
+    },
+    {
+      "id": "img_2587df63-23b4-9950-e063-6394a90a7265",
+      "reference": "oxy-apap-7-5mg-325mg.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "oxy-apap-7-5mg-325mg",
+      "caption": null
+    },
+    {
+      "id": "img_2587ec34-6156-9b0e-e063-6394a90aeb3d",
+      "reference": "oxy-apap-10mg-325mg.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "oxy-apap-10mg-325mg",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -981,7 +1057,17 @@
       "storage_and_handling": true,
       "dosage_and_administration": true,
       "adverse_reactions": true,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": true,
+      "clinical_studies": true,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": true,
+      "pediatric_use": true,
+      "geriatric_use": true,
+      "overdosage": true,
+      "abuse_and_dependence": true,
+      "patient_information": false
     }
   }
 }

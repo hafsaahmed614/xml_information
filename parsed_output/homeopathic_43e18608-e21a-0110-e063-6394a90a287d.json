@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "homeopathic_43e18608-e21a-0110-e063-6394a90a287d.xml",
-    "parsed_at": "2025-12-23T17:33:56.053840+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.576305+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,18 @@
       }
     ]
   },
+  "manufacturers": [
+    {
+      "name": "Uriel Pharmacy Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "043471163",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    }
+  ],
   "products": [
     {
       "product_name": "Astragalus Formica",
@@ -225,6 +237,15 @@
       "text_plain": ""
     }
   ],
+  "images": [
+    {
+      "id": "img_43e1aa59-4589-c91c-e063-6294a90a14ac",
+      "reference": "Astragalus Formica Pellets.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Astraglaus Formica Pellets",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -248,7 +269,17 @@
       "storage_and_handling": false,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": false,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

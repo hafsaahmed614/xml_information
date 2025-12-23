@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "homeopathic_42e02de9-d1e2-0388-e063-6394a90aa127.xml",
-    "parsed_at": "2025-12-23T17:33:56.051041+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.573281+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -35,6 +35,28 @@
       }
     ]
   },
+  "manufacturers": [
+    {
+      "name": "Boiron, Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "014892269",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    },
+    {
+      "name": "Boiron",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "282560473",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    }
+  ],
   "products": [
     {
       "product_name": "Coffea cruda",
@@ -216,6 +238,22 @@
       "text_plain": ""
     }
   ],
+  "images": [
+    {
+      "id": "img_42e05369-f4a7-348f-e063-6294a90a3ed8",
+      "reference": "COFCRU6C.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "6C",
+      "caption": null
+    },
+    {
+      "id": "img_42e0480d-00c3-3047-e063-6294a90a52ad",
+      "reference": "Coffea_cruda6c-label.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "6CG",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -237,7 +275,17 @@
       "storage_and_handling": false,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": true,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

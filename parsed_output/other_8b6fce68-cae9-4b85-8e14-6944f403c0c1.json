@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "other_8b6fce68-cae9-4b85-8e14-6944f403c0c1.xml",
-    "parsed_at": "2025-12-23T17:33:56.116200+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.636860+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -30,6 +30,7 @@
       }
     ]
   },
+  "manufacturers": [],
   "products": [
     {
       "product_name": "Gutstor",
@@ -163,6 +164,22 @@
       "text_plain": ""
     }
   ],
+  "images": [
+    {
+      "id": "Lea71512a-a53a-4324-9648-b6ecf5bcdca0",
+      "reference": "Gutstor Supp Facts.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Gutstor Supp Facts",
+      "caption": null
+    },
+    {
+      "id": "Lc5ace2b8-e808-4de4-a422-6aca3e8a3b0c",
+      "reference": "Gutstor_Label.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "Gutstor Label",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -183,7 +200,17 @@
       "storage_and_handling": true,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": true,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": false,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }

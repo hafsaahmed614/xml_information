@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "otc_ba65223d-080f-40e2-807a-eaf4d3611cd4.xml",
-    "parsed_at": "2025-12-23T17:33:56.073933+00:00",
-    "parser_version": "1.0.0"
+    "parsed_at": "2025-12-23T20:01:11.596812+00:00",
+    "parser_version": "2.0.0"
   },
   "spl": {
     "document_id": {
@@ -40,6 +40,28 @@
       }
     ]
   },
+  "manufacturers": [
+    {
+      "name": "Garcoa, Inc.",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "036464697",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    },
+    {
+      "name": "SV Labs Toronto Corporation",
+      "org_id": {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "203917476",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    }
+  ],
   "products": [
     {
       "product_name": "Marcs Everyday Care Dandruff Anti-Dandruff",
@@ -337,6 +359,15 @@
       "text_plain": "*Compare to the active ingredient in Head & Shoulders\u00ae Marcs \u00ae pyrithione zinc Dandruff Shampoo Everyday Care Basic everyday cleaning for normal hair pyrithione zinc 1 % 13.5 FL OZ (399 mL)"
     }
   ],
+  "images": [
+    {
+      "id": "MM1",
+      "reference": "marcs-everyday-care-dandruff-anti-dandruff-1.jpg",
+      "media_type": "image/jpeg",
+      "alt_text": "PRINCIPAL DISPLAY PANEL - 399 mL Bottle Label",
+      "caption": null
+    }
+  ],
   "derived": {
     "merge_keys": {
       "primary": [
@@ -375,7 +406,17 @@
       "storage_and_handling": false,
       "dosage_and_administration": true,
       "adverse_reactions": false,
-      "drug_interactions": false
+      "drug_interactions": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "pharmacokinetics": false,
+      "nonclinical_toxicology": false,
+      "pregnancy": true,
+      "pediatric_use": false,
+      "geriatric_use": false,
+      "overdosage": false,
+      "abuse_and_dependence": false,
+      "patient_information": false
     }
   }
 }
