@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="8b6fce68-cae9-4b85-8e14-6944f403c0c1"/>
+   <code code="58476-3" codeSystem="2.16.840.1.113883.6.1" displayName="DIETARY SUPPLEMENT"/>
+   <title>Gutstor</title>
+   <effectiveTime value="20251014"/>
+   <setId root="e7e75a85-d464-465c-be7c-cc0ce0e927e1"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="137019051"/>
+            <name>Blue Heron Pharmaceuticals, LLC</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7a6977e7-bfa1-479b-9494-c18e0fa18801"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20251014"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="85622-104" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Gutstor</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>LACTOBACILLUS ACIDOPHILUS</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="20000000000" unit="[CFU]"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1PRR1V42V5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOBACILLUS ACIDOPHILUS</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1PRR1V42V5" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTOBACILLUS ACIDOPHILUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7CVR7L4A2D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MALTODEXTRIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85622-104-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20251014"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C86952" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="dietary supplement"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="capsule" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="25" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L79ebc4de-87d6-4aa1-ae3f-00a092e5cdd9">
+               <id root="29c4d2e3-0808-458c-9549-0f604a5f7f31"/>
+               <code code="69719-3" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CLAIM SECTION"/>
+               <title>
+                  <content styleCode="bold">HEALTH CLAIM:</content>
+               </title>
+               <text>
+                  <paragraph>Gutstor Probiotic Capsules</paragraph>
+                  <paragraph>Dispensed by Prescription</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lea71512a-a53a-4324-9648-b6ecf5bcdca0"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20251014"/>
+               <component>
+                  <observationMedia ID="Lea71512a-a53a-4324-9648-b6ecf5bcdca0">
+                     <text>Gutstor Supp Facts</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Gutstor Supp Facts.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbf0f55ca-2bd5-4267-9dd3-158e0b401091">
+               <id root="db1a6919-c93b-4484-b606-ad31226341b5"/>
+               <code code="69718-5" codeSystem="2.16.840.1.113883.6.1" displayName="STATEMENT OF IDENTITY SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION:</content>
+               </title>
+               <text>
+                  <paragraph>Gutstor is an orally adminstered prescription probiotic dietary supplement.</paragraph>
+                  <paragraph>Gutstor Probiotic Capsules are clear capsules dispensed in plastic bottles of 30 ct.</paragraph>
+                  <paragraph>85622-0103-30</paragraph>
+                  <paragraph>Reserved for Professional Recommendation</paragraph>
+                  <paragraph>This listed product is not a National Drug Code, but instead has merely been formatted to comply with standard industry practice for pharmacy and insurance computer systems.</paragraph>
+                  <paragraph>These statements have not been evaluated by the Food and Drug Administration.  This product is not intended to diagnose, treat, cure or prevent any disease.</paragraph>
+                  <paragraph>All prescriptions using this product shall be pursuant to state statutes as applicable. This is not an Orange Book product. This product may be administered only under a physician’s supervision. There are no implied or explicit claims on therapeutic equivalence.</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>Blue Heron Pharmaceuticals</paragraph>
+                  <paragraph>Lutz, FL 33559</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20251014"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L935b1778-8d80-44b5-a966-9eadaef89187">
+               <id root="2f3c5110-2e1a-4f89-84bd-ba083bfcc34d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS AND PRECAUTIONS:</content>
+               </title>
+               <text>
+                  <paragraph>This product is contraindicated in patients with a known hypersensitivity to any of the ingredients.</paragraph>
+                  <paragraph>As with any supplement, if you are pregnant, nursing, taking medication, or have a medical condition, ask a health professional before taking this product.</paragraph>
+                  <paragraph>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</paragraph>
+               </text>
+               <effectiveTime value="20251014"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L54f83b44-40e6-4352-8dd1-6f43e4689570">
+               <id root="1ef34abb-1751-4697-8767-fc504992f000"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION:</content>
+               </title>
+               <text>
+                  <paragraph>Usual adult dose is 2 capsules by mouth daily once daily, or as prescribed by a licensed medical practitioner.</paragraph>
+                  <paragraph>Gutstor is an orally administered prescription probiotic formulation for the clinical dietary management of suboptimal nutritional status in patients where advanced supplementation is required and nutritional supplementation in physiologically stressful conditions for maintenance of good health is needed.</paragraph>
+               </text>
+               <effectiveTime value="20251014"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L821ecdca-7f8c-4908-9284-f86b7c9f991e">
+               <id root="644b93a5-1d30-4600-9ed9-8db349f2acc4"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS:</content>
+               </title>
+               <text>
+                  <paragraph>CONTRAINDICATIONS<br/>This product is contraindicated in patients with known hypersensitivity to any of the ingredients.</paragraph>
+                  <paragraph>PRECAUTIONS<br/>This product is contraindicated in patients with a known hypersensitivity to any of the ingredients.</paragraph>
+                  <paragraph>ADVERSE REACTIONS<br/>Allergic sensitizations have been reported following oral administration of folic acid. Consult your physician immediately if adverse side effects occur.</paragraph>
+                  <paragraph>KEEP OUT OF THE REACH OF CHILDREN.</paragraph>
+               </text>
+               <effectiveTime value="20251014"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf5714493-a71a-486a-99c3-5b713d573187">
+               <id root="e1679d30-bc55-490a-ada6-f496ec90c6f8"/>
+               <code code="50741-8" codeSystem="2.16.840.1.113883.6.1" displayName="SAFE HANDLING WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">STORAGE:</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">STORAGE:</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">Handling (before opening):</content>
+                     <br/>Product is sensitive to moisture and heat. Keep bottle tightly closed in a dry, cool place. Store at 20<sup>﻿0</sup>﻿C to 25<sup>﻿0</sup>﻿C (68<sup>﻿0</sup>﻿F to 77﻿<sup>﻿0</sup>﻿F).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Handling (after opening):</content>
+                     <br/>Store in the refrigerator after opening, DO NOT FREEZE. Store at 2﻿<sup>0</sup>﻿C to 8<sup>﻿0</sup>﻿C (35<sup>﻿0</sup>﻿F to 46<sup>﻿0</sup>﻿F). </paragraph>
+               </text>
+               <effectiveTime value="20251014"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L140c9027-a454-4031-b70b-3e2537907f81">
+               <id root="d4cb44b6-977a-4db3-8951-4eb0078c8c89"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PACKAGING:</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lc5ace2b8-e808-4de4-a422-6aca3e8a3b0c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20251014"/>
+               <component>
+                  <observationMedia ID="Lc5ace2b8-e808-4de4-a422-6aca3e8a3b0c">
+                     <text>Gutstor Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Gutstor_Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

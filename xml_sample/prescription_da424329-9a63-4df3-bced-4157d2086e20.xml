@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="da424329-9a63-4df3-bced-4157d2086e20"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use KLOXXADO safely and effectively.  See full prescribing information for KLOXXADO.</content>
+      <br/>
+      <content styleCode="bold">KLOXXADO<sup>®</sup> (naloxone hydrochloride) nasal spray<br/>Initial U.S. Approval: 1971</content>
+   </title>
+   <effectiveTime value="20250825"/>
+   <setId root="ebf0f833-c1c0-487c-8f29-01fa8c61b6cb"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="078883518" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Specialty USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="080189610" root="1.3.6.1.4.1.519.1"/>
+                  <name>Hikma Pharmaceuticals USA Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="058839929" root="1.3.6.1.4.1.519.1"/>
+                        <name>West-Ward Columbus Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59467-679" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="325d32c2-0303-4e7a-927e-624a6752ed99"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250901"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59467-679" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>KLOXXADO</name>
+                        <formCode code="C42989" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SPRAY"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Naloxone HCL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="8"/>
+                              <denominator unit="mL" value="0.1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F850569PQR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NALOXONE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="36B82AMQ7N" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NALOXONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="0.1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="59467-679-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20210803"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA212045" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210803"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38284" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NASAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2c39c761-68f6-46ea-b39e-63948af36ce3">
+               <id root="8bd2f513-d1f0-4de8-a7c7-55b451b3a99b"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20250901"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph/>
+                        <paragraph>Dosage and Administration (<linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>) 	08/2025</paragraph>
+                        <paragraph>Warnings and Precautions (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>) 	08/2025</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8da41954-cf5a-49a2-bc9c-b91379fcb56d">
+               <id root="4fb16bc2-9d06-4ad7-915e-1a170069f685"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>KLOXXADO is indicated for the emergency treatment of known or suspected opioid overdose, as manifested by respiratory and/or central nervous system depression, for adult and pediatric patients.  </paragraph>
+                  <paragraph>KLOXXADO is intended for immediate administration as emergency therapy in settings where opioids may be present. </paragraph>
+                  <paragraph>KLOXXADO is not a substitute for emergency medical care. </paragraph>
+               </text>
+               <effectiveTime value="20220510"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>KLOXXADO is an opioid antagonist indicated for the emergency treatment of known or suspected opioid overdose, as manifested by respiratory and/or central nervous system depression, for adult and pediatric patients.  (1)</paragraph>
+                        <paragraph>KLOXXADO is intended for immediate administration as emergency therapy in settings where opioids may be present.</paragraph>
+                        <paragraph>KLOXXADO is not a substitute for emergency medical care. (<linkHtml href="#ID_8da41954-cf5a-49a2-bc9c-b91379fcb56d">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c3150b10-8425-4ec0-8367-10645970f605">
+               <id root="69e08b21-4646-4c65-bb7e-91700b8623cc"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION </title>
+               <effectiveTime value="20250901"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>KLOXXADO is for intranasal use only. (<linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>Seek emergency medical care immediately after use. (<linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="xmChange">All approved naloxone hydrochloride products achieve plasma concen- trations effective at reversing the effects of opioid overdose. Comparing products on a nominal mg-for-mg basis may be misleading. (</content>
+                              <linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>
+                              <content styleCode="xmChange">)</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>Administer a single spray of KLOXXADO to adult or pediatric patients intranasally into one nostril. (<linkHtml href="#ID_0caf6837-875d-4f9b-aabf-c4f9539356b9">2.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Administer additional doses of KLOXXADO, using a new nasal spray with each dose, if the patient does not respond or responds and then relapses into respiratory depression.  Additional doses of KLOXXADO may be given every 2 to 3 minutes until emergency medical assistance arrives. (<linkHtml href="#ID_0caf6837-875d-4f9b-aabf-c4f9539356b9">2.2</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>Additional supportive and/or resuscitative measures may be helpful while awaiting emergency medical assistance. (<linkHtml href="#ID_0caf6837-875d-4f9b-aabf-c4f9539356b9">2.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">
+                     <id root="c7cbc872-9273-4fb7-a2a3-c5deb9402f27"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Important Dosage and Administration Instructions </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>KLOXXADO is for intranasal use only. </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="xmChange">One spray delivers the entire contents of the drug product.</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="xmChange">All approved naloxone hydrochloride products achieve plasma concentrations that have been shown to be efficacious in reversing the effects of opioid overdose. Comparing different products on a nominal mg-for-mg basis may be misleading <content styleCode="italics">[see Clinical Pharmacology</content>
+                              </content>
+                              <content styleCode="italics">(<linkHtml href="#ID_580b54b2-b7cd-4ff6-97dd-26c914b22cc8">12.3</linkHtml>)]</content>.   </item>
+                           <item>
+                              <caption>•</caption>The device is ready to use. Do not prime or test prior to administration. </item>
+                           <item>
+                              <caption>•</caption>Do not attempt to reuse KLOXXADO. Each KLOXXADO contains a single dose of naloxone and cannot be reused. </item>
+                           <item>
+                              <caption>•</caption>Because suspected opioid overdose is usually managed by someone other than the patient, instruct the prescription recipient to inform those around them about the presence of KLOXXADO and the <content styleCode="italics">
+                                 <linkHtml href="#_RefID_f04ea47e-8919-41dd-8993-873117e42">Instructions for Use</linkHtml>
+                              </content>. </item>
+                           <item>
+                              <caption> </caption>Instruct the patient or caregiver to read the <content styleCode="italics">Instructions for Use</content> at the time they receive a prescription for KLOXXADO. Emphasize the following instructions to the patient or caregiver. </item>
+                           <item>
+                              <caption>•</caption>Administer KLOXXADO as quickly as possible because prolonged respiratory depression may result in damage to the central nervous system or death. </item>
+                           <item>
+                              <caption>•</caption>Always seek immediate emergency medical assistance after the first dose of KLOXXADO has been administered in the event of a suspected, potentially life-threatening opioid emergency because the duration of action of most opioids exceeds that of naloxone hydrochloride. Keep the patient under continued surveillance and administer repeated doses of KLOXXADO, as necessary, until emergency personnel arrive <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_279ba2e0-def9-4afc-844a-54f955a27e24">5.1</linkHtml>)].</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>Administer KLOXXADO according to the printed instructions on the carton and the <content styleCode="italics">Instructions for Use</content>. </item>
+                           <item>
+                              <caption>•</caption>Place the patient in the supine position. Prior to administration, be sure the device nozzle is inserted in either nostril of the patient and provide support to the back of the neck to allow the head to tilt back.<content styleCode="underline"> Do not prime or test the device prior to administration. </content>
+                           </item>
+                           <item>
+                              <caption>•</caption>To administer the dose, press firmly on the device plunger and remove the device nozzle from the nostril after use. Place the patient in recovery position by turning him/her onto their side as shown in the <content styleCode="italics">Instructions for Use</content> and call for emergency medical assistance immediately after the first dose of KLOXXADO. </item>
+                           <item>
+                              <caption>•</caption>Administer additional doses of KLOXXADO, using a new nasal spray, every 2 to 3 minutes as needed if the patient does not respond or responds and then relapses into respiratory depression. Administer KLOXXADO in alternate nostrils with each dose <content styleCode="italics">[see Dosing and Administration (2.2)].</content>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250901"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0caf6837-875d-4f9b-aabf-c4f9539356b9">
+                     <id root="a37ca98c-d01d-4891-afcf-38c2e90d372c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Dosing in Adult and Pediatric Patients </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Initial Dosing  </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">KLOXXADO nasal spray, 8 mg</content>
+                        </paragraph>
+                        <paragraph>The recommended initial dose of KLOXXADO in adult and pediatric patients is one spray delivered by intranasal administration into one nostril, which delivers <content styleCode="bold">8 mg</content> of naloxone hydrochloride to adult or pediatric patients. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Repeat Dosing </content>
+                        </paragraph>
+                        <paragraph>Seek emergency medical assistance as soon as possible, after administering the first dose of KLOXXADO.   </paragraph>
+                        <paragraph>If the desired response is not obtained after 2 or 3 minutes, administer an additional dose using a new KLOXXADO in alternate nostril. If there is still no response and additional doses are available, administer additional doses of KLOXXADO every 2 to 3 minutes, alternating nostrils and using a new KLOXXADO, until emergency medical assistance arrives. The requirement for repeat doses of KLOXXADO depends upon the amount, type, and route of administration of the opioid being antagonized. </paragraph>
+                        <paragraph>If the patient responds to KLOXXADO and subsequently relapses back into respiratory depression before emergency assistance arrives, administer an additional dose using a new KLOXXADO, in the opposite nostril, and continue surveillance of the patient. </paragraph>
+                        <paragraph>Additional supportive and/or resuscitative measures may be helpful while awaiting emergency medical assistance. </paragraph>
+                        <paragraph>Reversal of respiratory depression by partial agonists or mixed agonist/antagonists, such as buprenorphine and pentazocine, may be incomplete and require repeated administration of KLOXXADO using a new nasal spray <br/>
+                           <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_92e411c1-989f-477f-9019-93c774dd6092">5.2</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250901"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e69b4802-8eac-4521-9502-a5e7bad19f14">
+               <id root="5ce7426a-c8af-401a-ad21-4aebaa7cc974"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS </title>
+               <text>
+                  <paragraph>Nasal spray: a clear, colorless to yellow solution filled into a clear glass vial, stoppered, and fitted with a unit-dose nasal spray device containing 8 mg of naloxone hydrochloride (equivalent to 7.2 mg naloxone) in 0.1 mL of spray.    </paragraph>
+               </text>
+               <effectiveTime value="20250901"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Nasal spray</content>: </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>8 mg naloxone hydrochloride in 0.1 mL. (3)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a4dfe5c2-58c8-4346-831f-3479f1cf9d34">
+               <id root="d6a5aadf-1826-45c0-ab1a-e6c72565bf4b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>KLOXXADO is contraindicated in patients known to be hypersensitive to naloxone hydrochloride or to any of the other ingredients in KLOXXADO.   </paragraph>
+               </text>
+               <effectiveTime value="20220510"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Hypersensitivity to naloxone hydrochloride or to any of the other ingredients. (<linkHtml href="#ID_a4dfe5c2-58c8-4346-831f-3479f1cf9d34">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5accaa15-6d37-40fe-aceb-c70e0da337fb">
+               <id root="8b04419e-2bd3-41b6-9380-69eccc25ae08"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS </title>
+               <effectiveTime value="20250901"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Risk of Recurrent Respiratory and CNS Depression</content>:  Due to the duration of action of naloxone relative to the opioid, keep patient under continued surveillance and administer repeat doses of naloxone using a new nasal spray with each dose, as necessary, while awaiting emergency medical assistance. (<linkHtml href="#ID_279ba2e0-def9-4afc-844a-54f955a27e24">5.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Risk of Limited Efficacy with Partial Agonists or Mixed Agonist/Antagonists</content>: Reversal of respiratory depression caused by partial agonists or mixed agonist/antagonists, such as buprenorphine and pentazocine, may be incomplete. Larger or repeat doses may be necessary. (<linkHtml href="#ID_92e411c1-989f-477f-9019-93c774dd6092">5.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Precipitation of Severe Opioid Withdrawal</content>: Use in patients who are opioid dependent may precipitate opioid withdrawal. In neonates, opioid withdrawal may be life-threatening if not recognized and properly treated. Monitor for the development of opioid withdrawal. (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Risk of Cardiovascular (CV) Effects</content>: Abrupt postoperative reversal of opioid depression may result in adverse CV effects. These events have primarily occurred in patients who had preexisting CV disorders or received other drugs that may have similar adverse CV effects. Monitor these patients closely in an appropriate healthcare setting after use of naloxone hydrochloride. (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_279ba2e0-def9-4afc-844a-54f955a27e24">
+                     <id root="29e70572-edaf-4c16-80ad-e597130acbff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Risk of Recurrent Respiratory and Central Nervous System Depression  </title>
+                     <text>
+                        <paragraph>The duration of action of most opioids may exceed that of KLOXXADO resulting in a return of respiratory and/or central nervous system depression after an initial improvement in symptoms. Therefore, it is necessary to seek emergency assistance immediately after administration of the first dose of KLOXXADO and to keep the patient under continued surveillance. Administer additional doses of KLOXXADO if the patient is not adequately responding or responds and then relapses back into respiratory depression, as necessary <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0caf6837-875d-4f9b-aabf-c4f9539356b9">2.2</linkHtml>)]</content>. Additional supportive and/or resuscitative measure may be helpful while awaiting emergency medical assistance. </paragraph>
+                     </text>
+                     <effectiveTime value="20220510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_92e411c1-989f-477f-9019-93c774dd6092">
+                     <id root="274f81e8-14cc-495b-affb-610512d95406"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Risk of Limited Efficacy with Partial Agonists or Mixed Agonist/Antagonists </title>
+                     <text>
+                        <paragraph>Reversal of respiratory depression by partial agonists or mixed/antagonists such as buprenorphine and pentazocine may be incomplete. Larger or repeat doses of naloxone hydrochloride may be required to antagonize buprenorphine because the latter has a long duration of action due to its slow rate of binding and subsequent slow dissociation from the opioid receptor <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0caf6837-875d-4f9b-aabf-c4f9539356b9">2.2</linkHtml>)]</content>. Buprenorphine antagonism is characterized by a gradual onset of the reversal effects and a decreased duration of action of the normally prolonged respiratory depression. </paragraph>
+                     </text>
+                     <effectiveTime value="20220510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">
+                     <id root="02c00b81-0f2d-4fb7-b121-d07788ecf725"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Precipitation of Severe Opioid Withdrawal </title>
+                     <text>
+                        <paragraph>The use of KLOXXADO in patients who are opioid-dependent may precipitate opioid withdrawal; <content styleCode="xmChange">the risk and severity of withdrawal increases as naloxone exposure increases. Opioid withdrawal is</content> characterized by the following signs and symptoms: body aches, diarrhea, tachycardia, fever, runny nose, sneezing, piloerection, sweating, yawning, nausea or vomiting, nervousness, restlessness or irritability, shivering or trembling, abdominal cramps, weakness, and increased blood pressure. In neonates, opioid withdrawal may be life-threatening if not recognized and properly treated and may include the following signs and symptoms: convulsion, excessive crying, and hyperactive reflexes. Monitor the patient for the development of the signs and symptoms of opioid withdrawal. </paragraph>
+                        <paragraph>Abrupt postoperative reversal of opioid depression after using naloxone hydrochloride may result in nausea, vomiting, sweating, tremulousness, tachycardia, hypotension, hypertension, seizures, ventricular tachycardia and fibrillation, pulmonary edema, and cardiac arrest. Death, coma, and encephalopathy have been reported as sequelae of these events. These events have primarily occurred in patients who had pre-existing cardiovascular disorders or received other drugs that may have similar adverse cardiovascular effects. Monitor patients with pre-existing cardiac disease or patients who have received medications with potential adverse cardiovascular effects for hypotension, ventricular tachycardia or fibrillation, and pulmonary edema in an appropriate healthcare setting. It has been suggested that the pathogenesis of pulmonary edema associated with the use of naloxone hydrochloride is similar to neurogenic pulmonary edema, i.e., a centrally mediated massive catecholamine response leading to a dramatic shift of blood volume into the pulmonary vascular bed resulting in increased hydrostatic pressures.  </paragraph>
+                        <paragraph>There may be clinical settings, particularly the postpartum period in neonates with known or suspected exposure to maternal opioid use, where it is preferable to avoid the abrupt precipitation of opioid withdrawal symptoms. In these settings, consider use of an alternative, naloxone-containing product that can be titrated to effect and, where applicable, dosed according to weight <content styleCode="italics">[see Use in Specific Population (<linkHtml href="#ID_6d17519e-c42e-46da-ae13-5791f9134f03">8.4</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250901"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2569355b-46f6-45e4-8598-9197491ea72a">
+               <id root="f3995549-661d-411e-99e0-758f660a0238"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>The following serious adverse reactions are discussed elsewhere in the labeling:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Recurrent Respiratory and Central Nervous System Depression <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_279ba2e0-def9-4afc-844a-54f955a27e24">5.1</linkHtml>)]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Precipitation of Severe Opioid Withdrawal <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>)]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250901"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The following adverse reactions were reported with KLOXXADO in two adult subjects each: abdominal pain, asthenia, dizziness, headache, nasal discomfort, and presyncope. (<linkHtml href="#ID_bead3dec-48b5-4f6b-b4e0-1d53a2c62600">6.1</linkHtml>)<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Hikma Specialty USA Inc. at 1-800-962-8364 or FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch.</linkHtml>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_bead3dec-48b5-4f6b-b4e0-1d53a2c62600">
+                     <id root="8a13a386-c097-495f-9633-073940a2d463"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trials Experience </title>
+                     <text>
+                        <paragraph>Because clinical studies are conducted under widely varying conditions, adverse reaction rates observed in the clinical studies of a drug cannot be directly compared to the rates in the clinical studies of another drug and may not reflect the rates observed in practice. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">KLOXXADO nasal spray, 4 mg</content>
+                        </paragraph>
+                        <paragraph>No adverse events were reported in a pharmacokinetic study of 72 healthy adult volunteers exposed to one spray of 4 mg KLOXXADO nasal spray in one nostril.  </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">KLOXXADO nasal spray, 8 mg   </content>
+                        </paragraph>
+                        <paragraph>In two pharmacokinetic studies a total of 47 healthy adult volunteers were exposed to a single dose of KLOXXADO nasal spray 8 mg, one spray in one nostril.  The following adverse reactions were reported in two subjects each: abdominal pain, asthenia, dizziness, headache, nasal discomfort, and presyncope. On local tissue assessments for nasal irritation, signs of nasal inflammation and nasal congestion were observed.    </paragraph>
+                     </text>
+                     <effectiveTime value="20250901"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ddbbca89-d1ae-4518-9ed4-d1d2b6b77c72">
+                     <id root="24f28385-96b8-45af-a125-236e6dbc38db"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Postmarketing Experience  </title>
+                     <text>
+                        <paragraph>The following adverse events have been identified during the post-approval use of naloxone hydrochloride injection in the postoperative setting. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure: hypotension, hypertension, ventricular tachycardia and fibrillation, dyspnea, pulmonary edema, and cardiac arrest. Death, coma, and encephalopathy have been reported as sequelae of these events. Excessive doses of naloxone hydrochloride in postoperative patients have resulted in significant reversal of analgesia and have caused agitation. </paragraph>
+                        <paragraph>Abrupt reversal of opioid effects in persons who were physically dependent on opioids has precipitated an acute withdrawal syndrome. Signs and symptoms have included: body aches, fever, sweating, runny nose, sneezing, piloerection, yawning, weakness, shivering or trembling, nervousness, restlessness or irritability, diarrhea, nausea or vomiting, abdominal cramps, increased blood pressure, tachycardia. In some patients, there was aggressive behavior upon abrupt reversal of an opioid overdose. In the neonate, opioid withdrawal has included: convulsions, excessive crying, hyperactive reflexes <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>)]</content>.</paragraph>
+                        <paragraph>The following most frequently reported events (in decreasing frequency) have been identified primarily during post-approval use of naloxone hydrochloride (all routes of administration): withdrawal syndrome, vomiting, nonresponsiveness to stimuli, drug ineffective, agitation, somnolence, and loss of consciousness. </paragraph>
+                     </text>
+                     <effectiveTime value="20220510"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b51ede30-20d6-4f72-82a9-8ffa06905666">
+               <id root="642a299f-5029-45cd-b626-901a5a177484"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS  </title>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <section ID="ID_48b9c479-d78f-4462-9ea1-84f6987a76b6">
+                     <id root="124125c5-1184-40d1-85f6-029d08df0a7d"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Available data from retrospective cohort studies on naloxone use in pregnant women have not identified a drug-associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes. Naloxone may precipitate opioid withdrawal in the pregnant woman and fetus <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>) and <content styleCode="underline">Clinical Considerations</content>]</content>. In animal reproduction studies, no embryotoxic or teratogenic effects were observed in mice and rats treated with naloxone hydrochloride during the period of organogenesis at doses equivalent to 3-times and 6-times, respectively, a human dose of 16 mg <content styleCode="italics">(see <content styleCode="underline">Data</content>)</content>.  </paragraph>
+                        <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population(s) is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Maternal and Fetal/Neonatal Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>Naloxone hydrochloride crosses the placenta, and may precipitate withdrawal in the fetus, as well as in the opioid-dependent mother <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>)]</content>. The fetus should be evaluated for signs of distress after KLOXXADO is used. Careful monitoring is needed until the fetus and mother are stabilized.    </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Naloxone hydrochloride was administered during organogenesis to mice and rats at doses 3-times and 6-times, respectively, a human dose of 16 mg based on body surface area comparison. These studies demonstrated no embryotoxic or teratogenic effects due to naloxone hydrochloride. </paragraph>
+                     </text>
+                     <effectiveTime value="20250901"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cc04b1e4-445b-4b48-b75f-4a99e26d728d">
+                     <id root="6299eb32-bd82-430c-aa18-c191eb4313c7"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There is no information regarding the presence of naloxone in human milk, the effects of naloxone on the breastfed infant or on milk production. Studies in nursing mothers have shown that naloxone does not affect prolactin or oxytocin hormone levels. Naloxone is minimally orally available and is unlikely to affect the breastfed infant.</paragraph>
+                     </text>
+                     <effectiveTime value="20220510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6d17519e-c42e-46da-ae13-5791f9134f03">
+                     <id root="63f315d6-b14e-4f57-9781-fb283ea65237"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use </title>
+                     <text>
+                        <paragraph>The safety and effectiveness of KLOXXADO have been established in pediatric patients of all ages for known or suspected opioid overdose as manifested by respiratory and/or central nervous system depression. Use of naloxone hydrochloride in pediatric patients is supported by evidence from adult bioavailability studies with additional evidence from the reported safe and effective use of other naloxone hydrochloride products. No pediatric studies were conducted for KLOXXADO. </paragraph>
+                        <paragraph>Absorption of naloxone hydrochloride following intranasal administration in pediatric patients may be erratic or delayed. Even when the opiate-intoxicated pediatric patient responds appropriately to naloxone hydrochloride, he/she must be carefully monitored for at least 24 hours, as a relapse may occur as naloxone hydrochloride is metabolized. </paragraph>
+                        <paragraph>In opioid-dependent pediatric patients, (including neonates), administration of naloxone hydrochloride may result in an abrupt and complete reversal of opioid effects, precipitating an acute opioid withdrawal syndrome. There may be clinical settings, particularly the postpartum period in neonates with known or suspected exposure to maternal opioid use, where it is preferable to avoid the abrupt precipitation of opioid withdrawal symptoms. Unlike acute opioid withdrawal in adults, acute opioid withdrawal in neonates manifesting as seizures may be life-threatening if not recognized and properly treated. Other signs and symptoms in neonates may include excessive crying and hyperactive reflexes. In these settings where it may be preferable to avoid the abrupt precipitation of acute opioid withdrawal symptoms, consider use of an alternative, naloxone hydrochloride product that can be dosed according to weight and titrated to effect <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>)].</content>
+                        </paragraph>
+                        <paragraph>Also, in situations where the primary concern is for infants at risk for opioid overdose, consider whether the availability of alternate naloxone-containing products may be better suited than KLOXXADO. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Juvenile Animal Study</content>
+                        </paragraph>
+                        <paragraph>In a juvenile animal study, male and female juvenile rats were administered a single intranasal dose of saline, vehicle consisting of 20% alcohol and 5% propylene glycol, or naloxone (123 mg/kg, 185 mg/kg, and 246 mg/kg) on postnatal day 7 (PND 7). There were no test article-related findings on sexual maturation, neuroapoptosis, or on a limited number of neurocognitive endpoints which included social interactions as well as learning and memory. The no-effect dose level for neurodevelopmental toxicity was the high dose tested, which is 2.7-times a neonate dose based on body surface area comparison and a neonate weight of 2.5 kg. </paragraph>
+                     </text>
+                     <effectiveTime value="20250901"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b86715f6-f235-4aa9-ae40-5546cd4581f4">
+                     <id root="4a5cd786-f216-4eb6-aae7-d8331538852c"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use </title>
+                     <text>
+                        <paragraph>Clinical studies of KLOXXADO did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20220510"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d83665c2-d678-4e12-ad84-0e0991d91ef8">
+               <id root="d9820c62-19b8-4aae-9a98-41437fa16c08"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION </title>
+               <text>
+                  <paragraph>KLOXXADO (naloxone hydrochloride) nasal spray contains the active moiety naloxone, an opioid antagonist, in the form of hydrochloride salt.  The chemical name of Naloxone hydrochloride dihydrate is 17-Allyl-4,5α-epoxy-3,14-dihydroxymorphinan-6-one hydrochloride dihydrate. It has the molecular weight of 399.87 g/mol.  </paragraph>
+                  <paragraph>Naloxone hydrochloride dihydrate molecular formula is C<sub>19</sub>H<sub>21</sub>NO<sub>4·</sub>HCl<sub>·</sub>2H<sub>2</sub>O, and it has the following chemical structure, as shown below.  </paragraph>
+                  <renderMultiMedia ID="id-1064570641" referencedObject="ID_89c2e0c6-ea5c-4551-9006-2dbd78f735b6"/>
+                  <paragraph>Naloxone hydrochloride occurs as a white to slightly off-white powder, and is soluble in water, in dilute acids, and in strong alkali; slightly soluble in alcohol; practically insoluble in ether and in chloroform. </paragraph>
+                  <paragraph>KLOXXADO (naloxone hydrochloride) nasal spray is supplied in a pre-filled, single-dose intranasal spray.  Each spray or 0.1 mL of KLOXXADO (naloxone hydrochloride) nasal spray contains 8 mg of naloxone hydrochloride (equivalent to 8.79 mg of naloxone hydrochloride dihydrate, USP or 7.2 mg naloxone). Inactive ingredients are dehydrated alcohol <br/>(8 mg strength: 20% (w/w)), edetate disodium dihydrate, USP, propylene glycol, USP, and sodium hydroxide, NF and hydrochloric acid, NF as pH adjusters, in purified water, USP. The pH range for KLOXXADO (naloxone hydrochloride) nasal spray is from 4.0 to 5.5.   </paragraph>
+               </text>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <observationMedia ID="ID_89c2e0c6-ea5c-4551-9006-2dbd78f735b6">
+                     <text>image-chemical-structure-usp.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-chemical-structure-usp.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_97ee4742-3254-4e7c-bc94-cd41f8e2c7b0">
+               <id root="47d508f1-db73-4137-b307-b0b4db7926df"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY </title>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <section ID="ID_130f4331-eb95-44f1-adb0-89164920d830">
+                     <id root="1672bf02-95c7-4eb8-9fb6-53740fe0abdd"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action </title>
+                     <text>
+                        <paragraph>Naloxone hydrochloride is an opioid antagonist that antagonizes opioid effects by competing for the same receptor sites. Administration of naloxone hydrochloride reverses the effects of opioids, including respiratory depression, sedation and hypotension. It can also reverse the psychotomimetic and dysphoric effects of agonist-antagonists such as pentazocine. </paragraph>
+                     </text>
+                     <effectiveTime value="20220510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_3e678fe1-d39f-4280-8995-6962ae98cb6e">
+                     <id root="20d7b673-0e1e-4f4d-846b-8fe5bc5faf5c"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics </title>
+                     <text>
+                        <paragraph>When naloxone hydrochloride is administered intravenously, the onset of action is generally apparent within two minutes. The time to onset of action is shorter for intravenous compared to subcutaneous or intramuscular routes of administration. The duration of action is dependent upon the dose and route of administration of naloxone hydrochloride.</paragraph>
+                     </text>
+                     <effectiveTime value="20220510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_580b54b2-b7cd-4ff6-97dd-26c914b22cc8">
+                     <id root="d124b9c8-6c53-4584-bf8c-f803a04dbbb3"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics </title>
+                     <text>
+                        <paragraph>In a pharmacokinetic study in up to 72 healthy adult volunteers under fasting conditions, the bioavailability (BA) of a single 4 mg dose (one spray) of KLOXXADO was compared to a single 8 mg nasal dose of KLOXXADO and a single <br/>4 mg nasal dose of a previously approved naloxone nasal spray. Naloxone plasma concentration versus time profiles are shown in Figure 1. The pharmacokinetic parameters of naloxone are summarized in Table 1.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Figure 1.  Mean ± SD Plasma Concentration Time Profiles of Naloxone Following a Single Dose of Kloxxado nasal spray 4 mg versus Kloxxado 8 mg nasal spray, and a Previously Approved naloxone nasal spray 4 mg in Healthy Subjects  (A: 0-4h and B: 0-30 min)</content>
+                        </paragraph>
+                        <renderMultiMedia ID="id-768847105" referencedObject="ID_8af4a42f-9750-4ac3-9b1b-7ada36cefe78"/>
+                        <renderMultiMedia ID="id-1060092500" referencedObject="ID_6866d2af-bc7e-48c9-9a2f-3c7d042b5af3"/>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>Kloxxado nasal spray 4 mg, Kloxxado nasal spray 8 mg, and a Previously Approved Naloxone Nasal Spray 4 mg Administration in Healthy Subjects  </item>
+                        </list>
+                        <table styleCode="Noautorules" width="544.25pt">
+                           <caption>Kloxxado nasal spray 4 mg, Kloxxado nasal spray 8 mg, and a Previously Approved Naloxone Nasal Spray 4 mg Administration in Healthy Subjects  </caption>
+                           <col width="21%"/>
+                           <col width="27%"/>
+                           <col width="26%"/>
+                           <col width="26%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Parameter</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Kloxxado Nasal Spray<br/>4 mg</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Previously Approved Naloxone Nasal Spray <br/>4 mg</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Kloxxado Nasal Spray<br/>8 mg</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>N</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="middle">
+                                    <paragraph>71<footnote ID="_Ref179891810">N=71 due to withdrawal.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="middle">
+                                    <paragraph>70<footnote ID="_Ref101885582">N=70 due to withdrawal.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="middle">
+                                    <paragraph>70<footnoteRef IDREF="_Ref101885582"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>T<sub>max</sub>(h)<footnote ID="_Ref101885613">T<sub>max</sub> reported as median (minimum – maximum).</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>0.17 (0.07-0.50)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>0.25 (0.13-1.00)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>0.25 (0.07-1.00)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>C<sub>max</sub> (ng/mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>11.11 (41.74)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>6.56 (35.87)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>14.41 (47.17)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>AUC<sub>last</sub> (ngh/mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>12.31 (31.61)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>10.14 (35.44)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>19.57 (35.39)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="middle">
+                                    <paragraph>AUC<sub>0inf</sub> (ngh/mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>12.57 (30.63)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>10.41 (33.82)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>19.81 (34.73)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                                    <paragraph>T<sub>1/2 </sub>(h)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>1.27 (26.32)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>1.30 (26.22)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>1.56 (126.82)</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In two pharmacokinetic studies in up to 24 healthy adult volunteers for each study, the bioavailability (BA) of a single <br/>8 mg dose (one spray) of KLOXXADO was compared to a single 0.4 mg intramuscular dose and a single 2 mg intravenous dose of naloxone. Naloxone plasma concentration versus time profiles are shown in Figure 2. The pharmacokinetic parameters of naloxone are summarized in Table 2.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Figure 2.  Mean ± SD Plasma Concentration-Time Profiles of Naloxone Following A Single Dose of Intranasal versus Intramuscular/Intravenous Administration in Healthy Subjects. (A: 0-4 h and B: 0-30 min.)  </content>
+                        </paragraph>
+                        <renderMultiMedia ID="id-900749014" referencedObject="EB41B46D-3D98-4CBA-9623-400A9EB8F717"/>
+                        <renderMultiMedia ID="id-554707528" referencedObject="C02DD615-4259-4E26-BF2B-4736C19C1411"/>
+                        <paragraph>
+                           <content styleCode="bold">Table 2.  Mean (CV%) Plasma Pharmacokinetic Parameters of Naloxone Following a Single Dose of Intranasal and Intramuscular/Intravenous Administration in Healthy Subjects</content>
+                        </paragraph>
+                        <table width="100%">
+                           <col width="18%"/>
+                           <col width="15%"/>
+                           <col width="16%"/>
+                           <col width="16%"/>
+                           <col width="15%"/>
+                           <col width="19%"/>
+                           <thead>
+                              <tr>
+                                 <th align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">Parameter</content>
+                                 </th>
+                                 <th align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">KLOXXADO </content>
+                                    <br/>
+                                    <content styleCode="bold">8 mg</content>
+                                 </th>
+                                 <th align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">Intramuscular Injection </content>
+                                    <br/>
+                                    <content styleCode="bold">0.4 mg</content>
+                                 </th>
+                                 <th align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">Intravenous Injection 2 mg</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Study</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Study I</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Study II</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Study I</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Study II</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Study II</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>N</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>24</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>23<footnote ID="_Ref30084332">N=23 due to one subject withdrawal.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>24</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>23<footnoteRef IDREF="_Ref30084332"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>24</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>T<sub>max</sub>(h)<footnote ID="_Ref30084452">T<content styleCode="bold">
+                                             <sub>max</sub>
+                                          </content> reported as median (minimum – maximum).</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0.25<br/>(0.10 – 1.00)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0.25<br/>(0.10 – 1.00)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0.25<br/>(0.13 – 1.00)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0.25<br/>(0.10 – 1.00)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>NA</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>C<sub>max </sub>(ng/mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>12.3 (55.4)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>12.8 (37.0)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0.876 (36.7)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0.910 (36.8)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>26.2 (82.4)<footnote ID="_Ref66365979">C<content styleCode="bold">
+                                             <sub>max</sub>
+                                          </content> of Intravenous Injection 2 mg was observed value from the first sampling time of 2 minutes post-dose. </footnote>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>AUC<sub>last </sub>
+                                       <br/>(ng•h/mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>18.0 (29.6)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>18.4 (33.4)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.82 (24.0)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.87 (24.7)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>12.7 (27.6)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>AUC<sub>0-inf </sub>(ng•h/mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>16.7 (31.9)<footnote ID="_Ref30084713">N=15</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>19.0 (32.7)<footnote ID="_Ref30084725">N=19</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.94 (20.9)<footnote ID="_Ref30084738">N=22 for AUC<content styleCode="bold">
+                                             <sub>0-inf</sub>
+                                          </content> and t<content styleCode="bold">
+                                             <sub>1/2</sub>
+                                          </content>
+                                       </footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.95 (21.9)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>12.8 (27.5)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>t<sub>1/2</sub> (h)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.69 (69.9)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.76 (39.7)<footnoteRef IDREF="_Ref30084725"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.41 (20.0)<footnoteRef IDREF="_Ref30084738"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.40 (38.9)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.22 (16.4)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Dose normalized Relative BA (%)<br/>vs IM Injection</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>41.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>47.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>100</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>100</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>NA</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Dose normalized Absolute BA (%)<br/>vs IV Injection</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>NA</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>36.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>NA</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>77.2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>100</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="6" styleCode="Botrule " valign="top">
+                                    <paragraph>NA= Not applicable</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="underline">Absorption</content>
+                        </paragraph>
+                        <paragraph>The median T<sub>max</sub> for naloxone following administration of a single dose of 4 mg Kloxxado nasal spray, a previously approved naloxone nasal spray 4 mg, and Kloxxado nasal spray 8 mg were 0.17 hour, 0.25 hour, and 0.25 hour, respectively. The median T<sub>max</sub> (15 min) for naloxone following administration of a single dose of 8 mg KLOXXADO nasal spray was the same as following administration of a single intramuscular dose of 0.4 mg naloxone hydrochloride. </paragraph>
+                        <paragraph>The relative bioavailability of naloxone following administration of a single dose 4 mg Kloxxado nasal spray was 122% as compared to following administration of a single intranasal dose of a previously approved naloxone nasal spray 4 mg.  The relative bioavailability of naloxone following administration of a single dose of 4 mg Kloxxado nasal spray was 65% as compared to following administration of a single intranasal dose of 8 mg Kloxxado.  The dose normalized relative bioavailability of naloxone following administration of a single dose of 8 mg KLOXXADO was 42 to 47% as compared to following administration of a single intramuscular dose of 0.4 mg naloxone hydrochloride. The absolute bioavailability of naloxone following administration of a single dose of 8 mg KLOXXADO nasal spray was 37% as compared to following administration of a single intravenous dose of 2 mg naloxone hydrochloride.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>Following parenteral administration, naloxone is distributed in the body and readily crosses the placenta. Plasma protein binding occurs but is relatively weak. Plasma albumin is the major binding constitute, but significant binding of naloxone also occurs to plasma constituents other than albumin. It is not known whether naloxone is excreted into human milk.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>Following a single intranasal administration of Kloxxado nasal spray 4 mg, the mean half-life (t<sub>1/2</sub>) of naloxone in plasma was approximately 1.27 (26.32% CV) hours. The mean t<sub>1/2 </sub>was 1.30 (26.22% CV) hours for a 4 mg intranasal administration of a previously approved naloxone nasal spray and 1.56 (126.82% CV) hours for an 8 mg Kloxxado intranasal administration. Following a single intranasal administration of 8 mg KLOXXADO, the mean half-life (t<sub>1/2</sub>) of naloxone in plasma was 1.8 (39.7% CV) to 2.7 (69.6% CV) hours. The mean t<sub>1/2 </sub>was 1.4 (38.9% CV) to 1.4 (20.0% CV) hours for a 0.4 mg naloxone hydrochloride intramuscular injection and 1.2 (16.4% CV) hours for a 2 mg naloxone hydrochloride intravenous injection. In a neonatal study of naloxone hydrochloride the mean (±SD) plasma half-life was observed to be 3.1 ± 0.5 hours. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism  </content>
+                        </paragraph>
+                        <paragraph>Naloxone hydrochloride is metabolized in the liver, primarily by glucuronide conjugation, with naloxone-3-glucoronide as the major metabolite. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion    </content>
+                        </paragraph>
+                        <paragraph>After an oral or intravenous dose, about 25 to 40% of naloxone is excreted as metabolites in urine within 6 hours, about 50% in 24 hours, and 60 to 70% in 72 hours.     </paragraph>
+                     </text>
+                     <effectiveTime value="20250901"/>
+                     <component>
+                        <observationMedia ID="ID_8af4a42f-9750-4ac3-9b1b-7ada36cefe78">
+                           <text>figure1-plot-a-09.29.2025.jpg</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="figure1-plot-a-09.29.2025.jpg.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_6866d2af-bc7e-48c9-9a2f-3c7d042b5af3">
+                           <text>figure1-plot-b-09.29.2025.jpg</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="figure1-plot-b-09.29.2025.jpg.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="EB41B46D-3D98-4CBA-9623-400A9EB8F717">
+                           <text>figure-2-plot-a-09.29.2025.jpg</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="figure-2-plot-a-09.29.2025.jpg.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="C02DD615-4259-4E26-BF2B-4736C19C1411">
+                           <text>figure-2-plot-b-09.29.2025.jpg</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="figure-2-plot-b-09.29.2025.jpg.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c95c8698-5db5-4c0e-8728-408ad56ae45a">
+               <id root="be7635c7-b8fe-47f8-8c63-b2635505d665"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY </title>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <section ID="ID_7cd1cb98-c39d-49c7-b0a0-51c4cb007ae1">
+                     <id root="182374df-fbe0-430d-b408-1ca47ce2446e"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                        </paragraph>
+                        <paragraph>Studies in animals to assess the carcinogenic potential of naloxone have not been conducted.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mutagenesis</content>
+                        </paragraph>
+                        <paragraph>Naloxone was weakly positive in the Ames mutagenicity and in the <content styleCode="italics">in vitro</content> human lymphocyte chromosome aberration test but was negative in the <content styleCode="italics">in vitro</content> Chinese hamster V79 cell HGPRT mutagenicity assay and in the <content styleCode="italics">in vivo</content> rat bone marrow chromosome aberration study.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>Reproduction studies conducted in mice and rats at doses 3-times and 6-times, respectively, a human dose of 16 mg based on body surface area comparison, demonstrated no adverse effects on fertility of naloxone hydrochloride. </paragraph>
+                     </text>
+                     <effectiveTime value="20250901"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a8748d2e-1a2d-4446-a1aa-30036ef9f8fa">
+               <id root="213f0731-04bc-489c-b645-b9a77e7489f4"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING </title>
+               <text>
+                  <paragraph>KLOXXADO (naloxone hydrochloride) nasal spray is a clear, colorless to yellow solution supplied in a single-dose spray device that consists of a stoppered glass vial encased in a container holder fitted with a spray actuator, cannula, and spray pin.  It delivers a single dose of 8 mg of naloxone hydrochloride (equivalent to 7.2 mg naloxone) in 0.1 mL. </paragraph>
+                  <paragraph>Each KLOXXADO carton contains two individual blisters sealed with a paper backing with a “peel off” feature. The carton contains abbreviated instructions-for-use printed on the back. In addition, a quick instructions leaflet is attached to the bottom of each individual blister.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KLOXXADO nasal spray, 8 mg </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 Carton containing two nasal spray devices:  NDC# 59467-679-01</content>
+                  </paragraph>
+                  <paragraph>Not made with natural rubber latex. </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Storage and Handling</content>
+                  </paragraph>
+                  <paragraph>Store KLOXXADO in the blister and cartons provided.</paragraph>
+                  <paragraph>Store at 20ºC to 25ºC (68ºF to 77ºF), with excursions permitted to 40°C (104°F) and to 5°C (41°F). Do not store at or above 40°C (104°F). Do not freeze. Protect from light. </paragraph>
+                  <paragraph>KLOXXADO freezes at temperatures below -15°C (5°F). If this happens, the device will not spray. If KLOXXADO is frozen and is needed in an emergency, do NOT wait for KLOXXADO to thaw. Get emergency medical help right away. However, KLOXXADO may be thawed by allowing it to sit at room temperature for 15 minutes, and it may still be used if it has been thawed after being previously frozen.</paragraph>
+               </text>
+               <effectiveTime value="20250901"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1dbde067-1423-43c0-80a9-d7aa0f895084">
+               <id root="db6ffb18-dcbc-4893-aaea-8861880c8fdb"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION </title>
+               <text>
+                  <paragraph>Advise the patient and family members or caregivers to read the FDA-approved patient labeling (<content styleCode="italics">
+                        <linkHtml href="#_RefID_f04ea47e-8919-41dd-8993-873117e42">Patient Information</linkHtml>
+                     </content> and <content styleCode="italics">
+                        <linkHtml href="#_RefID_f04ea47e-8919-41dd-8993-873117e42">Instructions for Use</linkHtml>
+                     </content>). </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Recognition of Opioid Overdose</content>
+                  </paragraph>
+                  <paragraph>Inform patients and their family members or caregivers about how to recognize the signs and symptoms of an opioid overdose such as the following:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Extreme somnolence – inability to awaken a patient verbally or upon a firm sternal rub.</item>
+                     <item>
+                        <caption>•</caption>Respiratory depression – this can range from slow or shallow respiration to no respiration in a patient who is unarousable.</item>
+                     <item>
+                        <caption>•</caption>Other signs and symptoms that may accompany somnolence and respiratory depression include the following:</item>
+                     <item>
+                        <caption>•</caption>Miosis</item>
+                     <item>
+                        <caption>•</caption>Bradycardia and/or hypotension</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Risk of Recurrent Respiratory and Central Nervous System Depression</content>
+                  </paragraph>
+                  <paragraph>Instruct patients and their family members or caregivers that, because the duration of action of most opioids may exceed that of KLOXXADO, they must seek immediate emergency medical assistance after the first dose of KLOXXADO and keep the patient under continued surveillance <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0caf6837-875d-4f9b-aabf-c4f9539356b9">2.2</linkHtml>), Warnings and Precautions (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Limited Efficacy for/with Partial Agonists or Mixed Agonist/Antagonists</content>
+                  </paragraph>
+                  <paragraph>Instruct patients and their family members or caregivers that the reversal of respiratory depression caused by partial agonists or mixed agonist/antagonists, such as buprenorphine and pentazocine, may be incomplete and may require higher doses of naloxone hydrochloride or repeated administration of KLOXXADO, using a new nasal spray each time <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0caf6837-875d-4f9b-aabf-c4f9539356b9">2.2</linkHtml>), Warnings and Precautions (<linkHtml href="#ID_92e411c1-989f-477f-9019-93c774dd6092">5.2</linkHtml>)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Precipitation of Severe Opioid Withdrawal</content>
+                  </paragraph>
+                  <paragraph>Instruct patients and their family members or caregivers that the use of KLOXXADO in patients who are opioid dependent may precipitate opioid withdrawal <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_b7a0c4c3-5bb9-48d1-9680-c7008f5a9cb4">5.3</linkHtml>), Adverse Reactions (<linkHtml href="#ID_2569355b-46f6-45e4-8598-9197491ea72a">6</linkHtml>)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Administration Instructions</content>
+                  </paragraph>
+                  <paragraph>Instruct patients and their family members or caregivers to:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Ensure KLOXXADO is present and readily available in locations where a person may be intentionally or accidentally exposed to an opioid overdose (i.e., opioid emergencies).</item>
+                     <item>
+                        <caption>•</caption>Administer KLOXXADO as quickly as possible if a patient is unresponsive and an opioid overdose is suspected, even when in doubt, because prolonged respiratory depression may result in damage to the central nervous system or death. KLOXXADO is not a substitute for emergency medical care <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>)].</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Lay the patient on their back and administer KLOXXADO into one nostril while providing support to the back of the neck to allow the head to tilt back <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>)].</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Use each nasal spray only one time, <content styleCode="underline">DO NOT test or prime prior to use</content>
+                        <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>)].</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Place patient in a recovery position by turning him/her to their side as shown in the <content styleCode="italics">
+                           <linkHtml href="#_RefID_f04ea47e-8919-41dd-8993-873117e42">Instructions for Use</linkHtml>
+                        </content> and <br/>call for emergency medical assistance immediately after administration of the first dose of KLOXXADO. Additional supportive and/or resuscitative measures may be helpful while awaiting emergency medical <br/>assistance <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>)].</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Monitor patients and administer additional dose of KLOXXADO using a new KLOXXADO every 2 to 3 minutes, if the patient is not responding or responds and then relapses back into respiratory depression. Administer KLOXXADO in alternate nostrils with each dose <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_0d4770d4-9266-4f51-a573-9e565c3b9b1f">2.1</linkHtml>)].</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Replace KLOXXADO before its expiration date.</item>
+                  </list>
+                  <paragraph>Distributed by: <content styleCode="bold">Hikma </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Specialty USA Inc.</content>
+                  </paragraph>
+                  <paragraph>Columbus, OH  43228</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">C50001066/03</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Revised September 2025</content>
+                  </paragraph>
+                  <paragraph>KLOXXADO<sup>®</sup> is a registered trademark of Hikma Pharmaceuticals USA Inc.    </paragraph>
+               </text>
+               <effectiveTime value="20250901"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f04ea47e-8919-41dd-8993-873117e42f55">
+               <id root="3e4b5453-2974-415b-bc88-1156b9b82a19"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="33%"/>
+                     <col width="25%"/>
+                     <col width="42%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">PATIENT INFORMATION</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">KLOXXADO<sup>®</sup> (Kloks-AH-doh)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(naloxone hydrochloride)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">nasal spray </content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>You and your family members or caregivers should read this Patient Information leaflet before an opioid emergency happens. This information does not take the place of talking with your healthcare provider about your medical condition or your treatment.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What is the most important information I should know about KLOXXADO nasal spray?</content>
+                              </paragraph>
+                              <paragraph>KLOXXADO nasal spray is used to temporarily reverse the effects of opioid medicines. The medicine in KLOXXADO nasal spray has no effect in people who are not taking opioid medicines. Always carry KLOXXADO nasal spray with you in case of an opioid emergency.</paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Use KLOXXADO nasal spray right away if you or your caregiver think signs or symptoms of an opioid emergency are present, even if you are not sure, because an opioid emergency can cause severe injury or death. Signs and symptoms of an opioid emergency may include:<list listType="unordered">
+                                       <item>
+                                          <caption>o</caption>unusual sleepiness and you are not able to awaken the person with a loud voice or by rubbing firmly on the middle of their chest (sternum)</item>
+                                       <item>
+                                          <caption>o</caption>breathing problems including slow or shallow breathing in someone difficult to awaken or who looks like they are not breathing</item>
+                                       <item>
+                                          <caption>o</caption>the black circle in the center of the colored part of the eye (pupil) is very small, sometimes called “pinpoint pupils”, in someone difficult to awaken</item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>Family members, caregivers, or other people who may have to use KLOXXADO nasal spray in an opioid emergency should know where KLOXXADO nasal spray is stored and how to give KLOXXADO nasal spray before an opioid emergency happens.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Get emergency medical help right away after giving the first dose of KLOXXADO nasal spray. </content>Rescue breathing or CPR (cardiopulmonary resuscitation) may be given while waiting for emergency medical help.</item>
+                                 <item>
+                                    <caption>•</caption>The signs and symptoms of an opioid emergency can return after KLOXXADO nasal spray is given. If this happens, give another dose after 2 to 3 minutes using a new KLOXXADO nasal spray and watch the person closely until emergency help is received.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What is KLOXXADO nasal spray?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>KLOXXADO nasal spray is a prescription medicine used in adults and children for the treatment of an opioid emergency such as an overdose or a possible opioid overdose with signs of breathing problems and severe sleepiness or not being able to respond.</item>
+                                 <item>
+                                    <caption>•</caption>KLOXXADO nasal spray is to be given right away and does not take the place of emergency medical care.</item>
+                                 <item>
+                                    <caption>•</caption>Get emergency medical help right away after giving the first dose of KLOXXADO nasal spray, even if the person wakes up.</item>
+                                 <item>
+                                    <caption>•</caption>KLOXXADO nasal spray is safe and effective in children for known or suspected opioid overdose.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Do not use KLOXXADO nasal spray</content> if you are allergic to naloxone hydrochloride or any of the ingredients in KLOXXADO nasal spray. See the end of this leaflet for a complete list of ingredients in KLOXXADO nasal spray.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Before using KLOXXADO nasal spray, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>have heart problems</item>
+                                 <item>
+                                    <caption>•</caption>are pregnant or plan to become pregnant. Use of KLOXXADO nasal spray may cause withdrawal symptoms in your unborn baby. Your unborn baby should be examined by a healthcare provider right away after you use KLOXXADO nasal spray.</item>
+                                 <item>
+                                    <caption>•</caption>are breastfeeding or plan to breastfeed. It is not known if KLOXXADO nasal spray passes into your breast milk.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Tell your healthcare provider about the medicines you take, </content>including prescription and over-the-counter medicines, vitamins, and herbal supplements.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">How should I use KLOXXADO nasal spray?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Read the “Instructions for Use” at the end of this Patient Information leaflet for detailed information about the right way to use KLOXXADO nasal spray.</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Use KLOXXADO nasal spray exactly as prescribed by your healthcare provider.</item>
+                                 <item>
+                                    <caption>•</caption>Each KLOXXADO nasal spray contains only 1 dose of medicine and cannot be reused.</item>
+                                 <item>
+                                    <caption>•</caption>Lay the person on their back. Support their neck with your hand and allow the head to tilt back before giving KLOXXADO nasal spray.</item>
+                                 <item>
+                                    <caption>•</caption>KLOXXADO nasal spray should be given into one nostril.</item>
+                                 <item>
+                                    <caption>•</caption>If additional doses are needed, give KLOXXADO nasal spray in the other nostril.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What are the possible side effects of KLOXXADO nasal spray?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">KLOXXADO nasal spray may cause serious side effects, including:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Sudden opioid withdrawal symptoms. </content>In someone who has been using opioids regularly, opioid withdrawal symptoms can happen suddenly after receiving KLOXXADO nasal spray and may include:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>o</caption>body aches</item>
+                                 <item>
+                                    <caption>o</caption>diarrhea</item>
+                                 <item>
+                                    <caption>o</caption>increased heart rate</item>
+                                 <item>
+                                    <caption>o</caption>fever</item>
+                                 <item>
+                                    <caption>o</caption>runny nose</item>
+                                 <item>
+                                    <caption>o</caption>sneezing</item>
+                              </list>
+                           </td>
+                           <td valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>o</caption>goose bumps</item>
+                                 <item>
+                                    <caption>o</caption>sweating</item>
+                                 <item>
+                                    <caption>o</caption>yawning</item>
+                                 <item>
+                                    <caption>o</caption>nausea or vomiting</item>
+                                 <item>
+                                    <caption>o</caption>nervousness</item>
+                              </list>
+                           </td>
+                           <td valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>o</caption>restlessness or irritability</item>
+                                 <item>
+                                    <caption>o</caption>shivering or trembling</item>
+                                 <item>
+                                    <caption>o</caption>stomach cramping</item>
+                                 <item>
+                                    <caption>o</caption>weakness</item>
+                                 <item>
+                                    <caption>o</caption>increased blood pressure</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>In infants under 4 weeks old who have been receiving opioids regularly, sudden opioid withdrawal may be life-threatening if not treated the right way. Signs and symptoms include: seizures, crying more than usual, and <br/>increased reflexes.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">The most common side effects of KLOXXADO in adults include: </content>stomach-area (abdomen) pain, weakness, dizziness, headache, nose (nasal) discomfort and a feeling like you are going to faint. </paragraph>
+                              <paragraph>These are not all of the possible side effects of KLOXXADO nasal spray. </paragraph>
+                              <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">How should I store KLOXXADO nasal spray?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Store KLOXXADO nasal spray at room temperature between 68ºF to 77ºF (20°C to 25°C).</item>
+                                 <item>
+                                    <caption>•</caption>Do not freeze. Do not expose to temperatures below 41°F (5°C) or above 104°F (40°C).</item>
+                                 <item>
+                                    <caption>•</caption>Keep KLOXXADO nasal spray in its box until ready to use. Protect from light.</item>
+                                 <item>
+                                    <caption>•</caption>Replace KLOXXADO nasal spray before the expiration date on the box.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Keep KLOXXADO nasal spray and all medicines out of the reach of children.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">General information about the safe and effective use of KLOXXADO nasal spray.</content>
+                              </paragraph>
+                              <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use KLOXXADO nasal spray for a condition for which it was not prescribed. You can ask your pharmacist or healthcare provider for information about KLOXXADO nasal spray that is written for health professionals.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What are the ingredients in KLOXXADO nasal spray?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Active ingredient: </content>naloxone hydrochloride</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Inactive ingredients:  </content>dehydrated alcohol (8 mg strength: 20% (w/w)), edetate disodium dihydrate, propylene glycol, and sodium hydroxide and hydrochloric acid as pH adjusters in purified water.</paragraph>
+                              <paragraph>KLOXXADO nasal spray is not made with natural rubber latex. </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>Distributed by: <content styleCode="bold">Hikma Specialty USA Inc</content>.  <br/>Columbus, OH 43228</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">C50001066/03</content>
+                              </paragraph>
+                              <paragraph>KLOXXADO<sup>®</sup> nasal spray is a registered trademark of Hikma Pharmaceuticals USA Inc.  </paragraph>
+                              <paragraph>For more information, visit <linkHtml href="http://www.Hikma.com">www.Hikma.com</linkHtml> or call Hikma Specialty USA Inc. at 1-800-962-8364.  </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>This Patient Information has been approved by the U.S. Food and Drug Administration.           Revised:  September 2025</paragraph>
+               </text>
+               <effectiveTime value="20250901"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6738fe40-dc64-40b3-aa8c-2c0fed02fa14">
+               <id root="4f681c5b-b16d-4e7a-9286-3878e0b46160"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="64%"/>
+                     <col width="36%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="2" styleCode="Rrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">INSTRUCTIONS FOR USE </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">KLOXXADO<sup>®</sup> (Kloks-AH-doh) </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(naloxone hydrochloride)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">nasal spray</content>
+                              </paragraph>
+                              <paragraph>You and your family members or caregivers should read the Instructions for Use that comes with KLOXXADO nasal spray before using it. Talk to your healthcare provider if you and your family members or caregivers have any questions about the use of KLOXXADO nasal spray. </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Use KLOXXADO nasal spray for known or suspected opioid overdose in adults and children. </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Important:  For use in the nose only.</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Do not remove or test the KLOXXADO nasal spray until ready to use.</content>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Each KLOXXADO nasal spray has 1 dose and cannot be reused.</content>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">You do not need to prime KLOXXADO nasal spray.</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">How to use KLOXXADO nasal spray:</content>
+                              </paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 1</content>.	Lay the person on their back to receive a dose of KLOXXADO nasal spray.</item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 2.</content>	Remove KLOXXADO nasal spray from the box. <br/>Peel back the tab with the black triangle (▲) to open the <br/>KLOXXADO nasal spray blister. </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Note:</content> KLOXXADO freezes at temperatures below 5°F (-15°C). If this<br/>happens, the device will not spray. Get emergency medical help right<br/>away if this happens. Do not wait for KLOXXADO to thaw. KLOXXADO<br/>may still be used if it has been thawed after being previously frozen.</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 3</content>.	Hold the KLOXXADO nasal spray with your thumb on the bottom of the plunger and your first and middle fingers on either side of the nozzle. </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <list listType="unordered">
+                                       <item>
+                                          <caption>•</caption>Do not apply any pressure until you are ready <br/>to give the dose.</item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 4.</content>	Tilt the person’s head back and provide support under the neck with your hand. </item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>Gently<content styleCode="bold"/>insert the tip of the nozzle into <content styleCode="bold">one nostril</content> until <br/>your fingers on either side of the nozzle are against the bottom of the person’s nose. </item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 5.</content>	Press the plunger firmly to give the dose of KLOXXADO <br/>nasal spray.</item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 6.</content> 	Remove the KLOXXADO nasal spray from the nostril<br/>after giving the dose. </item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">What to do after KLOXXADO nasal spray has been used: </content>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 7.	Get emergency help right away. </content>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>Move the person on their side (recovery position) after giving KLOXXADO nasal spray. </item>
+                                 <item>
+                                    <caption>•</caption>Watch the person closely for 2 to 3 minutes. </item>
+                                 <item>
+                                    <caption>•</caption>If the person does not respond by waking up, to voice <br/>or touch, or start breathing normally, another dose may <br/>be given. </item>
+                                 <item>
+                                    <caption>•</caption>Repeat <content styleCode="bold">Steps 2 through 6</content> using a new KLOXXADO nasal spray to give another dose in the other nostril. </item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>If additional KLOXXADO nasal sprays are available, Steps 2 through 6 may be repeated every 2 to 3 minutes, alternating nostrils, until the person responds or emergency medical help is received. </item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 8.</content>Put the used KLOXXADO nasal spray back into its box.</item>
+                                 <item>
+                                    <caption> </caption>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Step 9.</content> 	Throw away (dispose of) the used KLOXXADO nasal spray in a place that is away from children. </item>
+                              </list>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <renderMultiMedia ID="id2109071523" referencedObject="BD13EF3D-A0E9-4DC9-AA89-67C88C3B6446"/>
+                              <renderMultiMedia ID="id-1693294375" referencedObject="BF701BC6-E3D3-4899-B1ED-52334A041242"/>
+                              <renderMultiMedia ID="id-838848829" referencedObject="ID_27fbde81-4219-4848-bc49-e05f5df4b412"/>
+                              <renderMultiMedia ID="id928394485" referencedObject="ID_33aa7609-8302-4d73-a380-140d3d449b01"/>
+                              <renderMultiMedia ID="id38397009" referencedObject="ID_420af4ba-ac21-4057-b4b8-97759e79d012"/>
+                              <renderMultiMedia ID="id1435475285" referencedObject="ID_29159d6f-2ece-4604-9ab5-743cf5032c90"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">How should I store KLOXXADO nasal spray?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Store KLOXXADO nasal spray at room temperature between 68ºF to 77ºF (20°C to 25°C).</item>
+                                 <item>
+                                    <caption>•</caption>Do not freeze. Do not expose to temperatures below 41°F (5°C) or above 104°F (40°C).</item>
+                                 <item>
+                                    <caption>•</caption>Keep KLOXXADO nasal spray in its box until ready to use. Protect from light.</item>
+                                 <item>
+                                    <caption>•</caption>Replace KLOXXADO nasal spray before the expiration date on the box.</item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">Keep KLOXXADO nasal spray and all medicines out of the reach of children</content>.</item>
+                              </list>
+                              <paragraph>Distributed by: <content styleCode="bold">Hikma Specialty USA Inc.  <br/>
+                                 </content>Columbus, OH 43228</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">C50001066/03</content>
+                              </paragraph>
+                              <paragraph>KLOXXADO<sup>®</sup> is a registered trademark of Hikma Pharmaceuticals USA Inc. </paragraph>
+                              <paragraph>For more information, visit <linkHtml href="http://www.Hikma.com">www.Hikma.com</linkHtml> or call Hikma Specialty USA Inc. at 1-800-962-8364.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>This Instructions for Use has been approved by the U.S. Food and Drug Administration.         Revised:  September 2025 </paragraph>
+               </text>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <observationMedia ID="BD13EF3D-A0E9-4DC9-AA89-67C88C3B6446">
+                     <text>peeling-back-blister-with-zoom-of-triangle</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="BF701BC6-E3D3-4899-B1ED-52334A041242">
+                     <text>ifu-image-2-proper-way-to-hold-device</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_27fbde81-4219-4848-bc49-e05f5df4b412">
+                     <text>ifu-image-3-support-back-of-neck</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_33aa7609-8302-4d73-a380-140d3d449b01">
+                     <text>ifu-image-4-insert-tip-into-nostril</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_420af4ba-ac21-4057-b4b8-97759e79d012">
+                     <text>ifu-image-5-place-patient-on-their-side</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_29159d6f-2ece-4604-9ab5-743cf5032c90">
+                     <text>ifu-image-6-clock-2-3-minutes</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_25d7b69d-1c6a-4e58-9cc5-dd5fc81e52e4">
+               <id root="d6c1af62-844b-4170-b76d-4a6f49f76332"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <paragraph>KLOXXADO<sup>®</sup> (naloxone HCl) nasal spray, 8 mg - Folding Carton  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC # 59467-679-01</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id917595099" referencedObject="ID_14fa327e-91bb-4085-8e6b-c577e2db395a"/>
+               </text>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <observationMedia ID="ID_14fa327e-91bb-4085-8e6b-c577e2db395a">
+                     <text>kloxxado-8mg-fc-c50001063-03-k01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ba0453f0-64e2-495e-950b-9ff312b5f942">
+               <id root="2af726b4-cafe-421c-8c34-440da87dae55"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <paragraph>KLOXXADO<sup>®</sup> (naloxone HCl) nasal spray, 8 mg – Foil Peel Backing</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC # 59467-679-01</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id44502956" referencedObject="ID_756dd1c0-097a-4dad-8c1b-eb43bdea8fff"/>
+               </text>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <observationMedia ID="ID_756dd1c0-097a-4dad-8c1b-eb43bdea8fff">
+                     <text>kloxxado-8mg-foil-peel-backing-c50001064-02-k01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e00bd0b4-e199-4f30-87ff-206b8952664e">
+               <id root="c4174931-1ef6-4b50-8639-b2a76c53f2a4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <paragraph>KLOXXADO<sup>®</sup> (naloxone HCl) nasal spray, 8 mg – Device Label - Front</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC # 59467-679-01</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id424160275" referencedObject="ID_7a30c5bd-751d-4ec1-8462-d1fbb20ba246"/>
+               </text>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <observationMedia ID="ID_7a30c5bd-751d-4ec1-8462-d1fbb20ba246">
+                     <text>kloxxado-8mg-device-label-front-c50001068-01-k01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_fa40f66e-8b1f-4689-bb5f-0c6acb043956">
+               <id root="c6229df6-6132-451a-9bf2-2fd344a8d6b9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <paragraph>KLOXXADO<sup>®</sup> (naloxone HCl) nasal spray, 8 mg – Device Label – Back </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC # 59467-679-01</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id615636603" referencedObject="ID_47446445-bf7b-4d5d-b858-45eb8cc60ce4"/>
+               </text>
+               <effectiveTime value="20250901"/>
+               <component>
+                  <observationMedia ID="ID_47446445-bf7b-4d5d-b858-45eb8cc60ce4">
+                     <text>kloxxado-8mg-device-label-back-c50001067-01-k01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
