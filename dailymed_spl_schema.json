@@ -277,7 +277,7 @@
     "derived": {
       "type": "object",
       "description": "Computed/derived fields for knowledge graph integration",
-      "required": ["merge_keys", "section_presence_flags"],
+      "required": ["merge_keys", "section_presence_flags", "category_profile"],
       "additionalProperties": false,
       "properties": {
         "merge_keys": {
@@ -285,6 +285,9 @@
         },
         "section_presence_flags": {
           "$ref": "#/$defs/section_presence_flags"
+        },
+        "category_profile": {
+          "$ref": "#/$defs/category_profile"
         }
       }
     }
@@ -958,6 +961,103 @@
         "patient_information": {
           "type": "boolean",
           "description": "Has patient information / medication guide"
+        }
+      }
+    },
+
+    "category_profile": {
+      "type": "object",
+      "description": "Expected field population patterns based on document type (prescription, otc, homeopathic, other)",
+      "additionalProperties": false,
+      "properties": {
+        "document_type": {
+          "type": "string",
+          "enum": ["prescription", "otc", "homeopathic", "other", "unknown"],
+          "description": "The document category this profile describes"
+        },
+        "typical_section_count": {
+          "type": "integer",
+          "description": "Typical number of sections for this category"
+        },
+        "typical_ingredient_count": {
+          "type": "integer",
+          "description": "Typical number of ingredients for this category"
+        },
+        "expected_fields": {
+          "type": "object",
+          "description": "Fields expected to be populated for this document type",
+          "additionalProperties": false,
+          "properties": {
+            "boxed_warning": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether boxed warnings are expected"
+            },
+            "contraindications": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether contraindications section is expected"
+            },
+            "adverse_reactions": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether adverse reactions section is expected"
+            },
+            "clinical_pharmacology": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether clinical pharmacology is expected"
+            },
+            "clinical_studies": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether clinical studies section is expected"
+            },
+            "application_number": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether FDA application number (NDA/ANDA/BLA) is expected"
+            },
+            "otc_monograph_id": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether OTC monograph ID is expected"
+            },
+            "homeopathic_potency": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether homeopathic potency data is expected"
+            },
+            "manufacturers": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether manufacturer info is expected"
+            },
+            "physical_characteristics": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether physical characteristics are expected"
+            }
+          }
+        },
+        "regulatory_pattern": {
+          "type": "object",
+          "description": "Expected regulatory field patterns",
+          "additionalProperties": false,
+          "properties": {
+            "rx_otc_flag": {
+              "type": "string",
+              "enum": ["RX", "OTC", "UNKNOWN"],
+              "description": "Expected rx_otc_flag value"
+            },
+            "marketing_categories": {
+              "type": "array",
+              "description": "Typical marketing category values",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
         }
       }
     }

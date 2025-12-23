@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "homeopathic_40e5e7b1-80c7-b406-e063-6394a90ac7e2.xml",
-    "parsed_at": "2025-12-23T20:16:05.130814+00:00",
-    "parser_version": "2.1.0"
+    "parsed_at": "2025-12-23T20:36:37.504312+00:00",
+    "parser_version": "2.2.0"
   },
   "spl": {
     "document_id": {
@@ -18,7 +18,7 @@
     "version_number": 3,
     "effective_time": "20251011",
     "title": "QUENT 4X",
-    "document_type": "otc",
+    "document_type": "homeopathic",
     "language_code": null,
     "realm_code": null,
     "confidentiality_code": null
@@ -298,6 +298,29 @@
       "overdosage": false,
       "abuse_and_dependence": false,
       "patient_information": false
+    },
+    "category_profile": {
+      "document_type": "homeopathic",
+      "typical_section_count": 13,
+      "typical_ingredient_count": 3,
+      "expected_fields": {
+        "boxed_warning": "never",
+        "contraindications": "never",
+        "adverse_reactions": "never",
+        "clinical_pharmacology": "never",
+        "clinical_studies": "never",
+        "application_number": "never",
+        "otc_monograph_id": "never",
+        "homeopathic_potency": "always",
+        "manufacturers": "sometimes",
+        "physical_characteristics": "never"
+      },
+      "regulatory_pattern": {
+        "rx_otc_flag": "OTC",
+        "marketing_categories": [
+          "unapproved homeopathic"
+        ]
+      }
     }
   }
 }

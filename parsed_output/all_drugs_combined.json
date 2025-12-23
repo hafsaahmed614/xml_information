@@ -4,8 +4,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_1e5c425c-1387-49c4-8200-b36cb8925f9c.xml",
-      "parsed_at": "2025-12-23T20:16:05.127507+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.501360+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -19,7 +19,7 @@
       "version_number": 2,
       "effective_time": "20251027",
       "title": "REBALANCER",
-      "document_type": "otc",
+      "document_type": "homeopathic",
       "language_code": null,
       "realm_code": null,
       "confidentiality_code": null
@@ -283,6 +283,29 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "homeopathic",
+        "typical_section_count": 11,
+        "typical_ingredient_count": 5,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "always",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "never"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "unapproved homeopathic"
+          ]
+        }
       }
     }
   },
@@ -291,8 +314,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_40e5e7b1-80c7-b406-e063-6394a90ac7e2.xml",
-      "parsed_at": "2025-12-23T20:16:05.130814+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.504312+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -306,7 +329,7 @@
       "version_number": 3,
       "effective_time": "20251011",
       "title": "QUENT 4X",
-      "document_type": "otc",
+      "document_type": "homeopathic",
       "language_code": null,
       "realm_code": null,
       "confidentiality_code": null
@@ -586,6 +609,29 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "homeopathic",
+        "typical_section_count": 13,
+        "typical_ingredient_count": 3,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "always",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "never"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "unapproved homeopathic"
+          ]
+        }
       }
     }
   },
@@ -594,8 +640,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_4278ca93-86f2-71de-e063-6394a90a137b.xml",
-      "parsed_at": "2025-12-23T20:16:05.133645+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.506439+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -609,7 +655,7 @@
       "version_number": 1,
       "effective_time": "20251119",
       "title": "Hepar (Liver) 30X",
-      "document_type": "otc",
+      "document_type": "homeopathic",
       "language_code": null,
       "realm_code": null,
       "confidentiality_code": null
@@ -875,6 +921,29 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "homeopathic",
+        "typical_section_count": 12,
+        "typical_ingredient_count": 4,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "always",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "never"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "unapproved homeopathic"
+          ]
+        }
       }
     }
   },
@@ -883,8 +952,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_42e02de9-d1e2-0388-e063-6394a90aa127.xml",
-      "parsed_at": "2025-12-23T20:16:05.136235+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.508351+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -898,7 +967,7 @@
       "version_number": 3,
       "effective_time": "20251105",
       "title": "Coffea cruda 6C",
-      "document_type": "otc",
+      "document_type": "homeopathic",
       "language_code": null,
       "realm_code": null,
       "confidentiality_code": null
@@ -1193,6 +1262,29 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "homeopathic",
+        "typical_section_count": 13,
+        "typical_ingredient_count": 3,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "always",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "never"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "unapproved homeopathic"
+          ]
+        }
       }
     }
   },
@@ -1201,8 +1293,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "homeopathic_43e18608-e21a-0110-e063-6394a90a287d.xml",
-      "parsed_at": "2025-12-23T20:16:05.139700+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.510452+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -1216,7 +1308,7 @@
       "version_number": 4,
       "effective_time": "20251118",
       "title": "Astragalus Formica",
-      "document_type": "otc",
+      "document_type": "homeopathic",
       "language_code": null,
       "realm_code": null,
       "confidentiality_code": null
@@ -1505,6 +1597,29 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "homeopathic",
+        "typical_section_count": 10,
+        "typical_ingredient_count": 5,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "always",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "never"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "unapproved homeopathic"
+          ]
+        }
       }
     }
   },
@@ -1513,8 +1628,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_2f8bbda5-0100-4d14-84b7-e5712f6dad6f.xml",
-      "parsed_at": "2025-12-23T20:16:05.143665+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.513534+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -1957,6 +2072,30 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "otc",
+        "typical_section_count": 16,
+        "typical_ingredient_count": 10,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "always",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "OTC Monograph Drug",
+            "OTC monograph not final"
+          ]
+        }
       }
     }
   },
@@ -1965,8 +2104,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_409989d2-3458-6fab-e063-6294a90a57ab.xml",
-      "parsed_at": "2025-12-23T20:16:05.147825+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.516947+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -2397,6 +2536,30 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "otc",
+        "typical_section_count": 10,
+        "typical_ingredient_count": 20,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "always",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "OTC Monograph Drug",
+            "OTC monograph not final"
+          ]
+        }
       }
     }
   },
@@ -2405,8 +2568,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_4276a9af-4bc4-0e6b-e063-6294a90a774f.xml",
-      "parsed_at": "2025-12-23T20:16:05.151166+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.519870+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -2806,6 +2969,30 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "otc",
+        "typical_section_count": 18,
+        "typical_ingredient_count": 11,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "always",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "OTC Monograph Drug",
+            "OTC monograph not final"
+          ]
+        }
       }
     }
   },
@@ -2814,8 +3001,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_43f770ab-1ea6-c06a-e063-6294a90aebd2.xml",
-      "parsed_at": "2025-12-23T20:16:05.154563+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.522608+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -3202,6 +3389,30 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "otc",
+        "typical_section_count": 10,
+        "typical_ingredient_count": 12,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "always",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "OTC Monograph Drug",
+            "OTC monograph not final"
+          ]
+        }
       }
     }
   },
@@ -3210,8 +3421,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "otc_ba65223d-080f-40e2-807a-eaf4d3611cd4.xml",
-      "parsed_at": "2025-12-23T20:16:05.157517+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.525114+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -3668,6 +3879,30 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "otc",
+        "typical_section_count": 13,
+        "typical_ingredient_count": 20,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "never",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "never",
+          "application_number": "never",
+          "otc_monograph_id": "always",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "OTC",
+          "marketing_categories": [
+            "OTC Monograph Drug",
+            "OTC monograph not final"
+          ]
+        }
       }
     }
   },
@@ -3676,8 +3911,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_14ed4ac8-b9ab-495c-9bef-bf3dd441ac78.xml",
-      "parsed_at": "2025-12-23T20:16:05.165515+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.532058+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -6430,6 +6665,31 @@
         "overdosage": true,
         "abuse_and_dependence": true,
         "patient_information": true
+      },
+      "category_profile": {
+        "document_type": "other",
+        "typical_section_count": 73,
+        "typical_ingredient_count": 60,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "sometimes",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "sometimes",
+          "application_number": "sometimes",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "UNKNOWN",
+          "marketing_categories": [
+            "dietary supplement",
+            "bulk ingredient",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -6438,8 +6698,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_26395c33-a90d-483a-96e9-f9f446cf5b53.xml",
-      "parsed_at": "2025-12-23T20:16:05.187591+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.552579+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -6694,6 +6954,31 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "other",
+        "typical_section_count": 2,
+        "typical_ingredient_count": 1,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "sometimes",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "sometimes",
+          "application_number": "sometimes",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "UNKNOWN",
+          "marketing_categories": [
+            "dietary supplement",
+            "bulk ingredient",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -6702,8 +6987,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_375fc53c-643d-4137-b034-ac11b783022c.xml",
-      "parsed_at": "2025-12-23T20:16:05.189354+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.554125+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -6918,6 +7203,31 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "other",
+        "typical_section_count": 2,
+        "typical_ingredient_count": 1,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "sometimes",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "sometimes",
+          "application_number": "sometimes",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "UNKNOWN",
+          "marketing_categories": [
+            "dietary supplement",
+            "bulk ingredient",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -6926,8 +7236,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_8b6fce68-cae9-4b85-8e14-6944f403c0c1.xml",
-      "parsed_at": "2025-12-23T20:16:05.190997+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.555572+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -7156,6 +7466,31 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "other",
+        "typical_section_count": 8,
+        "typical_ingredient_count": 2,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "sometimes",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "sometimes",
+          "application_number": "sometimes",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "UNKNOWN",
+          "marketing_categories": [
+            "dietary supplement",
+            "bulk ingredient",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -7164,8 +7499,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "other_cfe5fb33-3f93-4fb1-a754-bf65bf291c1a.xml",
-      "parsed_at": "2025-12-23T20:16:05.193174+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.557493+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -7413,6 +7748,31 @@
         "overdosage": false,
         "abuse_and_dependence": false,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "other",
+        "typical_section_count": 8,
+        "typical_ingredient_count": 3,
+        "expected_fields": {
+          "boxed_warning": "never",
+          "contraindications": "sometimes",
+          "adverse_reactions": "never",
+          "clinical_pharmacology": "never",
+          "clinical_studies": "sometimes",
+          "application_number": "sometimes",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "sometimes",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "UNKNOWN",
+          "marketing_categories": [
+            "dietary supplement",
+            "bulk ingredient",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -7421,8 +7781,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_1a0301ba-9f66-ac39-e063-6394a90a34bb.xml",
-      "parsed_at": "2025-12-23T20:16:05.197196+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.560855+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -7977,6 +8337,31 @@
         "overdosage": true,
         "abuse_and_dependence": true,
         "patient_information": true
+      },
+      "category_profile": {
+        "document_type": "prescription",
+        "typical_section_count": 20,
+        "typical_ingredient_count": 1,
+        "expected_fields": {
+          "boxed_warning": "always",
+          "contraindications": "always",
+          "adverse_reactions": "always",
+          "clinical_pharmacology": "always",
+          "clinical_studies": "sometimes",
+          "application_number": "always",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "always",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "RX",
+          "marketing_categories": [
+            "NDA",
+            "ANDA",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -7985,8 +8370,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_41375a05-871b-6afb-e063-6294a90a48f9.xml",
-      "parsed_at": "2025-12-23T20:16:05.211986+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.573788+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -8794,6 +9179,31 @@
         "overdosage": true,
         "abuse_and_dependence": true,
         "patient_information": true
+      },
+      "category_profile": {
+        "document_type": "prescription",
+        "typical_section_count": 64,
+        "typical_ingredient_count": 11,
+        "expected_fields": {
+          "boxed_warning": "always",
+          "contraindications": "always",
+          "adverse_reactions": "always",
+          "clinical_pharmacology": "always",
+          "clinical_studies": "sometimes",
+          "application_number": "always",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "always",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "RX",
+          "marketing_categories": [
+            "NDA",
+            "ANDA",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -8802,8 +9212,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_4221a53d-0185-7219-e063-6394a90a7ff7.xml",
-      "parsed_at": "2025-12-23T20:16:05.234584+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.592378+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -9940,6 +10350,31 @@
         "overdosage": true,
         "abuse_and_dependence": true,
         "patient_information": false
+      },
+      "category_profile": {
+        "document_type": "prescription",
+        "typical_section_count": 54,
+        "typical_ingredient_count": 32,
+        "expected_fields": {
+          "boxed_warning": "always",
+          "contraindications": "always",
+          "adverse_reactions": "always",
+          "clinical_pharmacology": "always",
+          "clinical_studies": "sometimes",
+          "application_number": "always",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "always",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "RX",
+          "marketing_categories": [
+            "NDA",
+            "ANDA",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -9948,8 +10383,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_570974d4-0d5b-4df2-b307-37380511835d.xml",
-      "parsed_at": "2025-12-23T20:16:05.260415+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.614662+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -10690,6 +11125,31 @@
         "overdosage": true,
         "abuse_and_dependence": true,
         "patient_information": true
+      },
+      "category_profile": {
+        "document_type": "prescription",
+        "typical_section_count": 54,
+        "typical_ingredient_count": 13,
+        "expected_fields": {
+          "boxed_warning": "always",
+          "contraindications": "always",
+          "adverse_reactions": "always",
+          "clinical_pharmacology": "always",
+          "clinical_studies": "sometimes",
+          "application_number": "always",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "always",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "RX",
+          "marketing_categories": [
+            "NDA",
+            "ANDA",
+            "BLA"
+          ]
+        }
       }
     }
   },
@@ -10698,8 +11158,8 @@
       "dataset": "DailyMed",
       "format": "SPL",
       "input_filename": "prescription_da424329-9a63-4df3-bced-4157d2086e20.xml",
-      "parsed_at": "2025-12-23T20:16:05.280458+00:00",
-      "parser_version": "2.1.0"
+      "parsed_at": "2025-12-23T20:36:37.632686+00:00",
+      "parser_version": "2.2.0"
     },
     "spl": {
       "document_id": {
@@ -11307,6 +11767,31 @@
         "overdosage": false,
         "abuse_and_dependence": true,
         "patient_information": true
+      },
+      "category_profile": {
+        "document_type": "prescription",
+        "typical_section_count": 35,
+        "typical_ingredient_count": 7,
+        "expected_fields": {
+          "boxed_warning": "always",
+          "contraindications": "always",
+          "adverse_reactions": "always",
+          "clinical_pharmacology": "always",
+          "clinical_studies": "sometimes",
+          "application_number": "always",
+          "otc_monograph_id": "never",
+          "homeopathic_potency": "never",
+          "manufacturers": "always",
+          "physical_characteristics": "sometimes"
+        },
+        "regulatory_pattern": {
+          "rx_otc_flag": "RX",
+          "marketing_categories": [
+            "NDA",
+            "ANDA",
+            "BLA"
+          ]
+        }
       }
     }
   }

@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "other_8b6fce68-cae9-4b85-8e14-6944f403c0c1.xml",
-    "parsed_at": "2025-12-23T20:16:05.190997+00:00",
-    "parser_version": "2.1.0"
+    "parsed_at": "2025-12-23T20:36:37.555572+00:00",
+    "parser_version": "2.2.0"
   },
   "spl": {
     "document_id": {
@@ -233,6 +233,31 @@
       "overdosage": false,
       "abuse_and_dependence": false,
       "patient_information": false
+    },
+    "category_profile": {
+      "document_type": "other",
+      "typical_section_count": 8,
+      "typical_ingredient_count": 2,
+      "expected_fields": {
+        "boxed_warning": "never",
+        "contraindications": "sometimes",
+        "adverse_reactions": "never",
+        "clinical_pharmacology": "never",
+        "clinical_studies": "sometimes",
+        "application_number": "sometimes",
+        "otc_monograph_id": "never",
+        "homeopathic_potency": "never",
+        "manufacturers": "sometimes",
+        "physical_characteristics": "sometimes"
+      },
+      "regulatory_pattern": {
+        "rx_otc_flag": "UNKNOWN",
+        "marketing_categories": [
+          "dietary supplement",
+          "bulk ingredient",
+          "BLA"
+        ]
+      }
     }
   }
 }

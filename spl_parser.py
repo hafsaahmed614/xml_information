@@ -27,7 +27,7 @@ import hashlib
 # CONSTANTS
 # =============================================================================
 
-PARSER_VERSION = "2.1.0"
+PARSER_VERSION = "2.2.0"
 
 # HL7 v3 SPL namespace
 NS = {'hl7': 'urn:hl7-org:v3'}
@@ -380,9 +380,39 @@ class Equivalence:
 
 
 @dataclass
+class ExpectedFields:
+    boxed_warning: str = "never"
+    contraindications: str = "never"
+    adverse_reactions: str = "never"
+    clinical_pharmacology: str = "never"
+    clinical_studies: str = "never"
+    application_number: str = "never"
+    otc_monograph_id: str = "never"
+    homeopathic_potency: str = "never"
+    manufacturers: str = "never"
+    physical_characteristics: str = "never"
+
+
+@dataclass
+class RegulatoryPattern:
+    rx_otc_flag: str = "UNKNOWN"
+    marketing_categories: List[str] = field(default_factory=list)
+
+
+@dataclass
+class CategoryProfile:
+    document_type: str = "unknown"
+    typical_section_count: int = 0
+    typical_ingredient_count: int = 0
+    expected_fields: ExpectedFields = field(default_factory=ExpectedFields)
+    regulatory_pattern: RegulatoryPattern = field(default_factory=RegulatoryPattern)
+
+
+@dataclass
 class Derived:
     merge_keys: MergeKeys = field(default_factory=MergeKeys)
     section_presence_flags: SectionPresenceFlags = field(default_factory=SectionPresenceFlags)
+    category_profile: CategoryProfile = field(default_factory=CategoryProfile)
 
 
 @dataclass
@@ -499,9 +529,33 @@ class SPLParser:
         doc.products = self._extract_products()
         doc.sections = self._extract_sections()
         doc.images = self._extract_images()
+
+        # Refine document type based on marketing category (homeopathic detection)
+        doc.spl.document_type = self._refine_document_type(doc)
+
         doc.derived = self._build_derived(doc)
 
         return doc
+
+    def _refine_document_type(self, doc: SPLDocument) -> str:
+        """Refine document type based on product marketing categories."""
+        current_type = doc.spl.document_type
+
+        # Check if any product has homeopathic marketing category
+        for product in doc.products:
+            if product.regulatory.marketing_category:
+                cat = product.regulatory.marketing_category.lower()
+                if 'homeopathic' in cat:
+                    return 'homeopathic'
+
+        # Check if any product has dietary supplement category
+        for product in doc.products:
+            if product.regulatory.marketing_category:
+                cat = product.regulatory.marketing_category.lower()
+                if 'dietary supplement' in cat or 'bulk ingredient' in cat:
+                    return 'other'
+
+        return current_type
 
     def parse_directory(self, dirpath: str, output_dir: Optional[str] = None) -> List[SPLDocument]:
         """
@@ -1299,7 +1353,96 @@ class SPLParser:
         # Build section presence flags
         derived.section_presence_flags = self._build_presence_flags(doc.sections)
 
+        # Build category profile
+        derived.category_profile = self._build_category_profile(doc)
+
         return derived
+
+    def _build_category_profile(self, doc: SPLDocument) -> CategoryProfile:
+        """Build category profile based on document type."""
+        doc_type = doc.spl.document_type
+        profile = CategoryProfile(document_type=doc_type)
+
+        # Count sections and ingredients
+        profile.typical_section_count = len(doc.sections)
+        total_ingredients = sum(len(p.ingredients) for p in doc.products)
+        profile.typical_ingredient_count = total_ingredients
+
+        # Define expected fields based on document type
+        if doc_type == "prescription":
+            profile.expected_fields = ExpectedFields(
+                boxed_warning="always",
+                contraindications="always",
+                adverse_reactions="always",
+                clinical_pharmacology="always",
+                clinical_studies="sometimes",
+                application_number="always",
+                otc_monograph_id="never",
+                homeopathic_potency="never",
+                manufacturers="always",
+                physical_characteristics="sometimes"
+            )
+            profile.regulatory_pattern = RegulatoryPattern(
+                rx_otc_flag="RX",
+                marketing_categories=["NDA", "ANDA", "BLA"]
+            )
+        elif doc_type == "otc":
+            profile.expected_fields = ExpectedFields(
+                boxed_warning="never",
+                contraindications="never",
+                adverse_reactions="never",
+                clinical_pharmacology="never",
+                clinical_studies="never",
+                application_number="never",
+                otc_monograph_id="always",
+                homeopathic_potency="never",
+                manufacturers="sometimes",
+                physical_characteristics="sometimes"
+            )
+            profile.regulatory_pattern = RegulatoryPattern(
+                rx_otc_flag="OTC",
+                marketing_categories=["OTC Monograph Drug", "OTC monograph not final"]
+            )
+        elif doc_type == "homeopathic":
+            profile.expected_fields = ExpectedFields(
+                boxed_warning="never",
+                contraindications="never",
+                adverse_reactions="never",
+                clinical_pharmacology="never",
+                clinical_studies="never",
+                application_number="never",
+                otc_monograph_id="never",
+                homeopathic_potency="always",
+                manufacturers="sometimes",
+                physical_characteristics="never"
+            )
+            profile.regulatory_pattern = RegulatoryPattern(
+                rx_otc_flag="OTC",
+                marketing_categories=["unapproved homeopathic"]
+            )
+        elif doc_type == "other":
+            profile.expected_fields = ExpectedFields(
+                boxed_warning="never",
+                contraindications="sometimes",
+                adverse_reactions="never",
+                clinical_pharmacology="never",
+                clinical_studies="sometimes",
+                application_number="sometimes",
+                otc_monograph_id="never",
+                homeopathic_potency="never",
+                manufacturers="sometimes",
+                physical_characteristics="sometimes"
+            )
+            profile.regulatory_pattern = RegulatoryPattern(
+                rx_otc_flag="UNKNOWN",
+                marketing_categories=["dietary supplement", "bulk ingredient", "BLA"]
+            )
+        else:
+            # Unknown type - use defaults
+            profile.expected_fields = ExpectedFields()
+            profile.regulatory_pattern = RegulatoryPattern()
+
+        return profile
 
     def _build_merge_keys(self, doc: SPLDocument) -> MergeKeys:
         """Build merge keys for knowledge graph integration."""

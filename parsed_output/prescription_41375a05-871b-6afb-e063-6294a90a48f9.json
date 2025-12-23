@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "prescription_41375a05-871b-6afb-e063-6294a90a48f9.xml",
-    "parsed_at": "2025-12-23T20:16:05.211986+00:00",
-    "parser_version": "2.1.0"
+    "parsed_at": "2025-12-23T20:36:37.573788+00:00",
+    "parser_version": "2.2.0"
   },
   "spl": {
     "document_id": {
@@ -812,6 +812,31 @@
       "overdosage": true,
       "abuse_and_dependence": true,
       "patient_information": true
+    },
+    "category_profile": {
+      "document_type": "prescription",
+      "typical_section_count": 64,
+      "typical_ingredient_count": 11,
+      "expected_fields": {
+        "boxed_warning": "always",
+        "contraindications": "always",
+        "adverse_reactions": "always",
+        "clinical_pharmacology": "always",
+        "clinical_studies": "sometimes",
+        "application_number": "always",
+        "otc_monograph_id": "never",
+        "homeopathic_potency": "never",
+        "manufacturers": "always",
+        "physical_characteristics": "sometimes"
+      },
+      "regulatory_pattern": {
+        "rx_otc_flag": "RX",
+        "marketing_categories": [
+          "NDA",
+          "ANDA",
+          "BLA"
+        ]
+      }
     }
   }
 }

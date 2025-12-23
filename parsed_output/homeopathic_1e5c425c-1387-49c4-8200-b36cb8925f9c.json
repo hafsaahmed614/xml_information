@@ -3,8 +3,8 @@
     "dataset": "DailyMed",
     "format": "SPL",
     "input_filename": "homeopathic_1e5c425c-1387-49c4-8200-b36cb8925f9c.xml",
-    "parsed_at": "2025-12-23T20:16:05.127507+00:00",
-    "parser_version": "2.1.0"
+    "parsed_at": "2025-12-23T20:36:37.501360+00:00",
+    "parser_version": "2.2.0"
   },
   "spl": {
     "document_id": {
@@ -18,7 +18,7 @@
     "version_number": 2,
     "effective_time": "20251027",
     "title": "REBALANCER",
-    "document_type": "otc",
+    "document_type": "homeopathic",
     "language_code": null,
     "realm_code": null,
     "confidentiality_code": null
@@ -282,6 +282,29 @@
       "overdosage": false,
       "abuse_and_dependence": false,
       "patient_information": false
+    },
+    "category_profile": {
+      "document_type": "homeopathic",
+      "typical_section_count": 11,
+      "typical_ingredient_count": 5,
+      "expected_fields": {
+        "boxed_warning": "never",
+        "contraindications": "never",
+        "adverse_reactions": "never",
+        "clinical_pharmacology": "never",
+        "clinical_studies": "never",
+        "application_number": "never",
+        "otc_monograph_id": "never",
+        "homeopathic_potency": "always",
+        "manufacturers": "sometimes",
+        "physical_characteristics": "never"
+      },
+      "regulatory_pattern": {
+        "rx_otc_flag": "OTC",
+        "marketing_categories": [
+          "unapproved homeopathic"
+        ]
+      }
     }
   }
 }
