@@ -1,0 +1,1289 @@
+================================================================================
+FDA SPL DRUG INFORMATION EXTRACTION REPORT
+Generated: 2025-12-23 17:06:23
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total files processed: 20
+
+By Category:
+  - Homeopathic: 5
+  - OTC (Over-the-Counter): 5
+  - Other/Bulk Ingredient: 5
+  - Prescription: 5
+
+================================================================================
+DRUG #1: REBALANCER
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: homeopathic_1e5c425c-1387-49c4-8200-b36cb8925f9c.xml
+  Document ID: 1e5c425c-1387-49c4-8200-b36cb8925f9c
+  Document Type: OTC ANIMAL DRUG LABEL
+  Category: Homeopathic
+  Effective Date: 2025-10-27
+  Version: 2
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: The Adored Beast Apothecary, Ltd
+  ID: 203463179
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: REBALANCER
+  Generic Name: Silicea, Thuja occidentalis
+  NDC: 86083-0009
+  Form: LIQUID
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: unapproved homeopathic
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - SILICON DIOXIDE (30 [hp_C] per 30 mL)
+  - THUJA OCCIDENTALIS LEAFY TWIG (12 [hp_C] per 30 mL)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - ALCOHOL
+  - WATER
+  - glycerin
+
+PACKAGING
+----------------------------------------
+  - NDC: 86083-0009-1, Quantity: 30 mL, Container: BOTTLE
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  DRUG FACTS HPUS Active Ingredients: Silicea 30C, Thuja Occidentalis 12C. The letters HPUS indicate that the components in this product are officially monographed in the Homeopathic Pharmacopoeia of the United States. Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  Indications: Supports the body in coming back to balance after inoculation without removing any benefits.
+
+WARNINGS SECTION
+----------------------------------------
+  WARNINGS FOR ANIMAL USE ONLY. KEEP OUT OF REACH OF CHILDREN. DO NOT USE IF TAMPER EVIDENT NECK SEAL IS BROKEN OR MISSING. Safe use in pregnant animals or animals intended for breeding has not been proven. If animal’s condition worsens or does not improve, discontinue use and consult your veterinarian
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  KEEP OUT OF REACH OF CHILDREN
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Directions: Add 4 pumps to a small amount of food twice per day. Not to be used for more than 10 consecutive days. For more information or options to administer refer to our website.
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  Supports the body in coming back to balance after inoculation without removing any benefits.
+
+
+================================================================================
+DRUG #2: QUENT 4X
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: homeopathic_40e5e7b1-80c7-b406-e063-6394a90ac7e2.xml
+  Document ID: 40e5e7b1-80c7-b406-e063-6394a90ac7e2
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: Homeopathic
+  Effective Date: 2025-10-11
+  Version: 3
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Symbiopathic
+  ID: 202697595
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: SYMBIO QUENT DROPS
+  Generic Name: Penicillium frequentans
+  NDC: 69710-175
+  Form: LIQUID
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: unapproved homeopathic
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - PENICILLIUM GLABRUM (4 [hp_X] per 1 mL)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - SODIUM CHLORIDE
+  - WATER
+
+PACKAGING
+----------------------------------------
+  - NDC: , Quantity: 10 mL, Container: BOTTLE
+  - NDC: 69710-175-11, Quantity: 1 1, Container: CARTON
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  Penicillium frequentans 4X
+
+WARNINGS SECTION
+----------------------------------------
+  Do not use if the tamper evident strip is broken or removed from the base of the cap.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Take 5 – 10 drops orally, three times per day.
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  KEEP OUT OF REACH OF CHILDREN: In case of overdose, get medical help or call a Poison Control Center right away.
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  This remedy is indicated for symptoms associated with colds; flu, inflamed nasal passages, pre- and post- influenza neuralgia, laryngitis, sinusitis and myalgias according to traditional homeopathic practice.*
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  For internal indications according to traditional homeopathic practice.
+
+
+================================================================================
+DRUG #3: Hepar (Liver) 30X
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: homeopathic_4278ca93-86f2-71de-e063-6394a90a137b.xml
+  Document ID: 4278ca93-86f2-71de-e063-6394a90a137b
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: Homeopathic
+  Effective Date: 2025-11-19
+  Version: 1
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: True Botanica, LLC
+  ID: 182071519
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Hepar (Liver) 30X
+  Generic Name: Hepar (Liver) 30X
+  NDC: 53645-2470
+  Form: LIQUID
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: unapproved homeopathic
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - BEEF LIVER (30 [hp_X] per 30 mL)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - POTASSIUM SORBATE
+  - CITRIC ACID MONOHYDRATE
+  - WATER
+
+PACKAGING
+----------------------------------------
+  - NDC: 53645-2470-6, Quantity: 30 mL, Container: BOTTLE
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  Bovine Liver 30X
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  For constitutional treatments based on homeopathic and anthroposophic indications or as directed by your physician.
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  For constitutional treatments based on homeopathic and anthroposophic indications or as directed by your physician.
+
+WARNINGS SECTION
+----------------------------------------
+  Consult your health care provider if symptoms persist more than 5 days or worsen.
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  Keep out of the reach of children.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Place drops under tongue for 30 seconds. Adults 7 drops 3 times a day. Children 2-12 years, 7 drops 3 times a day. Under 2 years, consult your doctor. Use until symptoms are relieved or as directed by your health care provider.
+
+
+================================================================================
+DRUG #4: Coffea cruda 6C
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: homeopathic_42e02de9-d1e2-0388-e063-6394a90aa127.xml
+  Document ID: 42e02de9-d1e2-0388-e063-6394a90aa127
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: Homeopathic
+  Effective Date: 2025-11-05
+  Version: 3
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Boiron
+  ID: 282560473
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Coffea cruda
+  Generic Name: ARABICA COFFEE BEAN	
+  NDC: 0220-1427
+  Form: PELLET
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: unapproved homeopathic
+  Color: white
+  Shape: ROUND
+  Size: 4 mm
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - ARABICA COFFEE BEAN (6 [hp_C] per 6 [hp_C])
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - SUCROSE
+  - LACTOSE, UNSPECIFIED FORM
+
+PACKAGING
+----------------------------------------
+  - NDC: 0220-1427-41, Quantity: 6 [hp_C], Container: TUBE
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  Coffea cruda 6C HPUS Active ingredient**: See product name on front panel (contains 0.443 mg of the active ingredient per pellet).
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  Relieves sleeplessness with mental hyperactivity *
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  Keep out of reach of children.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Adults and children: At the onset of symptoms, dissolve 5 pellets under the tongue 3 times a day until symptoms are relieved or as directed by a doctor.
+
+
+================================================================================
+DRUG #5: Astragalus Formica
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: homeopathic_43e18608-e21a-0110-e063-6394a90a287d.xml
+  Document ID: 43e18608-e21a-0110-e063-6394a90a287d
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: Homeopathic
+  Effective Date: 2025-11-18
+  Version: 4
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Uriel Pharmacy Inc.
+  ID: 043471163
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Astragalus Formica
+  Generic Name: Astragalus Formica
+  NDC: 48951-1407
+  Form: PELLET
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: unapproved homeopathic
+  Color: white
+  Shape: ROUND
+  Size: 3 mm
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - ARNICA MONTANA (3 [hp_X] per 1 1)
+  - ASTRAGALUS PROPINQUUS ROOT (3 [hp_X] per 1 1)
+  - FORMICA RUFA (6 [hp_X] per 1 1)
+  - SILVER (30 [hp_X] per 1 1)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - SUCROSE
+
+PACKAGING
+----------------------------------------
+  - NDC: 48951-1407-2, Quantity: 1350 1, Container: BOTTLE, GLASS
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  Directions: FOR ORAL USE ONLY.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Dissolve pellets under the tongue 3-4 times daily. Ages 12 and older: 10 pellets. Ages 2-11: 5 pellets. Under age 2: Consult a doctor.
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  Active Ingredients: Arnica 3X, Astragalus (Milk vetch) 3X, Formica (Red wood ant) 6X, Argentum (Silver) 30X
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  Use: Temporary relief of headache.
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  KEEP OUT OF REACH OF CHILDREN.
+
+WARNINGS SECTION
+----------------------------------------
+  Warnings: Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated. Contains sugar. Diabetics and persons intolerant of sucrose (sugar): Consult a doctor before use. Do not use if allergic to any ingredient. Consult a doctor before use for serious conditions or if conditions worsen or persist. If pregnant or nursing, consult a doctor before use. Do not use if safety seal is broken or missing.
+
+
+================================================================================
+DRUG #6: Dolgencorp, LLC Pain Relief Drug Facts
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: otc_2f8bbda5-0100-4d14-84b7-e5712f6dad6f.xml
+  Document ID: 2f8bbda5-0100-4d14-84b7-e5712f6dad6f
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: OTC (Over-the-Counter)
+  Effective Date: 2025-10-24
+  Version: 7
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Dolgencorp Inc
+  ID: 068331990
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: DG Health Pain Relief
+  Generic Name: Acetaminophen
+  NDC: 55910-506
+  Form: TABLET, FILM COATED
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: OTC Monograph Drug
+  Color: RED
+  Shape: OVAL
+  Size: 18 mm
+  Imprint: 3S0
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - ACETAMINOPHEN (500 mg per 1 1)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - CROSCARMELLOSE SODIUM
+  - CROSPOVIDONE, UNSPECIFIED
+  - FD&C RED NO. 40 ALUMINUM LAKE
+  - FD&C YELLOW NO. 6 ALUMINUM LAKE
+  - HYPROMELLOSE, UNSPECIFIED
+  - POLYETHYLENE GLYCOL, UNSPECIFIED
+  - POLYSORBATE 80
+  - POVIDONE, UNSPECIFIED
+  - STEARIC ACID
+
+PACKAGING
+----------------------------------------
+  - NDC: , Quantity: 24 1, Container: BOTTLE
+  - NDC: 55910-506-62, Quantity: 1 1, Container: CARTON
+  - NDC: 55910-506-00, Quantity: 50 1, Container: BOTTLE
+  - NDC: 55910-506-71, Quantity: 1 1, Container: CARTON
+  - NDC: , Quantity: 100 1, Container: BOTTLE
+  ... and 4 more packaging options
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  Acetaminophen 500 mg
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  Pain reliever/fever reducer
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  • temporarily relieves minor aches and pains due to: • the common cold • headache • minor pain of arthritis • backache • muscular aches • toothache • premenstrual and menstrual cramps • temporarily reduces fever
+
+WARNINGS SECTION
+----------------------------------------
+  Liver warning: This product contains acetaminophen. Severe liver damage may occur if you take • more than 4,000 mg of acetaminophen in 24 hours • with other drugs containing acetaminophen • 3 or more alcoholic drinks every day while using this product Allergy alert: Acetaminophen may cause severe skin reactions. Symptoms may include: • skin reddening • blisters • rash If a skin reaction occurs, stop use and seek medical help right away.
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  Overdose warning: In case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222). Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  • do not take more than directed (see overdose warning) adults and children 12 years and over • take 2 caplets every 6 hours while symptoms last • do not take more than 6 caplets in 24 hours, unless directed by a doctor • do not use for more than 10 days unless directed by a doctor children under 12 years ask a doctor
+
+
+================================================================================
+DRUG #7: 
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: otc_409989d2-3458-6fab-e063-6294a90a57ab.xml
+  Document ID: 409989d2-3458-6fab-e063-6294a90a57ab
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: OTC (Over-the-Counter)
+  Effective Date: 2025-10-07
+  Version: 2
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Sinsin Pharmaceutical Co., Ltd.
+  ID: 823149161
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Sinsinpas Arex Flex Gel Pain Relieving Patch
+  Generic Name: L-Menthol
+  NDC: 55264-116
+  Form: PATCH
+  Route: TOPICAL
+  Marketing Status: active
+  Approval Status: OTC Monograph Drug
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - METHYL SALICYLATE (57.6 mg per 1 1)
+  - CAMPHOR (SYNTHETIC) (96 mg per 1 1)
+  - LEVOMENTHOL (76.8 mg per 1 1)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - METHYLPARABEN
+  - EDETATE DISODIUM
+  - TARTARIC ACID
+  - CARBOXYMETHYLCELLULOSE SODIUM
+  - SORBITOL
+  - GELATIN
+  - CASTOR OIL
+  - SODIUM POLYACRYLATE (8000 MW)
+  - NONIVAMIDE
+  - GLYCERYL MONOSTEARATE
+  - ALOE VERA LEAF
+  - BUTYLATED HYDROXYTOLUENE
+  - WATER
+  - POLYSORBATE 80
+  - TITANIUM DIOXIDE
+  - ALUMINUM HYDROXIDE
+  - KAOLIN
+
+PACKAGING
+----------------------------------------
+  - NDC: 55264-116-01, Quantity: 6 1, Container: PATCH
+  - NDC: 55264-116-02, Quantity: 1 1, Container: POUCH
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  L-Menthol 76.8mg Methyl Salicylate 57.6mg DL-Camphor 96.0mg
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  Topical Analgesic
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  For the temporary relief of minor aches and pains of muscles and joints associated with: Arthritis Simple backache Strains Bruises Sprains
+
+WARNINGS SECTION
+----------------------------------------
+  For external use only Allergy alert: If prone to allergic reaction from aspirin or salicylates, consult a doctor before use. Do not use on wounds or damaged skin if you are allergic to any ingredients of this product with a heating pad When using this product use only as directed avoid contact with eyes, mucous membranes, and rashes Stop use and ask a doctor if skin reactions such as redness, itching, rash, excessive irritation, burning sensation, swelling or blistering occur condition worsens s...
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  Keep out of reach of children. If swallowed, get medical help or contact a Poison Control Center right away.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Adults and children 12 years of age and over: ■ clean and dry affected area ■ remove patch from film ■ apply to affected area not more than 3 times daily ■ remove patch from skin after at most 8 hours of application children under 12 years of age: Consult a doctor
+
+
+================================================================================
+DRUG #8: Allergy Relief
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: otc_4276a9af-4bc4-0e6b-e063-6294a90a774f.xml
+  Document ID: 4276a9af-4bc4-0e6b-e063-6294a90a774f
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: OTC (Over-the-Counter)
+  Effective Date: 2025-10-31
+  Version: 8
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Shield Pharmaceuticals Corp
+  ID: 118724924
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Allergy Relief
+  Generic Name: Diphenhydramine Hydrochloride
+  NDC: 83059-0021
+  Form: TABLET, COATED
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: OTC Monograph Drug
+  Color: pink
+  Shape: CAPSULE
+  Size: 11 mm
+  Imprint: 13
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - DIPHENHYDRAMINE HYDROCHLORIDE (25 mg per 1 1)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - CROSCARMELLOSE SODIUM
+  - FD&C RED NO. 3
+  - HYPROMELLOSES
+  - MAGNESIUM STEARATE
+  - MICROCRYSTALLINE CELLULOSE
+  - POLYETHYLENE GLYCOL, UNSPECIFIED
+  - TALC
+  - DIBASIC CALCIUM PHOSPHATE DIHYDRATE
+  - TITANIUM DIOXIDE
+  - SILICON DIOXIDE
+
+PACKAGING
+----------------------------------------
+  - NDC: , Quantity: 36 1, Container: BOTTLE
+  - NDC: 83059-0021-3, Quantity: 1 1, Container: CARTON
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  Diphenhydramine HCl 25 mg
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  Antihistamine
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  temporarily relieves these symptoms due to hay fever or other upper respiratory allergies: runny nose itchy, watery eyes sneezing itching of the nose or throat temporarily relieves these symptoms due to the common cold: runny nose sneezing
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  take every 4 to 6 hours, or as directed by a doctor do not take more than 6 times in 24 hours adults and children 12 years and over 1 to 2 tablets children 6 to under 12 years 1 tablet children under 6 years do not use
+
+
+================================================================================
+DRUG #9: geri-mox chry
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: otc_43f770ab-1ea6-c06a-e063-6294a90aebd2.xml
+  Document ID: 43f770ab-1ea6-c06a-e063-6294a90aebd2
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: OTC (Over-the-Counter)
+  Effective Date: 2025-11-19
+  Version: 5
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Geri-Care Pharmaceuticals, Corp
+  ID: 611196254
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: GERI-MOX MAX CHERRY
+  Generic Name: aluminum hydroxide, magnesium hydroxide, dimethicone
+  NDC: 57896-638
+  Form: SUSPENSION
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: OTC Monograph Drug
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - ALUMINUM HYDROXIDE (400 mg per 5 mL)
+  - MAGNESIUM HYDROXIDE (400 mg per 5 mL)
+  - DIMETHICONE (40 mg per 5 mL)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - BENZYL ALCOHOL
+  - BUTYLPARABEN
+  - CARBOXYMETHYLCELLULOSE SODIUM
+  - HYPROMELLOSES
+  - CELLULOSE, MICROCRYSTALLINE
+  - PROPYLPARABEN
+  - WATER
+  - SACCHARIN SODIUM
+  - SORBITOL
+
+PACKAGING
+----------------------------------------
+  - NDC: 57896-638-12, Quantity: 355 mL, Container: BOTTLE
+  - NDC: , Quantity: 30 mL, Container: CUP, UNIT-DOSE
+  - NDC: 57896-638-10, Quantity: 100 1, Container: CASE
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  Aluminum hydroxide 400 mg (equivalent to dried gel, USP) Magnesium hydroxide 400 mg Simethicone 40mg
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  Antacid Antigas
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  relieves heartburn sour stomach acid indigestion the symptoms referred to as gas
+
+WARNINGS SECTION
+----------------------------------------
+  Ask a doctor before use if you have • kidney disease • a magnesium-restricted diet Ask a doctor or pharmacist before use if you are taking a prescription drug. Antacids may interact with certain prescription drugs. Stop use and ask a doctor if symptoms last more than 2 weeks If pregnant or breast-feeding, ask a health professional before use.
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  Keep out of reach of children.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  • shake well before use • adults and children 12 years and older: take 2 to 4 teaspoonfuls two times a day, or as directed by a doctor • do not take more than 8 teaspoonfuls in 24 hours or use the maximum dosage for more than 2 weeks • children under 12 years: ask a doctor
+
+
+================================================================================
+DRUG #10: Marcs
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: otc_ba65223d-080f-40e2-807a-eaf4d3611cd4.xml
+  Document ID: ba65223d-080f-40e2-807a-eaf4d3611cd4
+  Document Type: HUMAN OTC DRUG LABEL
+  Category: OTC (Over-the-Counter)
+  Effective Date: 2024-11-11
+  Version: 12
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Mark Glassman, Inc.
+  ID: 094487477
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Marcs Everyday Care Dandruff
+  Generic Name: Pyrithione Zinc
+  NDC: 68998-134
+  Form: SHAMPOO
+  Route: TOPICAL
+  Marketing Status: active
+  Approval Status: OTC Monograph Drug
+  Color: blue
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - Pyrithione Zinc (10 mg per 1 mL)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - Water
+  - SODIUM LAURETH-3 SULFATE
+  - Sodium Lauryl Sulfate
+  - COCO MONOETHANOLAMIDE
+  - GLYCOL DISTEARATE
+  - Dimethicone
+  - Cetyl Alcohol
+  - GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE
+  - MAGNESIUM SULFATE, UNSPECIFIED FORM
+  - Sodium Benzoate
+  - Magnesium Carbonate Hydroxide
+  - AMMONIUM LAURETH-5 SULFATE
+  - Benzyl Alcohol
+  - Sodium Chloride
+  - Methylchloroisothiazolinone
+  - Methylisothiazolinone
+  - Sodium Xylenesulfonate
+  - FD&C BLUE NO. 1
+  - FD&C RED NO. 4
+
+PACKAGING
+----------------------------------------
+  - NDC: 68998-134-01, Quantity: 399 mL, Container: BOTTLE, PLASTIC
+
+OTC - ACTIVE INGREDIENT SECTION
+----------------------------------------
+  Pyrithione Zinc 1%
+
+OTC - PURPOSE SECTION
+----------------------------------------
+  Anti-dandruff
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  helps prevent recurrence of flaking and itching associated with dandruff.
+
+WARNINGS SECTION
+----------------------------------------
+  For external use only
+
+OTC - KEEP OUT OF REACH OF CHILDREN SECTION
+----------------------------------------
+  Keep out of reach of children. If swallowed, get medical help or contact a Poison Control Center right away
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  shake well wet hair massage onto scalp rinse repeat if desired for best results use at least twice a week or as directed by a doctor for maximum dandruff control, use every time you shampoo
+
+
+================================================================================
+DRUG #11: ALLERGENIC EXTRACTS STANDARDIZED GRASS POLLEN (glycerinated)
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: other_14ed4ac8-b9ab-495c-9bef-bf3dd441ac78.xml
+  Document ID: 14ed4ac8-b9ab-495c-9bef-bf3dd441ac78
+  Document Type: STANDARDIZED ALLERGENIC
+  Category: Other/Bulk Ingredient
+  Effective Date: 2025-11-19
+  Version: 11
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Jubilant HollisterStier LLC
+  ID: 069263643
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Standardized Grass Pollen, Fescue, Meadow
+  Generic Name: Standardized Grass Pollen, Fescue, Meadow
+  NDC: 65044-0611
+  Form: INJECTION, SOLUTION
+  Route: PERCUTANEOUS
+  Marketing Status: active
+  Approval Status: BLA
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - LOLIUM PRATENSE POLLEN (10000 [BAU] per 1 mL)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - GLYCERIN
+  - SODIUM CHLORIDE
+  - SODIUM BICARBONATE
+
+PACKAGING
+----------------------------------------
+  - NDC: 65044-0611-1, Quantity: 5 mL, Container: VIAL
+  - NDC: 65044-0611-2, Quantity: 10 mL, Container: VIAL
+  - NDC: 65044-0611-3, Quantity: 30 mL, Container: VIAL
+  - NDC: 65044-0611-4, Quantity: 50 mL, Container: VIAL
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  16, 17, 18, 20 Standardized glycerinated allergenic extracts in potencies of 10,000 BAU/mL and 100,000 BAU/mL are indicated for use in diagnosis and immunotherapy of patients presenting symptoms of allergy (hay fever, rhinitis, etc.) to specific grass pollens. Concentrated extracts must be diluted prior to use in intradermal testing and immunotherapy. The selection of allergenic extracts to be used should be based on a thorough and carefully taken history of hypersensitivity, and confirmed by sk...
+
+WARNINGS SECTION
+----------------------------------------
+  See WARNINGS at the beginning of this instruction sheet. Allergenic extract should be temporarily withheld from patients or the dose adjusted downward if any of the following conditions exist: (1) severe symptoms of rhinitis and/or asthma; (2) infection or flu accompanied by fever; or (3) exposure to excessive amounts of clinically relevant allergen prior to a scheduled injection. Do not start immunotherapy during a period of symptoms due to exposure. Since the individual components of the extra...
+
+WARNINGS SECTION
+----------------------------------------
+  Proper selection of the dose and careful injection should prevent most systemic reactions. It must be remembered, however, that allergenic extracts are highly potent in sensitive individuals, and that systemic reactions of varying degrees of severity may occur, including urticaria, rhinitis, conjunctivitis, wheezing, coughing, angioedema, hypotension, bradycardia, pallor, laryngeal edema, fainting, or even anaphylactic shock and death. Patients should be informed of this, and the precautions sho...
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  1. General Sterile aqueous diluent containing albumin (human) [Albumin Saline with Phenol (0.4%)] or diluent of 50% glycerin may be used when preparing dilutions of the concentrate for immunotherapy. For intradermal testing dilutions, Albumin Saline with Phenol (0.4%) is recommended. Dilutions should be made accurately and aseptically, using sterile diluent, vials, syringes, etc. Mix thoroughly and gently by rocking or swirling. Parenteral drug products should be inspected visually for particula...
+
+
+================================================================================
+DRUG #12: Pimobendan
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: other_26395c33-a90d-483a-96e9-f9f446cf5b53.xml
+  Document ID: 26395c33-a90d-483a-96e9-f9f446cf5b53
+  Document Type: BULK INGREDIENT - ANIMAL DRUG
+  Category: Other/Bulk Ingredient
+  Effective Date: 2025-11-17
+  Version: 3
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Liaoning Pharmaceutical Innovation Co., Ltd.
+  ID: 614439236
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: pimobendan
+  Generic Name: pimobendan
+  NDC: 86212-002
+  Form: POWDER
+  Route: NOT APPLICABLE
+  Marketing Status: active
+  Approval Status: bulk ingredient for animal drug compounding
+  Color: white
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - PIMOBENDAN (1 kg per 1 kg)
+
+PACKAGING
+----------------------------------------
+  - NDC: 86212-002-05, Quantity: 1 kg, Container: BAG
+  - NDC: 86212-002-01, Quantity: 0.05 kg, Container: BAG
+  - NDC: 86212-002-02, Quantity: 0.1 kg, Container: BAG
+  - NDC: 86212-002-03, Quantity: 0.5 kg, Container: PACKAGE
+  - NDC: 86212-002-06, Quantity: 5 kg, Container: BAG
+  ... and 3 more packaging options
+
+
+================================================================================
+DRUG #13: 
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: other_375fc53c-643d-4137-b034-ac11b783022c.xml
+  Document ID: 375fc53c-643d-4137-b034-ac11b783022c
+  Document Type: BULK INGREDIENT - ANIMAL DRUG
+  Category: Other/Bulk Ingredient
+  Effective Date: 2025-10-29
+  Version: 2
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: LIVZON NEW NORTH RIVER PHARMACEUTICAL CO., LTD.
+  ID: 420097636
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Doramectin
+  Generic Name: Doramectin
+  NDC: 20076-0406
+  Form: POWDER
+  Route: NOT APPLICABLE
+  Marketing Status: active
+  Approval Status: bulk ingredient
+  Color: white
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - DORAMECTIN (1 kg per 1 kg)
+
+PACKAGING
+----------------------------------------
+  - NDC: , Quantity: 5 kg, Container: BAG
+  - NDC: , Quantity: 1 1, Container: BAG
+  - NDC: 20076-0406-1, Quantity: 1 1, Container: DRUM
+
+
+================================================================================
+DRUG #14: Gutstor
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: other_8b6fce68-cae9-4b85-8e14-6944f403c0c1.xml
+  Document ID: 8b6fce68-cae9-4b85-8e14-6944f403c0c1
+  Document Type: DIETARY SUPPLEMENT
+  Category: Other/Bulk Ingredient
+  Effective Date: 2025-10-14
+  Version: 1
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Blue Heron Pharmaceuticals, LLC
+  ID: 137019051
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Gutstor
+  Generic Name: LACTOBACILLUS ACIDOPHILUS
+  NDC: 85622-104
+  Form: CAPSULE
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: dietary supplement
+  Color: white
+  Shape: capsule
+  Size: 25 mm
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - LACTOBACILLUS ACIDOPHILUS (20000000000 [CFU] per 1 1)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - MALTODEXTRIN
+
+PACKAGING
+----------------------------------------
+  - NDC: 85622-104-30, Quantity: 30 1, Container: BOTTLE
+
+WARNINGS SECTION
+----------------------------------------
+  This product is contraindicated in patients with a known hypersensitivity to any of the ingredients. As with any supplement, if you are pregnant, nursing, taking medication, or have a medical condition, ask a health professional before taking this product. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Usual adult dose is 2 capsules by mouth daily once daily, or as prescribed by a licensed medical practitioner. Gutstor is an orally administered prescription probiotic formulation for the clinical dietary management of suboptimal nutritional status in patients where advanced supplementation is required and nutritional supplementation in physiologically stressful conditions for maintenance of good health is needed.
+
+
+================================================================================
+DRUG #15: Probistor Capsules
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: other_cfe5fb33-3f93-4fb1-a754-bf65bf291c1a.xml
+  Document ID: cfe5fb33-3f93-4fb1-a754-bf65bf291c1a
+  Document Type: DIETARY SUPPLEMENT
+  Category: Other/Bulk Ingredient
+  Effective Date: 2025-10-30
+  Version: 2
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Trivia Pharmaceuticals, LLC
+  ID: 119353862
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Probistor
+  Generic Name: Acidophilus/Pectin
+  NDC: 84781-107
+  Form: Capsule
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: DIETARY SUPPLEMENT
+  Color: WHITE
+  Shape: CAPSULE
+  Size: 25 mm
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - LACTOBACILLUS ACIDOPHILUS (200000000 [CFU] per 1 1)
+  - DICALCIUM PHOSPHATE (304 mg per 1 1)
+  - PECTIN, CITRUS (20 mg per 1 1)
+
+PACKAGING
+----------------------------------------
+  - NDC: 84781-107-30, Quantity: 30 1, Container: BOTTLE
+
+WARNINGS SECTION
+----------------------------------------
+  This product is contraindicated in patients with a known hypersensitivity to any of the ingredients. As with any supplement, if you are pregnant, nursing, taking medication, or have a medical condition, ask a health professional before taking this product. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Usual adult dose is 2 capsules by mouth daily once daily, preferably with food, as a dietary supplement or as prescribed by a licensed medical practitioner. Probistor is an orally administered prescription probiotic formulation for the clinical dietary management of suboptimal nutritional status in patients where advanced supplementation is required and nutritional supplementation in physiologically stressful conditions for maintenance of good health is needed.
+
+
+================================================================================
+DRUG #16: Ibuprofen 400 mg Tablets
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: prescription_1a0301ba-9f66-ac39-e063-6394a90a34bb.xml
+  Document ID: 1a0301ba-9f66-ac39-e063-6394a90a34bb
+  Document Type: HUMAN PRESCRIPTION DRUG LABEL
+  Category: Prescription
+  Effective Date: 2024-06-03
+  Version: 1
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Boswell Pharmacy Services LLC d/b/a BPS Wholesale
+  ID: 129218355
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Ibuprofen
+  Generic Name: Ibuprofen
+  NDC: 83209-464
+  Form: TABLET
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: ANDA
+  Color: white
+  Shape: ROUND
+  Size: 13 mm
+  Imprint: IP;464
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - IBUPROFEN (400 mg per 1 1)
+
+PACKAGING
+----------------------------------------
+  - NDC: 83209-464-09, Quantity: 9 1, Container: BLISTER PACK
+  - NDC: 83209-464-12, Quantity: 12 1, Container: BLISTER PACK
+  - NDC: 83209-464-14, Quantity: 14 1, Container: BLISTER PACK
+  - NDC: 83209-464-10, Quantity: 10 1, Container: BLISTER PACK
+  - NDC: 83209-464-15, Quantity: 15 1, Container: BLISTER PACK
+  ... and 8 more packaging options
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  Carefully consider the potential benefits and risks of Ibuprofen Tablets and other treatment options before deciding to use Ibuprofen Tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals [see WARNINGS ]. Ibuprofen Tablets are indicated for relief of the signs and symptoms of rheumatoid arthritis and osteoarthritis. Ibuprofen Tablets are indicated for relief of mild to moderate pain. Ibuprofen Tablets are also indicated for the treatm...
+
+WARNINGS SECTION
+----------------------------------------
+  CARDIOVASCULAR EFFECTS Cardiovascular Thrombotic Events Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI) and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious CV thrombotic events over baseline conferred by NSAID use app...
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Carefully consider the potential benefits and risks of ibuprofen tablets and other treatment options before deciding to use ibuprofen tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals [see WARNINGS ]. After observing the response to initial therapy with ibuprofen tablets, the dose and frequency should be adjusted to suit an individual patient's needs. Do not exceed 3200 mg total daily dose. If gastrointestinal complaints occur, ad...
+
+
+================================================================================
+DRUG #17: These highlights do not include all the information needed to use CARVEDILOL TABLETS safely and effectively. See full prescribing information for CARVEDILOL TABLETS.
+ 
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: prescription_41375a05-871b-6afb-e063-6294a90a48f9.xml
+  Document ID: 41375a05-871b-6afb-e063-6294a90a48f9
+  Document Type: HUMAN PRESCRIPTION DRUG LABEL
+  Category: Prescription
+  Effective Date: 2025-10-15
+  Version: 34
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: PD-Rx Pharmaceuticals, Inc.
+  ID: 156893695
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Carvedilol
+  Generic Name: Carvedilol
+  NDC: 43063-125
+  Form: TABLET, FILM COATED
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: ANDA
+  Color: white
+  Shape: OVAL
+  Size: 11 mm
+  Imprint: E;03
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - CARVEDILOL (12.5 mg per 1 1)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - LACTOSE MONOHYDRATE
+  - SILICON DIOXIDE
+  - CROSPOVIDONE
+  - POVIDONE K30
+  - SUCROSE
+  - MAGNESIUM STEARATE
+  - POLYETHYLENE GLYCOL 400
+  - POLYSORBATE 80
+  - TITANIUM DIOXIDE
+  - HYPROMELLOSE 2910 (5 MPA.S)
+
+PACKAGING
+----------------------------------------
+  - NDC: 43063-125-90, Quantity: 90 1, Container: BOTTLE, PLASTIC
+  - NDC: 43063-125-93, Quantity: 180 1, Container: BOTTLE, PLASTIC
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Carvedilol tablets should be taken with food to slow the rate of absorption and reduce the incidence of orthostatic effects.
+
+
+================================================================================
+DRUG #18: Oxycodone and Acetaminophen Tablets USP CII
+ 
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: prescription_4221a53d-0185-7219-e063-6394a90a7ff7.xml
+  Document ID: 4221a53d-0185-7219-e063-6394a90a7ff7
+  Document Type: HUMAN PRESCRIPTION DRUG LABEL
+  Category: Prescription
+  Effective Date: 2025-10-28
+  Version: 18
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Granules Pharmaceuticals Inc.
+  ID: 079825711
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Oxycodone and Acetaminophen
+  Generic Name: Oxycodone and Acetaminophen
+  NDC: 70010-667
+  Form: TABLET
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: ANDA
+  Color: white
+  Shape: ROUND
+  Size: 11 mm
+  Imprint: 10;670
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - ACETAMINOPHEN (325 mg per 1 1)
+  - OXYCODONE HYDROCHLORIDE (2.5 mg per 1 1)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - SODIUM STARCH GLYCOLATE TYPE A POTATO
+  - POVIDONE K30
+  - STARCH, CORN
+  - STEARIC ACID
+  - SILICIFIED MICROCRYSTALLINE CELLULOSE (125 .MICRO.M, HIGH-DENSITY)
+  - CROSPOVIDONE
+
+PACKAGING
+----------------------------------------
+  - NDC: 70010-667-01, Quantity: 100 1, Container: BOTTLE
+  - NDC: 70010-667-05, Quantity: 500 1, Container: BOTTLE
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  Oxycodone and Acetaminophen Tablets are indicated for the management of pain severe enough to require an opioid analgesic and for which alternative treatments are inadequate. Limitations of Use : • Because of the risks of addiction, abuse, misuse, overdose, and death, which can occur at any dosage or duration and persist over the course of therapy [see WARNINGS ], reserve opioid analgesics, including Oxycodone and Acetaminophen Tablets, for use in patients for whom alternative treatment options ...
+
+WARNINGS SECTION
+----------------------------------------
+  NA
+
+DOSAGE & ADMINISTRATION SECTION
+----------------------------------------
+  Important Dosage and Administration Instructions Oxycodone and Acetaminophen Tablets should be prescribed only by healthcare professionals who are knowledgeable about the use of opioids and how to mitigate the associated risks. Use the lowest effective dosage for the shortest duration of time consistent with individual patient treatment goals [see WARNINGS ]. Because the risk of overdose increases as opioid doses increase, reserve titration to higher doses of Oxycodone and Acetaminophen Tablets ...
+
+
+================================================================================
+DRUG #19: These highlights do not include all the information needed to use NAPROXEN ORAL SUSPENSION safely and effectively. See full prescribing information for NAPROXEN ORAL SUSPENSION.
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: prescription_570974d4-0d5b-4df2-b307-37380511835d.xml
+  Document ID: 570974d4-0d5b-4df2-b307-37380511835d
+  Document Type: Human Prescription Drug Label
+  Category: Prescription
+  Effective Date: 2025-10-07
+  Version: 1
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Aurobindo Pharma Limited
+  ID: 650082092
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: Naproxen
+  Generic Name: Naproxen
+  NDC: 59651-528
+  Form: SUSPENSION
+  Route: ORAL
+  Marketing Status: active
+  Approval Status: ANDA
+  Color: ORANGE
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - NAPROXEN (125 mg per 5 mL)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - BENZYL ALCOHOL
+  - FD&C YELLOW NO. 6
+  - FUMARIC ACID
+  - MAGNESIUM ALUMINUM SILICATE TYPE IC
+  - METHYLPARABEN
+  - MODIFIED CORN STARCH (1-OCTENYL SUCCINIC ANHYDRIDE)
+  - NONCRYSTALLIZING SORBITOL SOLUTION
+  - PROPYLENE GLYCOL
+  - WATER
+  - SODIUM CHLORIDE
+  - SUCROSE
+  - XANTHAN GUM
+
+PACKAGING
+----------------------------------------
+  - NDC: , Quantity: 473 mL, Container: BOTTLE
+  - NDC: 59651-528-47, Quantity: 1 1, Container: CARTON
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  Naproxen oral suspension is indicated for: the relief of the signs and symptoms of: rheumatoid arthritis osteoarthritis ankylosing spondylitis polyarticular juvenile idiopathic arthritis tendonitis bursitis acute gout the management of: pain primary dysmenorrhea
+
+
+================================================================================
+DRUG #20: 
+      
+================================================================================
+
+DOCUMENT INFORMATION
+----------------------------------------
+  Filename: prescription_da424329-9a63-4df3-bced-4157d2086e20.xml
+  Document ID: da424329-9a63-4df3-bced-4157d2086e20
+  Document Type: HUMAN PRESCRIPTION DRUG LABEL
+  Category: Prescription
+  Effective Date: 2025-08-25
+  Version: 5
+
+MANUFACTURER/AUTHOR
+----------------------------------------
+  Name: Hikma Specialty USA Inc.
+  ID: 078883518
+
+PRODUCT INFORMATION
+----------------------------------------
+  Product Name: KLOXXADO
+  Generic Name: Naloxone HCL
+  NDC: 59467-679
+  Form: SPRAY
+  Route: NASAL
+  Marketing Status: active
+  Approval Status: NDA
+
+ACTIVE INGREDIENTS
+----------------------------------------
+  - NALOXONE HYDROCHLORIDE (8 mg per 0.1 mL)
+
+INACTIVE INGREDIENTS
+----------------------------------------
+  - EDETATE DISODIUM
+  - PROPYLENE GLYCOL
+  - WATER
+  - SODIUM HYDROXIDE
+  - HYDROCHLORIC ACID
+  - ALCOHOL
+
+PACKAGING
+----------------------------------------
+  - NDC: 59467-679-01, Quantity: 0.1 mL, Container: VIAL, SINGLE-DOSE
+
+INDICATIONS & USAGE SECTION
+----------------------------------------
+  KLOXXADO is indicated for the emergency treatment of known or suspected opioid overdose, as manifested by respiratory and/or central nervous system depression, for adult and pediatric patients. KLOXXADO is intended for immediate administration as emergency therapy in settings where opioids may be present. KLOXXADO is not a substitute for emergency medical care.
+
