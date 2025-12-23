@@ -1,0 +1,253 @@
+{
+  "entities": [
+    {
+      "entity_type": "organization",
+      "entity_id": "org:137019051",
+      "properties": {
+        "name": "Blue Heron Pharmaceuticals, LLC",
+        "duns": "137019051"
+      }
+    },
+    {
+      "entity_type": "label_version",
+      "entity_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "properties": {
+        "set_id": "e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+        "document_id": "8b6fce68-cae9-4b85-8e14-6944f403c0c1",
+        "version": 1,
+        "effective_time": "20251014",
+        "title": "Gutstor",
+        "document_type": "other"
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:85622-104",
+      "properties": {
+        "name": "Gutstor",
+        "generic_name": "LACTOBACILLUS ACIDOPHILUS",
+        "ndc": [
+          "85622-104"
+        ],
+        "routes": [
+          "ORAL"
+        ],
+        "dosage_forms": [
+          "CAPSULE"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": null
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:85622-104-30",
+      "properties": {
+        "ndc": "85622-104-30",
+        "description": "BOTTLE",
+        "quantity": 30.0,
+        "unit": "1"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:1PRR1V42V5",
+      "properties": {
+        "name": "LACTOBACILLUS ACIDOPHILUS",
+        "unii": "1PRR1V42V5",
+        "role": "active",
+        "strength_value": 20000000000.0,
+        "strength_unit": "[CFU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:7CVR7L4A2D",
+      "properties": {
+        "name": "MALTODEXTRIN",
+        "unii": "7CVR7L4A2D",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:48780-1",
+      "properties": {
+        "code": "48780-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "display": "SPL product data elements section",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:69719-3",
+      "properties": {
+        "code": "69719-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "HEALTH CLAIM:",
+        "display": "HEALTH CLAIM SECTION",
+        "text_length": 52
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:69718-5",
+      "properties": {
+        "code": "69718-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "DESCRIPTION:",
+        "display": "STATEMENT OF IDENTITY SECTION",
+        "text_length": 868
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:34071-1",
+      "properties": {
+        "code": "34071-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "WARNINGS AND PRECAUTIONS:",
+        "display": "WARNINGS SECTION",
+        "text_length": 413
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:34068-7",
+      "properties": {
+        "code": "34068-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "DOSAGE AND ADMINISTRATION:",
+        "display": "DOSAGE & ADMINISTRATION SECTION",
+        "text_length": 417
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:42232-9",
+      "properties": {
+        "code": "42232-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PRECAUTIONS:",
+        "display": "PRECAUTIONS SECTION",
+        "text_length": 436
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:50741-8",
+      "properties": {
+        "code": "50741-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "STORAGE:",
+        "display": "SAFE HANDLING WARNING SECTION",
+        "text_length": 316
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGING:",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "HAS_LABEL_VERSION",
+      "source_id": "org:137019051",
+      "target_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "product:85622-104",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:85622-104",
+      "target_id": "org:137019051",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:85622-104",
+      "target_id": "package:85622-104-30",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:85622-104",
+      "target_id": "ingredient:1PRR1V42V5",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:85622-104",
+      "target_id": "ingredient:7CVR7L4A2D",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:48780-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:69719-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:69718-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:34071-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:34068-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:42232-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:50741-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:e7e75a85-d464-465c-be7c-cc0ce0e927e1",
+      "target_id": "section:label:e7e75a85-d464-465c-be7c-cc0ce0e927e1:51945-4",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,1242 @@
+{
+  "entities": [
+    {
+      "entity_type": "organization",
+      "entity_id": "org:650082092",
+      "properties": {
+        "name": "Aurobindo Pharma Limited",
+        "duns": "650082092"
+      }
+    },
+    {
+      "entity_type": "label_version",
+      "entity_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "properties": {
+        "set_id": "570974d4-0d5b-4df2-b307-37380511835d",
+        "document_id": "570974d4-0d5b-4df2-b307-37380511835d",
+        "version": 1,
+        "effective_time": "20251007",
+        "title": "These highlights do not include all the information needed to use NAPROXEN ORAL SUSPENSION safely and effectively. See full prescribing information for NAPROXEN ORAL SUSPENSION. NAPROXEN oral suspension Initial U.S. Approval: 1976",
+        "document_type": "prescription"
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:59651-528",
+      "properties": {
+        "name": "Naproxen",
+        "generic_name": "Naproxen",
+        "ndc": [
+          "59651-528"
+        ],
+        "routes": [],
+        "dosage_forms": [
+          "SUSPENSION"
+        ],
+        "rx_otc_flag": "RX",
+        "application_number": "ANDA216504"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:59651-528-47",
+      "properties": {
+        "ndc": "59651-528-47",
+        "description": "CARTON",
+        "quantity": 1.0,
+        "unit": "1"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:57Y76R9ATQ",
+      "properties": {
+        "name": "NAPROXEN",
+        "unii": "57Y76R9ATQ",
+        "role": "active",
+        "strength_value": 125.0,
+        "strength_unit": "mg"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:LKG8494WBH",
+      "properties": {
+        "name": "BENZYL ALCOHOL",
+        "unii": "LKG8494WBH",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:H77VEI93A8",
+      "properties": {
+        "name": "FD&C YELLOW NO. 6",
+        "unii": "H77VEI93A8",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:88XHZ13131",
+      "properties": {
+        "name": "FUMARIC ACID",
+        "unii": "88XHZ13131",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:XLI9KNX1FT",
+      "properties": {
+        "name": "MAGNESIUM ALUMINUM SILICATE TYPE IC",
+        "unii": "XLI9KNX1FT",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:A2I8C7HI9T",
+      "properties": {
+        "name": "METHYLPARABEN",
+        "unii": "A2I8C7HI9T",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:461P5CJN6T",
+      "properties": {
+        "name": "MODIFIED CORN STARCH (1-OCTENYL SUCCINIC ANHYDRIDE)",
+        "unii": "461P5CJN6T",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:9E0S3UM200",
+      "properties": {
+        "name": "NONCRYSTALLIZING SORBITOL SOLUTION",
+        "unii": "9E0S3UM200",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:6DC9Q167V3",
+      "properties": {
+        "name": "PROPYLENE GLYCOL",
+        "unii": "6DC9Q167V3",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:059QF0KO0R",
+      "properties": {
+        "name": "WATER",
+        "unii": "059QF0KO0R",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:C151H8M554",
+      "properties": {
+        "name": "SUCROSE",
+        "unii": "C151H8M554",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:TTV12P4NEE",
+      "properties": {
+        "name": "XANTHAN GUM",
+        "unii": "TTV12P4NEE",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:48780-1",
+      "properties": {
+        "code": "48780-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "display": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43683-2",
+      "properties": {
+        "code": "43683-2",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "RECENT MAJOR CHANGES SECTION",
+        "display": "RECENT MAJOR CHANGES SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34066-1",
+      "properties": {
+        "code": "34066-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "WARNING: RISK OF SERIOUS CARDIOVASCULAR AND GASTROINTESTINAL EVENTS",
+        "display": "BOXED WARNING SECTION",
+        "text_length": 983
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34067-9",
+      "properties": {
+        "code": "34067-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "1 INDICATIONS AND USAGE",
+        "display": "INDICATIONS & USAGE SECTION",
+        "text_length": 262
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34068-7",
+      "properties": {
+        "code": "34068-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2 DOSAGE AND ADMINISTRATION",
+        "display": "DOSAGE & ADMINISTRATION SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.1 General Dosing Instructions",
+        "display": "Spl Unclassified Section",
+        "text_length": 1272
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.2 Rheumatoid Arthritis, Osteoarthritis and Ankylosing Spondylitis",
+        "display": "Spl Unclassified Section",
+        "text_length": 1037
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.3 Polyarticular Juvenile Idiopathic Arthritis",
+        "display": "Spl Unclassified Section",
+        "text_length": 912
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.4 Management of Pain, Primary Dysmenorrhea, and Acute Tendonitis and Bursitis",
+        "display": "Spl Unclassified Section",
+        "text_length": 191
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.5 Acute Gout",
+        "display": "Spl Unclassified Section",
+        "text_length": 147
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.6 Non-Interchangeability with Other Formulations of Naproxen",
+        "display": "Spl Unclassified Section",
+        "text_length": 198
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43678-2",
+      "properties": {
+        "code": "43678-2",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "3 DOSAGE FORMS AND STRENGTHS",
+        "display": "DOSAGE FORMS & STRENGTHS SECTION",
+        "text_length": 120
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34070-3",
+      "properties": {
+        "code": "34070-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "4 CONTRAINDICATIONS",
+        "display": "CONTRAINDICATIONS SECTION",
+        "text_length": 585
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43685-7",
+      "properties": {
+        "code": "43685-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5 WARNINGS AND PRECAUTIONS",
+        "display": "WARNINGS AND PRECAUTIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.1 Cardiovascular Thrombotic Events",
+        "display": "Spl Unclassified Section",
+        "text_length": 2941
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.2 Gastrointestinal Bleeding, Ulceration, and Perforation",
+        "display": "Spl Unclassified Section",
+        "text_length": 2311
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.3 Hepatotoxicity",
+        "display": "Spl Unclassified Section",
+        "text_length": 876
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.4 Hypertension",
+        "display": "Spl Unclassified Section",
+        "text_length": 501
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.5 Heart Failure and Edema",
+        "display": "Spl Unclassified Section",
+        "text_length": 1219
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.6 Renal Toxicity and Hyperkalemia",
+        "display": "Spl Unclassified Section",
+        "text_length": 1915
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.7 Anaphylactic Reactions",
+        "display": "Spl Unclassified Section",
+        "text_length": 288
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.8 Exacerbation of Asthma Related to Aspirin Sensitivity",
+        "display": "Spl Unclassified Section",
+        "text_length": 645
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.9 Serious Skin Reactions",
+        "display": "Spl Unclassified Section",
+        "text_length": 753
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.10 Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+        "display": "Spl Unclassified Section",
+        "text_length": 899
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.11 Fetal Toxicity",
+        "display": "Spl Unclassified Section",
+        "text_length": 1525
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.12 Hematologic Toxicity",
+        "display": "Spl Unclassified Section",
+        "text_length": 660
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.13 Masking of Inflammation and Fever",
+        "display": "Spl Unclassified Section",
+        "text_length": 172
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.14 Long-Term Use and Laboratory Monitoring",
+        "display": "Spl Unclassified Section",
+        "text_length": 593
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34084-4",
+      "properties": {
+        "code": "34084-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6 ADVERSE REACTIONS",
+        "display": "ADVERSE REACTIONS SECTION",
+        "text_length": 674
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6.1 Clinical Trials Experience",
+        "display": "Spl Unclassified Section",
+        "text_length": 2389
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6.2 Postmarketing Experience",
+        "display": "Spl Unclassified Section",
+        "text_length": 3330
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34073-7",
+      "properties": {
+        "code": "34073-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7 DRUG INTERACTIONS",
+        "display": "DRUG INTERACTIONS SECTION",
+        "text_length": 9368
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43684-0",
+      "properties": {
+        "code": "43684-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8 USE IN SPECIFIC POPULATIONS",
+        "display": "USE IN SPECIFIC POPULATIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42228-7",
+      "properties": {
+        "code": "42228-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.1 Pregnancy",
+        "display": "PREGNANCY SECTION",
+        "text_length": 6172
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34079-4",
+      "properties": {
+        "code": "34079-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.2 Lactation",
+        "display": "LABOR & DELIVERY SECTION",
+        "text_length": 450
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34080-2",
+      "properties": {
+        "code": "34080-2",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.3 Females and Males of Reproductive Potential",
+        "display": "NURSING MOTHERS SECTION",
+        "text_length": 693
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34081-0",
+      "properties": {
+        "code": "34081-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.4 Pediatric Use",
+        "display": "PEDIATRIC USE SECTION",
+        "text_length": 589
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34082-8",
+      "properties": {
+        "code": "34082-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.5 Geriatric Use",
+        "display": "GERIATRIC USE SECTION",
+        "text_length": 2510
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.6 Hepatic Impairment",
+        "display": "Spl Unclassified Section",
+        "text_length": 197
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.7 Renal Impairment",
+        "display": "Spl Unclassified Section",
+        "text_length": 225
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34088-5",
+      "properties": {
+        "code": "34088-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "10 OVERDOSAGE",
+        "display": "OVERDOSAGE SECTION",
+        "text_length": 1332
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34089-3",
+      "properties": {
+        "code": "34089-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "11 DESCRIPTION",
+        "display": "DESCRIPTION SECTION",
+        "text_length": 1163
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34090-1",
+      "properties": {
+        "code": "34090-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12 CLINICAL PHARMACOLOGY",
+        "display": "CLINICAL PHARMACOLOGY SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43679-0",
+      "properties": {
+        "code": "43679-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.1 Mechanism of Action",
+        "display": "MECHANISM OF ACTION SECTION",
+        "text_length": 679
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43681-6",
+      "properties": {
+        "code": "43681-6",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.2 Pharmacodynamics",
+        "display": "PHARMACODYNAMICS SECTION",
+        "text_length": 1144
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43682-4",
+      "properties": {
+        "code": "43682-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.3 Pharmacokinetics",
+        "display": "PHARMACOKINETICS SECTION",
+        "text_length": 4516
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43680-8",
+      "properties": {
+        "code": "43680-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "13 NONCLINICAL TOXICOLOGY",
+        "display": "NONCLINICAL TOXICOLOGY SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34083-6",
+      "properties": {
+        "code": "34083-6",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+        "display": "CARCINOGENESIS & MUTAGENESIS & IMPAIRMENT OF FERTILITY SECTION",
+        "text_length": 828
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34092-7",
+      "properties": {
+        "code": "34092-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "14 CLINICAL STUDIES",
+        "display": "CLINICAL STUDIES SECTION",
+        "text_length": 3952
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34069-5",
+      "properties": {
+        "code": "34069-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "16 HOW SUPPLIED/STORAGE AND HANDLING",
+        "display": "HOW SUPPLIED SECTION",
+        "text_length": 495
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34076-0",
+      "properties": {
+        "code": "34076-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "17 PATIENT COUNSELING INFORMATION",
+        "display": "INFORMATION FOR PATIENTS SECTION",
+        "text_length": 4387
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42231-1",
+      "properties": {
+        "code": "42231-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": null,
+        "display": "SPL MEDGUIDE SECTION",
+        "text_length": 5881
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 125 mg/5 mL (473 mL Container Label)",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 216
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 125 mg/5 mL (473 mL Container Carton Label)",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 216
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "HAS_LABEL_VERSION",
+      "source_id": "org:650082092",
+      "target_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "product:59651-528",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:59651-528",
+      "target_id": "org:650082092",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:59651-528",
+      "target_id": "package:59651-528-47",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:57Y76R9ATQ",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:LKG8494WBH",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:H77VEI93A8",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:88XHZ13131",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:XLI9KNX1FT",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:A2I8C7HI9T",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:461P5CJN6T",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:9E0S3UM200",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:6DC9Q167V3",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:059QF0KO0R",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:C151H8M554",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59651-528",
+      "target_id": "ingredient:TTV12P4NEE",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:48780-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43683-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34066-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34067-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34068-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43678-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34070-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43685-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34084-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34073-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43684-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42228-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34079-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34080-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34081-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34082-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34088-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34089-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34090-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43679-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43681-6",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43682-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:43680-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34083-6",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34092-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34069-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:34076-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:42231-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:570974d4-0d5b-4df2-b307-37380511835d",
+      "target_id": "section:label:570974d4-0d5b-4df2-b307-37380511835d:51945-4",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "entity_type": "organization",
+      "entity_id": "org:420097636",
+      "properties": {
+        "name": "LIVZON NEW NORTH RIVER PHARMACEUTICAL CO., LTD.",
+        "duns": "420097636"
+      }
+    },
+    {
+      "entity_type": "label_version",
+      "entity_id": "label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+      "properties": {
+        "set_id": "1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+        "document_id": "375fc53c-643d-4137-b034-ac11b783022c",
+        "version": 2,
+        "effective_time": "20251029",
+        "title": "",
+        "document_type": "other"
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:20076-0406",
+      "properties": {
+        "name": "Doramectin",
+        "generic_name": "Doramectin",
+        "ndc": [
+          "20076-0406"
+        ],
+        "routes": [
+          "NOT APPLICABLE"
+        ],
+        "dosage_forms": [
+          "POWDER"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": null
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:20076-0406-1",
+      "properties": {
+        "ndc": "20076-0406-1",
+        "description": "DRUM",
+        "quantity": 1.0,
+        "unit": "1"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:KGD7A54H5P",
+      "properties": {
+        "name": "DORAMECTIN",
+        "unii": "KGD7A54H5P",
+        "role": "active",
+        "strength_value": 1.0,
+        "strength_unit": "kg"
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c:48780-1",
+      "properties": {
+        "code": "48780-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "display": "SPL product data elements section",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "HAS_LABEL_VERSION",
+      "source_id": "org:420097636",
+      "target_id": "label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+      "target_id": "product:20076-0406",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:20076-0406",
+      "target_id": "org:420097636",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:20076-0406",
+      "target_id": "package:20076-0406-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:20076-0406",
+      "target_id": "ingredient:KGD7A54H5P",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+      "target_id": "section:label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c:48780-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+      "target_id": "section:label:1d94bcb1-e7ac-461f-9da4-05c10df2e82c:51945-4",
+      "properties": {}
+    }
+  ]
+}

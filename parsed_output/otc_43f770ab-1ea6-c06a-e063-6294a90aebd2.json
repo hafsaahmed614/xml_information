@@ -1,0 +1,319 @@
+{
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "otc_43f770ab-1ea6-c06a-e063-6294a90aebd2.xml",
+    "parsed_at": "2025-12-23T17:33:56.070446+00:00",
+    "parser_version": "1.0.0"
+  },
+  "spl": {
+    "document_id": {
+      "root": "43f770ab-1ea6-c06a-e063-6294a90aebd2",
+      "extension": null
+    },
+    "set_id": {
+      "root": "8e57bcf5-2960-4c41-8bf2-83cb1ee50168",
+      "extension": null
+    },
+    "version_number": 5,
+    "effective_time": "20251119",
+    "title": "geri-mox chry",
+    "document_type": "otc"
+  },
+  "labeler": {
+    "name": "Geri-Care Pharmaceuticals, Corp",
+    "org_ids": [
+      {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "611196254",
+        "type_hint": "DUNS"
+      },
+      {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "965480861",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "products": [
+    {
+      "product_name": "GERI-MOX MAX CHERRY",
+      "generic_name": "aluminum hydroxide, magnesium hydroxide, dimethicone",
+      "routes": [],
+      "dosage_forms": [
+        "SUSPENSION"
+      ],
+      "ndc": {
+        "product_ndcs": [
+          "57896-638"
+        ],
+        "package_ndcs": [
+          "57896-638-12",
+          "57896-638-10"
+        ]
+      },
+      "regulatory": {
+        "rx_otc_flag": "OTC",
+        "application_number": "M001",
+        "otc_monograph_id": "M001",
+        "marketing_category": "OTC Monograph Drug",
+        "dea_schedule": null
+      },
+      "ingredients": [
+        {
+          "name": "BENZYL ALCOHOL",
+          "role": "inactive",
+          "unii": "LKG8494WBH",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "BUTYLPARABEN",
+          "role": "inactive",
+          "unii": "3QPI1U3FV8",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "CARBOXYMETHYLCELLULOSE SODIUM",
+          "role": "inactive",
+          "unii": "K679OBS311",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "HYPROMELLOSES",
+          "role": "inactive",
+          "unii": "3NXW29V3WO",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "CELLULOSE, MICROCRYSTALLINE",
+          "role": "inactive",
+          "unii": "OP1R32D61U",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "PROPYLPARABEN",
+          "role": "inactive",
+          "unii": "Z8IX2SC1OH",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "WATER",
+          "role": "inactive",
+          "unii": "059QF0KO0R",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "SACCHARIN SODIUM",
+          "role": "inactive",
+          "unii": "SB8ZUX40TY",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "SORBITOL",
+          "role": "inactive",
+          "unii": "506T60A25R",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "ALUMINUM HYDROXIDE",
+          "role": "active",
+          "unii": "5QB0T2IUN0",
+          "strength": {
+            "numerator_value": 400.0,
+            "numerator_unit": "mg",
+            "denominator_value": 5.0,
+            "denominator_unit": "mL"
+          },
+          "homeopathic": null
+        },
+        {
+          "name": "MAGNESIUM HYDROXIDE",
+          "role": "active",
+          "unii": "NBZ3QY004S",
+          "strength": {
+            "numerator_value": 400.0,
+            "numerator_unit": "mg",
+            "denominator_value": 5.0,
+            "denominator_unit": "mL"
+          },
+          "homeopathic": null
+        },
+        {
+          "name": "DIMETHICONE",
+          "role": "active",
+          "unii": "92RU3N3Y1O",
+          "strength": {
+            "numerator_value": 40.0,
+            "numerator_unit": "mg",
+            "denominator_value": 5.0,
+            "denominator_unit": "mL"
+          },
+          "homeopathic": null
+        }
+      ],
+      "packages": [
+        {
+          "package_ndc": "57896-638-12",
+          "description": "BOTTLE",
+          "quantity": {
+            "value": 355.0,
+            "unit": "mL"
+          },
+          "marketing_start_date": "20110301",
+          "marketing_status": "active"
+        },
+        {
+          "package_ndc": null,
+          "description": "CUP, UNIT-DOSE",
+          "quantity": {
+            "value": 30.0,
+            "unit": "mL"
+          },
+          "marketing_start_date": "20251101",
+          "marketing_status": "active"
+        },
+        {
+          "package_ndc": "57896-638-10",
+          "description": "CASE",
+          "quantity": {
+            "value": 100.0,
+            "unit": "1"
+          },
+          "marketing_start_date": "20251101",
+          "marketing_status": "active"
+        }
+      ],
+      "physical_characteristics": {
+        "color": null,
+        "shape": null,
+        "size": null,
+        "imprint": null,
+        "flavor": "CHERRY"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "48780-1",
+      "display": "SPL product data elements section",
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+      "text_xhtml": null,
+      "text_plain": null
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "55106-9",
+      "display": "OTC - ACTIVE INGREDIENT SECTION",
+      "title": "Active ingredients (in each 5 mL teaspoonful)",
+      "text_xhtml": "<text>\n                  <paragraph>Aluminum hydroxide 400 mg (equivalent to dried gel, USP)\n       \n \n  <br/>Magnesium hydroxide 400 mg\n       \n \n  <br/>Simethicone 40mg\n      \n\n </paragraph>\n               </text>",
+      "text_plain": "Aluminum hydroxide 400 mg (equivalent to dried gel, USP) Magnesium hydroxide 400 mg Simethicone 40mg"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "55105-1",
+      "display": "OTC - PURPOSE SECTION",
+      "title": "Purposes",
+      "text_xhtml": "<text>\n                  <paragraph>Antacid\n       \n \n  <br/>\n                     <br/>Antigas\n       \n \n  <br/>\n                  </paragraph>\n               </text>",
+      "text_plain": "Antacid Antigas"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34067-9",
+      "display": "INDICATIONS & USAGE SECTION",
+      "title": "Uses",
+      "text_xhtml": "<text>\n                  <paragraph>relieves \n       \n \n  <br/>\n                  </paragraph>\n                  <list listType=\"unordered\">\n                     <item>heartburn</item>\n                     <item>sour stomach</item>\n                     <item>acid indigestion</item>\n                     <item>the symptoms referred to as gas</item>\n                  </list>\n               </text>",
+      "text_plain": "relieves heartburn sour stomach acid indigestion the symptoms referred to as gas"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34071-1",
+      "display": "WARNINGS SECTION",
+      "title": "Warnings",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">Ask a doctor before use if you have </content>\n                     <br/>\u2022 kidney disease \n       \n \n  <br/>\u2022 a magnesium-restricted diet\n       \n \n  <br/>\n                     <content styleCode=\"bold\">\n                        <br/>Ask a doctor or pharmacist before use if you are\n       \n \n  </content> taking a prescription drug.\n       \n \n  <br/>Antacids may interact with certain prescription drugs.\n       \n \n  <br/>\n                     <br/>\n                     <content styleCode=\"bold\">Stop use and ask a doctor if</content> symptoms last more than 2 weeks\n       \n \n  <br/>\n                     <br/>\n                     <content styleCode=\"bold\">If pregnant or breast-feeding,</content> ask a health professional before use.\n       \n \n  <br/>\n                  </paragraph>\n               </text>",
+      "text_plain": "Ask a doctor before use if you have \u2022 kidney disease \u2022 a magnesium-restricted diet Ask a doctor or pharmacist before use if you are taking a prescription drug. Antacids may interact with certain prescription drugs. Stop use and ask a doctor if symptoms last more than 2 weeks If pregnant or breast-feeding, ask a health professional before use."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "50565-1",
+      "display": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "title": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text_xhtml": "<text>\n                        <paragraph>\n                           <content styleCode=\"bold\">Keep out of reach of children.</content>\n                        </paragraph>\n                     </text>",
+      "text_plain": "Keep out of reach of children."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34068-7",
+      "display": "DOSAGE & ADMINISTRATION SECTION",
+      "title": "Directions",
+      "text_xhtml": "<text>\n                  <paragraph>\u2022 shake well before use\n       \n \n  <br/>\u2022 adults and children 12 years and older: take 2 to 4 teaspoonfuls two times a day, or as directed by a doctor\n       \n \n  <br/>\u2022 do not take more than 8 teaspoonfuls in 24 hours or use the maximum dosage for more than 2 weeks\n       \n \n  <br/>\u2022 children under 12 years: ask a doctor\n       \n \n  <br/>\n                  </paragraph>\n               </text>",
+      "text_plain": "\u2022 shake well before use \u2022 adults and children 12 years and older: take 2 to 4 teaspoonfuls two times a day, or as directed by a doctor \u2022 do not take more than 8 teaspoonfuls in 24 hours or use the maximum dosage for more than 2 weeks \u2022 children under 12 years: ask a doctor"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "44425-7",
+      "display": "STORAGE AND HANDLING SECTION",
+      "title": "Other information",
+      "text_xhtml": "<text>\n                  <paragraph>\u2022 \n       \n \n  <content styleCode=\"bold\">each 5 mL teaspoonful contains:</content> magnesium 165 mg, sodium 1 mg\n       \n \n  <br/>\u2022 store at room temperature\n      \n\n </paragraph>\n                  <paragraph>\u2022 protect from freezing \n       \n \n  <br/>\u00a0\u2022 keep tightly closed\n       \n \n  <br/>\n                  </paragraph>\n                  <paragraph>\u2022 \n       \n \n  <content styleCode=\"bold\">TAMPER-EVIDENT: Do not use if breakaway band on bottle cap is missing or broken.</content>\n                  </paragraph>\n               </text>",
+      "text_plain": "\u2022 each 5 mL teaspoonful contains: magnesium 165 mg, sodium 1 mg \u2022 store at room temperature \u2022 protect from freezing \u2022 keep tightly closed \u2022 TAMPER-EVIDENT: Do not use if breakaway band on bottle cap is missing or broken."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "51727-6",
+      "display": "INACTIVE INGREDIENT SECTION",
+      "title": "Inactive ingredients",
+      "text_xhtml": "<text>\n                  <paragraph>benzyl alcohol, butylparaben, carboxymethylcellulose sodium, flavor, hypromellose, microcrystalline cellulose, propylparaben, purified water, saccharin sodium, sorbitol solution</paragraph>\n               </text>",
+      "text_plain": "benzyl alcohol, butylparaben, carboxymethylcellulose sodium, flavor, hypromellose, microcrystalline cellulose, propylparaben, purified water, saccharin sodium, sorbitol solution"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "51945-4",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "title": "package Label",
+      "text_xhtml": "<text>\n                  <paragraph>NDC 57896-638-12\n       \n \n  <br/>\n                     <br/>GERICARE\n       \n \n  <br/>\n                     <br/>GERI-MOX\n       \n \n  <br/>\n                  </paragraph>\n                  <paragraph>MAXIMUM STRENGTH</paragraph>\n                  <paragraph>antacid and antigas\n       \n \n  <br/>\n                     <br/>Alumina, Magnesia and Simethicone Oral Suspension\n       \n \n  <br/>\n                     <br/>For Fast Relief of:\n       \n \n  <br/>\n                     <br/>HEARTBURN\n       \n \n  <br/>\n                     <br/>ACID INDIGESTION\n       \n \n  <br/>\n                     <br/>PRESSURE AND BLOATING\n      \n\n </paragraph>\n                  <paragraph>cherry flavor pleasant tasting\n       \n \n  <br/>\n                     <br/>12 FL OZ (355 mL)\n      \n\n </paragraph>\n                  <paragraph>compare to the active ingredients of Maximum Strength MAALOX ADVANCED</paragraph>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"GC638\"/>\n                  </paragraph>\n                  <paragraph/>\n               </text>",
+      "text_plain": "NDC 57896-638-12 GERICARE GERI-MOX MAXIMUM STRENGTH antacid and antigas Alumina, Magnesia and Simethicone Oral Suspension For Fast Relief of: HEARTBURN ACID INDIGESTION PRESSURE AND BLOATING cherry flavor pleasant tasting 12 FL OZ (355 mL) compare to the active ingredients of Maximum Strength MAALOX ADVANCED"
+    }
+  ],
+  "derived": {
+    "merge_keys": {
+      "primary": [
+        "set_id:8e57bcf5-2960-4c41-8bf2-83cb1ee50168",
+        "ndc:57896-638"
+      ],
+      "secondary": [
+        "doc_id:43f770ab-1ea6-c06a-e063-6294a90aebd2",
+        "unii:LKG8494WBH",
+        "unii:3QPI1U3FV8",
+        "unii:K679OBS311",
+        "unii:3NXW29V3WO",
+        "unii:OP1R32D61U",
+        "unii:Z8IX2SC1OH",
+        "unii:059QF0KO0R",
+        "unii:SB8ZUX40TY",
+        "unii:506T60A25R",
+        "unii:5QB0T2IUN0",
+        "unii:NBZ3QY004S",
+        "unii:92RU3N3Y1O"
+      ]
+    },
+    "section_presence_flags": {
+      "boxed_warning": false,
+      "indications_and_usage": true,
+      "contraindications": false,
+      "warnings_and_precautions": true,
+      "storage_and_handling": true,
+      "dosage_and_administration": true,
+      "adverse_reactions": false,
+      "drug_interactions": false
+    }
+  }
+}

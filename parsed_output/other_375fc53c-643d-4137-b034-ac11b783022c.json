@@ -1,0 +1,158 @@
+{
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "other_375fc53c-643d-4137-b034-ac11b783022c.xml",
+    "parsed_at": "2025-12-23T17:33:56.114460+00:00",
+    "parser_version": "1.0.0"
+  },
+  "spl": {
+    "document_id": {
+      "root": "375fc53c-643d-4137-b034-ac11b783022c",
+      "extension": null
+    },
+    "set_id": {
+      "root": "1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+      "extension": null
+    },
+    "version_number": 2,
+    "effective_time": "20251029",
+    "title": "",
+    "document_type": "other"
+  },
+  "labeler": {
+    "name": "LIVZON NEW NORTH RIVER PHARMACEUTICAL CO., LTD.",
+    "org_ids": [
+      {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "420097636",
+        "type_hint": "DUNS"
+      },
+      {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "543265333",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "products": [
+    {
+      "product_name": "Doramectin",
+      "generic_name": "Doramectin",
+      "routes": [
+        "NOT APPLICABLE"
+      ],
+      "dosage_forms": [
+        "POWDER"
+      ],
+      "ndc": {
+        "product_ndcs": [
+          "20076-0406"
+        ],
+        "package_ndcs": [
+          "20076-0406-1"
+        ]
+      },
+      "regulatory": {
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": null,
+        "otc_monograph_id": null,
+        "marketing_category": "bulk ingredient",
+        "dea_schedule": null
+      },
+      "ingredients": [
+        {
+          "name": "DORAMECTIN",
+          "role": "active",
+          "unii": "KGD7A54H5P",
+          "strength": {
+            "numerator_value": 1.0,
+            "numerator_unit": "kg",
+            "denominator_value": 1.0,
+            "denominator_unit": "kg"
+          },
+          "homeopathic": null
+        }
+      ],
+      "packages": [
+        {
+          "package_ndc": null,
+          "description": "BAG",
+          "quantity": {
+            "value": 5.0,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": null,
+          "description": "BAG",
+          "quantity": {
+            "value": 1.0,
+            "unit": "1"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": "20076-0406-1",
+          "description": "DRUM",
+          "quantity": {
+            "value": 1.0,
+            "unit": "1"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        }
+      ],
+      "physical_characteristics": {
+        "color": "white",
+        "shape": null,
+        "size": null,
+        "imprint": null,
+        "flavor": null
+      }
+    }
+  ],
+  "sections": [
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "48780-1",
+      "display": "SPL product data elements section",
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+      "text_xhtml": "<text/>",
+      "text_plain": ""
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "51945-4",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"L6b27a8f8-1c0e-43de-af20-222fb10fb848\"/>\n                  </paragraph>\n               </text>",
+      "text_plain": ""
+    }
+  ],
+  "derived": {
+    "merge_keys": {
+      "primary": [
+        "set_id:1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+        "ndc:20076-0406"
+      ],
+      "secondary": [
+        "doc_id:375fc53c-643d-4137-b034-ac11b783022c",
+        "unii:KGD7A54H5P"
+      ]
+    },
+    "section_presence_flags": {
+      "boxed_warning": false,
+      "indications_and_usage": false,
+      "contraindications": false,
+      "warnings_and_precautions": false,
+      "storage_and_handling": false,
+      "dosage_and_administration": false,
+      "adverse_reactions": false,
+      "drug_interactions": false
+    }
+  }
+}

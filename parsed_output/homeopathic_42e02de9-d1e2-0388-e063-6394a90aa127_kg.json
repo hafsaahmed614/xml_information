@@ -1,0 +1,355 @@
+{
+  "entities": [
+    {
+      "entity_type": "organization",
+      "entity_id": "org:282560473",
+      "properties": {
+        "name": "Boiron",
+        "duns": "282560473"
+      }
+    },
+    {
+      "entity_type": "label_version",
+      "entity_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "properties": {
+        "set_id": "853cb3dd-773a-208c-e053-2a91aa0a6189",
+        "document_id": "42e02de9-d1e2-0388-e063-6394a90aa127",
+        "version": 3,
+        "effective_time": "20251105",
+        "title": "Coffea cruda 6C",
+        "document_type": "otc"
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:0220-1427",
+      "properties": {
+        "name": "Coffea cruda",
+        "generic_name": "ARABICA COFFEE BEAN\t",
+        "ndc": [
+          "0220-1427"
+        ],
+        "routes": [],
+        "dosage_forms": [
+          "PELLET"
+        ],
+        "rx_otc_flag": "OTC",
+        "application_number": null
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:0220-1427-41",
+      "properties": {
+        "ndc": "0220-1427-41",
+        "description": "TUBE",
+        "quantity": 6.0,
+        "unit": "[hp_C]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:3SW678MX72",
+      "properties": {
+        "name": "ARABICA COFFEE BEAN",
+        "unii": "3SW678MX72",
+        "role": "active",
+        "strength_value": 6.0,
+        "strength_unit": "[hp_C]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:C151H8M554",
+      "properties": {
+        "name": "SUCROSE",
+        "unii": "C151H8M554",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:J2B2A4N98G",
+      "properties": {
+        "name": "LACTOSE, UNSPECIFIED FORM",
+        "unii": "J2B2A4N98G",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:48780-1",
+      "properties": {
+        "code": "48780-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "display": "SPL product data elements section",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:55106-9",
+      "properties": {
+        "code": "55106-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "OTC - ACTIVE INGREDIENT SECTION",
+        "display": "OTC - ACTIVE INGREDIENT SECTION",
+        "text_length": 130
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:55105-1",
+      "properties": {
+        "code": "55105-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "OTC - PURPOSE SECTION",
+        "display": "OTC - PURPOSE SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:34067-9",
+      "properties": {
+        "code": "34067-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "INDICATIONS & USAGE SECTION",
+        "display": "INDICATIONS & USAGE SECTION",
+        "text_length": 50
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:34071-1",
+      "properties": {
+        "code": "34071-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "WARNINGS SECTION",
+        "display": "WARNINGS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:50566-9",
+      "properties": {
+        "code": "50566-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "OTC - STOP USE SECTION",
+        "display": "OTC - STOP USE SECTION",
+        "text_length": 77
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:53414-9",
+      "properties": {
+        "code": "53414-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+        "display": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+        "text_length": 68
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:50565-1",
+      "properties": {
+        "code": "50565-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+        "display": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+        "text_length": 30
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:34068-7",
+      "properties": {
+        "code": "34068-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "DOSAGE & ADMINISTRATION SECTION",
+        "display": "DOSAGE & ADMINISTRATION SECTION",
+        "text_length": 152
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:51727-6",
+      "properties": {
+        "code": "51727-6",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "INACTIVE INGREDIENT SECTION",
+        "display": "INACTIVE INGREDIENT SECTION",
+        "text_length": 16
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:53413-1",
+      "properties": {
+        "code": "53413-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "OTC - QUESTIONS SECTION",
+        "display": "OTC - QUESTIONS SECTION",
+        "text_length": 114
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL UNCLASSIFIED SECTION",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 416
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "HAS_LABEL_VERSION",
+      "source_id": "org:282560473",
+      "target_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "product:0220-1427",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:0220-1427",
+      "target_id": "org:282560473",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:0220-1427",
+      "target_id": "package:0220-1427-41",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:0220-1427",
+      "target_id": "ingredient:3SW678MX72",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:0220-1427",
+      "target_id": "ingredient:C151H8M554",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:0220-1427",
+      "target_id": "ingredient:J2B2A4N98G",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:48780-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:55106-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:55105-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:34067-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:34071-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:50566-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:53414-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:50565-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:34068-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:51727-6",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:53413-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:853cb3dd-773a-208c-e053-2a91aa0a6189",
+      "target_id": "section:label:853cb3dd-773a-208c-e053-2a91aa0a6189:51945-4",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "other_26395c33-a90d-483a-96e9-f9f446cf5b53.xml",
+    "parsed_at": "2025-12-23T17:33:56.112293+00:00",
+    "parser_version": "1.0.0"
+  },
+  "spl": {
+    "document_id": {
+      "root": "26395c33-a90d-483a-96e9-f9f446cf5b53",
+      "extension": null
+    },
+    "set_id": {
+      "root": "360a2535-7a7f-4f16-871d-929f2ae62d30",
+      "extension": null
+    },
+    "version_number": 3,
+    "effective_time": "20251117",
+    "title": "Pimobendan",
+    "document_type": "other"
+  },
+  "labeler": {
+    "name": "Liaoning Pharmaceutical Innovation Co., Ltd.",
+    "org_ids": [
+      {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "614439236",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "products": [
+    {
+      "product_name": "pimobendan",
+      "generic_name": "pimobendan",
+      "routes": [
+        "NOT APPLICABLE"
+      ],
+      "dosage_forms": [
+        "POWDER"
+      ],
+      "ndc": {
+        "product_ndcs": [
+          "86212-002"
+        ],
+        "package_ndcs": [
+          "86212-002-05",
+          "86212-002-01",
+          "86212-002-02",
+          "86212-002-03",
+          "86212-002-06",
+          "86212-002-07",
+          "86212-002-08",
+          "86212-002-09"
+        ]
+      },
+      "regulatory": {
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": null,
+        "otc_monograph_id": null,
+        "marketing_category": "bulk ingredient for animal drug compounding",
+        "dea_schedule": null
+      },
+      "ingredients": [
+        {
+          "name": "PIMOBENDAN",
+          "role": "active",
+          "unii": "34AP3BBP9T",
+          "strength": {
+            "numerator_value": 1.0,
+            "numerator_unit": "kg",
+            "denominator_value": 1.0,
+            "denominator_unit": "kg"
+          },
+          "homeopathic": null
+        }
+      ],
+      "packages": [
+        {
+          "package_ndc": "86212-002-05",
+          "description": "BAG",
+          "quantity": {
+            "value": 1.0,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": "86212-002-01",
+          "description": "BAG",
+          "quantity": {
+            "value": 0.05,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": "86212-002-02",
+          "description": "BAG",
+          "quantity": {
+            "value": 0.1,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": "86212-002-03",
+          "description": "PACKAGE",
+          "quantity": {
+            "value": 0.5,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": "86212-002-06",
+          "description": "BAG",
+          "quantity": {
+            "value": 5.0,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": "86212-002-07",
+          "description": "BAG",
+          "quantity": {
+            "value": 10.0,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": "86212-002-08",
+          "description": "BAG",
+          "quantity": {
+            "value": 0.01,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        },
+        {
+          "package_ndc": "86212-002-09",
+          "description": "BAG",
+          "quantity": {
+            "value": 0.025,
+            "unit": "kg"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        }
+      ],
+      "physical_characteristics": {
+        "color": "white",
+        "shape": null,
+        "size": null,
+        "imprint": null,
+        "flavor": null
+      }
+    }
+  ],
+  "sections": [
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "48780-1",
+      "display": "SPL product data elements section",
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+      "text_xhtml": "<text/>",
+      "text_plain": ""
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "51945-4",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "title": "Pimobendan_label_20241115.jpg",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"Laf0143c9-bff1-428a-b713-80e88311d1e2\"/>\n                  </paragraph>\n                  <paragraph>Pimobendan_label_20241115.jpg</paragraph>\n               </text>",
+      "text_plain": "Pimobendan_label_20241115.jpg"
+    }
+  ],
+  "derived": {
+    "merge_keys": {
+      "primary": [
+        "set_id:360a2535-7a7f-4f16-871d-929f2ae62d30",
+        "ndc:86212-002"
+      ],
+      "secondary": [
+        "doc_id:26395c33-a90d-483a-96e9-f9f446cf5b53",
+        "unii:34AP3BBP9T"
+      ]
+    },
+    "section_presence_flags": {
+      "boxed_warning": false,
+      "indications_and_usage": false,
+      "contraindications": false,
+      "warnings_and_precautions": false,
+      "storage_and_handling": false,
+      "dosage_and_administration": false,
+      "adverse_reactions": false,
+      "drug_interactions": false
+    }
+  }
+}

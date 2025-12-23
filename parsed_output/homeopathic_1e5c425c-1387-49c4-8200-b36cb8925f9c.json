@@ -1,0 +1,242 @@
+{
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "homeopathic_1e5c425c-1387-49c4-8200-b36cb8925f9c.xml",
+    "parsed_at": "2025-12-23T17:33:56.041106+00:00",
+    "parser_version": "1.0.0"
+  },
+  "spl": {
+    "document_id": {
+      "root": "1e5c425c-1387-49c4-8200-b36cb8925f9c",
+      "extension": null
+    },
+    "set_id": {
+      "root": "eb9fbc17-019e-4d99-bcc3-d1b727924491",
+      "extension": null
+    },
+    "version_number": 2,
+    "effective_time": "20251027",
+    "title": "REBALANCER",
+    "document_type": "otc"
+  },
+  "labeler": {
+    "name": "The Adored Beast Apothecary, Ltd",
+    "org_ids": [
+      {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "203463179",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "products": [
+    {
+      "product_name": "REBALANCER",
+      "generic_name": "Silicea, Thuja occidentalis",
+      "routes": [
+        "ORAL"
+      ],
+      "dosage_forms": [
+        "LIQUID"
+      ],
+      "ndc": {
+        "product_ndcs": [
+          "86083-0009"
+        ],
+        "package_ndcs": [
+          "86083-0009-1"
+        ]
+      },
+      "regulatory": {
+        "rx_otc_flag": "OTC",
+        "application_number": null,
+        "otc_monograph_id": null,
+        "marketing_category": "unapproved homeopathic",
+        "dea_schedule": null
+      },
+      "ingredients": [
+        {
+          "name": "SILICON DIOXIDE",
+          "role": "active",
+          "unii": "ETJ7Z6XBU4",
+          "strength": {
+            "numerator_value": 30.0,
+            "numerator_unit": "[hp_C]",
+            "denominator_value": 30.0,
+            "denominator_unit": "mL"
+          },
+          "homeopathic": {
+            "potency": "30C",
+            "source_material": "SILICON DIOXIDE"
+          }
+        },
+        {
+          "name": "THUJA OCCIDENTALIS LEAFY TWIG",
+          "role": "active",
+          "unii": "1NT28V9397",
+          "strength": {
+            "numerator_value": 12.0,
+            "numerator_unit": "[hp_C]",
+            "denominator_value": 30.0,
+            "denominator_unit": "mL"
+          },
+          "homeopathic": {
+            "potency": "12C",
+            "source_material": "THUJA OCCIDENTALIS LEAFY TWIG"
+          }
+        },
+        {
+          "name": "ALCOHOL",
+          "role": "inactive",
+          "unii": "3K9958V90M",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "WATER",
+          "role": "inactive",
+          "unii": "059QF0KO0R",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "glycerin",
+          "role": "inactive",
+          "unii": "PDC6A3C0OX",
+          "strength": null,
+          "homeopathic": null
+        }
+      ],
+      "packages": [
+        {
+          "package_ndc": "86083-0009-1",
+          "description": "BOTTLE",
+          "quantity": {
+            "value": 30.0,
+            "unit": "mL"
+          },
+          "marketing_start_date": null,
+          "marketing_status": null
+        }
+      ],
+      "physical_characteristics": null
+    }
+  ],
+  "sections": [
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "48780-1",
+      "display": "SPL product data elements section",
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+      "text_xhtml": "<text/>",
+      "text_plain": ""
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "55106-9",
+      "display": "OTC - ACTIVE INGREDIENT SECTION",
+      "title": "OTC - ACTIVE INGREDIENT SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">DRUG FACTS</content>\n                     <br/>\n                     <content styleCode=\"underline\">\n                        <content styleCode=\"bold\">HPUS Active Ingredients:</content>\n                     </content> Silicea 30C, Thuja Occidentalis 12C.</paragraph>\n                  <paragraph/>\n                  <paragraph>The letters HPUS indicate that the components in this product are officially monographed in the Homeopathic Pharmacopoeia of the United States. Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated.</paragraph>\n               </text>",
+      "text_plain": "DRUG FACTS HPUS Active Ingredients: Silicea 30C, Thuja Occidentalis 12C. The letters HPUS indicate that the components in this product are officially monographed in the Homeopathic Pharmacopoeia of the United States. Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34067-9",
+      "display": "INDICATIONS & USAGE SECTION",
+      "title": "INDICATIONS & USAGE SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">Indications:</content> Supports the body in coming back to balance after inoculation without removing any benefits.</paragraph>\n               </text>",
+      "text_plain": "Indications: Supports the body in coming back to balance after inoculation without removing any benefits."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34071-1",
+      "display": "WARNINGS SECTION",
+      "title": "WARNINGS SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">WARNINGS</content>\n                     <br/>\n                     <content styleCode=\"italics\">\n                        <content styleCode=\"bold\">FOR ANIMAL USE ONLY. KEEP OUT</content>\n                     </content>\n                     <br/>\n                     <content styleCode=\"italics\">\n                        <content styleCode=\"bold\">OF REACH OF CHILDREN. DO NOT</content>\n                     </content>\n                     <br/>\n                     <content styleCode=\"italics\">\n                        <content styleCode=\"bold\">USE IF TAMPER EVIDENT NECK</content>\n                     </content>\n                     <br/>\n                     <content styleCode=\"italics\">\n                        <content styleCode=\"bold\">SEAL IS BROKEN OR MISSING.</content>\n                     </content>\n                     <br/>\n                     <content styleCode=\"italics\">Safe use in pregnant animals or</content>\n                     <br/>\n                     <content styleCode=\"italics\">animals intended for breeding has</content>\n                     <br/>\n                     <content styleCode=\"italics\">not been proven.</content>\n                  </paragraph>\n                  <paragraph>\n                     <content styleCode=\"italics\"/>\n                     <br/>\n                     <content styleCode=\"italics\">If animal\u2019s condition worsens or does</content>\n                     <br/>\n                     <content styleCode=\"italics\">not improve, discontinue use and</content>\n                     <br/>\n                     <content styleCode=\"italics\">consult your veterinarian</content>\n                  </paragraph>\n               </text>",
+      "text_plain": "WARNINGS FOR ANIMAL USE ONLY. KEEP OUT OF REACH OF CHILDREN. DO NOT USE IF TAMPER EVIDENT NECK SEAL IS BROKEN OR MISSING. Safe use in pregnant animals or animals intended for breeding has not been proven. If animal\u2019s condition worsens or does not improve, discontinue use and consult your veterinarian"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "50565-1",
+      "display": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "title": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text_xhtml": "<text>\n                        <paragraph>\n                           <content styleCode=\"italics\">\n                              <content styleCode=\"bold\">KEEP OUT OF REACH OF CHILDREN</content>\n                           </content>\n                        </paragraph>\n                     </text>",
+      "text_plain": "KEEP OUT OF REACH OF CHILDREN"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34068-7",
+      "display": "DOSAGE & ADMINISTRATION SECTION",
+      "title": "DOSAGE & ADMINISTRATION SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"underline\">\n                        <content styleCode=\"bold\">Directions:</content>\n                     </content> Add 4 pumps to a small amount of food twice per day. Not to be used for more than 10 consecutive days.</paragraph>\n                  <paragraph>For more information or options to administer refer to our website.</paragraph>\n               </text>",
+      "text_plain": "Directions: Add 4 pumps to a small amount of food twice per day. Not to be used for more than 10 consecutive days. For more information or options to administer refer to our website."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "51727-6",
+      "display": "INACTIVE INGREDIENT SECTION",
+      "title": "INACTIVE INGREDIENT SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">\n                        <content styleCode=\"underline\">Inactive Ingredients:</content>\n                     </content> Organic Ethanol 15%, Purified Water, Vegetable Non-GMO Glycerin.</paragraph>\n               </text>",
+      "text_plain": "Inactive Ingredients: Organic Ethanol 15%, Purified Water, Vegetable Non-GMO Glycerin."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "53413-1",
+      "display": "OTC - QUESTIONS SECTION",
+      "title": "OTC - QUESTIONS SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">Questions or Comments? 1-833-933-7839</content>\n                  </paragraph>\n                  <paragraph>\ufeffDistributed by Adored Beast Apothecary</paragraph>\n                  <paragraph>189 Business Park Rd, Eureka, Montana 59917</paragraph>\n               </text>",
+      "text_plain": "Questions or Comments? 1-833-933-7839 \ufeffDistributed by Adored Beast Apothecary 189 Business Park Rd, Eureka, Montana 59917"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "60561-8",
+      "display": "OTHER SAFETY INFORMATION",
+      "title": "OTHER SAFETY INFORMATION",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"italics\">Safe use in pregnant animals or animals intended for breeding has not been proven.</content>\n                     <br/>\n                     <content styleCode=\"italics\">If animal\u2019s condition worsens or does not improve, discontinue use and consult your veterinarian</content>\n                  </paragraph>\n               </text>",
+      "text_plain": "Safe use in pregnant animals or animals intended for breeding has not been proven. If animal\u2019s condition worsens or does not improve, discontinue use and consult your veterinarian"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "51945-4",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text_xhtml": "<text>\n                  <paragraph>NDC#: 86083-0009-1</paragraph>\n                  <paragraph>\n                     <content styleCode=\"bold\">ADORED BEAST</content>\n                  </paragraph>\n                  <paragraph>\n                     <content styleCode=\"bold\">APOTHECARY</content>\n                  </paragraph>\n                  <paragraph>\n                     <content styleCode=\"bold\">REBALANCER</content>\n                  </paragraph>\n                  <paragraph>\n                     <content>\n                        <content styleCode=\"italics\">\n                           <content styleCode=\"bold\">\ufeffHomeopathic</content>\n                        </content>\n                     </content>\n                  </paragraph>\n                  <paragraph>\n                     <content>\n                        <content styleCode=\"italics\">\n                           <content styleCode=\"bold\"/>\n                        </content>\n                     </content>REBALANCE AND SUPPORT THE BODY AFTER INOCULATION</paragraph>\n                  <paragraph>\n                     <content>\n                        <content styleCode=\"bold\">\ufeffFor Cats &amp; Dogs</content>\n                     </content>\n                  </paragraph>\n                  <paragraph>\n                     <content>\n                        <content styleCode=\"bold\"/>\n                     </content>1 fl oz (30mL)</paragraph>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"L500b6cd5-fb2c-4a72-a935-c8afeab8cc7e\"/>\n                  </paragraph>\n               </text>",
+      "text_plain": "NDC#: 86083-0009-1 ADORED BEAST APOTHECARY REBALANCER \ufeffHomeopathic REBALANCE AND SUPPORT THE BODY AFTER INOCULATION \ufeffFor Cats & Dogs 1 fl oz (30mL)"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "55105-1",
+      "display": "OTC - PURPOSE SECTION",
+      "title": "OTC - PURPOSE SECTION",
+      "text_xhtml": "<text>\n                        <paragraph>Supports the body in coming back to balance after inoculation without removing any benefits.</paragraph>\n                     </text>",
+      "text_plain": "Supports the body in coming back to balance after inoculation without removing any benefits."
+    }
+  ],
+  "derived": {
+    "merge_keys": {
+      "primary": [
+        "set_id:eb9fbc17-019e-4d99-bcc3-d1b727924491",
+        "ndc:86083-0009"
+      ],
+      "secondary": [
+        "doc_id:1e5c425c-1387-49c4-8200-b36cb8925f9c",
+        "unii:ETJ7Z6XBU4",
+        "unii:1NT28V9397",
+        "unii:3K9958V90M",
+        "unii:059QF0KO0R",
+        "unii:PDC6A3C0OX"
+      ]
+    },
+    "section_presence_flags": {
+      "boxed_warning": false,
+      "indications_and_usage": true,
+      "contraindications": false,
+      "warnings_and_precautions": true,
+      "storage_and_handling": false,
+      "dosage_and_administration": true,
+      "adverse_reactions": false,
+      "drug_interactions": false
+    }
+  }
+}

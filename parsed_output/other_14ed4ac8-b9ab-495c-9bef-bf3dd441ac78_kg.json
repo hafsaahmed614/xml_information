@@ -1,0 +1,3853 @@
+{
+  "entities": [
+    {
+      "entity_type": "organization",
+      "entity_id": "org:069263643",
+      "properties": {
+        "name": "Jubilant HollisterStier LLC",
+        "duns": "069263643"
+      }
+    },
+    {
+      "entity_type": "label_version",
+      "entity_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "properties": {
+        "set_id": "3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+        "document_id": "14ed4ac8-b9ab-495c-9bef-bf3dd441ac78",
+        "version": 11,
+        "effective_time": "20251119",
+        "title": "ALLERGENIC EXTRACTS STANDARDIZED GRASS POLLEN (glycerinated)",
+        "document_type": "other"
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0611",
+      "properties": {
+        "name": "Standardized Grass Pollen, Fescue, Meadow",
+        "generic_name": "Standardized Grass Pollen, Fescue, Meadow",
+        "ndc": [
+          "65044-0611"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0611-1",
+      "properties": {
+        "ndc": "65044-0611-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0611-2",
+      "properties": {
+        "ndc": "65044-0611-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0611-3",
+      "properties": {
+        "ndc": "65044-0611-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0611-4",
+      "properties": {
+        "ndc": "65044-0611-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:A0WFQ8P6N1",
+      "properties": {
+        "name": "LOLIUM PRATENSE POLLEN",
+        "unii": "A0WFQ8P6N1",
+        "role": "active",
+        "strength_value": 10000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0612",
+      "properties": {
+        "name": "Standardized Grass Pollen, Fescue, Meadow",
+        "generic_name": "Standardized Grass Pollen, Fescue, Meadow",
+        "ndc": [
+          "65044-0612"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0612-1",
+      "properties": {
+        "ndc": "65044-0612-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0612-2",
+      "properties": {
+        "ndc": "65044-0612-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0612-3",
+      "properties": {
+        "ndc": "65044-0612-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0612-4",
+      "properties": {
+        "ndc": "65044-0612-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:A0WFQ8P6N1",
+      "properties": {
+        "name": "LOLIUM PRATENSE POLLEN",
+        "unii": "A0WFQ8P6N1",
+        "role": "active",
+        "strength_value": 100000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0777",
+      "properties": {
+        "name": "Standardized Grass Pollen, Redtop",
+        "generic_name": "Standardized Grass Pollen, Redtop",
+        "ndc": [
+          "65044-0777"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0777-1",
+      "properties": {
+        "ndc": "65044-0777-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0777-2",
+      "properties": {
+        "ndc": "65044-0777-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0777-3",
+      "properties": {
+        "ndc": "65044-0777-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0777-4",
+      "properties": {
+        "ndc": "65044-0777-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:HU8V6E7HOA",
+      "properties": {
+        "name": "AGROSTIS GIGANTEA POLLEN",
+        "unii": "HU8V6E7HOA",
+        "role": "active",
+        "strength_value": 10000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0778",
+      "properties": {
+        "name": "Standardized Grass Pollen, Redtop",
+        "generic_name": "Standardized Grass Pollen, Redtop",
+        "ndc": [
+          "65044-0778"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0778-1",
+      "properties": {
+        "ndc": "65044-0778-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0778-2",
+      "properties": {
+        "ndc": "65044-0778-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0778-3",
+      "properties": {
+        "ndc": "65044-0778-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0778-4",
+      "properties": {
+        "ndc": "65044-0778-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:HU8V6E7HOA",
+      "properties": {
+        "name": "AGROSTIS GIGANTEA POLLEN",
+        "unii": "HU8V6E7HOA",
+        "role": "active",
+        "strength_value": 100000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0718",
+      "properties": {
+        "name": "Standardized Grass Pollen, Orchard Grass",
+        "generic_name": "Standardized Grass Pollen, Orchard Grass",
+        "ndc": [
+          "65044-0718"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0718-1",
+      "properties": {
+        "ndc": "65044-0718-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0718-2",
+      "properties": {
+        "ndc": "65044-0718-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0718-3",
+      "properties": {
+        "ndc": "65044-0718-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0718-4",
+      "properties": {
+        "ndc": "65044-0718-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:83N78IDA7P",
+      "properties": {
+        "name": "DACTYLIS GLOMERATA POLLEN",
+        "unii": "83N78IDA7P",
+        "role": "active",
+        "strength_value": 10000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0719",
+      "properties": {
+        "name": "Standardized Grass Pollen, Orchard Grass",
+        "generic_name": "Standardized Grass Pollen, Orchard Grass",
+        "ndc": [
+          "65044-0719"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0719-1",
+      "properties": {
+        "ndc": "65044-0719-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0719-2",
+      "properties": {
+        "ndc": "65044-0719-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0719-3",
+      "properties": {
+        "ndc": "65044-0719-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0719-4",
+      "properties": {
+        "ndc": "65044-0719-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:83N78IDA7P",
+      "properties": {
+        "name": "DACTYLIS GLOMERATA POLLEN",
+        "unii": "83N78IDA7P",
+        "role": "active",
+        "strength_value": 100000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0537",
+      "properties": {
+        "name": "Standardized Grass Pollen, Bermuda Grass",
+        "generic_name": "Standardized Grass Pollen, Bermuda Grass",
+        "ndc": [
+          "65044-0537"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0537-1",
+      "properties": {
+        "ndc": "65044-0537-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0537-2",
+      "properties": {
+        "ndc": "65044-0537-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0537-3",
+      "properties": {
+        "ndc": "65044-0537-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0537-4",
+      "properties": {
+        "ndc": "65044-0537-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:175F461W10",
+      "properties": {
+        "name": "CYNODON DACTYLON POLLEN",
+        "unii": "175F461W10",
+        "role": "active",
+        "strength_value": 10000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0831",
+      "properties": {
+        "name": "Standardized Grass Pollen, Timothy",
+        "generic_name": "Standardized Grass Pollen, Timothy",
+        "ndc": [
+          "65044-0831"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0831-1",
+      "properties": {
+        "ndc": "65044-0831-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0831-2",
+      "properties": {
+        "ndc": "65044-0831-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0831-3",
+      "properties": {
+        "ndc": "65044-0831-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0831-4",
+      "properties": {
+        "ndc": "65044-0831-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:65M88RW2EG",
+      "properties": {
+        "name": "PHLEUM PRATENSE POLLEN",
+        "unii": "65M88RW2EG",
+        "role": "active",
+        "strength_value": 10000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0832",
+      "properties": {
+        "name": "Standardized Grass Pollen, Timothy",
+        "generic_name": "Standardized Grass Pollen, Timothy",
+        "ndc": [
+          "65044-0832"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0832-1",
+      "properties": {
+        "ndc": "65044-0832-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0832-2",
+      "properties": {
+        "ndc": "65044-0832-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0832-3",
+      "properties": {
+        "ndc": "65044-0832-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0832-4",
+      "properties": {
+        "ndc": "65044-0832-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:65M88RW2EG",
+      "properties": {
+        "name": "PHLEUM PRATENSE POLLEN",
+        "unii": "65M88RW2EG",
+        "role": "active",
+        "strength_value": 100000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0825",
+      "properties": {
+        "name": "Standardized Grass Pollen, Sweet Vernal Grass",
+        "generic_name": "Standardized Grass Pollen, Sweet Vernal Grass",
+        "ndc": [
+          "65044-0825"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0825-1",
+      "properties": {
+        "ndc": "65044-0825-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0825-2",
+      "properties": {
+        "ndc": "65044-0825-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0825-3",
+      "properties": {
+        "ndc": "65044-0825-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0825-4",
+      "properties": {
+        "ndc": "65044-0825-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:2KIK19R45Y",
+      "properties": {
+        "name": "ANTHOXANTHUM ODORATUM POLLEN",
+        "unii": "2KIK19R45Y",
+        "role": "active",
+        "strength_value": 10000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0826",
+      "properties": {
+        "name": "Standardized Grass Pollen, Sweet Vernal Grass",
+        "generic_name": "Standardized Grass Pollen, Sweet Vernal Grass",
+        "ndc": [
+          "65044-0826"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0826-1",
+      "properties": {
+        "ndc": "65044-0826-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0826-2",
+      "properties": {
+        "ndc": "65044-0826-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0826-3",
+      "properties": {
+        "ndc": "65044-0826-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0826-4",
+      "properties": {
+        "ndc": "65044-0826-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:2KIK19R45Y",
+      "properties": {
+        "name": "ANTHOXANTHUM ODORATUM POLLEN",
+        "unii": "2KIK19R45Y",
+        "role": "active",
+        "strength_value": 100000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0787",
+      "properties": {
+        "name": "Standardized Grass Pollen, Ryegrass",
+        "generic_name": "Standardized Grass Pollen, Ryegrass",
+        "ndc": [
+          "65044-0787"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0787-1",
+      "properties": {
+        "ndc": "65044-0787-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0787-2",
+      "properties": {
+        "ndc": "65044-0787-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0787-3",
+      "properties": {
+        "ndc": "65044-0787-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0787-4",
+      "properties": {
+        "ndc": "65044-0787-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:4T81LB52R0",
+      "properties": {
+        "name": "LOLIUM PERENNE POLLEN",
+        "unii": "4T81LB52R0",
+        "role": "active",
+        "strength_value": 10000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0788",
+      "properties": {
+        "name": "Standardized Grass Pollen, Ryegrass",
+        "generic_name": "Standardized Grass Pollen, Ryegrass",
+        "ndc": [
+          "65044-0788"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0788-1",
+      "properties": {
+        "ndc": "65044-0788-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0788-2",
+      "properties": {
+        "ndc": "65044-0788-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0788-3",
+      "properties": {
+        "ndc": "65044-0788-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0788-4",
+      "properties": {
+        "ndc": "65044-0788-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:4T81LB52R0",
+      "properties": {
+        "name": "LOLIUM PERENNE POLLEN",
+        "unii": "4T81LB52R0",
+        "role": "active",
+        "strength_value": 100000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0545",
+      "properties": {
+        "name": "Standardized Grass Pollen, Bluegrass, Kentucky June",
+        "generic_name": "Standardized Grass Pollen, Bluegrass, Kentucky June",
+        "ndc": [
+          "65044-0545"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0545-1",
+      "properties": {
+        "ndc": "65044-0545-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0545-2",
+      "properties": {
+        "ndc": "65044-0545-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0545-3",
+      "properties": {
+        "ndc": "65044-0545-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0545-4",
+      "properties": {
+        "ndc": "65044-0545-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:SCB8J7LS3T",
+      "properties": {
+        "name": "POA PRATENSIS POLLEN",
+        "unii": "SCB8J7LS3T",
+        "role": "active",
+        "strength_value": 10000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:65044-0546",
+      "properties": {
+        "name": "Standardized Grass Pollen, Bluegrass, Kentucky June",
+        "generic_name": "Standardized Grass Pollen, Bluegrass, Kentucky June",
+        "ndc": [
+          "65044-0546"
+        ],
+        "routes": [
+          "PERCUTANEOUS",
+          "SUBCUTANEOUS"
+        ],
+        "dosage_forms": [
+          "INJECTION, SOLUTION"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": "BLA103874"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0546-1",
+      "properties": {
+        "ndc": "65044-0546-1",
+        "description": "VIAL",
+        "quantity": 5.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0546-2",
+      "properties": {
+        "ndc": "65044-0546-2",
+        "description": "VIAL",
+        "quantity": 10.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0546-3",
+      "properties": {
+        "ndc": "65044-0546-3",
+        "description": "VIAL",
+        "quantity": 30.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:65044-0546-4",
+      "properties": {
+        "ndc": "65044-0546-4",
+        "description": "VIAL",
+        "quantity": 50.0,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:SCB8J7LS3T",
+      "properties": {
+        "name": "POA PRATENSIS POLLEN",
+        "unii": "SCB8J7LS3T",
+        "role": "active",
+        "strength_value": 100000.0,
+        "strength_unit": "[BAU]"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "name": "GLYCERIN",
+        "unii": "PDC6A3C0OX",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "name": "SODIUM CHLORIDE",
+        "unii": "451W47IQ8X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "name": "SODIUM BICARBONATE",
+        "unii": "8MDF5V39QO",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:48780-1",
+      "properties": {
+        "code": "48780-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "display": "SPL listing data elements section",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34066-1",
+      "properties": {
+        "code": "34066-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "WARNINGS",
+        "display": "BOXED WARNING SECTION",
+        "text_length": 1581
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34089-3",
+      "properties": {
+        "code": "34089-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "DESCRIPTION",
+        "display": "DESCRIPTION SECTION",
+        "text_length": 3130
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34090-1",
+      "properties": {
+        "code": "34090-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "CLINICAL PHARMACOLOGY",
+        "display": "CLINICAL PHARMACOLOGY SECTION",
+        "text_length": 3511
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34067-9",
+      "properties": {
+        "code": "34067-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "INDICATIONS AND USAGE",
+        "display": "INDICATIONS & USAGE SECTION",
+        "text_length": 1660
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34070-3",
+      "properties": {
+        "code": "34070-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "CONTRAINDICATIONS",
+        "display": "CONTRAINDICATIONS SECTION",
+        "text_length": 927
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34071-1",
+      "properties": {
+        "code": "34071-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "WARNINGS",
+        "display": "WARNINGS SECTION",
+        "text_length": 1502
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34066-1",
+      "properties": {
+        "code": "34066-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "BOXED WARNING SECTION",
+        "display": "BOXED WARNING SECTION",
+        "text_length": 3231
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34071-1",
+      "properties": {
+        "code": "34071-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "WARNINGS SECTION",
+        "display": "WARNINGS SECTION",
+        "text_length": 662
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:42232-9",
+      "properties": {
+        "code": "42232-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PRECAUTIONS",
+        "display": "PRECAUTIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34072-9",
+      "properties": {
+        "code": "34072-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "1. GENERAL",
+        "display": "GENERAL PRECAUTIONS SECTION",
+        "text_length": 2291
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34076-0",
+      "properties": {
+        "code": "34076-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2. INFORMATION FOR PATIENTS",
+        "display": "INFORMATION FOR PATIENTS SECTION",
+        "text_length": 300
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34083-6",
+      "properties": {
+        "code": "34083-6",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "3. CARCINOGENESIS, MUTAGENESIS, IMPAIRMENT OF FERTILITY",
+        "display": "CARCINOGENESIS & MUTAGENESIS & IMPAIRMENT OF FERTILITY SECTION",
+        "text_length": 168
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:42228-7",
+      "properties": {
+        "code": "42228-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "4. PREGNANCY",
+        "display": "PREGNANCY SECTION",
+        "text_length": 481
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34080-2",
+      "properties": {
+        "code": "34080-2",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5. NURSING MOTHERS",
+        "display": "NURSING MOTHERS SECTION",
+        "text_length": 272
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34081-0",
+      "properties": {
+        "code": "34081-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6. PEDIATRIC USE",
+        "display": "PEDIATRIC USE SECTION",
+        "text_length": 278
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34082-8",
+      "properties": {
+        "code": "34082-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7. GERIATRIC USE",
+        "display": "GERIATRIC USE SECTION",
+        "text_length": 381
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34073-7",
+      "properties": {
+        "code": "34073-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8. DRUG INTERACTIONS",
+        "display": "DRUG INTERACTIONS SECTION",
+        "text_length": 845
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34084-4",
+      "properties": {
+        "code": "34084-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "ADVERSE REACTIONS",
+        "display": "ADVERSE REACTIONS SECTION",
+        "text_length": 4176
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34088-5",
+      "properties": {
+        "code": "34088-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "OVERDOSAGE",
+        "display": "OVERDOSAGE SECTION",
+        "text_length": 30
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34068-7",
+      "properties": {
+        "code": "34068-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "DOSAGE AND ADMINISTRATION",
+        "display": "DOSAGE & ADMINISTRATION SECTION",
+        "text_length": 9025
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34081-0",
+      "properties": {
+        "code": "34081-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "(4) PEDIATRIC USE",
+        "display": "PEDIATRIC USE SECTION",
+        "text_length": 84
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34082-8",
+      "properties": {
+        "code": "34082-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "(5) GERIATRIC USE",
+        "display": "GERIATRIC USE SECTION",
+        "text_length": 75
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34069-5",
+      "properties": {
+        "code": "34069-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "HOW SUPPLIED",
+        "display": "HOW SUPPLIED SECTION",
+        "text_length": 732
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:44425-7",
+      "properties": {
+        "code": "44425-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "STORAGE",
+        "display": "STORAGE AND HANDLING SECTION",
+        "text_length": 440
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "LIMITED WARRANTY",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 820
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34093-5",
+      "properties": {
+        "code": "34093-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "REFERENCES",
+        "display": "REFERENCES SECTION",
+        "text_length": 6013
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Bermuda Grass 10 mL, 10,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Bermuda Grass 10 mL, 10,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Bermuda Grass 50 mL, 10,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Bermuda Grass 50 mL, 10,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Kentucky Bluegrass 5 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Kentucky Bluegrass 5 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Kentucky Bluegrass 10 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Kentucky Bluegrass 10 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Kentucky Bluegrass 50 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Kentucky Bluegrass 50 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Meadow Fescue 5 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Meadow Fescue 5 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Meadow Fescue 10 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Meadow Fescue 10 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Meadow Fescue 50 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Meadow Fescue 50 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Orchard Grass 5 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Orchard Grass 5 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Orchard Grass 10 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Orchard Grass 10 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Orchard Grass 50 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Orchard Grass 50 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Perennial Ryegrass 5 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Perennial Ryegrass 5 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Perennial Ryegrass 10 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Perennial Ryegrass 10 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Perennial Ryegrass 50 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Perennial Ryegrass 50 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Redtop 5 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Redtop 5 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Redtop 10 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Redtop 10 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Redtop 50 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Redtop 50 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Sweet Vernal Grass 5 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Sweet Vernal Grass 5 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Sweet Vernal Grass 10 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Sweet Vernal Grass 10 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Sweet Vernal Grass 50 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Sweet Vernal Grass 50 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Timothy 5 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Timothy 5 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Timothy 10 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Timothy 10 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Timothy 50 mL, 100,000 BAU/mL Carton Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Standardized Grass Pollen, Timothy 50 mL, 100,000 BAU/mL Vial Label",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "HAS_LABEL_VERSION",
+      "source_id": "org:069263643",
+      "target_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0611",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0611",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0611",
+      "target_id": "package:65044-0611-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0611",
+      "target_id": "package:65044-0611-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0611",
+      "target_id": "package:65044-0611-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0611",
+      "target_id": "package:65044-0611-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0611",
+      "target_id": "ingredient:A0WFQ8P6N1",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0611",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0611",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0611",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0612",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0612",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0612",
+      "target_id": "package:65044-0612-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0612",
+      "target_id": "package:65044-0612-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0612",
+      "target_id": "package:65044-0612-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0612",
+      "target_id": "package:65044-0612-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0612",
+      "target_id": "ingredient:A0WFQ8P6N1",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0612",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0612",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0612",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0777",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0777",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0777",
+      "target_id": "package:65044-0777-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0777",
+      "target_id": "package:65044-0777-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0777",
+      "target_id": "package:65044-0777-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0777",
+      "target_id": "package:65044-0777-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0777",
+      "target_id": "ingredient:HU8V6E7HOA",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0777",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0777",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0777",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0778",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0778",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0778",
+      "target_id": "package:65044-0778-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0778",
+      "target_id": "package:65044-0778-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0778",
+      "target_id": "package:65044-0778-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0778",
+      "target_id": "package:65044-0778-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0778",
+      "target_id": "ingredient:HU8V6E7HOA",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0778",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0778",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0778",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0718",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0718",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0718",
+      "target_id": "package:65044-0718-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0718",
+      "target_id": "package:65044-0718-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0718",
+      "target_id": "package:65044-0718-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0718",
+      "target_id": "package:65044-0718-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0718",
+      "target_id": "ingredient:83N78IDA7P",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0718",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0718",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0718",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0719",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0719",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0719",
+      "target_id": "package:65044-0719-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0719",
+      "target_id": "package:65044-0719-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0719",
+      "target_id": "package:65044-0719-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0719",
+      "target_id": "package:65044-0719-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0719",
+      "target_id": "ingredient:83N78IDA7P",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0719",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0719",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0719",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0537",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0537",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0537",
+      "target_id": "package:65044-0537-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0537",
+      "target_id": "package:65044-0537-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0537",
+      "target_id": "package:65044-0537-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0537",
+      "target_id": "package:65044-0537-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0537",
+      "target_id": "ingredient:175F461W10",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0537",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0537",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0537",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0831",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0831",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0831",
+      "target_id": "package:65044-0831-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0831",
+      "target_id": "package:65044-0831-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0831",
+      "target_id": "package:65044-0831-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0831",
+      "target_id": "package:65044-0831-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0831",
+      "target_id": "ingredient:65M88RW2EG",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0831",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0831",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0831",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0832",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0832",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0832",
+      "target_id": "package:65044-0832-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0832",
+      "target_id": "package:65044-0832-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0832",
+      "target_id": "package:65044-0832-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0832",
+      "target_id": "package:65044-0832-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0832",
+      "target_id": "ingredient:65M88RW2EG",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0832",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0832",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0832",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0825",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0825",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0825",
+      "target_id": "package:65044-0825-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0825",
+      "target_id": "package:65044-0825-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0825",
+      "target_id": "package:65044-0825-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0825",
+      "target_id": "package:65044-0825-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0825",
+      "target_id": "ingredient:2KIK19R45Y",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0825",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0825",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0825",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0826",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0826",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0826",
+      "target_id": "package:65044-0826-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0826",
+      "target_id": "package:65044-0826-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0826",
+      "target_id": "package:65044-0826-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0826",
+      "target_id": "package:65044-0826-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0826",
+      "target_id": "ingredient:2KIK19R45Y",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0826",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0826",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0826",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0787",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0787",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0787",
+      "target_id": "package:65044-0787-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0787",
+      "target_id": "package:65044-0787-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0787",
+      "target_id": "package:65044-0787-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0787",
+      "target_id": "package:65044-0787-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0787",
+      "target_id": "ingredient:4T81LB52R0",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0787",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0787",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0787",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0788",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0788",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0788",
+      "target_id": "package:65044-0788-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0788",
+      "target_id": "package:65044-0788-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0788",
+      "target_id": "package:65044-0788-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0788",
+      "target_id": "package:65044-0788-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0788",
+      "target_id": "ingredient:4T81LB52R0",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0788",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0788",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0788",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0545",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0545",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0545",
+      "target_id": "package:65044-0545-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0545",
+      "target_id": "package:65044-0545-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0545",
+      "target_id": "package:65044-0545-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0545",
+      "target_id": "package:65044-0545-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0545",
+      "target_id": "ingredient:SCB8J7LS3T",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0545",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0545",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0545",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "product:65044-0546",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:65044-0546",
+      "target_id": "org:069263643",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0546",
+      "target_id": "package:65044-0546-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0546",
+      "target_id": "package:65044-0546-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0546",
+      "target_id": "package:65044-0546-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:65044-0546",
+      "target_id": "package:65044-0546-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0546",
+      "target_id": "ingredient:SCB8J7LS3T",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0546",
+      "target_id": "ingredient:PDC6A3C0OX",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0546",
+      "target_id": "ingredient:451W47IQ8X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:65044-0546",
+      "target_id": "ingredient:8MDF5V39QO",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:48780-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34066-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34089-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34090-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34067-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34070-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34071-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34066-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34071-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:42232-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34072-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34076-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34083-6",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:42228-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34080-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34081-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34082-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34073-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34084-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34088-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34068-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34081-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34082-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34069-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:44425-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:34093-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc",
+      "target_id": "section:label:3b7a7f87-72f4-42cb-bc1b-55eefcf8d7dc:51945-4",
+      "properties": {}
+    }
+  ]
+}

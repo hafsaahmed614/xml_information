@@ -1,0 +1,244 @@
+{
+  "entities": [
+    {
+      "entity_type": "organization",
+      "entity_id": "org:614439236",
+      "properties": {
+        "name": "Liaoning Pharmaceutical Innovation Co., Ltd.",
+        "duns": "614439236"
+      }
+    },
+    {
+      "entity_type": "label_version",
+      "entity_id": "label:360a2535-7a7f-4f16-871d-929f2ae62d30",
+      "properties": {
+        "set_id": "360a2535-7a7f-4f16-871d-929f2ae62d30",
+        "document_id": "26395c33-a90d-483a-96e9-f9f446cf5b53",
+        "version": 3,
+        "effective_time": "20251117",
+        "title": "Pimobendan",
+        "document_type": "other"
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:86212-002",
+      "properties": {
+        "name": "pimobendan",
+        "generic_name": "pimobendan",
+        "ndc": [
+          "86212-002"
+        ],
+        "routes": [
+          "NOT APPLICABLE"
+        ],
+        "dosage_forms": [
+          "POWDER"
+        ],
+        "rx_otc_flag": "UNKNOWN",
+        "application_number": null
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:86212-002-05",
+      "properties": {
+        "ndc": "86212-002-05",
+        "description": "BAG",
+        "quantity": 1.0,
+        "unit": "kg"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:86212-002-01",
+      "properties": {
+        "ndc": "86212-002-01",
+        "description": "BAG",
+        "quantity": 0.05,
+        "unit": "kg"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:86212-002-02",
+      "properties": {
+        "ndc": "86212-002-02",
+        "description": "BAG",
+        "quantity": 0.1,
+        "unit": "kg"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:86212-002-03",
+      "properties": {
+        "ndc": "86212-002-03",
+        "description": "PACKAGE",
+        "quantity": 0.5,
+        "unit": "kg"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:86212-002-06",
+      "properties": {
+        "ndc": "86212-002-06",
+        "description": "BAG",
+        "quantity": 5.0,
+        "unit": "kg"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:86212-002-07",
+      "properties": {
+        "ndc": "86212-002-07",
+        "description": "BAG",
+        "quantity": 10.0,
+        "unit": "kg"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:86212-002-08",
+      "properties": {
+        "ndc": "86212-002-08",
+        "description": "BAG",
+        "quantity": 0.01,
+        "unit": "kg"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:86212-002-09",
+      "properties": {
+        "ndc": "86212-002-09",
+        "description": "BAG",
+        "quantity": 0.025,
+        "unit": "kg"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:34AP3BBP9T",
+      "properties": {
+        "name": "PIMOBENDAN",
+        "unii": "34AP3BBP9T",
+        "role": "active",
+        "strength_value": 1.0,
+        "strength_unit": "kg"
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:360a2535-7a7f-4f16-871d-929f2ae62d30:48780-1",
+      "properties": {
+        "code": "48780-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "display": "SPL product data elements section",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:360a2535-7a7f-4f16-871d-929f2ae62d30:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "Pimobendan_label_20241115.jpg",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 29
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "HAS_LABEL_VERSION",
+      "source_id": "org:614439236",
+      "target_id": "label:360a2535-7a7f-4f16-871d-929f2ae62d30",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:360a2535-7a7f-4f16-871d-929f2ae62d30",
+      "target_id": "product:86212-002",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:86212-002",
+      "target_id": "org:614439236",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:86212-002",
+      "target_id": "package:86212-002-05",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:86212-002",
+      "target_id": "package:86212-002-01",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:86212-002",
+      "target_id": "package:86212-002-02",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:86212-002",
+      "target_id": "package:86212-002-03",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:86212-002",
+      "target_id": "package:86212-002-06",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:86212-002",
+      "target_id": "package:86212-002-07",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:86212-002",
+      "target_id": "package:86212-002-08",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:86212-002",
+      "target_id": "package:86212-002-09",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:86212-002",
+      "target_id": "ingredient:34AP3BBP9T",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:360a2535-7a7f-4f16-871d-929f2ae62d30",
+      "target_id": "section:label:360a2535-7a7f-4f16-871d-929f2ae62d30:48780-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:360a2535-7a7f-4f16-871d-929f2ae62d30",
+      "target_id": "section:label:360a2535-7a7f-4f16-871d-929f2ae62d30:51945-4",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "homeopathic_43e18608-e21a-0110-e063-6394a90a287d.xml",
+    "parsed_at": "2025-12-23T17:33:56.053840+00:00",
+    "parser_version": "1.0.0"
+  },
+  "spl": {
+    "document_id": {
+      "root": "43e18608-e21a-0110-e063-6394a90a287d",
+      "extension": null
+    },
+    "set_id": {
+      "root": "a8ea7d75-50a1-45e6-82c9-bbc149e07685",
+      "extension": null
+    },
+    "version_number": 4,
+    "effective_time": "20251118",
+    "title": "Astragalus Formica",
+    "document_type": "otc"
+  },
+  "labeler": {
+    "name": "Uriel Pharmacy Inc.",
+    "org_ids": [
+      {
+        "root": "1.3.6.1.4.1.519.1",
+        "extension": "043471163",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "products": [
+    {
+      "product_name": "Astragalus Formica",
+      "generic_name": "Astragalus Formica",
+      "routes": [],
+      "dosage_forms": [
+        "PELLET"
+      ],
+      "ndc": {
+        "product_ndcs": [
+          "48951-1407"
+        ],
+        "package_ndcs": [
+          "48951-1407-2"
+        ]
+      },
+      "regulatory": {
+        "rx_otc_flag": "OTC",
+        "application_number": null,
+        "otc_monograph_id": null,
+        "marketing_category": "unapproved homeopathic",
+        "dea_schedule": null
+      },
+      "ingredients": [
+        {
+          "name": "SUCROSE",
+          "role": "inactive",
+          "unii": "C151H8M554",
+          "strength": null,
+          "homeopathic": null
+        },
+        {
+          "name": "ARNICA MONTANA",
+          "role": "active",
+          "unii": "O80TY208ZW",
+          "strength": {
+            "numerator_value": 3.0,
+            "numerator_unit": "[hp_X]",
+            "denominator_value": 1.0,
+            "denominator_unit": "1"
+          },
+          "homeopathic": {
+            "potency": "3X",
+            "source_material": "ARNICA MONTANA"
+          }
+        },
+        {
+          "name": "ASTRAGALUS PROPINQUUS ROOT",
+          "role": "active",
+          "unii": "922OP8YUPF",
+          "strength": {
+            "numerator_value": 3.0,
+            "numerator_unit": "[hp_X]",
+            "denominator_value": 1.0,
+            "denominator_unit": "1"
+          },
+          "homeopathic": {
+            "potency": "3X",
+            "source_material": "ASTRAGALUS PROPINQUUS ROOT"
+          }
+        },
+        {
+          "name": "FORMICA RUFA",
+          "role": "active",
+          "unii": "55H0W83JO5",
+          "strength": {
+            "numerator_value": 6.0,
+            "numerator_unit": "[hp_X]",
+            "denominator_value": 1.0,
+            "denominator_unit": "1"
+          },
+          "homeopathic": {
+            "potency": "6X",
+            "source_material": "FORMICA RUFA"
+          }
+        },
+        {
+          "name": "SILVER",
+          "role": "active",
+          "unii": "3M4G523W1G",
+          "strength": {
+            "numerator_value": 30.0,
+            "numerator_unit": "[hp_X]",
+            "denominator_value": 1.0,
+            "denominator_unit": "1"
+          },
+          "homeopathic": {
+            "potency": "30X",
+            "source_material": "SILVER"
+          }
+        }
+      ],
+      "packages": [
+        {
+          "package_ndc": "48951-1407-2",
+          "description": "BOTTLE, GLASS",
+          "quantity": {
+            "value": 1350.0,
+            "unit": "1"
+          },
+          "marketing_start_date": "20090901",
+          "marketing_status": "active"
+        }
+      ],
+      "physical_characteristics": {
+        "color": "white",
+        "shape": "ROUND",
+        "size": "3 mm",
+        "imprint": null,
+        "flavor": null
+      }
+    }
+  ],
+  "sections": [
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "48780-1",
+      "display": "SPL product data elements section",
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+      "text_xhtml": null,
+      "text_plain": null
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34067-9",
+      "display": "INDICATIONS & USAGE SECTION",
+      "title": "INDICATIONS & USAGE SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>Directions: FOR ORAL USE ONLY.</paragraph>\n               </text>",
+      "text_plain": "Directions: FOR ORAL USE ONLY."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34068-7",
+      "display": "DOSAGE & ADMINISTRATION SECTION",
+      "title": "DOSAGE & ADMINISTRATION SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>Dissolve pellets under the tongue 3-4 times daily. Ages 12 and older: 10 pellets. Ages 2-11: 5 pellets. Under age 2: Consult a doctor.</paragraph>\n               </text>",
+      "text_plain": "Dissolve pellets under the tongue 3-4 times daily. Ages 12 and older: 10 pellets. Ages 2-11: 5 pellets. Under age 2: Consult a doctor."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "55106-9",
+      "display": "OTC - ACTIVE INGREDIENT SECTION",
+      "title": "OTC - ACTIVE INGREDIENT SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>Active Ingredients: Arnica 3X, Astragalus (Milk vetch) 3X, Formica (Red wood ant) 6X, Argentum (Silver) 30X</paragraph>\n               </text>",
+      "text_plain": "Active Ingredients: Arnica 3X, Astragalus (Milk vetch) 3X, Formica (Red wood ant) 6X, Argentum (Silver) 30X"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "51727-6",
+      "display": "INACTIVE INGREDIENT SECTION",
+      "title": "INACTIVE INGREDIENT SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>Inactive Ingredient: Organic sucrose</paragraph>\n                  <paragraph>Prepared using rhythmical processes.</paragraph>\n               </text>",
+      "text_plain": "Inactive Ingredient: Organic sucrose Prepared using rhythmical processes."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "55105-1",
+      "display": "OTC - PURPOSE SECTION",
+      "title": "OTC - PURPOSE SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>Use: Temporary relief of headache.</paragraph>\n               </text>",
+      "text_plain": "Use: Temporary relief of headache."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "50565-1",
+      "display": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "title": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>KEEP OUT OF REACH OF CHILDREN.</paragraph>\n               </text>",
+      "text_plain": "KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "34071-1",
+      "display": "WARNINGS SECTION",
+      "title": "WARNINGS SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>Warnings: Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated. Contains sugar. Diabetics and persons intolerant of sucrose (sugar): Consult a doctor before use. Do not use if allergic to any ingredient. Consult a doctor before use for serious conditions or if conditions worsen or persist. If pregnant or nursing, consult a doctor before use. Do not use if safety seal is broken or missing.</paragraph>\n               </text>",
+      "text_plain": "Warnings: Claims based on traditional homeopathic practice, not accepted medical evidence. Not FDA evaluated. Contains sugar. Diabetics and persons intolerant of sucrose (sugar): Consult a doctor before use. Do not use if allergic to any ingredient. Consult a doctor before use for serious conditions or if conditions worsen or persist. If pregnant or nursing, consult a doctor before use. Do not use if safety seal is broken or missing."
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "53413-1",
+      "display": "OTC - QUESTIONS SECTION",
+      "title": "OTC - QUESTIONS SECTION",
+      "text_xhtml": "<text>\n                  <paragraph>Questions? Call 866.642.2858  \n  <br/>\nUriel,  East Troy, WI 53120\n  <br/>\nshopuriel.com\n </paragraph>\n               </text>",
+      "text_plain": "Questions? Call 866.642.2858 Uriel, East Troy, WI 53120 shopuriel.com"
+    },
+    {
+      "code_system": "2.16.840.1.113883.6.1",
+      "code": "51945-4",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"img_43e1aa59-4589-c91c-e063-6294a90a14ac\"/>\n                  </paragraph>\n               </text>",
+      "text_plain": ""
+    }
+  ],
+  "derived": {
+    "merge_keys": {
+      "primary": [
+        "set_id:a8ea7d75-50a1-45e6-82c9-bbc149e07685",
+        "ndc:48951-1407"
+      ],
+      "secondary": [
+        "doc_id:43e18608-e21a-0110-e063-6394a90a287d",
+        "unii:C151H8M554",
+        "unii:O80TY208ZW",
+        "unii:922OP8YUPF",
+        "unii:55H0W83JO5",
+        "unii:3M4G523W1G"
+      ]
+    },
+    "section_presence_flags": {
+      "boxed_warning": false,
+      "indications_and_usage": true,
+      "contraindications": false,
+      "warnings_and_precautions": true,
+      "storage_and_handling": false,
+      "dosage_and_administration": true,
+      "adverse_reactions": false,
+      "drug_interactions": false
+    }
+  }
+}

@@ -1,0 +1,1390 @@
+{
+  "entities": [
+    {
+      "entity_type": "organization",
+      "entity_id": "org:156893695",
+      "properties": {
+        "name": "PD-Rx Pharmaceuticals, Inc.",
+        "duns": "156893695"
+      }
+    },
+    {
+      "entity_type": "label_version",
+      "entity_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "properties": {
+        "set_id": "2be8635b-5733-1ed4-e054-00144ff88e88",
+        "document_id": "41375a05-871b-6afb-e063-6294a90a48f9",
+        "version": 34,
+        "effective_time": "20251015",
+        "title": "These highlights do not include all the information needed to use CARVEDILOL TABLETS safely and effectively. See full prescribing information for CARVEDILOL TABLETS. CARVEDILOL tablets, for oral use Initial U.S. Approval: 1995",
+        "document_type": "prescription"
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:43063-125",
+      "properties": {
+        "name": "Carvedilol",
+        "generic_name": "Carvedilol",
+        "ndc": [
+          "43063-125"
+        ],
+        "routes": [],
+        "dosage_forms": [
+          "TABLET, FILM COATED"
+        ],
+        "rx_otc_flag": "RX",
+        "application_number": "ANDA078332"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:43063-125-90",
+      "properties": {
+        "ndc": "43063-125-90",
+        "description": "BOTTLE, PLASTIC",
+        "quantity": 90.0,
+        "unit": "1"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:43063-125-93",
+      "properties": {
+        "ndc": "43063-125-93",
+        "description": "BOTTLE, PLASTIC",
+        "quantity": 180.0,
+        "unit": "1"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:EWQ57Q8I5X",
+      "properties": {
+        "name": "LACTOSE MONOHYDRATE",
+        "unii": "EWQ57Q8I5X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:ETJ7Z6XBU4",
+      "properties": {
+        "name": "SILICON DIOXIDE",
+        "unii": "ETJ7Z6XBU4",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:68401960MK",
+      "properties": {
+        "name": "CROSPOVIDONE",
+        "unii": "68401960MK",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:U725QWY32X",
+      "properties": {
+        "name": "POVIDONE K30",
+        "unii": "U725QWY32X",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:C151H8M554",
+      "properties": {
+        "name": "SUCROSE",
+        "unii": "C151H8M554",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:70097M6I30",
+      "properties": {
+        "name": "MAGNESIUM STEARATE",
+        "unii": "70097M6I30",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:B697894SGQ",
+      "properties": {
+        "name": "POLYETHYLENE GLYCOL 400",
+        "unii": "B697894SGQ",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:6OZP39ZG8H",
+      "properties": {
+        "name": "POLYSORBATE 80",
+        "unii": "6OZP39ZG8H",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:15FIX9V2JP",
+      "properties": {
+        "name": "TITANIUM DIOXIDE",
+        "unii": "15FIX9V2JP",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:R75537T0T4",
+      "properties": {
+        "name": "HYPROMELLOSE 2910 (5 MPA.S)",
+        "unii": "R75537T0T4",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:0K47UL67F2",
+      "properties": {
+        "name": "CARVEDILOL",
+        "unii": "0K47UL67F2",
+        "role": "active",
+        "strength_value": 12.5,
+        "strength_unit": "mg"
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:48780-1",
+      "properties": {
+        "code": "48780-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "display": "SPL product data elements section",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34067-9",
+      "properties": {
+        "code": "34067-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "1 INDICATIONS AND USAGE",
+        "display": "INDICATIONS & USAGE SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "1.1 Heart Failure",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 323
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "1.2 Left Ventricular Dysfunction following Myocardial Infarction",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 310
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "1.3 Hypertension",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 260
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34068-7",
+      "properties": {
+        "code": "34068-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2 DOSAGE AND ADMINISTRATION",
+        "display": "DOSAGE & ADMINISTRATION SECTION",
+        "text_length": 124
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.1 Heart Failure",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 1838
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.2 Left Ventricular Dysfunction following Myocardial Infarction",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 902
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.3 Hypertension",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 838
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.4 Hepatic Impairment",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 112
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43678-2",
+      "properties": {
+        "code": "43678-2",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "3 DOSAGE FORMS AND STRENGTHS",
+        "display": "DOSAGE FORMS & STRENGTHS SECTION",
+        "text_length": 526
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34070-3",
+      "properties": {
+        "code": "34070-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "4 CONTRAINDICATIONS",
+        "display": "CONTRAINDICATIONS SECTION",
+        "text_length": 812
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43685-7",
+      "properties": {
+        "code": "43685-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5 WARNINGS AND PRECAUTIONS",
+        "display": "WARNINGS AND PRECAUTIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.1 Cessation of Therapy",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 1033
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.2 Bradycardia",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 281
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.3 Hypotension",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 1865
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.4 Heart Failure/Fluid Retention",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 954
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.5 Non-allergic Bronchospasm",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 811
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.6 Effects on Blood Sugar",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 1110
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.7 Peripheral Vascular Disease",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 169
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.8 Deterioration of Renal Function",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 578
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.9 Major Surgery",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 253
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.10 Thyrotoxicosis",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 222
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.11 Pheochromocytoma",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 371
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.12 Prinzmetal's Variant Angina",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 376
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.13 Risk of Anaphylactic Reaction",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 298
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.14 Intraoperative Floppy Iris Syndrome",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 784
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34084-4",
+      "properties": {
+        "code": "34084-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6 ADVERSE REACTIONS",
+        "display": "ADVERSE REACTIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6.1 Clinical Studies Experience",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 11505
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6.2 Postmarketing Experience",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 683
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34073-7",
+      "properties": {
+        "code": "34073-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7 DRUG INTERACTIONS",
+        "display": "DRUG INTERACTIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.1 CYP2D6 Inhibitors and Poor Metabolizers",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 542
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.2 Hypotensive Agents",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 517
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.3 Cyclosporine",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 732
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.4 Digitalis Glycosides",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 414
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.5 Inducers/Inhibitors of Hepatic Metabolism",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 208
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.6 Amiodarone",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 573
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.7 Calcium Channel Blockers",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 309
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.8 Insulin or Oral Hypoglycemics",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 241
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "7.9 Anesthesia",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 239
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43684-0",
+      "properties": {
+        "code": "43684-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8 USE IN SPECIFIC POPULATIONS",
+        "display": "USE IN SPECIFIC POPULATIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42228-7",
+      "properties": {
+        "code": "42228-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.1 Pregnancy",
+        "display": "PREGNANCY SECTION",
+        "text_length": 3593
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34079-4",
+      "properties": {
+        "code": "34079-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.2 Lactation",
+        "display": "LABOR & DELIVERY SECTION",
+        "text_length": 446
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34081-0",
+      "properties": {
+        "code": "34081-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.4 Pediatric Use",
+        "display": "PEDIATRIC USE SECTION",
+        "text_length": 1122
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34082-8",
+      "properties": {
+        "code": "34082-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.5 Geriatric Use",
+        "display": "GERIATRIC USE SECTION",
+        "text_length": 1420
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34088-5",
+      "properties": {
+        "code": "34088-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "10 OVERDOSAGE",
+        "display": "OVERDOSAGE SECTION",
+        "text_length": 1613
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34089-3",
+      "properties": {
+        "code": "34089-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "11 DESCRIPTION",
+        "display": "DESCRIPTION SECTION",
+        "text_length": 1027
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34090-1",
+      "properties": {
+        "code": "34090-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12 CLINICAL PHARMACOLOGY",
+        "display": "CLINICAL PHARMACOLOGY SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43679-0",
+      "properties": {
+        "code": "43679-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.1 Mechanism of Action",
+        "display": "MECHANISM OF ACTION SECTION",
+        "text_length": 277
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43681-6",
+      "properties": {
+        "code": "43681-6",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.2 Pharmacodynamics",
+        "display": "PHARMACODYNAMICS SECTION",
+        "text_length": 3663
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43682-4",
+      "properties": {
+        "code": "43682-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.3 Pharmacokinetics",
+        "display": "PHARMACOKINETICS SECTION",
+        "text_length": 3472
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.4 Specific Populations",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 1625
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.5 Drug-Drug Interactions",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 2187
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43680-8",
+      "properties": {
+        "code": "43680-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "13 NONCLINICAL TOXICOLOGY",
+        "display": "NONCLINICAL TOXICOLOGY SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34083-6",
+      "properties": {
+        "code": "34083-6",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+        "display": "CARCINOGENESIS & MUTAGENESIS & IMPAIRMENT OF FERTILITY SECTION",
+        "text_length": 1244
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34092-7",
+      "properties": {
+        "code": "34092-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "14 CLINICAL STUDIES",
+        "display": "CLINICAL STUDIES SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "14.1 Heart Failure",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 8696
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "14.2 Left Ventricular Dysfunction following Myocardial Infarction",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 2038
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "14.3 Hypertension",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 894
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "14.4 Hypertension with Type 2 Diabetes Mellitus",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 531
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34069-5",
+      "properties": {
+        "code": "34069-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "16 HOW SUPPLIED/STORAGE AND HANDLING",
+        "display": "HOW SUPPLIED SECTION",
+        "text_length": 354
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34076-0",
+      "properties": {
+        "code": "34076-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "17 PATIENT COUNSELING INFORMATION",
+        "display": "INFORMATION FOR PATIENTS SECTION",
+        "text_length": 1171
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42230-3",
+      "properties": {
+        "code": "42230-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PATIENT INFORMATION",
+        "display": "SPL PATIENT PACKAGE INSERT SECTION",
+        "text_length": 7636
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 12.5 mg",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 39
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "HAS_LABEL_VERSION",
+      "source_id": "org:156893695",
+      "target_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "product:43063-125",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:43063-125",
+      "target_id": "org:156893695",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:43063-125",
+      "target_id": "package:43063-125-90",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:43063-125",
+      "target_id": "package:43063-125-93",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:EWQ57Q8I5X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:ETJ7Z6XBU4",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:68401960MK",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:U725QWY32X",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:C151H8M554",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:70097M6I30",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:B697894SGQ",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:6OZP39ZG8H",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:15FIX9V2JP",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:R75537T0T4",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:43063-125",
+      "target_id": "ingredient:0K47UL67F2",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:48780-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34067-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34068-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43678-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34070-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43685-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34084-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34073-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43684-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42228-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34079-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34081-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34082-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34088-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34089-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34090-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43679-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43681-6",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43682-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:43680-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34083-6",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34092-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34069-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:34076-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:42230-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:2be8635b-5733-1ed4-e054-00144ff88e88",
+      "target_id": "section:label:2be8635b-5733-1ed4-e054-00144ff88e88:51945-4",
+      "properties": {}
+    }
+  ]
+}

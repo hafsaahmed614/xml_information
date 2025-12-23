@@ -1,0 +1,805 @@
+{
+  "entities": [
+    {
+      "entity_type": "organization",
+      "entity_id": "org:078883518",
+      "properties": {
+        "name": "Hikma Specialty USA Inc.",
+        "duns": "078883518"
+      }
+    },
+    {
+      "entity_type": "label_version",
+      "entity_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "properties": {
+        "set_id": "ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+        "document_id": "da424329-9a63-4df3-bced-4157d2086e20",
+        "version": 5,
+        "effective_time": "20250825",
+        "title": "These highlights do not include all the information needed to use KLOXXADO safely and effectively. See full prescribing information for KLOXXADO. KLOXXADO \u00ae (naloxone hydrochloride) nasal spray Initial U.S. Approval: 1971",
+        "document_type": "prescription"
+      }
+    },
+    {
+      "entity_type": "product",
+      "entity_id": "product:59467-679",
+      "properties": {
+        "name": "KLOXXADO",
+        "generic_name": "Naloxone HCL",
+        "ndc": [
+          "59467-679"
+        ],
+        "routes": [],
+        "dosage_forms": [
+          "SPRAY"
+        ],
+        "rx_otc_flag": "RX",
+        "application_number": "NDA212045"
+      }
+    },
+    {
+      "entity_type": "package",
+      "entity_id": "package:59467-679-01",
+      "properties": {
+        "ndc": "59467-679-01",
+        "description": "VIAL, SINGLE-DOSE",
+        "quantity": 0.1,
+        "unit": "mL"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:F850569PQR",
+      "properties": {
+        "name": "NALOXONE HYDROCHLORIDE",
+        "unii": "F850569PQR",
+        "role": "active",
+        "strength_value": 8.0,
+        "strength_unit": "mg"
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:7FLD91C86K",
+      "properties": {
+        "name": "EDETATE DISODIUM",
+        "unii": "7FLD91C86K",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:6DC9Q167V3",
+      "properties": {
+        "name": "PROPYLENE GLYCOL",
+        "unii": "6DC9Q167V3",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:059QF0KO0R",
+      "properties": {
+        "name": "WATER",
+        "unii": "059QF0KO0R",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:55X04QC32I",
+      "properties": {
+        "name": "SODIUM HYDROXIDE",
+        "unii": "55X04QC32I",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:QTT17582CB",
+      "properties": {
+        "name": "HYDROCHLORIC ACID",
+        "unii": "QTT17582CB",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "ingredient",
+      "entity_id": "ingredient:3K9958V90M",
+      "properties": {
+        "name": "ALCOHOL",
+        "unii": "3K9958V90M",
+        "role": "inactive",
+        "strength_value": null,
+        "strength_unit": null
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:48780-1",
+      "properties": {
+        "code": "48780-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "SPL PRODUCT DATA ELEMENTS SECTION",
+        "display": "SPL product data elements section",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43683-2",
+      "properties": {
+        "code": "43683-2",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "RECENT MAJOR CHANGES SECTION",
+        "display": "RECENT MAJOR CHANGES SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34067-9",
+      "properties": {
+        "code": "34067-9",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "1 INDICATIONS AND USAGE",
+        "display": "INDICATIONS & USAGE SECTION",
+        "text_length": 363
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34068-7",
+      "properties": {
+        "code": "34068-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2 DOSAGE AND ADMINISTRATION",
+        "display": "DOSAGE & ADMINISTRATION SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.1 Important Dosage and Administration Instructions",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 2536
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "2.2 Dosing in Adult and Pediatric Patients",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 1487
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43678-2",
+      "properties": {
+        "code": "43678-2",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "3 DOSAGE FORMS AND STRENGTHS",
+        "display": "DOSAGE FORMS & STRENGTHS SECTION",
+        "text_length": 234
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34070-3",
+      "properties": {
+        "code": "34070-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "4 CONTRAINDICATIONS",
+        "display": "CONTRAINDICATIONS SECTION",
+        "text_length": 140
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43685-7",
+      "properties": {
+        "code": "43685-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5 WARNINGS AND PRECAUTIONS",
+        "display": "WARNINGS AND PRECAUTIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.1 Risk of Recurrent Respiratory and Central Nervous System Depression",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 673
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.2 Risk of Limited Efficacy with Partial Agonists or Mixed Agonist/Antagonists",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 576
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "5.3 Precipitation of Severe Opioid Withdrawal",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 2311
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34084-4",
+      "properties": {
+        "code": "34084-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6 ADVERSE REACTIONS",
+        "display": "ADVERSE REACTIONS SECTION",
+        "text_length": 264
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6.1 Clinical Trials Experience",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 899
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {
+        "code": "42229-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "6.2 Postmarketing Experience",
+        "display": "SPL UNCLASSIFIED SECTION",
+        "text_length": 1640
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43684-0",
+      "properties": {
+        "code": "43684-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8 USE IN SPECIFIC POPULATIONS",
+        "display": "USE IN SPECIFIC POPULATIONS SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42228-7",
+      "properties": {
+        "code": "42228-7",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.1 Pregnancy",
+        "display": "PREGNANCY SECTION",
+        "text_length": 1692
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:77290-5",
+      "properties": {
+        "code": "77290-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.2 Lactation",
+        "display": "LACTATION SECTION",
+        "text_length": 350
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34081-0",
+      "properties": {
+        "code": "34081-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.4 Pediatric Use",
+        "display": "PEDIATRIC USE SECTION",
+        "text_length": 2663
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34082-8",
+      "properties": {
+        "code": "34082-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "8.5 Geriatric Use",
+        "display": "GERIATRIC USE SECTION",
+        "text_length": 538
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34089-3",
+      "properties": {
+        "code": "34089-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "11 DESCRIPTION",
+        "display": "DESCRIPTION SECTION",
+        "text_length": 1278
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34090-1",
+      "properties": {
+        "code": "34090-1",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12 CLINICAL PHARMACOLOGY",
+        "display": "CLINICAL PHARMACOLOGY SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43679-0",
+      "properties": {
+        "code": "43679-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.1 Mechanism of Action",
+        "display": "MECHANISM OF ACTION SECTION",
+        "text_length": 360
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43681-6",
+      "properties": {
+        "code": "43681-6",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.2 Pharmacodynamics",
+        "display": "PHARMACODYNAMICS SECTION",
+        "text_length": 348
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43682-4",
+      "properties": {
+        "code": "43682-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "12.3 Pharmacokinetics",
+        "display": "PHARMACOKINETICS SECTION",
+        "text_length": 6081
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43680-8",
+      "properties": {
+        "code": "43680-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "13 NONCLINICAL TOXICOLOGY",
+        "display": "NONCLINICAL TOXICOLOGY SECTION",
+        "text_length": 0
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34083-6",
+      "properties": {
+        "code": "34083-6",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility",
+        "display": "CARCINOGENESIS & MUTAGENESIS & IMPAIRMENT OF FERTILITY SECTION",
+        "text_length": 633
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34069-5",
+      "properties": {
+        "code": "34069-5",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "16 HOW SUPPLIED/STORAGE AND HANDLING",
+        "display": "HOW SUPPLIED SECTION",
+        "text_length": 1393
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34076-0",
+      "properties": {
+        "code": "34076-0",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "17 PATIENT COUNSELING INFORMATION",
+        "display": "INFORMATION FOR PATIENTS SECTION",
+        "text_length": 3635
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42230-3",
+      "properties": {
+        "code": "42230-3",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": null,
+        "display": "SPL PATIENT PACKAGE INSERT SECTION",
+        "text_length": 6855
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:59845-8",
+      "properties": {
+        "code": "59845-8",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "INSTRUCTIONS FOR USE SECTION",
+        "display": "INSTRUCTIONS FOR USE SECTION",
+        "text_length": 3374
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE/LABEL PRINCIPAL DISPLAY PANEL",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 79
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE/LABEL PRINCIPAL DISPLAY PANEL",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 82
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE/LABEL PRINCIPAL DISPLAY PANEL",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 85
+      }
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:51945-4",
+      "properties": {
+        "code": "51945-4",
+        "code_system": "2.16.840.1.113883.6.1",
+        "title": "PACKAGE/LABEL PRINCIPAL DISPLAY PANEL",
+        "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+        "text_length": 84
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "HAS_LABEL_VERSION",
+      "source_id": "org:078883518",
+      "target_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PRODUCT",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "product:59467-679",
+      "properties": {}
+    },
+    {
+      "edge_type": "LABELED_BY",
+      "source_id": "product:59467-679",
+      "target_id": "org:078883518",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_PACKAGE",
+      "source_id": "product:59467-679",
+      "target_id": "package:59467-679-01",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59467-679",
+      "target_id": "ingredient:F850569PQR",
+      "properties": {
+        "role": "active"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59467-679",
+      "target_id": "ingredient:7FLD91C86K",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59467-679",
+      "target_id": "ingredient:6DC9Q167V3",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59467-679",
+      "target_id": "ingredient:059QF0KO0R",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59467-679",
+      "target_id": "ingredient:55X04QC32I",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59467-679",
+      "target_id": "ingredient:QTT17582CB",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_INGREDIENT",
+      "source_id": "product:59467-679",
+      "target_id": "ingredient:3K9958V90M",
+      "properties": {
+        "role": "inactive"
+      }
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:48780-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43683-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34067-9",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34068-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43678-2",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34070-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43685-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34084-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42229-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43684-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42228-7",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:77290-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34081-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34082-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34089-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34090-1",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43679-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43681-6",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43682-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:43680-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34083-6",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34069-5",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:34076-0",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:42230-3",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:59845-8",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:51945-4",
+      "properties": {}
+    },
+    {
+      "edge_type": "HAS_SECTION",
+      "source_id": "label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb",
+      "target_id": "section:label:ebf0f833-c1c0-487c-8f29-01fa8c61b6cb:51945-4",
+      "properties": {}
+    }
+  ]
+}
