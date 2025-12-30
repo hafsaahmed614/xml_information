@@ -1,0 +1,326 @@
+{
+  "author": {
+    "contact": null,
+    "name": "Symbiopathic",
+    "org_id": {
+      "extension": "202697595",
+      "root": "1.3.6.1.4.1.519.1",
+      "type_hint": "DUNS"
+    },
+    "time": null
+  },
+  "custodian": null,
+  "derived": {
+    "category_profile": {
+      "document_type": "homeopathic",
+      "expected_fields": {
+        "adverse_reactions": "never",
+        "application_number": "never",
+        "boxed_warning": "never",
+        "clinical_pharmacology": "never",
+        "clinical_studies": "never",
+        "contraindications": "never",
+        "homeopathic_potency": "always",
+        "manufacturers": "sometimes",
+        "otc_monograph_id": "never",
+        "physical_characteristics": "never"
+      },
+      "regulatory_pattern": {
+        "marketing_categories": [
+          "unapproved homeopathic"
+        ],
+        "rx_otc_flag": "OTC"
+      },
+      "typical_ingredient_count": 3,
+      "typical_section_count": 13
+    },
+    "merge_keys": {
+      "primary": [
+        "set_id:07893f29-be66-6e93-e063-6294a90a0b4f",
+        "ndc:69710-175"
+      ],
+      "secondary": [
+        "doc_id:40e5e7b1-80c7-b406-e063-6394a90ac7e2",
+        "unii:451W47IQ8X",
+        "unii:059QF0KO0R",
+        "unii:2IN23YUE0I"
+      ]
+    },
+    "section_presence_flags": {
+      "abuse_and_dependence": false,
+      "adverse_reactions": false,
+      "boxed_warning": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "contraindications": false,
+      "dosage_and_administration": true,
+      "drug_interactions": false,
+      "geriatric_use": false,
+      "indications_and_usage": true,
+      "nonclinical_toxicology": false,
+      "overdosage": false,
+      "patient_information": false,
+      "pediatric_use": false,
+      "pharmacokinetics": false,
+      "pregnancy": true,
+      "storage_and_handling": false,
+      "warnings_and_precautions": true
+    }
+  },
+  "images": [
+    {
+      "alt_text": "Quent 4X",
+      "caption": null,
+      "id": "img_a1c819e8-02b0-6ee3-e053-2a95a90acbcf",
+      "media_type": "image/jpeg",
+      "reference": "Quent 4X.jpg"
+    }
+  ],
+  "labeler": {
+    "name": "Symbiopathic",
+    "org_ids": [
+      {
+        "extension": "202697595",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      },
+      {
+        "extension": "202617023",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "manufacturers": [
+    {
+      "address": null,
+      "fei": null,
+      "name": "Deserving Health International Corp",
+      "org_id": {
+        "extension": "202617023",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    }
+  ],
+  "products": [
+    {
+      "dosage_forms": [
+        "LIQUID"
+      ],
+      "equivalence": null,
+      "generic_name": "Penicillium frequentans",
+      "ingredients": [
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "SODIUM CHLORIDE",
+          "role": "inactive",
+          "strength": null,
+          "unii": "451W47IQ8X"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "WATER",
+          "role": "inactive",
+          "strength": null,
+          "unii": "059QF0KO0R"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": {
+            "potency": "4X",
+            "source_material": "PENICILLIUM GLABRUM"
+          },
+          "name": "PENICILLIUM GLABRUM",
+          "role": "active",
+          "strength": {
+            "denominator_unit": "mL",
+            "denominator_value": 1.0,
+            "numerator_unit": "[hp_X]",
+            "numerator_value": 4.0
+          },
+          "unii": "2IN23YUE0I"
+        }
+      ],
+      "ndc": {
+        "package_ndcs": [
+          "69710-175-11"
+        ],
+        "product_ndcs": [
+          "69710-175"
+        ]
+      },
+      "packages": [
+        {
+          "description": "BOTTLE",
+          "marketing_start_date": "20231008",
+          "marketing_status": "active",
+          "package_ndc": null,
+          "quantity": {
+            "unit": "mL",
+            "value": 10.0
+          }
+        },
+        {
+          "description": "CARTON",
+          "marketing_start_date": "20231008",
+          "marketing_status": "active",
+          "package_ndc": "69710-175-11",
+          "quantity": {
+            "unit": "1",
+            "value": 1.0
+          }
+        }
+      ],
+      "physical_characteristics": null,
+      "product_name": "SYMBIO QUENT DROPS",
+      "regulatory": {
+        "application_number": null,
+        "approval_date": null,
+        "dea_schedule": null,
+        "marketing_category": "unapproved homeopathic",
+        "marketing_end_date": null,
+        "marketing_start_date": null,
+        "otc_monograph_id": null,
+        "rx_otc_flag": "OTC",
+        "supplement_number": null
+      },
+      "routes": []
+    }
+  ],
+  "related_documents": [],
+  "sections": [
+    {
+      "code": "48780-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "SPL product data elements section",
+      "text_plain": null,
+      "text_xhtml": null,
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION"
+    },
+    {
+      "code": "55106-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - ACTIVE INGREDIENT SECTION",
+      "text_plain": "Penicillium frequentans 4X",
+      "text_xhtml": "<text>\n                  <paragraph>Penicillium frequentans 4X</paragraph>\n               </text>",
+      "title": "ACTIVE INGREDIENTS:"
+    },
+    {
+      "code": "34071-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "WARNINGS SECTION",
+      "text_plain": "Do not use if the tamper evident strip is broken or removed from the base of the cap.",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">Do not use</content>if the tamper evident strip is broken or removed from the base of the cap.\n\n </paragraph>\n                  <paragraph/>\n                  <paragraph/>\n               </text>",
+      "title": "WARNINGS:"
+    },
+    {
+      "code": "34068-7",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "DOSAGE & ADMINISTRATION SECTION",
+      "text_plain": "Take 5 \u2013 10 drops orally, three times per day.",
+      "text_xhtml": "<text>\n                  <paragraph>Take 5 \u2013 10 drops orally, three times per day.</paragraph>\n               </text>",
+      "title": "DIRECTIONS:"
+    },
+    {
+      "code": "51727-6",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "INACTIVE INGREDIENT SECTION",
+      "text_plain": "Purified water USP, sodium chloride",
+      "text_xhtml": "<text>\n                  <paragraph>Purified water USP, sodium chloride</paragraph>\n               </text>",
+      "title": "INACTIVE INGREDIENTS:"
+    },
+    {
+      "code": "50565-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text_plain": "KEEP OUT OF REACH OF CHILDREN: In case of overdose, get medical help or call a Poison Control Center right away.",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">KEEP OUT OF REACH OF CHILDREN:</content>In case of overdose, get medical help or call a Poison Control Center right away.\n\n </paragraph>\n               </text>",
+      "title": "KEEP OUT OF REACH OF CHILDREN:"
+    },
+    {
+      "code": "34067-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "INDICATIONS & USAGE SECTION",
+      "text_plain": "This remedy is indicated for symptoms associated with colds; flu, inflamed nasal passages, pre- and post- influenza neuralgia, laryngitis, sinusitis and myalgias according to traditional homeopathic practice.*",
+      "text_xhtml": "<text>\n                  <paragraph/>\n                  <paragraph>This remedy is indicated for symptoms associated with colds; flu, inflamed nasal passages, pre- and post- influenza neuralgia, laryngitis, sinusitis and myalgias according to traditional homeopathic practice.*</paragraph>\n                  <paragraph/>\n               </text>",
+      "title": "INDICATIONS:"
+    },
+    {
+      "code": "53413-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - QUESTIONS SECTION",
+      "text_plain": "Call toll-free from US & CA +1-844-880-4881 or visit our website www.biological-health.com",
+      "text_xhtml": "<text>\n                  <paragraph/>\n                  <paragraph>Call toll-free from US &amp; CA +1-844-880-4881 or visit our website \n  <br/>  www.biological-health.com\n </paragraph>\n               </text>",
+      "title": "QUESTIONS:"
+    },
+    {
+      "code": "55105-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - PURPOSE SECTION",
+      "text_plain": "For internal indications according to traditional homeopathic practice.",
+      "text_xhtml": "<text>\n                  <paragraph>For internal indications according to traditional homeopathic practice.</paragraph>\n               </text>",
+      "title": "PURPOSE:"
+    },
+    {
+      "code": "53414-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "text_plain": "If pregnant or breast feeding, ask a health professional before use.",
+      "text_xhtml": "<text>\n                  <paragraph>If pregnant or breast feeding, ask a health professional before use.</paragraph>\n               </text>",
+      "title": "If pregnant or breast feeding..."
+    },
+    {
+      "code": "50569-3",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - ASK DOCTOR SECTION",
+      "text_plain": "Consult a physician if symptoms worsen or last for more than 7 days.",
+      "text_xhtml": "<text>\n                  <paragraph>Consult a physician if symptoms worsen or last for more than 7 days.</paragraph>\n               </text>",
+      "title": "ASK DOCTOR:"
+    },
+    {
+      "code": "42229-5",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "SPL UNCLASSIFIED SECTION",
+      "text_plain": "Protect from light and heat. For professional distribution only. *These statements are based upon traditional homeopathic practice. They have not been reviewed by the Food and Drug Administration.",
+      "text_xhtml": "<text>\n                  <paragraph>Protect from light and heat.</paragraph>\n                  <paragraph>For professional distribution only.</paragraph>\n                  <paragraph>*These statements are based upon traditional homeopathic practice. They have not been reviewed by the Food and Drug Administration.</paragraph>\n                  <paragraph/>\n                  <paragraph/>\n               </text>",
+      "title": "OTHER INFORMATION:"
+    },
+    {
+      "code": "51945-4",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text_plain": "",
+      "text_xhtml": "<text>\n                  <paragraph/>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"img_a1c819e8-02b0-6ee3-e053-2a95a90acbcf\"/>\n                  </paragraph>\n                  <paragraph/>\n                  <paragraph/>\n                  <paragraph/>\n               </text>",
+      "title": "PACKAGE LABEL DISPLAY:"
+    }
+  ],
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "homeopathic_40e5e7b1-80c7-b406-e063-6394a90ac7e2.xml",
+    "parsed_at": "2025-12-30T16:32:27.659971+00:00",
+    "parser_version": "2.2.0"
+  },
+  "spl": {
+    "confidentiality_code": null,
+    "document_id": {
+      "extension": null,
+      "root": "40e5e7b1-80c7-b406-e063-6394a90ac7e2"
+    },
+    "document_type": "homeopathic",
+    "effective_time": "20251011",
+    "language_code": null,
+    "realm_code": null,
+    "set_id": {
+      "extension": null,
+      "root": "07893f29-be66-6e93-e063-6294a90a0b4f"
+    },
+    "title": "QUENT 4X",
+    "version_number": 3
+  }
+}

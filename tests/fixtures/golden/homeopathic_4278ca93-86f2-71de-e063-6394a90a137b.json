@@ -1,0 +1,312 @@
+{
+  "author": {
+    "contact": null,
+    "name": "True Botanica, LLC",
+    "org_id": {
+      "extension": "182071519",
+      "root": "1.3.6.1.4.1.519.1",
+      "type_hint": "DUNS"
+    },
+    "time": null
+  },
+  "custodian": null,
+  "derived": {
+    "category_profile": {
+      "document_type": "homeopathic",
+      "expected_fields": {
+        "adverse_reactions": "never",
+        "application_number": "never",
+        "boxed_warning": "never",
+        "clinical_pharmacology": "never",
+        "clinical_studies": "never",
+        "contraindications": "never",
+        "homeopathic_potency": "always",
+        "manufacturers": "sometimes",
+        "otc_monograph_id": "never",
+        "physical_characteristics": "never"
+      },
+      "regulatory_pattern": {
+        "marketing_categories": [
+          "unapproved homeopathic"
+        ],
+        "rx_otc_flag": "OTC"
+      },
+      "typical_ingredient_count": 4,
+      "typical_section_count": 12
+    },
+    "merge_keys": {
+      "primary": [
+        "set_id:4278c2a4-e562-5687-e063-6294a90afd0e",
+        "ndc:53645-2470"
+      ],
+      "secondary": [
+        "doc_id:4278ca93-86f2-71de-e063-6394a90a137b",
+        "unii:1VPU26JZZ4",
+        "unii:2968PHW8QP",
+        "unii:059QF0KO0R",
+        "unii:W8N8R55022"
+      ]
+    },
+    "section_presence_flags": {
+      "abuse_and_dependence": false,
+      "adverse_reactions": false,
+      "boxed_warning": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "contraindications": false,
+      "dosage_and_administration": true,
+      "drug_interactions": false,
+      "geriatric_use": false,
+      "indications_and_usage": true,
+      "nonclinical_toxicology": false,
+      "overdosage": false,
+      "patient_information": false,
+      "pediatric_use": false,
+      "pharmacokinetics": false,
+      "pregnancy": true,
+      "storage_and_handling": false,
+      "warnings_and_precautions": true
+    }
+  },
+  "images": [
+    {
+      "alt_text": "Hepar (Liver) 30X_30ml_V1",
+      "caption": null,
+      "id": "img_4278e1db-8ea1-7948-e063-6294a90a252c",
+      "media_type": "image/jpeg",
+      "reference": "Hepar (Liver) 30X_30ml_V1.jpg"
+    }
+  ],
+  "labeler": {
+    "name": "True Botanica, LLC",
+    "org_ids": [
+      {
+        "extension": "182071519",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "manufacturers": [
+    {
+      "address": null,
+      "fei": null,
+      "name": "True Botanica, LLC",
+      "org_id": {
+        "extension": "182071519",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      },
+      "role": "manufacture",
+      "role_code": "C43360"
+    }
+  ],
+  "products": [
+    {
+      "dosage_forms": [
+        "LIQUID"
+      ],
+      "equivalence": null,
+      "generic_name": "Hepar (Liver) 30X",
+      "ingredients": [
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "POTASSIUM SORBATE",
+          "role": "inactive",
+          "strength": null,
+          "unii": "1VPU26JZZ4"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "CITRIC ACID MONOHYDRATE",
+          "role": "inactive",
+          "strength": null,
+          "unii": "2968PHW8QP"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "WATER",
+          "role": "inactive",
+          "strength": null,
+          "unii": "059QF0KO0R"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": {
+            "potency": "30X",
+            "source_material": "BEEF LIVER"
+          },
+          "name": "BEEF LIVER",
+          "role": "active",
+          "strength": {
+            "denominator_unit": "mL",
+            "denominator_value": 30.0,
+            "numerator_unit": "[hp_X]",
+            "numerator_value": 30.0
+          },
+          "unii": "W8N8R55022"
+        }
+      ],
+      "ndc": {
+        "package_ndcs": [
+          "53645-2470-6"
+        ],
+        "product_ndcs": [
+          "53645-2470"
+        ]
+      },
+      "packages": [
+        {
+          "description": "BOTTLE",
+          "marketing_start_date": "20251119",
+          "marketing_status": "active",
+          "package_ndc": "53645-2470-6",
+          "quantity": {
+            "unit": "mL",
+            "value": 30.0
+          }
+        }
+      ],
+      "physical_characteristics": null,
+      "product_name": "Hepar (Liver) 30X",
+      "regulatory": {
+        "application_number": null,
+        "approval_date": null,
+        "dea_schedule": null,
+        "marketing_category": "unapproved homeopathic",
+        "marketing_end_date": null,
+        "marketing_start_date": null,
+        "otc_monograph_id": null,
+        "rx_otc_flag": "OTC",
+        "supplement_number": null
+      },
+      "routes": []
+    }
+  ],
+  "related_documents": [],
+  "sections": [
+    {
+      "code": "48780-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "SPL product data elements section",
+      "text_plain": null,
+      "text_xhtml": null,
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION"
+    },
+    {
+      "code": "55106-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - ACTIVE INGREDIENT SECTION",
+      "text_plain": "Bovine Liver 30X",
+      "text_xhtml": "<text>\n                  <paragraph>Bovine Liver 30X</paragraph>\n               </text>",
+      "title": "OTC - ACTIVE INGREDIENT SECTION"
+    },
+    {
+      "code": "55105-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - PURPOSE SECTION",
+      "text_plain": "For constitutional treatments based on homeopathic and anthroposophic indications or as directed by your physician.",
+      "text_xhtml": "<text>\n                  <paragraph>For constitutional treatments based on homeopathic and anthroposophic indications or as directed by your physician.</paragraph>\n               </text>",
+      "title": "OTC - PURPOSE SECTION"
+    },
+    {
+      "code": "34067-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "INDICATIONS & USAGE SECTION",
+      "text_plain": "For constitutional treatments based on homeopathic and anthroposophic indications or as directed by your physician.",
+      "text_xhtml": "<text>\n                  <paragraph>For constitutional treatments based on homeopathic and anthroposophic indications or as directed by your physician.</paragraph>\n               </text>",
+      "title": "Use:"
+    },
+    {
+      "code": "34071-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "WARNINGS SECTION",
+      "text_plain": "Consult your health care provider if symptoms persist more than 5 days or worsen.",
+      "text_xhtml": "<text>\n                  <paragraph>Consult your health care provider if symptoms persist more than 5 days or worsen.</paragraph>\n               </text>",
+      "title": "Warnings:"
+    },
+    {
+      "code": "53414-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "text_plain": "If pregnant or breastfeeding ask a health professional before use.",
+      "text_xhtml": "<text>\n                  <paragraph>If pregnant or breastfeeding ask a health professional before use. \n  <br/>\n                  </paragraph>\n               </text>",
+      "title": "OTC - PREGNANCY OR BREAST FEEDING SECTION"
+    },
+    {
+      "code": "50565-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text_plain": "Keep out of the reach of children.",
+      "text_xhtml": "<text>\n                  <paragraph>Keep out of the reach of children. \n  <br/>\n                  </paragraph>\n               </text>",
+      "title": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION"
+    },
+    {
+      "code": "50570-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - DO NOT USE SECTION",
+      "text_plain": "TAMPER EVIDENT: Do not use if safety seal is broken before first use.",
+      "text_xhtml": "<text>\n                  <paragraph>TAMPER EVIDENT: Do not use if safety seal is broken before first use. \n  <br/>\n                  </paragraph>\n               </text>",
+      "title": "OTC - DO NOT USE SECTION"
+    },
+    {
+      "code": "34068-7",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "DOSAGE & ADMINISTRATION SECTION",
+      "text_plain": "Place drops under tongue for 30 seconds. Adults 7 drops 3 times a day. Children 2-12 years, 7 drops 3 times a day. Under 2 years, consult your doctor. Use until symptoms are relieved or as directed by your health care provider.",
+      "text_xhtml": "<text>\n                  <paragraph>Place drops under tongue for 30 seconds. Adults 7 drops 3 times a day. Children 2-12 years, 7 drops 3 times a day. Under 2 years, consult your doctor. Use until symptoms are relieved or as directed by your health care provider.</paragraph>\n               </text>",
+      "title": "Directions for Use:"
+    },
+    {
+      "code": "51727-6",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "INACTIVE INGREDIENT SECTION",
+      "text_plain": "Citric Acid, Potassium Sorbate, Water",
+      "text_xhtml": "<text>\n                  <paragraph>Citric Acid, Potassium Sorbate, Water</paragraph>\n               </text>",
+      "title": "Other Ingredients:"
+    },
+    {
+      "code": "53413-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - QUESTIONS SECTION",
+      "text_plain": "Developed and Made by True Botanica, LLC 1005 Richards Rd., Suite D Hartland, WI 53029 800-315-8783 www.truebotanica.com",
+      "text_xhtml": "<text>\n                  <paragraph>Developed and Made by</paragraph>\n                  <paragraph>True Botanica, LLC</paragraph>\n                  <paragraph>1005 Richards Rd., Suite D</paragraph>\n                  <paragraph>Hartland, WI 53029</paragraph>\n                  <paragraph>800-315-8783</paragraph>\n                  <paragraph>www.truebotanica.com</paragraph>\n               </text>",
+      "title": "OTC - QUESTIONS SECTION"
+    },
+    {
+      "code": "51945-4",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text_plain": "",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"img_4278e1db-8ea1-7948-e063-6294a90a252c\"/>\n                  </paragraph>\n               </text>",
+      "title": "Principal Display Panel"
+    }
+  ],
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "homeopathic_4278ca93-86f2-71de-e063-6394a90a137b.xml",
+    "parsed_at": "2025-12-30T16:32:27.660933+00:00",
+    "parser_version": "2.2.0"
+  },
+  "spl": {
+    "confidentiality_code": null,
+    "document_id": {
+      "extension": null,
+      "root": "4278ca93-86f2-71de-e063-6394a90a137b"
+    },
+    "document_type": "homeopathic",
+    "effective_time": "20251119",
+    "language_code": null,
+    "realm_code": null,
+    "set_id": {
+      "extension": null,
+      "root": "4278c2a4-e562-5687-e063-6294a90afd0e"
+    },
+    "title": "Hepar (Liver) 30X",
+    "version_number": 1
+  }
+}

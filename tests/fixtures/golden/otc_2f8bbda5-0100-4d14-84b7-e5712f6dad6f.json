@@ -1,0 +1,476 @@
+{
+  "author": {
+    "contact": null,
+    "name": "Dolgencorp Inc",
+    "org_id": {
+      "extension": "068331990",
+      "root": "1.3.6.1.4.1.519.1",
+      "type_hint": "DUNS"
+    },
+    "time": null
+  },
+  "custodian": null,
+  "derived": {
+    "category_profile": {
+      "document_type": "otc",
+      "expected_fields": {
+        "adverse_reactions": "never",
+        "application_number": "never",
+        "boxed_warning": "never",
+        "clinical_pharmacology": "never",
+        "clinical_studies": "never",
+        "contraindications": "never",
+        "homeopathic_potency": "never",
+        "manufacturers": "sometimes",
+        "otc_monograph_id": "always",
+        "physical_characteristics": "sometimes"
+      },
+      "regulatory_pattern": {
+        "marketing_categories": [
+          "OTC Monograph Drug",
+          "OTC monograph not final"
+        ],
+        "rx_otc_flag": "OTC"
+      },
+      "typical_ingredient_count": 10,
+      "typical_section_count": 16
+    },
+    "merge_keys": {
+      "primary": [
+        "set_id:42f0c87c-7020-4af7-9f6b-3a774137e564",
+        "ndc:55910-506"
+      ],
+      "secondary": [
+        "doc_id:2f8bbda5-0100-4d14-84b7-e5712f6dad6f",
+        "unii:362O9ITL9D",
+        "unii:M28OL1HH48",
+        "unii:2S7830E561",
+        "unii:6T47AS764T",
+        "unii:GYP6Z2JR6Q",
+        "unii:3NXW29V3WO",
+        "unii:3WJQ0SDW1A",
+        "unii:6OZP39ZG8H",
+        "unii:FZ989GH94E",
+        "unii:4ELV7Z65AP"
+      ]
+    },
+    "section_presence_flags": {
+      "abuse_and_dependence": false,
+      "adverse_reactions": false,
+      "boxed_warning": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "contraindications": false,
+      "dosage_and_administration": true,
+      "drug_interactions": false,
+      "geriatric_use": false,
+      "indications_and_usage": true,
+      "nonclinical_toxicology": false,
+      "overdosage": false,
+      "patient_information": false,
+      "pediatric_use": false,
+      "pharmacokinetics": false,
+      "pregnancy": true,
+      "storage_and_handling": false,
+      "warnings_and_precautions": true
+    }
+  },
+  "images": [
+    {
+      "alt_text": "dghealth-pain-relief-carton-image.jpg",
+      "caption": null,
+      "id": "EAB5B661-7790-402B-8246-D9A482C3D0D5",
+      "media_type": "image/jpeg",
+      "reference": "dghealth-pain-relief-carton-image.jpg"
+    }
+  ],
+  "labeler": {
+    "name": "Dolgencorp Inc",
+    "org_ids": [
+      {
+        "extension": "068331990",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "manufacturers": [],
+  "products": [
+    {
+      "dosage_forms": [
+        "TABLET, FILM COATED"
+      ],
+      "equivalence": null,
+      "generic_name": "Acetaminophen",
+      "ingredients": [
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "ACETAMINOPHEN",
+          "role": "active",
+          "strength": {
+            "denominator_unit": "1",
+            "denominator_value": 1.0,
+            "numerator_unit": "mg",
+            "numerator_value": 500.0
+          },
+          "unii": "362O9ITL9D"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "CROSCARMELLOSE SODIUM",
+          "role": "inactive",
+          "strength": null,
+          "unii": "M28OL1HH48"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "CROSPOVIDONE, UNSPECIFIED",
+          "role": "inactive",
+          "strength": null,
+          "unii": "2S7830E561"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "FD&C RED NO. 40 ALUMINUM LAKE",
+          "role": "inactive",
+          "strength": null,
+          "unii": "6T47AS764T"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "FD&C YELLOW NO. 6 ALUMINUM LAKE",
+          "role": "inactive",
+          "strength": null,
+          "unii": "GYP6Z2JR6Q"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "HYPROMELLOSE, UNSPECIFIED",
+          "role": "inactive",
+          "strength": null,
+          "unii": "3NXW29V3WO"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "POLYETHYLENE GLYCOL, UNSPECIFIED",
+          "role": "inactive",
+          "strength": null,
+          "unii": "3WJQ0SDW1A"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "POLYSORBATE 80",
+          "role": "inactive",
+          "strength": null,
+          "unii": "6OZP39ZG8H"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "POVIDONE, UNSPECIFIED",
+          "role": "inactive",
+          "strength": null,
+          "unii": "FZ989GH94E"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "STEARIC ACID",
+          "role": "inactive",
+          "strength": null,
+          "unii": "4ELV7Z65AP"
+        }
+      ],
+      "ndc": {
+        "package_ndcs": [
+          "55910-506-62",
+          "55910-506-00",
+          "55910-506-71",
+          "55910-506-78",
+          "55910-506-76",
+          "55910-506-83"
+        ],
+        "product_ndcs": [
+          "55910-506"
+        ]
+      },
+      "packages": [
+        {
+          "description": "BOTTLE",
+          "marketing_start_date": "20170414",
+          "marketing_status": "active",
+          "package_ndc": null,
+          "quantity": {
+            "unit": "1",
+            "value": 24.0
+          }
+        },
+        {
+          "description": "CARTON",
+          "marketing_start_date": "20170414",
+          "marketing_status": "active",
+          "package_ndc": "55910-506-62",
+          "quantity": {
+            "unit": "1",
+            "value": 1.0
+          }
+        },
+        {
+          "description": "BOTTLE",
+          "marketing_start_date": "20170414",
+          "marketing_status": "active",
+          "package_ndc": "55910-506-00",
+          "quantity": {
+            "unit": "1",
+            "value": 50.0
+          }
+        },
+        {
+          "description": "CARTON",
+          "marketing_start_date": "20170414",
+          "marketing_status": "active",
+          "package_ndc": "55910-506-71",
+          "quantity": {
+            "unit": "1",
+            "value": 1.0
+          }
+        },
+        {
+          "description": "BOTTLE",
+          "marketing_start_date": "20170414",
+          "marketing_status": "active",
+          "package_ndc": null,
+          "quantity": {
+            "unit": "1",
+            "value": 100.0
+          }
+        },
+        {
+          "description": "CARTON",
+          "marketing_start_date": "20170414",
+          "marketing_status": "active",
+          "package_ndc": "55910-506-78",
+          "quantity": {
+            "unit": "1",
+            "value": 1.0
+          }
+        },
+        {
+          "description": "BOTTLE",
+          "marketing_start_date": "20170710",
+          "marketing_status": "completed",
+          "package_ndc": null,
+          "quantity": {
+            "unit": "1",
+            "value": 120.0
+          }
+        },
+        {
+          "description": "CARTON",
+          "marketing_start_date": "20170710",
+          "marketing_status": "completed",
+          "package_ndc": "55910-506-76",
+          "quantity": {
+            "unit": "1",
+            "value": 1.0
+          }
+        },
+        {
+          "description": "BOTTLE",
+          "marketing_start_date": "20200611",
+          "marketing_status": "active",
+          "package_ndc": "55910-506-83",
+          "quantity": {
+            "unit": "1",
+            "value": 225.0
+          }
+        }
+      ],
+      "physical_characteristics": {
+        "color": "RED",
+        "flavor": null,
+        "imprint": "3S0",
+        "shape": "OVAL",
+        "size": "18 mm"
+      },
+      "product_name": "DG Health Pain Relief",
+      "regulatory": {
+        "application_number": "M013",
+        "approval_date": null,
+        "dea_schedule": null,
+        "marketing_category": "OTC Monograph Drug",
+        "marketing_end_date": null,
+        "marketing_start_date": null,
+        "otc_monograph_id": "M013",
+        "rx_otc_flag": "OTC",
+        "supplement_number": null
+      },
+      "routes": [
+        "ORAL"
+      ]
+    }
+  ],
+  "related_documents": [],
+  "sections": [
+    {
+      "code": "48780-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "SPL product data elements section",
+      "text_plain": null,
+      "text_xhtml": null,
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION"
+    },
+    {
+      "code": "55106-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - ACTIVE INGREDIENT SECTION",
+      "text_plain": "Acetaminophen 500 mg",
+      "text_xhtml": "<text>\n                  <paragraph>Acetaminophen 500 mg</paragraph>\n               </text>",
+      "title": "Active ingredient (in each caplet)"
+    },
+    {
+      "code": "55105-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - PURPOSE SECTION",
+      "text_plain": "Pain reliever/fever reducer",
+      "text_xhtml": "<text>\n                  <paragraph>Pain reliever/fever reducer</paragraph>\n               </text>",
+      "title": "Purpose"
+    },
+    {
+      "code": "34067-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "INDICATIONS & USAGE SECTION",
+      "text_plain": "\u2022 temporarily relieves minor aches and pains due to: \u2022 the common cold \u2022 headache \u2022 minor pain of arthritis \u2022 backache \u2022 muscular aches \u2022 toothache \u2022 premenstrual and menstrual cramps \u2022 temporarily reduces fever",
+      "text_xhtml": "<text>\n                  <list listType=\"unordered\">\n                     <item>\n                        <caption>\u2022</caption>temporarily relieves minor aches and pains due to:<list listType=\"unordered\">\n                           <item>\n                              <caption>\u2022</caption>the common cold</item>\n                           <item>\n                              <caption>\u2022</caption>headache</item>\n                           <item>\n                              <caption>\u2022</caption>minor pain of arthritis</item>\n                           <item>\n                              <caption>\u2022</caption>backache</item>\n                           <item>\n                              <caption>\u2022</caption>muscular aches</item>\n                           <item>\n                              <caption>\u2022</caption>toothache</item>\n                           <item>\n                              <caption>\u2022</caption>premenstrual and menstrual cramps</item>\n                        </list>\n                     </item>\n                     <item>\n                        <caption>\u2022</caption>temporarily reduces fever</item>\n                  </list>\n               </text>",
+      "title": "Uses"
+    },
+    {
+      "code": "34071-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "WARNINGS SECTION",
+      "text_plain": "Liver warning: This product contains acetaminophen. Severe liver damage may occur if you take \u2022 more than 4,000 mg of acetaminophen in 24 hours \u2022 with other drugs containing acetaminophen \u2022 3 or more alcoholic drinks every day while using this product Allergy alert: Acetaminophen may cause severe skin reactions. Symptoms may include: \u2022 skin reddening \u2022 blisters \u2022 rash If a skin reaction occurs, stop use and seek medical help right away.",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">Liver warning:</content> This product contains acetaminophen. Severe liver damage may occur if you take</paragraph>\n                  <list listType=\"unordered\">\n                     <item>\n                        <caption>\u2022</caption>more than 4,000 mg of acetaminophen in 24 hours</item>\n                     <item>\n                        <caption>\u2022</caption>with other drugs containing acetaminophen</item>\n                     <item>\n                        <caption>\u2022</caption>3 or more alcoholic drinks every day while using this product</item>\n                  </list>\n                  <paragraph>\n                     <content styleCode=\"bold\">Allergy alert:</content> Acetaminophen may cause severe skin reactions. Symptoms may include:</paragraph>\n                  <list listType=\"unordered\">\n                     <item>\n                        <caption>\u2022</caption>skin reddening</item>\n                     <item>\n                        <caption>\u2022</caption>blisters</item>\n                     <item>\n                        <caption>\u2022</caption>rash</item>\n                  </list>\n                  <paragraph>If a skin reaction occurs, stop use and seek medical help right away.</paragraph>\n               </text>",
+      "title": "Warnings"
+    },
+    {
+      "code": "50570-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - DO NOT USE SECTION",
+      "text_plain": "\u2022 with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist. \u2022 if you have ever had an allergic reaction to this product or any of its ingredients",
+      "text_xhtml": "<text>\n                        <list listType=\"unordered\">\n                           <item>\n                              <caption>\u2022</caption>with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist.</item>\n                           <item>\n                              <caption>\u2022</caption>if you have ever had an allergic reaction to this product or any of its ingredients</item>\n                        </list>\n                     </text>",
+      "title": "Do not use"
+    },
+    {
+      "code": "50569-3",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - ASK DOCTOR SECTION",
+      "text_plain": "liver disease",
+      "text_xhtml": "<text>\n                        <paragraph>liver disease</paragraph>\n                     </text>",
+      "title": "Ask a doctor before use if you have"
+    },
+    {
+      "code": "50568-5",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - ASK DOCTOR/PHARMACIST SECTION",
+      "text_plain": "taking the blood thinning drug warfarin",
+      "text_xhtml": "<text>\n                        <paragraph>taking the blood thinning drug warfarin</paragraph>\n                     </text>",
+      "title": "Ask a doctor or pharmacist before use if you are"
+    },
+    {
+      "code": "50566-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - STOP USE SECTION",
+      "text_plain": "\u2022 pain gets worse or lasts more than 10 days \u2022 fever gets worse or lasts more than 3 days \u2022 new symptoms occur \u2022 redness or swelling is present These could be signs of a serious condition.",
+      "text_xhtml": "<text>\n                        <list listType=\"unordered\">\n                           <item>\n                              <caption>\u2022</caption>pain gets worse or lasts more than 10 days</item>\n                           <item>\n                              <caption>\u2022</caption>fever gets worse or lasts more than 3 days</item>\n                           <item>\n                              <caption>\u2022</caption>new symptoms occur</item>\n                           <item>\n                              <caption>\u2022</caption>redness or swelling is present<paragraph>These could be signs of a serious condition.</paragraph>\n                           </item>\n                        </list>\n                     </text>",
+      "title": "Stop use and ask a doctor if"
+    },
+    {
+      "code": "53414-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - PREGNANCY OR BREAST FEEDING SECTION",
+      "text_plain": "ask a health professional before use.",
+      "text_xhtml": "<text>\n                        <paragraph>ask a health professional before use.</paragraph>\n                     </text>",
+      "title": "If pregnant or breast-feeding,"
+    },
+    {
+      "code": "50565-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - KEEP OUT OF REACH OF CHILDREN SECTION",
+      "text_plain": "Overdose warning: In case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222). Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.",
+      "text_xhtml": "<text>\n                        <paragraph>\n                           <content styleCode=\"bold\">Overdose warning:</content> In case of overdose, get medical help or contact a Poison Control Center right away (1-800-222-1222). Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.</paragraph>\n                     </text>",
+      "title": "Keep out of reach of children."
+    },
+    {
+      "code": "34068-7",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "DOSAGE & ADMINISTRATION SECTION",
+      "text_plain": "\u2022 do not take more than directed (see overdose warning) adults and children 12 years and over \u2022 take 2 caplets every 6 hours while symptoms last \u2022 do not take more than 6 caplets in 24 hours, unless directed by a doctor \u2022 do not use for more than 10 days unless directed by a doctor children under 12 years ask a doctor",
+      "text_xhtml": "<text>\n                  <list listType=\"unordered\">\n                     <item>\n                        <caption>\u2022</caption>\n                        <content styleCode=\"bold\">do not take more than directed (see overdose warning)</content>\n                     </item>\n                  </list>\n                  <table width=\"100%\">\n                     <col width=\"19%\"/>\n                     <col width=\"79%\"/>\n                     <tbody>\n                        <tr>\n                           <td styleCode=\"Rrule Botrule Lrule Toprule \" valign=\"top\">\n                              <paragraph>adults and children 12 years and over</paragraph>\n                           </td>\n                           <td styleCode=\"Rrule Botrule Lrule Toprule \" valign=\"top\">\n                              <list listType=\"unordered\">\n                                 <item>\n                                    <caption>\u2022</caption>take 2 caplets every 6 hours while symptoms last</item>\n                                 <item>\n                                    <caption>\u2022</caption>do not take more than 6 caplets in 24 hours, unless directed by a doctor</item>\n                                 <item>\n                                    <caption>\u2022</caption>do not use for more than 10 days unless directed by a doctor</item>\n                              </list>\n                           </td>\n                        </tr>\n                        <tr>\n                           <td styleCode=\"Rrule Botrule Lrule Toprule \" valign=\"top\">\n                              <paragraph>children under</paragraph>\n                              <paragraph>12 years</paragraph>\n                           </td>\n                           <td styleCode=\"Rrule Botrule Lrule Toprule \" valign=\"top\">\n                              <paragraph>ask a doctor</paragraph>\n                           </td>\n                        </tr>\n                     </tbody>\n                  </table>\n               </text>",
+      "title": "Directions"
+    },
+    {
+      "code": "60561-8",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTHER SAFETY INFORMATION",
+      "text_plain": "\u2022 store at 20-25\u00b0C (68-77\u00b0F)",
+      "text_xhtml": "<text>\n                  <list listType=\"unordered\">\n                     <item>\n                        <caption>\u2022</caption>store at 20-25\u00b0C (68-77\u00b0F)</item>\n                  </list>\n               </text>",
+      "title": "Other information"
+    },
+    {
+      "code": "51727-6",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "INACTIVE INGREDIENT SECTION",
+      "text_plain": "croscarmellose sodium, crospovidone, FD&C red #40 aluminum lake, FD&C yellow #6 aluminum lake, hypromellose, mica-based pearlescent pigment, polyethylene glycol, polysorbate 80, povidone, pregelatinized starch, stearic acid",
+      "text_xhtml": "<text>\n                  <paragraph>croscarmellose sodium, crospovidone, FD&amp;C red #40 aluminum lake, FD&amp;C yellow #6 aluminum lake, hypromellose, mica-based pearlescent pigment, polyethylene glycol, polysorbate 80, povidone, pregelatinized starch, stearic acid</paragraph>\n               </text>",
+      "title": "Inactive ingredients"
+    },
+    {
+      "code": "53413-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "OTC - QUESTIONS SECTION",
+      "text_plain": "1-888-309-9030",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <content styleCode=\"bold\">1-888-309-9030</content>\n                  </paragraph>\n               </text>",
+      "title": "Questions or comments?"
+    },
+    {
+      "code": "51945-4",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text_plain": "DG \u00ae | health Compare to the active ingredient of Tylenol \u00ae Extra Strength Rapid Release Gels Rapid Release Pain Relief Acetaminophen 500 mg Fast Relief Pain Reliever/Fever Reducer 100 Caplets 500 mg \u2022 Extra strength \u2022 For adults Actual Caplet Size",
+      "text_xhtml": "<text>\n                  <paragraph>DG<sup>\u00ae</sup> | health</paragraph>\n                  <paragraph>Compare to the active ingredient of Tylenol<sup>\u00ae</sup> Extra Strength Rapid Release Gels</paragraph>\n                  <paragraph>Rapid Release</paragraph>\n                  <paragraph>Pain Relief</paragraph>\n                  <paragraph>Acetaminophen 500 mg</paragraph>\n                  <paragraph>Fast Relief</paragraph>\n                  <paragraph>Pain Reliever/Fever Reducer</paragraph>\n                  <paragraph>100 Caplets</paragraph>\n                  <paragraph>500 mg</paragraph>\n                  <paragraph>\u2022 Extra strength</paragraph>\n                  <paragraph>\u2022 For adults</paragraph>\n                  <paragraph>Actual Caplet Size</paragraph>\n                  <renderMultiMedia ID=\"id975954257\" referencedObject=\"EAB5B661-7790-402B-8246-D9A482C3D0D5\"/>\n               </text>",
+      "title": "Package/Label Principal Display Panel"
+    }
+  ],
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "otc_2f8bbda5-0100-4d14-84b7-e5712f6dad6f.xml",
+    "parsed_at": "2025-12-30T16:32:27.663671+00:00",
+    "parser_version": "2.2.0"
+  },
+  "spl": {
+    "confidentiality_code": null,
+    "document_id": {
+      "extension": null,
+      "root": "2f8bbda5-0100-4d14-84b7-e5712f6dad6f"
+    },
+    "document_type": "otc",
+    "effective_time": "20251024",
+    "language_code": null,
+    "realm_code": null,
+    "set_id": {
+      "extension": null,
+      "root": "42f0c87c-7020-4af7-9f6b-3a774137e564"
+    },
+    "title": "Dolgencorp, LLC Pain Relief Drug Facts",
+    "version_number": 7
+  }
+}

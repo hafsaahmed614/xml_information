@@ -1,0 +1,1065 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://dailymed.nlm.nih.gov/schemas/spl-extract.json",
+  "title": "DailyMed SPL Extract",
+  "description": "JSON Schema for extracted FDA DailyMed Structured Product Labeling (SPL) data. Captures all information extractable from HL7 v3 SPL XML files for integration into a drug knowledge graph.",
+  "type": "object",
+  "required": ["source", "spl", "labeler", "products", "sections", "derived"],
+  "additionalProperties": false,
+  "properties": {
+    "source": {
+      "type": "object",
+      "description": "Provenance information about the data extraction",
+      "required": ["dataset", "format", "input_filename", "parsed_at", "parser_version"],
+      "additionalProperties": false,
+      "properties": {
+        "dataset": {
+          "type": "string",
+          "const": "DailyMed",
+          "description": "Source dataset identifier"
+        },
+        "format": {
+          "type": "string",
+          "const": "SPL",
+          "description": "Source format (Structured Product Labeling)"
+        },
+        "input_filename": {
+          "type": "string",
+          "description": "Original XML filename"
+        },
+        "parsed_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO-8601 timestamp when the file was parsed"
+        },
+        "parser_version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Semantic version of the parser used"
+        }
+      }
+    },
+
+    "spl": {
+      "type": "object",
+      "description": "SPL document-level metadata",
+      "required": ["document_id", "set_id", "document_type"],
+      "additionalProperties": false,
+      "properties": {
+        "document_id": {
+          "$ref": "#/$defs/identifier",
+          "description": "Unique identifier for this specific SPL document version"
+        },
+        "set_id": {
+          "$ref": "#/$defs/identifier",
+          "description": "Stable identifier that remains constant across document versions"
+        },
+        "version_number": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "Document version number (increments with each revision)"
+        },
+        "effective_time": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}(\\d{6})?$",
+          "description": "Effective date in YYYYMMDD or YYYYMMDDHHMMSS format"
+        },
+        "title": {
+          "type": ["string", "null"],
+          "description": "Document title (often the drug name or label header)"
+        },
+        "document_type": {
+          "type": "string",
+          "enum": ["prescription", "otc", "homeopathic", "other", "unknown"],
+          "description": "Classification of the SPL document type"
+        },
+        "document_type_code": {
+          "type": ["string", "null"],
+          "description": "LOINC code for the document type (e.g., 34391-3 for prescription)"
+        },
+        "document_type_display": {
+          "type": ["string", "null"],
+          "description": "Display name for the document type from the XML"
+        },
+        "language_code": {
+          "type": ["string", "null"],
+          "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+          "description": "Document language code (e.g., 'en' for English)",
+          "examples": ["en", "es"]
+        },
+        "realm_code": {
+          "type": ["string", "null"],
+          "description": "Jurisdiction/country code (e.g., 'US')"
+        },
+        "confidentiality_code": {
+          "type": ["string", "null"],
+          "description": "Document confidentiality level"
+        }
+      }
+    },
+
+    "author": {
+      "type": ["object", "null"],
+      "description": "Authoring organization information",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": ["string", "null"],
+          "description": "Author organization name"
+        },
+        "org_id": {
+          "$ref": "#/$defs/org_id"
+        },
+        "time": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}(\\d{6})?$",
+          "description": "Authoring time in YYYYMMDD or YYYYMMDDHHMMSS format"
+        },
+        "contact": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": ["string", "null"]
+            },
+            "phone": {
+              "type": ["string", "null"]
+            },
+            "email": {
+              "type": ["string", "null"],
+              "format": "email"
+            }
+          }
+        }
+      }
+    },
+
+    "custodian": {
+      "type": ["object", "null"],
+      "description": "Document custodian (organization responsible for maintaining the document)",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": ["string", "null"],
+          "description": "Custodian organization name"
+        },
+        "org_id": {
+          "$ref": "#/$defs/org_id"
+        }
+      }
+    },
+
+    "related_documents": {
+      "type": "array",
+      "description": "References to related SPL documents (superseded versions, etc.)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "relationship_type": {
+            "type": "string",
+            "enum": ["supersedes", "supplements", "transforms", "replaces"],
+            "description": "Type of relationship to the related document"
+          },
+          "document_id": {
+            "$ref": "#/$defs/identifier",
+            "description": "ID of the related document"
+          },
+          "set_id": {
+            "$ref": "#/$defs/identifier",
+            "description": "Set ID of the related document"
+          },
+          "version_number": {
+            "type": ["integer", "null"],
+            "description": "Version number of the related document"
+          }
+        }
+      }
+    },
+
+    "labeler": {
+      "type": "object",
+      "description": "Information about the labeling organization (manufacturer/distributor)",
+      "required": ["name", "org_ids"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": ["string", "null"],
+          "description": "Organization name"
+        },
+        "org_ids": {
+          "type": "array",
+          "description": "Organization identifiers (DUNS, etc.)",
+          "items": {
+            "$ref": "#/$defs/org_id"
+          }
+        }
+      }
+    },
+
+    "manufacturers": {
+      "type": "array",
+      "description": "Manufacturing facilities and their roles",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": ["string", "null"],
+            "description": "Manufacturer name"
+          },
+          "org_id": {
+            "$ref": "#/$defs/org_id"
+          },
+          "fei": {
+            "type": ["string", "null"],
+            "pattern": "^[0-9]+$",
+            "description": "FDA Establishment Identifier (FEI) number"
+          },
+          "role": {
+            "type": ["string", "null"],
+            "enum": ["manufacture", "analysis", "label", "repack", "api manufacture", "pack", null],
+            "description": "Manufacturing role/activity type"
+          },
+          "role_code": {
+            "type": ["string", "null"],
+            "description": "FDA code for the manufacturing role (e.g., C43360)"
+          },
+          "address": {
+            "type": ["object", "null"],
+            "additionalProperties": false,
+            "properties": {
+              "street": {
+                "type": ["string", "null"]
+              },
+              "city": {
+                "type": ["string", "null"]
+              },
+              "state": {
+                "type": ["string", "null"]
+              },
+              "postal_code": {
+                "type": ["string", "null"]
+              },
+              "country": {
+                "type": ["string", "null"]
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "products": {
+      "type": "array",
+      "description": "Drug products described in this SPL",
+      "items": {
+        "$ref": "#/$defs/product"
+      }
+    },
+
+    "sections": {
+      "type": "array",
+      "description": "Label sections (indications, warnings, dosage, etc.)",
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    },
+
+    "images": {
+      "type": "array",
+      "description": "Image/media references in the label (package images, etc.)",
+      "items": {
+        "$ref": "#/$defs/image"
+      }
+    },
+
+    "derived": {
+      "type": "object",
+      "description": "Computed/derived fields for knowledge graph integration",
+      "required": ["merge_keys", "section_presence_flags", "category_profile"],
+      "additionalProperties": false,
+      "properties": {
+        "merge_keys": {
+          "$ref": "#/$defs/merge_keys"
+        },
+        "section_presence_flags": {
+          "$ref": "#/$defs/section_presence_flags"
+        },
+        "category_profile": {
+          "$ref": "#/$defs/category_profile"
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "identifier": {
+      "type": "object",
+      "description": "HL7 II (Instance Identifier) data type",
+      "additionalProperties": false,
+      "properties": {
+        "root": {
+          "type": ["string", "null"],
+          "description": "OID or UUID root"
+        },
+        "extension": {
+          "type": ["string", "null"],
+          "description": "Extension value within the root namespace"
+        }
+      }
+    },
+
+    "org_id": {
+      "type": "object",
+      "description": "Organization identifier with type hint",
+      "additionalProperties": false,
+      "properties": {
+        "root": {
+          "type": ["string", "null"],
+          "description": "OID root for the identifier system"
+        },
+        "extension": {
+          "type": ["string", "null"],
+          "description": "The identifier value"
+        },
+        "type_hint": {
+          "type": ["string", "null"],
+          "enum": ["DUNS", "FDA_ESTABLISHMENT", "NDC_LABELER", null],
+          "description": "Human-readable identifier type"
+        }
+      }
+    },
+
+    "product": {
+      "type": "object",
+      "description": "A drug product with its properties",
+      "additionalProperties": false,
+      "properties": {
+        "product_name": {
+          "type": ["string", "null"],
+          "description": "Brand/trade name of the product"
+        },
+        "generic_name": {
+          "type": ["string", "null"],
+          "description": "Generic/scientific name"
+        },
+        "routes": {
+          "type": "array",
+          "description": "Routes of administration",
+          "items": {
+            "type": "string"
+          },
+          "examples": [["ORAL"], ["TOPICAL"], ["INTRAVENOUS", "SUBCUTANEOUS"]]
+        },
+        "route_codes": {
+          "type": "array",
+          "description": "FDA codes for routes of administration",
+          "items": {
+            "$ref": "#/$defs/coded_value"
+          }
+        },
+        "dosage_forms": {
+          "type": "array",
+          "description": "Dosage form(s) of the product",
+          "items": {
+            "type": "string"
+          },
+          "examples": [["TABLET"], ["CAPSULE"], ["LIQUID", "SUSPENSION"]]
+        },
+        "dosage_form_codes": {
+          "type": "array",
+          "description": "FDA codes for dosage forms",
+          "items": {
+            "$ref": "#/$defs/coded_value"
+          }
+        },
+        "ndc": {
+          "$ref": "#/$defs/ndc_info"
+        },
+        "regulatory": {
+          "$ref": "#/$defs/regulatory_info"
+        },
+        "ingredients": {
+          "type": "array",
+          "description": "Active and inactive ingredients",
+          "items": {
+            "$ref": "#/$defs/ingredient"
+          }
+        },
+        "packages": {
+          "type": "array",
+          "description": "Package configurations",
+          "items": {
+            "$ref": "#/$defs/package"
+          }
+        },
+        "physical_characteristics": {
+          "$ref": "#/$defs/physical_characteristics"
+        },
+        "equivalence": {
+          "$ref": "#/$defs/equivalence_info"
+        }
+      }
+    },
+
+    "ndc_info": {
+      "type": "object",
+      "description": "National Drug Code information",
+      "additionalProperties": false,
+      "properties": {
+        "product_ndcs": {
+          "type": "array",
+          "description": "Product-level NDCs (10-digit format: XXXXX-XXXX)",
+          "items": {
+            "type": "string",
+            "pattern": "^\\d{4,5}-\\d{3,4}$"
+          }
+        },
+        "package_ndcs": {
+          "type": "array",
+          "description": "Package-level NDCs (11-digit format: XXXXX-XXXX-XX)",
+          "items": {
+            "type": "string",
+            "pattern": "^\\d{4,5}-\\d{3,4}-\\d{1,2}$"
+          }
+        }
+      }
+    },
+
+    "regulatory_info": {
+      "type": "object",
+      "description": "Regulatory and marketing information",
+      "additionalProperties": false,
+      "properties": {
+        "rx_otc_flag": {
+          "type": "string",
+          "enum": ["RX", "OTC", "UNKNOWN"],
+          "description": "Prescription vs over-the-counter status"
+        },
+        "application_number": {
+          "type": ["string", "null"],
+          "pattern": "^(NDA|ANDA|BLA)\\d+$",
+          "description": "FDA application number (NDA, ANDA, or BLA)"
+        },
+        "application_type": {
+          "type": ["string", "null"],
+          "enum": ["NDA", "ANDA", "BLA", null],
+          "description": "Type of FDA application"
+        },
+        "otc_monograph_id": {
+          "type": ["string", "null"],
+          "pattern": "^M\\d+$",
+          "description": "OTC monograph identifier"
+        },
+        "marketing_category": {
+          "type": ["string", "null"],
+          "description": "Marketing category (e.g., 'NDA', 'OTC Monograph Drug', 'unapproved homeopathic')"
+        },
+        "marketing_category_code": {
+          "type": ["string", "null"],
+          "description": "FDA code for marketing category"
+        },
+        "marketing_status": {
+          "type": ["string", "null"],
+          "enum": ["active", "completed", null],
+          "description": "Current marketing status"
+        },
+        "marketing_start_date": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}$",
+          "description": "Date marketing began (YYYYMMDD)"
+        },
+        "marketing_end_date": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}$",
+          "description": "Date marketing ended (YYYYMMDD), if applicable"
+        },
+        "dea_schedule": {
+          "type": ["string", "null"],
+          "enum": ["CI", "CII", "CIII", "CIV", "CV", null],
+          "description": "DEA controlled substance schedule"
+        },
+        "dea_schedule_code": {
+          "type": ["string", "null"],
+          "description": "FDA code for DEA schedule"
+        },
+        "approval_date": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}$",
+          "description": "FDA approval date for NDA/ANDA/BLA (YYYYMMDD)"
+        },
+        "supplement_number": {
+          "type": ["string", "null"],
+          "description": "FDA supplement number if applicable"
+        }
+      }
+    },
+
+    "ingredient": {
+      "type": "object",
+      "description": "An ingredient in the drug product",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": ["string", "null"],
+          "description": "Ingredient name"
+        },
+        "name_type": {
+          "type": ["string", "null"],
+          "enum": ["official", "generic", "brand", null],
+          "description": "Type of ingredient name"
+        },
+        "role": {
+          "type": "string",
+          "enum": ["active", "inactive", "adjuvant", "other"],
+          "description": "Role of the ingredient"
+        },
+        "role_code": {
+          "type": ["string", "null"],
+          "enum": ["ACTIB", "ACTI", "IACT", "ADJV", null],
+          "description": "HL7 classCode for ingredient role"
+        },
+        "unii": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z0-9]{10}$",
+          "description": "FDA Unique Ingredient Identifier"
+        },
+        "cas_number": {
+          "type": ["string", "null"],
+          "pattern": "^\\d+-\\d{2}-\\d$",
+          "description": "CAS Registry Number"
+        },
+        "strength": {
+          "$ref": "#/$defs/strength"
+        },
+        "active_moiety": {
+          "type": "object",
+          "description": "Active moiety information (for active ingredients)",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": ["string", "null"]
+            },
+            "unii": {
+              "type": ["string", "null"],
+              "pattern": "^[A-Z0-9]{10}$"
+            }
+          }
+        },
+        "homeopathic": {
+          "$ref": "#/$defs/homeopathic_info"
+        }
+      }
+    },
+
+    "strength": {
+      "type": ["object", "null"],
+      "description": "Ingredient strength/quantity",
+      "additionalProperties": false,
+      "properties": {
+        "numerator_value": {
+          "type": ["number", "null"],
+          "description": "Numerator value of the strength"
+        },
+        "numerator_unit": {
+          "type": ["string", "null"],
+          "description": "Unit of the numerator (mg, mL, etc.)"
+        },
+        "denominator_value": {
+          "type": ["number", "null"],
+          "description": "Denominator value (for concentrations)"
+        },
+        "denominator_unit": {
+          "type": ["string", "null"],
+          "description": "Unit of the denominator"
+        },
+        "presentation_strength": {
+          "type": ["string", "null"],
+          "description": "Human-readable strength string (e.g., '500 mg')"
+        },
+        "concentration_strength": {
+          "type": ["string", "null"],
+          "description": "Human-readable concentration (e.g., '25 mg/mL')"
+        }
+      }
+    },
+
+    "homeopathic_info": {
+      "type": ["object", "null"],
+      "description": "Homeopathic-specific information",
+      "additionalProperties": false,
+      "properties": {
+        "potency": {
+          "type": ["string", "null"],
+          "pattern": "^\\d+[CXM]$",
+          "description": "Homeopathic potency (e.g., '6C', '30X', '200C')"
+        },
+        "potency_scale": {
+          "type": ["string", "null"],
+          "enum": ["C", "X", "M", "LM", null],
+          "description": "Dilution scale (C=centesimal, X=decimal)"
+        },
+        "source_material": {
+          "type": ["string", "null"],
+          "description": "Original source material name"
+        },
+        "hpus_monograph": {
+          "type": ["boolean", "null"],
+          "description": "Whether listed in Homeopathic Pharmacopoeia of the United States"
+        }
+      }
+    },
+
+    "package": {
+      "type": "object",
+      "description": "Package configuration for a product",
+      "additionalProperties": false,
+      "properties": {
+        "package_ndc": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{4,5}-\\d{3,4}-\\d{1,2}$",
+          "description": "Package-level NDC"
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Container type (BOTTLE, BLISTER PACK, etc.)"
+        },
+        "container_type_code": {
+          "type": ["string", "null"],
+          "description": "FDA code for container type"
+        },
+        "quantity": {
+          "$ref": "#/$defs/quantity"
+        },
+        "marketing_start_date": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}$",
+          "description": "Date this package configuration began marketing"
+        },
+        "marketing_status": {
+          "type": ["string", "null"],
+          "enum": ["active", "completed", null]
+        },
+        "combination_product_type": {
+          "type": ["string", "null"],
+          "description": "Type of combination product if applicable"
+        },
+        "combination_product_code": {
+          "type": ["string", "null"],
+          "description": "FDA code for combination product type"
+        }
+      }
+    },
+
+    "quantity": {
+      "type": ["object", "null"],
+      "description": "A quantity with value and unit",
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": ["number", "null"]
+        },
+        "unit": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+
+    "physical_characteristics": {
+      "type": ["object", "null"],
+      "description": "Physical appearance characteristics",
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "type": ["string", "null"],
+          "description": "Product color"
+        },
+        "color_code": {
+          "type": ["string", "null"],
+          "description": "FDA code for color"
+        },
+        "shape": {
+          "type": ["string", "null"],
+          "description": "Product shape (for solid oral dosage forms)"
+        },
+        "shape_code": {
+          "type": ["string", "null"],
+          "description": "FDA code for shape"
+        },
+        "size": {
+          "type": ["string", "null"],
+          "description": "Size measurement"
+        },
+        "size_value": {
+          "type": ["number", "null"],
+          "description": "Numeric size value"
+        },
+        "size_unit": {
+          "type": ["string", "null"],
+          "description": "Size unit (mm)"
+        },
+        "imprint": {
+          "type": ["string", "null"],
+          "description": "Imprint/debossing on the product"
+        },
+        "scoring": {
+          "type": ["string", "null"],
+          "description": "Scoring information"
+        },
+        "scoring_code": {
+          "type": ["string", "null"],
+          "description": "FDA code for scoring"
+        },
+        "flavor": {
+          "type": ["string", "null"],
+          "description": "Product flavor"
+        },
+        "flavor_code": {
+          "type": ["string", "null"],
+          "description": "FDA code for flavor"
+        },
+        "coating": {
+          "type": ["boolean", "null"],
+          "description": "Whether product is coated"
+        },
+        "symbol": {
+          "type": ["boolean", "null"],
+          "description": "Whether product contains a symbol"
+        }
+      }
+    },
+
+    "equivalence_info": {
+      "type": ["object", "null"],
+      "description": "Therapeutic equivalence information for generic substitution",
+      "additionalProperties": false,
+      "properties": {
+        "te_code": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{2}[0-9]?$",
+          "description": "FDA Therapeutic Equivalence code (e.g., 'AA', 'AB', 'AB1', 'BC')",
+          "examples": ["AA", "AB", "AB1", "AB2", "BC", "BD", "BP", "BX"]
+        },
+        "te_code_description": {
+          "type": ["string", "null"],
+          "description": "Description of the therapeutic equivalence rating"
+        },
+        "reference_ndc": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{4,5}-\\d{3,4}$",
+          "description": "NDC of the reference listed drug (RLD)"
+        },
+        "reference_name": {
+          "type": ["string", "null"],
+          "description": "Name of the reference listed drug"
+        },
+        "reference_set_id": {
+          "type": ["string", "null"],
+          "description": "Set ID of the reference listed drug's SPL"
+        },
+        "is_reference_listed_drug": {
+          "type": ["boolean", "null"],
+          "description": "Whether this product is itself a reference listed drug"
+        }
+      }
+    },
+
+    "section": {
+      "type": "object",
+      "description": "A label section with clinical content",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": ["string", "null"],
+          "description": "Section ID (for internal linking)"
+        },
+        "code": {
+          "type": ["string", "null"],
+          "description": "Section code (typically LOINC)"
+        },
+        "code_system": {
+          "type": ["string", "null"],
+          "description": "Code system OID (2.16.840.1.113883.6.1 for LOINC)"
+        },
+        "code_system_name": {
+          "type": ["string", "null"],
+          "enum": ["LOINC", null],
+          "description": "Human-readable code system name"
+        },
+        "display": {
+          "type": ["string", "null"],
+          "description": "Display name from the code system"
+        },
+        "title": {
+          "type": ["string", "null"],
+          "description": "Section title from the document"
+        },
+        "text_xhtml": {
+          "type": ["string", "null"],
+          "description": "Full XHTML content preserving structure and formatting"
+        },
+        "text_plain": {
+          "type": ["string", "null"],
+          "description": "Plain text with normalized whitespace"
+        },
+        "effective_time": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{8}$",
+          "description": "Section effective date (YYYYMMDD)"
+        },
+        "subsections": {
+          "type": "array",
+          "description": "Nested subsections",
+          "items": {
+            "$ref": "#/$defs/section"
+          }
+        }
+      }
+    },
+
+    "image": {
+      "type": "object",
+      "description": "Image or media reference",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": ["string", "null"],
+          "description": "Media ID for internal reference"
+        },
+        "reference": {
+          "type": ["string", "null"],
+          "description": "Filename or URL of the image"
+        },
+        "media_type": {
+          "type": ["string", "null"],
+          "description": "MIME type (image/jpeg, image/png, etc.)"
+        },
+        "alt_text": {
+          "type": ["string", "null"],
+          "description": "Alternative text description"
+        },
+        "caption": {
+          "type": ["string", "null"],
+          "description": "Image caption"
+        }
+      }
+    },
+
+    "coded_value": {
+      "type": "object",
+      "description": "A coded value with code and display name",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": ["string", "null"]
+        },
+        "code_system": {
+          "type": ["string", "null"]
+        },
+        "display_name": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+
+    "merge_keys": {
+      "type": "object",
+      "description": "Keys for merging with other data sources",
+      "additionalProperties": false,
+      "properties": {
+        "primary": {
+          "type": "array",
+          "description": "Primary merge keys (set_id, NDC)",
+          "items": {
+            "type": "string"
+          }
+        },
+        "secondary": {
+          "type": "array",
+          "description": "Secondary merge keys (UNII, CAS, document_id)",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+
+    "section_presence_flags": {
+      "type": "object",
+      "description": "Boolean flags indicating presence of key sections",
+      "additionalProperties": false,
+      "properties": {
+        "boxed_warning": {
+          "type": "boolean",
+          "description": "Has boxed (black box) warning"
+        },
+        "indications_and_usage": {
+          "type": "boolean",
+          "description": "Has indications and usage section"
+        },
+        "contraindications": {
+          "type": "boolean",
+          "description": "Has contraindications section"
+        },
+        "warnings_and_precautions": {
+          "type": "boolean",
+          "description": "Has warnings and/or precautions section"
+        },
+        "adverse_reactions": {
+          "type": "boolean",
+          "description": "Has adverse reactions section"
+        },
+        "drug_interactions": {
+          "type": "boolean",
+          "description": "Has drug interactions section"
+        },
+        "dosage_and_administration": {
+          "type": "boolean",
+          "description": "Has dosage and administration section"
+        },
+        "storage_and_handling": {
+          "type": "boolean",
+          "description": "Has storage and handling section"
+        },
+        "clinical_pharmacology": {
+          "type": "boolean",
+          "description": "Has clinical pharmacology section"
+        },
+        "clinical_studies": {
+          "type": "boolean",
+          "description": "Has clinical studies section"
+        },
+        "pharmacokinetics": {
+          "type": "boolean",
+          "description": "Has pharmacokinetics section"
+        },
+        "nonclinical_toxicology": {
+          "type": "boolean",
+          "description": "Has nonclinical toxicology section"
+        },
+        "pregnancy": {
+          "type": "boolean",
+          "description": "Has pregnancy section"
+        },
+        "pediatric_use": {
+          "type": "boolean",
+          "description": "Has pediatric use section"
+        },
+        "geriatric_use": {
+          "type": "boolean",
+          "description": "Has geriatric use section"
+        },
+        "overdosage": {
+          "type": "boolean",
+          "description": "Has overdosage section"
+        },
+        "abuse_and_dependence": {
+          "type": "boolean",
+          "description": "Has drug abuse and dependence section"
+        },
+        "patient_information": {
+          "type": "boolean",
+          "description": "Has patient information / medication guide"
+        }
+      }
+    },
+
+    "category_profile": {
+      "type": "object",
+      "description": "Expected field population patterns based on document type (prescription, otc, homeopathic, other)",
+      "additionalProperties": false,
+      "properties": {
+        "document_type": {
+          "type": "string",
+          "enum": ["prescription", "otc", "homeopathic", "other", "unknown"],
+          "description": "The document category this profile describes"
+        },
+        "typical_section_count": {
+          "type": "integer",
+          "description": "Typical number of sections for this category"
+        },
+        "typical_ingredient_count": {
+          "type": "integer",
+          "description": "Typical number of ingredients for this category"
+        },
+        "expected_fields": {
+          "type": "object",
+          "description": "Fields expected to be populated for this document type",
+          "additionalProperties": false,
+          "properties": {
+            "boxed_warning": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether boxed warnings are expected"
+            },
+            "contraindications": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether contraindications section is expected"
+            },
+            "adverse_reactions": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether adverse reactions section is expected"
+            },
+            "clinical_pharmacology": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether clinical pharmacology is expected"
+            },
+            "clinical_studies": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether clinical studies section is expected"
+            },
+            "application_number": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether FDA application number (NDA/ANDA/BLA) is expected"
+            },
+            "otc_monograph_id": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether OTC monograph ID is expected"
+            },
+            "homeopathic_potency": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether homeopathic potency data is expected"
+            },
+            "manufacturers": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether manufacturer info is expected"
+            },
+            "physical_characteristics": {
+              "type": "string",
+              "enum": ["always", "sometimes", "never"],
+              "description": "Whether physical characteristics are expected"
+            }
+          }
+        },
+        "regulatory_pattern": {
+          "type": "object",
+          "description": "Expected regulatory field patterns",
+          "additionalProperties": false,
+          "properties": {
+            "rx_otc_flag": {
+              "type": "string",
+              "enum": ["RX", "OTC", "UNKNOWN"],
+              "description": "Expected rx_otc_flag value"
+            },
+            "marketing_categories": {
+              "type": "array",
+              "description": "Typical marketing category values",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

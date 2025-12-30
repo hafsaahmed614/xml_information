@@ -1,0 +1,282 @@
+{
+  "author": {
+    "contact": null,
+    "name": "Trivia Pharmaceuticals, LLC",
+    "org_id": {
+      "extension": "119353862",
+      "root": "1.3.6.1.4.1.519.1",
+      "type_hint": "DUNS"
+    },
+    "time": null
+  },
+  "custodian": null,
+  "derived": {
+    "category_profile": {
+      "document_type": "other",
+      "expected_fields": {
+        "adverse_reactions": "never",
+        "application_number": "sometimes",
+        "boxed_warning": "never",
+        "clinical_pharmacology": "never",
+        "clinical_studies": "sometimes",
+        "contraindications": "sometimes",
+        "homeopathic_potency": "never",
+        "manufacturers": "sometimes",
+        "otc_monograph_id": "never",
+        "physical_characteristics": "sometimes"
+      },
+      "regulatory_pattern": {
+        "marketing_categories": [
+          "dietary supplement",
+          "bulk ingredient",
+          "BLA"
+        ],
+        "rx_otc_flag": "UNKNOWN"
+      },
+      "typical_ingredient_count": 3,
+      "typical_section_count": 8
+    },
+    "merge_keys": {
+      "primary": [
+        "set_id:d1db0c89-19ce-499d-96e0-67a909671b42",
+        "ndc:84781-107"
+      ],
+      "secondary": [
+        "doc_id:cfe5fb33-3f93-4fb1-a754-bf65bf291c1a",
+        "unii:1PRR1V42V5",
+        "unii:L11K75P92J",
+        "unii:47EQO8LE7H"
+      ]
+    },
+    "section_presence_flags": {
+      "abuse_and_dependence": false,
+      "adverse_reactions": false,
+      "boxed_warning": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": true,
+      "contraindications": false,
+      "dosage_and_administration": true,
+      "drug_interactions": false,
+      "geriatric_use": false,
+      "indications_and_usage": false,
+      "nonclinical_toxicology": false,
+      "overdosage": false,
+      "patient_information": false,
+      "pediatric_use": false,
+      "pharmacokinetics": false,
+      "pregnancy": false,
+      "storage_and_handling": true,
+      "warnings_and_precautions": true
+    }
+  },
+  "images": [
+    {
+      "alt_text": "Supp Facts",
+      "caption": null,
+      "id": "Ldea8c7f7-bd5d-48bf-8917-058273ea3bec",
+      "media_type": "image/jpeg",
+      "reference": "Probistor Supplement Facts.jpg"
+    },
+    {
+      "alt_text": "Probistor",
+      "caption": null,
+      "id": "La4c05b75-bf18-47b3-bbf1-b34a0bacb704",
+      "media_type": "image/jpeg",
+      "reference": "Probistor_84781-0107-30.jpg"
+    }
+  ],
+  "labeler": {
+    "name": "Trivia Pharmaceuticals, LLC",
+    "org_ids": [
+      {
+        "extension": "119353862",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "manufacturers": [],
+  "products": [
+    {
+      "dosage_forms": [
+        "Capsule"
+      ],
+      "equivalence": null,
+      "generic_name": "Acidophilus/Pectin",
+      "ingredients": [
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "LACTOBACILLUS ACIDOPHILUS",
+          "role": "active",
+          "strength": {
+            "denominator_unit": "1",
+            "denominator_value": 1.0,
+            "numerator_unit": "[CFU]",
+            "numerator_value": 200000000.0
+          },
+          "unii": "1PRR1V42V5"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "DICALCIUM PHOSPHATE",
+          "role": "active",
+          "strength": {
+            "denominator_unit": "1",
+            "denominator_value": 1.0,
+            "numerator_unit": "mg",
+            "numerator_value": 304.0
+          },
+          "unii": "L11K75P92J"
+        },
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "PECTIN, CITRUS",
+          "role": "active",
+          "strength": {
+            "denominator_unit": "1",
+            "denominator_value": 1.0,
+            "numerator_unit": "mg",
+            "numerator_value": 20.0
+          },
+          "unii": "47EQO8LE7H"
+        }
+      ],
+      "ndc": {
+        "package_ndcs": [
+          "84781-107-30"
+        ],
+        "product_ndcs": [
+          "84781-107"
+        ]
+      },
+      "packages": [
+        {
+          "description": "BOTTLE",
+          "marketing_start_date": null,
+          "marketing_status": null,
+          "package_ndc": "84781-107-30",
+          "quantity": {
+            "unit": "1",
+            "value": 30.0
+          }
+        }
+      ],
+      "physical_characteristics": {
+        "color": "WHITE",
+        "flavor": null,
+        "imprint": null,
+        "shape": "CAPSULE",
+        "size": "25 mm"
+      },
+      "product_name": "Probistor",
+      "regulatory": {
+        "application_number": null,
+        "approval_date": null,
+        "dea_schedule": null,
+        "marketing_category": "DIETARY SUPPLEMENT",
+        "marketing_end_date": null,
+        "marketing_start_date": null,
+        "otc_monograph_id": null,
+        "rx_otc_flag": "UNKNOWN",
+        "supplement_number": null
+      },
+      "routes": [
+        "ORAL"
+      ]
+    }
+  ],
+  "related_documents": [],
+  "sections": [
+    {
+      "code": "48780-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "SPL LISTING DATA ELEMENTS SECTION",
+      "text_plain": null,
+      "text_xhtml": null,
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION"
+    },
+    {
+      "code": "69719-3",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "HEALTH CLAIM SECTION",
+      "text_plain": "Probistor Probiotic Capsules",
+      "text_xhtml": "<text>\n                  <paragraph>Probistor Probiotic Capsules\u00a0\u00a0\u00a0</paragraph>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"Ldea8c7f7-bd5d-48bf-8917-058273ea3bec\"/>\n                  </paragraph>\n               </text>",
+      "title": "HEALTH CLAIM:"
+    },
+    {
+      "code": "69718-5",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "STATEMENT OF IDENTITY SECTION",
+      "text_plain": "Probistor is an orally adminstered probiotic dietary supplement. Probistor Probiotic Capsules are clear capsules dispensed in plastic bottles of 30 ct. 84781-0107-30 Reserved for Professional Recommendation This listed product is not a National Drug Code, but instead has merely been formatted to comply with standard industry practice for pharmacy and insurance computer systems. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease. All prescriptions using this product shall be pursuant to state statutes as applicable. This is not an Orange Book product. This product may be administered only under a physician\u2019s supervision. There are no implied or explicit claims on therapeutic equivalence. Manufactured for: Trivia Pharmacueticals, LLC Gilbert, AZ",
+      "text_xhtml": "<text>\n                  <paragraph>Probistor is an orally adminstered probiotic dietary supplement.</paragraph>\n                  <paragraph>Probistor Probiotic Capsules are clear capsules dispensed in plastic bottles of 30 ct.</paragraph>\n                  <paragraph>84781-0107-30</paragraph>\n                  <paragraph>Reserved for Professional Recommendation</paragraph>\n                  <paragraph>This listed product is not a National Drug Code, but instead has merely been formatted to comply with standard industry practice for pharmacy and insurance computer systems.</paragraph>\n                  <paragraph>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</paragraph>\n                  <paragraph>All prescriptions using this product shall be pursuant to state statutes as applicable. This is not an Orange Book product. This product may be administered only under a physician\u2019s supervision. There are no implied or explicit claims on therapeutic equivalence.</paragraph>\n                  <paragraph>Manufactured for:</paragraph>\n                  <paragraph>Trivia Pharmacueticals, LLC</paragraph>\n                  <paragraph>Gilbert, AZ</paragraph>\n               </text>",
+      "title": "DESCRIPTION:"
+    },
+    {
+      "code": "34071-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "WARNINGS SECTION",
+      "text_plain": "This product is contraindicated in patients with a known hypersensitivity to any of the ingredients. As with any supplement, if you are pregnant, nursing, taking medication, or have a medical condition, ask a health professional before taking this product. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+      "text_xhtml": "<text>\n                  <paragraph>This product is contraindicated in patients with a known hypersensitivity to any of the ingredients.</paragraph>\n                  <paragraph>As with any supplement, if you are pregnant, nursing, taking medication, or have a medical condition, ask a health professional before taking this product.</paragraph>\n                  <paragraph>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</paragraph>\n               </text>",
+      "title": "WARNINGS AND PRECAUTIONS:"
+    },
+    {
+      "code": "34068-7",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "DOSAGE & ADMINISTRATION SECTION",
+      "text_plain": "Usual adult dose is 2 capsules by mouth daily once daily, preferably with food, as a dietary supplement or as prescribed by a licensed medical practitioner. Probistor is an orally administered prescription probiotic formulation for the clinical dietary management of suboptimal nutritional status in patients where advanced supplementation is required and nutritional supplementation in physiologically stressful conditions for maintenance of good health is needed.",
+      "text_xhtml": "<text>\n                  <paragraph>Usual adult dose is 2 capsules by mouth daily once daily, preferably with food, as a dietary supplement or as prescribed by a licensed medical practitioner.</paragraph>\n                  <paragraph>Probistor is an orally administered prescription probiotic formulation for the clinical dietary management of suboptimal nutritional status in patients where advanced supplementation is required and nutritional supplementation in physiologically stressful conditions for maintenance of good health is needed.</paragraph>\n               </text>",
+      "title": "DOSAGE AND ADMINISTRATION:"
+    },
+    {
+      "code": "42232-9",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "PRECAUTIONS SECTION",
+      "text_plain": "CONTRAINDICATIONS This product is contraindicated in patients with known hypersensitivity to any of the ingredients. PRECAUTIONS This product is contraindicated in patients with a known hypersensitivity to any of the ingredients. ADVERSE REACTIONS Allergic sensitizations have been reported following oral administration of folic acid. Consult your physician immediately if adverse side effects occur. KEEP OUT OF THE REACH OF CHILDREN.",
+      "text_xhtml": "<text>\n                  <paragraph>CONTRAINDICATIONS<br/>This product is contraindicated in patients with known hypersensitivity to any of the ingredients.</paragraph>\n                  <paragraph>PRECAUTIONS<br/>This product is contraindicated in patients with a known hypersensitivity to any of the ingredients.</paragraph>\n                  <paragraph>ADVERSE REACTIONS<br/>Allergic sensitizations have been reported following oral administration of folic acid. Consult your physician immediately if adverse side effects occur.</paragraph>\n                  <paragraph>KEEP OUT OF THE REACH OF CHILDREN.</paragraph>\n               </text>",
+      "title": "PRECAUTIONS:"
+    },
+    {
+      "code": "50741-8",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "SAFE HANDLING WARNING SECTION",
+      "text_plain": "Store at 20\u00b0 - 25\u00b0 C (68\u00b0 - 77\u00b0 F); excursions permitted to 15\u00b0-30\u00b0C (59\u00b0-86\u00b0F) [See USP Controlled Room Temperature]",
+      "text_xhtml": "<text>\n                  <paragraph>Store at 20\u00b0 - 25\u00b0 C (68\u00b0 - 77\u00b0 F); excursions permitted to 15\u00b0-30\u00b0C (59\u00b0-86\u00b0F) [See USP Controlled Room Temperature]</paragraph>\n               </text>",
+      "title": "STORAGE:"
+    },
+    {
+      "code": "51945-4",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text_plain": "",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"La4c05b75-bf18-47b3-bbf1-b34a0bacb704\"/>\n                  </paragraph>\n               </text>",
+      "title": "PACKAGING:"
+    }
+  ],
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "other_cfe5fb33-3f93-4fb1-a754-bf65bf291c1a.xml",
+    "parsed_at": "2025-12-30T16:32:27.685206+00:00",
+    "parser_version": "2.2.0"
+  },
+  "spl": {
+    "confidentiality_code": null,
+    "document_id": {
+      "extension": null,
+      "root": "cfe5fb33-3f93-4fb1-a754-bf65bf291c1a"
+    },
+    "document_type": "other",
+    "effective_time": "20251030",
+    "language_code": null,
+    "realm_code": null,
+    "set_id": {
+      "extension": null,
+      "root": "d1db0c89-19ce-499d-96e0-67a909671b42"
+    },
+    "title": "Probistor Capsules",
+    "version_number": 2
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "author": {
+    "contact": null,
+    "name": "LIVZON NEW NORTH RIVER PHARMACEUTICAL CO., LTD.",
+    "org_id": {
+      "extension": "420097636",
+      "root": "1.3.6.1.4.1.519.1",
+      "type_hint": "DUNS"
+    },
+    "time": null
+  },
+  "custodian": null,
+  "derived": {
+    "category_profile": {
+      "document_type": "other",
+      "expected_fields": {
+        "adverse_reactions": "never",
+        "application_number": "sometimes",
+        "boxed_warning": "never",
+        "clinical_pharmacology": "never",
+        "clinical_studies": "sometimes",
+        "contraindications": "sometimes",
+        "homeopathic_potency": "never",
+        "manufacturers": "sometimes",
+        "otc_monograph_id": "never",
+        "physical_characteristics": "sometimes"
+      },
+      "regulatory_pattern": {
+        "marketing_categories": [
+          "dietary supplement",
+          "bulk ingredient",
+          "BLA"
+        ],
+        "rx_otc_flag": "UNKNOWN"
+      },
+      "typical_ingredient_count": 1,
+      "typical_section_count": 2
+    },
+    "merge_keys": {
+      "primary": [
+        "set_id:1d94bcb1-e7ac-461f-9da4-05c10df2e82c",
+        "ndc:20076-0406"
+      ],
+      "secondary": [
+        "doc_id:375fc53c-643d-4137-b034-ac11b783022c",
+        "unii:KGD7A54H5P"
+      ]
+    },
+    "section_presence_flags": {
+      "abuse_and_dependence": false,
+      "adverse_reactions": false,
+      "boxed_warning": false,
+      "clinical_pharmacology": false,
+      "clinical_studies": false,
+      "contraindications": false,
+      "dosage_and_administration": false,
+      "drug_interactions": false,
+      "geriatric_use": false,
+      "indications_and_usage": false,
+      "nonclinical_toxicology": false,
+      "overdosage": false,
+      "patient_information": false,
+      "pediatric_use": false,
+      "pharmacokinetics": false,
+      "pregnancy": false,
+      "storage_and_handling": false,
+      "warnings_and_precautions": false
+    }
+  },
+  "images": [
+    {
+      "alt_text": "image description",
+      "caption": null,
+      "id": "L6b27a8f8-1c0e-43de-af20-222fb10fb848",
+      "media_type": "image/jpeg",
+      "reference": "Doramectin Label.jpg"
+    }
+  ],
+  "labeler": {
+    "name": "LIVZON NEW NORTH RIVER PHARMACEUTICAL CO., LTD.",
+    "org_ids": [
+      {
+        "extension": "420097636",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      },
+      {
+        "extension": "543265333",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      }
+    ]
+  },
+  "manufacturers": [
+    {
+      "address": null,
+      "fei": null,
+      "name": "Livzon Group (Ningxia) Pharmaceutical Co., Ltd.",
+      "org_id": {
+        "extension": "543265333",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      },
+      "role": "api manufacture",
+      "role_code": "C82401"
+    },
+    {
+      "address": null,
+      "fei": null,
+      "name": "Livzon Group (Ningxia) Pharmaceutical Co., Ltd.",
+      "org_id": {
+        "extension": "543265333",
+        "root": "1.3.6.1.4.1.519.1",
+        "type_hint": "DUNS"
+      },
+      "role": "analysis",
+      "role_code": "C25391"
+    }
+  ],
+  "products": [
+    {
+      "dosage_forms": [
+        "POWDER"
+      ],
+      "equivalence": null,
+      "generic_name": "Doramectin",
+      "ingredients": [
+        {
+          "cas_number": null,
+          "homeopathic": null,
+          "name": "DORAMECTIN",
+          "role": "active",
+          "strength": {
+            "denominator_unit": "kg",
+            "denominator_value": 1.0,
+            "numerator_unit": "kg",
+            "numerator_value": 1.0
+          },
+          "unii": "KGD7A54H5P"
+        }
+      ],
+      "ndc": {
+        "package_ndcs": [
+          "20076-0406-1"
+        ],
+        "product_ndcs": [
+          "20076-0406"
+        ]
+      },
+      "packages": [
+        {
+          "description": "BAG",
+          "marketing_start_date": null,
+          "marketing_status": null,
+          "package_ndc": null,
+          "quantity": {
+            "unit": "kg",
+            "value": 5.0
+          }
+        },
+        {
+          "description": "BAG",
+          "marketing_start_date": null,
+          "marketing_status": null,
+          "package_ndc": null,
+          "quantity": {
+            "unit": "1",
+            "value": 1.0
+          }
+        },
+        {
+          "description": "DRUM",
+          "marketing_start_date": null,
+          "marketing_status": null,
+          "package_ndc": "20076-0406-1",
+          "quantity": {
+            "unit": "1",
+            "value": 1.0
+          }
+        }
+      ],
+      "physical_characteristics": {
+        "color": "white",
+        "flavor": null,
+        "imprint": null,
+        "shape": null,
+        "size": null
+      },
+      "product_name": "Doramectin",
+      "regulatory": {
+        "application_number": null,
+        "approval_date": null,
+        "dea_schedule": null,
+        "marketing_category": "bulk ingredient",
+        "marketing_end_date": null,
+        "marketing_start_date": null,
+        "otc_monograph_id": null,
+        "rx_otc_flag": "UNKNOWN",
+        "supplement_number": null
+      },
+      "routes": [
+        "NOT APPLICABLE"
+      ]
+    }
+  ],
+  "related_documents": [],
+  "sections": [
+    {
+      "code": "48780-1",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "SPL product data elements section",
+      "text_plain": "",
+      "text_xhtml": "<text/>",
+      "title": "SPL PRODUCT DATA ELEMENTS SECTION"
+    },
+    {
+      "code": "51945-4",
+      "code_system": "2.16.840.1.113883.6.1",
+      "display": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL",
+      "text_plain": "",
+      "text_xhtml": "<text>\n                  <paragraph>\n                     <renderMultiMedia referencedObject=\"L6b27a8f8-1c0e-43de-af20-222fb10fb848\"/>\n                  </paragraph>\n               </text>",
+      "title": "PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"
+    }
+  ],
+  "source": {
+    "dataset": "DailyMed",
+    "format": "SPL",
+    "input_filename": "other_375fc53c-643d-4137-b034-ac11b783022c.xml",
+    "parsed_at": "2025-12-30T16:32:27.683662+00:00",
+    "parser_version": "2.2.0"
+  },
+  "spl": {
+    "confidentiality_code": null,
+    "document_id": {
+      "extension": null,
+      "root": "375fc53c-643d-4137-b034-ac11b783022c"
+    },
+    "document_type": "other",
+    "effective_time": "20251029",
+    "language_code": null,
+    "realm_code": null,
+    "set_id": {
+      "extension": null,
+      "root": "1d94bcb1-e7ac-461f-9da4-05c10df2e82c"
+    },
+    "title": "",
+    "version_number": 2
+  }
+}
